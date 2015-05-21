@@ -1,5 +1,6 @@
 require "metacrunch"
 require "metacrunch/mab2"
+require "metacrunch/elasticsearch"
 
 begin
   require "pry"
