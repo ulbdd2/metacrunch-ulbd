@@ -25,7 +25,7 @@ module Metacrunch
         file_reader.each do |_file|
           mab = _file.contents
           id  = mab.match(/<identifier>aleph-publish:(\d+)<\/identifier>/){ |m| m[1] }
-          raise RuntimeError, "Document is has no ID." unless id
+          raise RuntimeError, "Document has no ID." unless id
 
           id  = "PAD_ALEPH#{id}"
           mab = mab.force_encoding("utf-8")
