@@ -3,16 +3,19 @@ module Metacrunch
     class ImportAlephCommand < Metacrunch::Command
 
       def pre_perform
-        @uri       = options[:uri]
-        @log       = options[:log]
-        @bulk_size = options[:bulk_size]
+        @uri         = options[:uri]
+        @log         = options[:log]
+        @bulk_size   = options[:bulk_size]
+        @no_of_procs = options[:no_of_procs]
       end
 
       def perform
         if params.empty?
           shell.say "No files found", :red
         else
-          import_files(params)
+          Parallel.each(params, in_processes: @no_of_procs) do |file|
+            import_files(file)
+          end
         end
       end
 

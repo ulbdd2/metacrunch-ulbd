@@ -40,5 +40,9 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
       desc: "Bulk size when writing to ElasticSearch",
       type: :numeric,
       default: 250
+    c.option :no_of_procs,
+      desc: "Number of parallel processes",
+      type: :numeric,
+      default: 1
   end
 end
