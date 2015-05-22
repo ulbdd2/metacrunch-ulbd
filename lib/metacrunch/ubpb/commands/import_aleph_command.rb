@@ -22,21 +22,23 @@ module Metacrunch
     private
 
       def import_files(files)
-        elasticsearch = Metacrunch::Elasticsearch::Writer.new(@uri, bulk_size: @bulk_size, log: @log)
+        current_filename = nil
+        elasticsearch    = Metacrunch::Elasticsearch::Writer.new(@uri, bulk_size: @bulk_size, log: @log)
 
         file_reader = Metacrunch::FileReader.new(files)
         file_reader.each do |_file|
-          mab = _file.contents
+          shell.say("Processing file #{_file.filename}", :green) if _file.filename != current_filename
+          current_filename = _file.filename
+
+          mab = _file.contents.force_encoding("utf-8")
           id  = mab.match(/<identifier>aleph-publish:(\d+)<\/identifier>/){ |m| m[1] }
           raise RuntimeError, "Document has no ID." unless id
-
           id  = "PAD_ALEPH#{id}"
-          mab = mab.force_encoding("utf-8")
 
           elasticsearch.write({id: id, data: mab})
         end
-      ensure
-        elasticsearch.close if elasticsearch
+
+        elasticsearch.close
       end
 
     end
