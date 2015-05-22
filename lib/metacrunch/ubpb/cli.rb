@@ -42,6 +42,7 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
       default: 250
     c.option :no_of_procs,
       desc: "Number of parallel processes",
+      aliases: "-n",
       type: :numeric,
       default: 1
   end
