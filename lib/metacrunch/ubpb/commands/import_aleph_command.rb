@@ -31,14 +31,19 @@ module Metacrunch
           current_filename = _file.filename
 
           mab = _file.contents.force_encoding("utf-8")
-          id  = mab.match(/<identifier>aleph-publish:(\d+)<\/identifier>/){ |m| m[1] }
-          raise RuntimeError, "Document has no ID." unless id
-          id  = "PAD_ALEPH#{id}"
+          id  = get_aleph_id(mab)
 
           elasticsearch.write({id: id, data: mab})
         end
 
         elasticsearch.close
+      end
+
+      def get_aleph_id(mab)
+        id = mab.match(/<identifier>aleph-publish:(\d+)<\/identifier>/){ |m| m[1] }
+        raise RuntimeError, "Document has no ID." unless id
+
+        "PAD_ALEPH#{id}"
       end
 
     end
