@@ -5,6 +5,7 @@ require "ruby-progressbar"
 module Metacrunch
   module UBPB
     class Mab2SnrCommand < Metacrunch::Command
+      include Metacrunch::Parallel::DSL
 
       def pre_perform
         @source_uri  = options[:source_uri]
@@ -21,8 +22,11 @@ module Metacrunch
 
         shell.say "Processing #{count} records...", :green
 
-        bulk_enum = source.each.each_slice(@bulk_size)
-        Metacrunch::Parallel.new(bulk_enum) do |bulk|
+        parallel(
+          source.each.each_slice(@bulk_size),
+          in_processes: @no_of_procs,
+          on_process_finished: -> { progress.increment}
+        ) do |bulk|
           target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, bulk_size: @bulk_size, log: @log)
 
           bulk.each do |hit|
@@ -43,10 +47,7 @@ module Metacrunch
           end
 
           target.flush
-        end.call(
-          in_processes: @no_of_procs,
-          on_process_finished: -> { progress.increment }
-        )
+        end
       end
 
     private
