@@ -1,8 +1,7 @@
-require "parallel"
-
 module Metacrunch
   module UBPB
     class ImportAlephCommand < Metacrunch::Command
+      include Metacrunch::Parallel::DSL
 
       def pre_perform
         @uri         = options[:uri]
@@ -15,7 +14,7 @@ module Metacrunch
         if params.empty?
           shell.say "No files found", :red
         else
-          ::Parallel.each(params, in_processes: @no_of_procs) do |file|
+          parallel(params, in_processes: @no_of_procs) do |file|
             shell.say("Processing file #{file}", :green)
             import_files(file)
           end
