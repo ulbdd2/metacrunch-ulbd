@@ -1,0 +1,13 @@
+---
+mappings:
+  document:
+    _source:
+      enabled: true
+    _timestamp:
+      enabled: true
+
+    dynamic_templates:
+    - all_fields:
+        match: "*"
+        mapping:
+          index: "no"
