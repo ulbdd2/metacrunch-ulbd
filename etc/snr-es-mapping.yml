@@ -5,6 +5,7 @@ mappings:
       enabled: true
     _timestamp:
       enabled: true
+      store: true
 
     dynamic_templates:
     - all_fields:
