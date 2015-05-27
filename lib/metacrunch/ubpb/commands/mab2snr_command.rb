@@ -85,6 +85,7 @@ module Metacrunch
 
       def transform(transformer)
         transformer.transform(Transformations::MAB2SNR::Id)
+        transformer.transform(Transformations::MAB2SNR::Status)
         transformer.transform(Transformations::MAB2SNR::Authors)
       end
 
