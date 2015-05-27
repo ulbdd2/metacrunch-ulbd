@@ -31,7 +31,7 @@ module Metacrunch
 
             # Interimsaufnahmen unterdrücken
             temp_records = source.datafields("537", ind1: "-", ind2: "1").subfields("a").values
-            status = DELETE_STATE if temp_records.any?{ |v| v.downcase!.include? "interimsaufnahme" }
+            status = DELETE_STATE if temp_records.any?{ |v| v.downcase.include? "interimsaufnahme" }
 
             status
           end
