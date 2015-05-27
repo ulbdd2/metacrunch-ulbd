@@ -8,7 +8,7 @@ module Metacrunch
           DELETE_STATE = "D".freeze
 
           def perform
-            target.add("control", "status", get_status)
+            target.add("control", "status", status)
           end
 
         private
@@ -16,7 +16,7 @@ module Metacrunch
           #
           # @return [String] A for new or updated records, D for deleted records.
           #
-          def get_status
+          def status
             status = NEW_STATE
 
             # gelöscht -> LDR Position 6 == 'd'
