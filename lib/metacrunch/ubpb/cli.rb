@@ -83,5 +83,8 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
     c.option :timestamp,
       desc: "ElasticSearch date/time expression to query only MAB records that changed since given timestamp",
       type: :string
+    c.option :id,
+      desc: "Only process the MAB record with the given id",
+      type: :string
   end
 end

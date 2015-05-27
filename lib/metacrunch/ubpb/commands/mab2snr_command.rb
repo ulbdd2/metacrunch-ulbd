@@ -16,6 +16,7 @@ module Metacrunch
         @bulk_size   = options[:bulk_size]
         @no_of_procs = options[:no_of_procs]
         @timestamp   = options[:timestamp].presence
+        @id          = options[:id].presence
       end
 
       def perform
@@ -62,7 +63,11 @@ module Metacrunch
           sort: { _id: { order: "asc" } }
         }
 
-        if @timestamp.present?
+        if @id.present?
+          query[:query] = {
+            term: { _id: @id }
+          }
+        elsif @timestamp.present?
           query[:query] = {
             filtered: {
               filter: {
