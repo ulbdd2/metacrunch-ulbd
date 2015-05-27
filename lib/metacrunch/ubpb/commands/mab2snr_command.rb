@@ -87,6 +87,7 @@ module Metacrunch
         transformer.transform(Transformations::MAB2SNR::Id)
         transformer.transform(Transformations::MAB2SNR::TitleId)
         transformer.transform(Transformations::MAB2SNR::Status)
+        transformer.transform(Transformations::MAB2SNR::CreationDate)
         transformer.transform(Transformations::MAB2SNR::Authors)
       end
 
