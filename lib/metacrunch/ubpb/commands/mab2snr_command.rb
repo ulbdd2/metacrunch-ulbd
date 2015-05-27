@@ -16,20 +16,21 @@ module Metacrunch
       end
 
       def perform
-        source   = Metacrunch::Elasticsearch::Reader.new(@source_uri, query, log: @log)
-        count    = source.count
-        progress = ProgressBar.create(total: count.fdiv(@bulk_size).ceil)
+        source          = Metacrunch::Elasticsearch::Reader.new(@source_uri, query, log: @log)
+        count           = source.count
+        workingset_size = @bulk_size * 4
+        progress        = ProgressBar.create(total: count.fdiv(workingset_size).ceil)
 
         shell.say "Processing #{count} records...", :green
 
         parallel(
-          source.each.each_slice(@bulk_size),
+          source.each.each_slice(workingset_size),
           in_processes: @no_of_procs,
           on_process_finished: -> { progress.increment}
-        ) do |bulk|
+        ) do |workingset|
           target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, bulk_size: @bulk_size, log: @log)
 
-          bulk.each do |hit|
+          workingset.each do |hit|
             id      = hit["_id"]
             mab_xml = hit["_source"]["data"]
 
