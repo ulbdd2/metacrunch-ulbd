@@ -13,6 +13,7 @@ module Metacrunch
         @log         = options[:log]
         @bulk_size   = options[:bulk_size]
         @no_of_procs = options[:no_of_procs]
+        @timestamp   = options[:timestamp].presence
       end
 
       def perform
@@ -54,11 +55,29 @@ module Metacrunch
     private
 
       def query
-        {
-          query: {
+        query = {
+          fields: ["_source", "_timestamp"]
+        }
+
+        if @timestamp.present?
+          query[:query] = {
+            filtered: {
+              filter: {
+                range: {
+                  _timestamp: {
+                    gte: @timestamp
+                  }
+                }
+              }
+            }
+          }
+        else
+          query[:query] = {
             match_all: {}
           }
-        }
+        end
+
+        query
       end
 
       def normalize(id, transformer)
