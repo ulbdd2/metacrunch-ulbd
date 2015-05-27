@@ -58,7 +58,8 @@ module Metacrunch
 
       def query
         query = {
-          fields: ["_source", "_timestamp"]
+          fields: ["_source", "_timestamp"],
+          sort: { _id: { order: "asc" } }
         }
 
         if @timestamp.present?
