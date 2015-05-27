@@ -42,8 +42,14 @@ module Metacrunch
               mab = Metacrunch::Mab2::Document.from_aleph_mab_xml(mab_xml)
               snr = Metacrunch::SNR.new
 
-              transformer = Transformer.new(source: mab, target: snr, options: {source_id: id})
-              transform(transformer)
+              begin
+                transformer = Transformer.new(source: mab, target: snr, options: {source_id: id})
+                transform(transformer)
+              rescue => e
+                puts e.message
+                puts e.backtrace
+                raise "Error while transforming #{id}."
+              end
 
               target.write({id: id, data: Ox.dump(snr).force_encoding("utf-8")})
             else
