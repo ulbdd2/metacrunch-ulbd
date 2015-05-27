@@ -29,7 +29,7 @@ module Metacrunch
           in_processes: @no_of_procs,
           on_process_finished: -> { progress.increment}
         ) do |workingset|
-          target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, bulk_size: @bulk_size, log: @log)
+          target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, log: @log)
 
           workingset.each do |hit|
             id      = hit["_id"]
