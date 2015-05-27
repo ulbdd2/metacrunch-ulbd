@@ -2,6 +2,8 @@ require "elasticsearch"
 require "ox"
 require "ruby-progressbar"
 
+Dir.glob(File.join(__dir__, "..", "transformations", "mab2snr", "*.rb"), &method(:require))
+
 module Metacrunch
   module UBPB
     class Mab2SnrCommand < Metacrunch::Command
@@ -39,8 +41,8 @@ module Metacrunch
               mab = Metacrunch::Mab2::Document.from_aleph_mab_xml(mab_xml)
               snr = Metacrunch::SNR.new
 
-              transformer = Transformer.new(source: mab, target: snr, options: {})
-              normalize(id, transformer)
+              transformer = Transformer.new(source: mab, target: snr, options: {source_id: id})
+              transform(transformer)
 
               target.write({id: id, data: Ox.dump(snr).force_encoding("utf-8")})
             else
@@ -80,16 +82,9 @@ module Metacrunch
         query
       end
 
-      def normalize(id, transformer)
-        transformer.transform do
-          target.add("control", "id", id)
-        end
-
-        transformer.transform do
-          names  = source.datafields("100", ind1: "-").subfields("p").values
-          names += source.datafields("104", ind1: "a").subfields("p").values
-          target.add("search", "authors", names)
-        end
+      def transform(transformer)
+        transformer.transform(Transformations::MAB2SNR::Id)
+        transformer.transform(Transformations::MAB2SNR::Authors)
       end
 
     end
