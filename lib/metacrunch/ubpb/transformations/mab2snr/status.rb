@@ -14,7 +14,7 @@ module Metacrunch
         private
 
           #
-          # @return [String] A for new or updated records, D for deleted records.
+          # @return [String] "A" for new or updated records, "D" for deleted records.
           #
           def status
             status = NEW_STATE
