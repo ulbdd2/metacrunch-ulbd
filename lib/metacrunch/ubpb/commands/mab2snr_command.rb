@@ -2,7 +2,7 @@ require "elasticsearch"
 require "ox"
 require "ruby-progressbar"
 
-Dir.glob(File.join(__dir__, "..", "transformations", "mab2snr", "*.rb"), &method(:require))
+Dir.glob(File.join(__dir__, "..", "transformations", "mab2snr", "**", "*.rb"), &method(:require))
 
 module Metacrunch
   module UBPB
