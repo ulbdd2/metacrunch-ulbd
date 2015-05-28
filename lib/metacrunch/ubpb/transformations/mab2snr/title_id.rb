@@ -5,7 +5,7 @@ module Metacrunch
         class TitleId < Metacrunch::Transformer::Step
 
           def perform
-            title_id = source.datafields("001", ind2: "1").subfields("a").values.first
+            title_id = source.datafields("001", ind2: "1").subfields("a").first_value
             target.add("control", "title_id", title_id)
           end
 

@@ -23,7 +23,7 @@ module Metacrunch
             status = DELETE_STATE if source.controlfield("LDR").at(5) == "d"
 
             # ausgesondert über Feld 078
-            status = DELETE_STATE if source.datafields("078", ind1: "r").subfields("a").values.first == "aus"
+            status = DELETE_STATE if source.datafields("078", ind1: "r").subfields("a").first_value == "aus"
 
             # Standort Detmold unterdrücken
             detmold_locations = source.datafields("LOC").subfields("n").values
