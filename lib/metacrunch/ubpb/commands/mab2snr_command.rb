@@ -63,37 +63,6 @@ module Metacrunch
 
     private
 
-      def query
-        query = {
-          fields: ["_source", "_timestamp"],
-          sort: { _id: { order: "asc" } }
-        }
-
-        if @id.present?
-          query[:query] = {
-            term: { _id: @id }
-          }
-        elsif @timestamp.present?
-          query[:query] = {
-            filtered: {
-              filter: {
-                range: {
-                  _timestamp: {
-                    gte: @timestamp
-                  }
-                }
-              }
-            }
-          }
-        else
-          query[:query] = {
-            match_all: {}
-          }
-        end
-
-        query
-      end
-
       def transform(transformer)
         transformer.transform(Transformations::MAB2SNR::Id)
         transformer.transform(Transformations::MAB2SNR::TitleId)
@@ -101,6 +70,43 @@ module Metacrunch
         transformer.transform(Transformations::MAB2SNR::CreationDate)
         transformer.transform(Transformations::MAB2SNR::VolumeCount)
         transformer.transform(Transformations::MAB2SNR::Authors)
+      end
+
+      def query
+        query = {
+          fields: ["_source", "_timestamp"],
+          sort: { _id: { order: "asc" } }
+        }
+
+        if @id.present?
+          query[:query] = id_query
+        elsif @timestamp.present?
+          query[:query] = timestamp_query
+        else
+          query[:query] = match_all_query
+        end
+
+        query
+      end
+
+      def id_query
+        { term: { _id: @id } }
+      end
+
+      def timestamp_query
+        {
+          filtered: {
+            filter: {
+              range: {
+                _timestamp: { gte: @timestamp }
+              }
+            }
+          }
+        }
+      end
+
+      def match_all_query
+        { match_all: {} }
       end
 
     end
