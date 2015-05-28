@@ -43,8 +43,10 @@ module Metacrunch
               snr = Metacrunch::SNR.new
 
               begin
-                transformer = Transformer.new(source: mab, target: snr, options: {source_id: id})
-                transform(transformer)
+                transformer.source  = mab
+                transformer.target  = snr
+                transformer.options = { source_id: id }
+                run_transformations
               rescue => e
                 puts e.message
                 puts e.backtrace
@@ -63,13 +65,22 @@ module Metacrunch
 
     private
 
-      def transform(transformer)
+      def run_transformations
         transformer.transform(Transformations::MAB2SNR::Id)
         transformer.transform(Transformations::MAB2SNR::TitleId)
         transformer.transform(Transformations::MAB2SNR::Status)
         transformer.transform(Transformations::MAB2SNR::CreationDate)
         transformer.transform(Transformations::MAB2SNR::VolumeCount)
         transformer.transform(Transformations::MAB2SNR::Authors)
+      end
+
+      def transformer
+        unless @transformer
+          @transformer = Transformer.new
+          @transformer.register_helper(Transformations::MAB2SNR::Helpers::CommonHelper)
+        end
+
+        @transformer
       end
 
       def query
