@@ -15,17 +15,27 @@ module Metacrunch
           def title_search
             title_parts.values.map do |t|
               v = [*t].join(" ").presence
-              v.delete("<<").delete(">>") if v
+
+              if v
+                v.delete!("<<")
+                v.delete!(">>")
+              end
+
               v
             end.compact
           end
 
           def title_display
-            title_display_and_sort.delete("<<").delete(">>")
+            title = title_display_and_sort
+            title.delete!("<<")
+            title.delete!(">>")
+            title
           end
 
           def title_sort
-            title_display_and_sort.gsub(/<<.*>>\s/, "")
+            title = title_display_and_sort
+            title.gsub!(/<<.*>>\s/, "")
+            title
           end
 
           #
