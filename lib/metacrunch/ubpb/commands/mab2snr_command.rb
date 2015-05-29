@@ -72,6 +72,7 @@ module Metacrunch
         transformer.transform(Transformations::MAB2SNR::CreationDate)
         transformer.transform(Transformations::MAB2SNR::VolumeCount)
         transformer.transform(Transformations::MAB2SNR::Title)
+        transformer.transform(Transformations::MAB2SNR::Edition)
       end
 
       def transformer
