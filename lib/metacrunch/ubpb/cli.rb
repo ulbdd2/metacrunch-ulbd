@@ -67,8 +67,16 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
       desc: "ElasticSearch URI for the (target) SNR data",
       type: :string,
       default: "elasticsearch://localhost/snr/document"
-    c.option :log,
+    c.option :log_es,
       desc: "Turn on ElasticSearch logging",
+      type: :boolean,
+      default: false
+    c.option :log_mab,
+      desc: "Log MAB XML record",
+      type: :boolean,
+      default: false
+    c.option :log_snr,
+      desc: "Log SNR (XML) record",
       type: :boolean,
       default: false
     c.option :bulk_size,

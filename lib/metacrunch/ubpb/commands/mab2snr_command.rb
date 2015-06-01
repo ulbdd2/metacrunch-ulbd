@@ -12,7 +12,9 @@ module Metacrunch
       def pre_perform
         @source_uri  = options[:source_uri]
         @target_uri  = options[:target_uri]
-        @log         = options[:log]
+        @log_es      = options[:log_es]
+        @log_mab     = options[:log_mab]
+        @log_snr     = options[:log_snr]
         @bulk_size   = options[:bulk_size]
         @no_of_procs = options[:no_of_procs]
         @timestamp   = options[:timestamp].presence
@@ -20,7 +22,7 @@ module Metacrunch
       end
 
       def perform
-        source          = Metacrunch::Elasticsearch::Reader.new(@source_uri, query, log: @log)
+        source          = Metacrunch::Elasticsearch::Reader.new(@source_uri, query, log: @log_es)
         count           = source.count
         workingset_size = @bulk_size * 4
         progress        = ProgressBar.create(total: count.fdiv(workingset_size).ceil)
@@ -32,7 +34,7 @@ module Metacrunch
           in_processes: @no_of_procs,
           on_process_finished: -> { progress.increment}
         ) do |workingset|
-          target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, log: @log)
+          target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, log: @log_es)
 
           workingset.each do |hit|
             id      = hit["_id"]
@@ -51,6 +53,14 @@ module Metacrunch
                 puts e.message
                 puts e.backtrace
                 raise "Error while transforming #{id}."
+              end
+
+              if @log_snr
+                puts snr.to_xml
+              end
+
+              if @log_mab
+                puts mab.to_xml
               end
 
               target.write({id: id, data: Ox.dump(snr).force_encoding("utf-8")})
