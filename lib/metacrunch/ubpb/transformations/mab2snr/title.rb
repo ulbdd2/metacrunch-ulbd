@@ -72,7 +72,7 @@ module Metacrunch
               parts["331_2"] = source.datafields("331", ind2: "2").subfields("a").first_value
               parts["333_2"] = source.datafields("333", ind2: "2").subfields("a").first_value
               parts["335_2"] = source.datafields("335", ind2: "2").subfields("a").first_value
-              parts["360_2"] = source.datafields("360", ind2: "2").subfields("a").first_value
+              parts["360_2"] = source.datafields("360", ind2: "2").subfields("a").values
 
               parts["089_1"] = source.datafields("089", ind2: "1").subfields('a').first_value
               parts["304_1"] = source.datafields("304", ind2: "1").subfields('a').first_value
@@ -81,15 +81,15 @@ module Metacrunch
               parts["333_1"] = source.datafields("333", ind2: "1").subfields('a').first_value
               parts["335_1"] = source.datafields("335", ind2: "1").subfields('a').first_value
               parts["340_1"] = source.datafields("340", ind2: "1").subfields('a').first_value
-              parts["341_1"] = source.datafields("341", ind2: "1").subfields('a').values
-              parts["360_1"] = source.datafields("360", ind2: "1").subfields('a').first_value
+              parts["341_1"] = source.datafields("341", ind2: "1").subfields('a').first_value
+              parts["360_1"] = source.datafields("360", ind2: "1").subfields('a').values
 
               (342..355).each do |f|
                 parts["#{f}_1"] = source.datafields("#{f}", ind2: "1").subfields('a').first_value
               end
 
               parts["370_1"] = source.datafields("370", ind2: "1").subfields('a').values
-              parts["376_1"] = source.datafields("376", ind2: "1").subfields('a').first_value
+              parts["376_1"] = source.datafields("376", ind2: "1").subfields('a').values
 
               (451..491).step(10).each do |f|
                 parts["#{f}_1"] = source.datafields("#{f}", ind2: "1").subfields('a').first_value
