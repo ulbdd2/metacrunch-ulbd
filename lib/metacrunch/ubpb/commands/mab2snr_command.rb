@@ -74,6 +74,7 @@ module Metacrunch
         transformer.transform(Transformations::MAB2SNR::Title)
         transformer.transform(Transformations::MAB2SNR::Edition)
         transformer.transform(Transformations::MAB2SNR::Publisher)
+        transformer.transform(Transformations::MAB2SNR::DateOfPublication)
       end
 
       def transformer
