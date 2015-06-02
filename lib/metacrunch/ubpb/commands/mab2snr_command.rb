@@ -55,13 +55,8 @@ module Metacrunch
                 raise "Error while transforming #{id}."
               end
 
-              if @log_snr
-                puts snr.to_xml
-              end
-
-              if @log_mab
-                puts mab.to_xml
-              end
+              puts snr.to_xml if @log_snr
+              puts mab.to_xml if @log_mab
 
               target.write({id: id, data: Ox.dump(snr).force_encoding("utf-8")})
             else
