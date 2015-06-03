@@ -22,6 +22,15 @@ module Metacrunch
               @is_superorder
             end
 
+            def is_journal?
+              unless @is_journal
+                f052 = source.controlfield("052") || []
+                @is_journal = f052.at(0) == "p"
+              end
+
+              @is_journal
+            end
+
           end
         end
       end
