@@ -27,8 +27,6 @@ module Metacrunch
               links << url unless url && (u3 =~ /^inhaltsv/i || uz =~ /^inhaltsv/i || ut =~ /^view/i)
             end
 
-            binding.pry unless links.empty?
-
             links
           end
 
