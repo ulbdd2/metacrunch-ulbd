@@ -30,6 +30,7 @@ module Metacrunch
               uz  = datafield.subfields("z").first_value # Hinweise auf BVB Inhaltsverzeichnisse
               ut  = datafield.subfields("t").first_value # Type: VIEW => Adam Inhaltsverzeichnis
 
+              # Pick only links that point to known tocs
               links << url if url && (u3 =~ /^inhaltsv/i || uz =~ /^inhaltsv/i || ut =~ /^view/i)
             end
 
