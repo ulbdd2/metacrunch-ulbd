@@ -77,6 +77,7 @@ module Metacrunch
         transformer.transform(Transformations::MAB2SNR::CreationDate)
         transformer.transform(Transformations::MAB2SNR::VolumeCount)
         transformer.transform(Transformations::MAB2SNR::Superorder)
+        transformer.transform(Transformations::MAB2SNR::SelectionCode)
         transformer.transform(Transformations::MAB2SNR::Title)
         transformer.transform(Transformations::MAB2SNR::Edition)
         transformer.transform(Transformations::MAB2SNR::Publisher)
