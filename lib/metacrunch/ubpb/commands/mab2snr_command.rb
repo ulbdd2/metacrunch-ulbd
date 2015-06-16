@@ -67,6 +67,9 @@ module Metacrunch
       end
 
       def transform(source:, target:, options: {})
+        transformer = Transformer.new
+        transformer.register_helper(Transformations::MAB2SNR::Helpers::CommonHelper)
+
         transformer.source  = source
         transformer.target  = target
         transformer.options = options
@@ -86,15 +89,6 @@ module Metacrunch
           "SelectionCode", "Title", "Edition", "Publisher", "DateOfPublication",
           "Description", "Toc", "ResourceLink"
         ]
-      end
-
-      def transformer
-        unless @transformer
-          @transformer = Transformer.new
-          @transformer.register_helper(Transformations::MAB2SNR::Helpers::CommonHelper)
-        end
-
-        @transformer
       end
 
       def query
