@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.2.0"
 
   s.add_dependency "metacrunch",               "~> 2.1"
-  s.add_dependency "metacrunch-elasticsearch", "~> 1.0"
+  s.add_dependency "metacrunch-elasticsearch", "~> 2.0"
   s.add_dependency "metacrunch-mab2",          "~> 1.0"
   s.add_dependency "ruby-progressbar",         "~> 1.7"
 end
