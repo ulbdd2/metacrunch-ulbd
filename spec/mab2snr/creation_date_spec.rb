@@ -1,5 +1,5 @@
 describe "mab2snr#creation_date" do
-  let(:target) do
+  let(:transformer) do
     transform(
       Metacrunch::UBPB::Transformations::MAB2SNR::CreationDate,
       mab,
@@ -9,7 +9,7 @@ describe "mab2snr#creation_date" do
 
   context "control section" do
     it "creation_date should be 20070905" do
-      date = target.section("control").fields[0].value
+      date = transformer.target.section("control").fields[0].value
       expect(date).to eq("20070905")
     end
   end
