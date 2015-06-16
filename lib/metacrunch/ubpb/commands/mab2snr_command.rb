@@ -12,9 +12,11 @@ module Metacrunch
       def pre_perform
         @source_uri  = options[:source_uri]
         @target_uri  = options[:target_uri]
+
         @log_es      = options[:log_es]
         @log_mab     = options[:log_mab]
         @log_snr     = options[:log_snr]
+
         @bulk_size   = options[:bulk_size]
         @no_of_procs = options[:no_of_procs]
         @timestamp   = options[:timestamp].presence
@@ -32,59 +34,58 @@ module Metacrunch
         parallel(
           source.each.each_slice(workingset_size),
           in_processes: @no_of_procs,
-          on_process_finished: -> { progress.increment}
+          on_process_finished: -> { progress.increment }
         ) do |workingset|
-          target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, log: @log_es)
-
-          workingset.each do |hit|
-            id      = hit["_id"]
-            mab_xml = hit["_source"]["data"]
-
-            if mab_xml
-              mab = Metacrunch::Mab2::Document.from_aleph_mab_xml(mab_xml)
-              snr = Metacrunch::SNR.new
-
-              begin
-                transformer.source  = mab
-                transformer.target  = snr
-                transformer.options = { source_id: id }
-                run_transformations
-              rescue => e
-                puts e.message
-                puts e.backtrace
-                raise "Error while transforming #{id}."
-              end
-
-              puts snr.to_xml if @log_snr
-              puts mab.to_xml if @log_mab
-
-              target.write({id: id, data: Ox.dump(snr).force_encoding("utf-8")})
-            else
-              shell.say "Skipping empty mab with ID: #{id}", :red
-            end
-          end
-
-          target.flush
+          perform_workingset(workingset)
         end
       end
 
     private
 
-      def run_transformations
-        transformer.transform(Transformations::MAB2SNR::Id)
-        transformer.transform(Transformations::MAB2SNR::TitleId)
-        transformer.transform(Transformations::MAB2SNR::Status)
-        transformer.transform(Transformations::MAB2SNR::CreationDate)
-        transformer.transform(Transformations::MAB2SNR::VolumeCount)
-        transformer.transform(Transformations::MAB2SNR::Superorder)
-        transformer.transform(Transformations::MAB2SNR::SelectionCode)
-        transformer.transform(Transformations::MAB2SNR::Title)
-        transformer.transform(Transformations::MAB2SNR::Edition)
-        transformer.transform(Transformations::MAB2SNR::Publisher)
-        transformer.transform(Transformations::MAB2SNR::DateOfPublication)
-        transformer.transform(Transformations::MAB2SNR::Description)
-        transformer.transform(Transformations::MAB2SNR::Toc)
-        transformer.transform(Transformations::MAB2SNR::ResourceLink)
+      def perform_workingset(workingset)
+        target = Metacrunch::Elasticsearch::Writer.new(@target_uri, autoflush: false, log: @log_es)
+
+        workingset.each do |hit|
+          id      = hit["_id"]
+          mab_xml = hit["_source"]["data"]
+
+          if mab_xml
+            mab = Metacrunch::Mab2::Document.from_aleph_mab_xml(mab_xml)
+            snr = Metacrunch::SNR.new
+
+            transform(source: mab, target: snr, options: { source_id: id })
+
+            puts snr.to_xml if @log_snr
+            puts mab.to_xml if @log_mab
+            target.write({id: id, data: Ox.dump(snr).force_encoding("utf-8")})
+          else
+            shell.say "Skipping empty mab with ID: #{id}", :red
+          end
+        end
+
+        target.flush
+      end
+
+      def transform(source:, target:, options: {})
+        transformer.source  = source
+        transformer.target  = target
+        transformer.options = options
+
+        transformation_steps.each do |step|
+          transformer.transform("Metacrunch::UBPB::Transformations::MAB2SNR::#{step}")
+        end
+      rescue => e
+        puts e.message
+        puts e.backtrace
+        raise "Error while transforming #{id}."
+      end
+
+      def transformation_steps
+        [
+          "Id", "TitleId", "Status", "CreationDate", "VolumeCount", "Superorder",
+          "SelectionCode", "Title", "Edition", "Publisher", "DateOfPublication",
+          "Description", "Toc", "ResourceLink"
+        ]
       end
 
       def transformer
