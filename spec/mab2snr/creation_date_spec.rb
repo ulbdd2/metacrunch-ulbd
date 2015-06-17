@@ -7,11 +7,9 @@ describe "mab2snr#creation_date" do
     )
   end
 
-  context "control section" do
-    it "creation_date should be 20070905" do
-      date = transformer.target.section("control").fields[0].value
-      expect(date).to eq("20070905")
-    end
+  it "creation_date should be 20070905" do
+    date = transformer.target.values("control/creation_date").first
+    expect(date).to eq("20070905")
   end
 
 private
