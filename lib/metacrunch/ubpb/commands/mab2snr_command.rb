@@ -86,8 +86,8 @@ module Metacrunch
       def transformation_steps
         [
           "Id", "TitleId", "Status", "CreationDate", "VolumeCount", "Superorder",
-          "SelectionCode", "Title", "Edition", "Publisher", "DateOfPublication",
-          "Description", "Toc", "ResourceLink"
+          "SelectionCode", "Title", "Edition", "Publisher", "PlaceOfPublication",
+          "DateOfPublication", "Description", "Toc", "ResourceLink"
         ]
       end
 
