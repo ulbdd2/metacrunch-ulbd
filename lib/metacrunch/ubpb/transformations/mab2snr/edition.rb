@@ -7,7 +7,7 @@ module Metacrunch
           def perform
             target.add("search",  "edition", edition)
             target.add("display", "edition", edition)
-            target.add("sort",    "edition", edition.to_i)
+            target.add("sort",    "edition", edition.to_i) # TODO: Kann man besser machen
           end
 
         private

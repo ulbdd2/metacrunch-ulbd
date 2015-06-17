@@ -30,6 +30,7 @@ module Metacrunch
               if dates["595"].present?
                 dates["595"]
               elsif helper.is_superorder?
+                # TODO: Nicht belegte Jahre auffüllen?
                 superorder_date_range.find{|v| v.present?}
               else
                 default_date
