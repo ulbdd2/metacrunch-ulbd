@@ -6,29 +6,23 @@ module Metacrunch
           module CommonHelper
 
             def is_superorder?
-              unless @is_superorder
+              @is_superorder ||= begin
                 f051 = source.controlfield("051") || []
                 f052 = source.controlfield("052") || []
 
-                @is_superorder = (
-                  f051.at(0) == "n" ||
-                  f051.at(0) == "t" ||
-                  f052.at(0) == "p" ||
-                  f052.at(0) == "r" ||
-                  f052.at(0) == "z"
-                )
+                f051.at(0) == "n" ||
+                f051.at(0) == "t" ||
+                f052.at(0) == "p" ||
+                f052.at(0) == "r" ||
+                f052.at(0) == "z"
               end
-
-              @is_superorder
             end
 
             def is_journal?
-              unless @is_journal
+              @is_journal ||= begin
                 f052 = source.controlfield("052") || []
-                @is_journal = f052.at(0) == "p"
+                f052.at(0) == "p"
               end
-
-              @is_journal
             end
 
           end
