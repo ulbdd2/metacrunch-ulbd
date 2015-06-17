@@ -1,77 +1,72 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication do
 
-  context "#display_date" do
-    it "425a works" do
-      transformer = transform_source(test_425a)
-      expect(transformer.step.display_date).to eq("1998")
-    end
+  it "425a works" do
+    result = perform(test_425a)
 
-    it "425p works" do
-      transformer = transform_source(test_425p)
-      expect(transformer.step.display_date).to eq("1999")
-    end
-
-    it "595 works and superseeds all other dates" do
-      transformer = transform_source(test_595)
-      expect(transformer.step.display_date).to eq("1999")
-    end
-
-    it "425b works" do
-      transformer = transform_source(test_425b)
-      expect(transformer.step.display_date).to eq("2000 –")
-    end
-
-    it "425c works" do
-      transformer = transform_source(test_425c)
-      expect(transformer.step.display_date).to eq("– 2010")
-    end
-
-    it "425b and 425c works" do
-      transformer = transform_source(test_425b_and_425c)
-      expect(transformer.step.display_date).to eq("2000 – 2010")
-    end
+    expect(result[:display]).to eq("1998")
+    expect(result[:search]).to eq("1998")
+    expect(result[:sort]).to eq("1998")
   end
 
-  context "#search_date" do
-    it "425a works" do
-      transformer = transform_source(test_425a)
-      expect(transformer.step.search_date).to eq("1998")
-    end
+  it "425p works" do
+    result = perform(test_425p)
 
-    it "425p works" do
-      transformer = transform_source(test_425p)
-      expect(transformer.step.search_date).to eq("1999")
-    end
+    expect(result[:display]).to eq("1999")
+    expect(result[:search]).to eq("1999")
+    expect(result[:sort]).to eq("1999")
+  end
 
-    it "595 works and superseeds all other dates" do
-      transformer = transform_source(test_595)
-      expect(transformer.step.search_date).to eq("1999")
-    end
+  it "595 works and superseeds all other dates" do
+    result = perform(test_595)
 
-    it "425b works" do
-      transformer = transform_source(test_425b)
-      expect(transformer.step.search_date).to eq("2000")
-    end
+    expect(result[:display]).to eq("1999")
+    expect(result[:search]).to eq("1999")
+    expect(result[:sort]).to eq("1999")
+  end
 
-    it "425c works" do
-      transformer = transform_source(test_425c)
-      expect(transformer.step.search_date).to eq("2010")
-    end
+  it "425b works" do
+    result = perform(test_425b)
 
-    it "425b and 425c works" do
-      transformer = transform_source(test_425b_and_425c)
-      expect(transformer.step.search_date).to eq("2000")
-    end
+    expect(result[:display]).to eq("2000 –")
+    expect(result[:search]).to eq("2000")
+    expect(result[:sort]).to eq("2000")
+  end
+
+  it "425c works" do
+    result = perform(test_425c)
+
+    expect(result[:display]).to eq("– 2010")
+    expect(result[:search]).to eq("2010")
+    expect(result[:sort]).to eq("2010")
+  end
+
+  it "425b and 425c works" do
+    result = perform(test_425b_and_425c)
+
+    expect(result[:display]).to eq("2000 – 2010")
+    expect(result[:search]).to eq("2000")
+    expect(result[:sort]).to eq("2000")
   end
 
 private
 
-  def transform_source(source)
-    transform(
+  def perform(source)
+    transformer = transform(
       Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication,
       source,
       Metacrunch::SNR.new
     )
+
+    display = transformer.target.values("display/date_of_publication").first
+    search  = transformer.target.values("search/date_of_publication").first
+    sort    = transformer.target.values("sort/date_of_publication").first
+
+    {
+      transformer: transformer,
+      display: display,
+      search: search,
+      sort: sort
+    }
   end
 
   def test_425a
