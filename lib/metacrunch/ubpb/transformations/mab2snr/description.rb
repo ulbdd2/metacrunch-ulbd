@@ -12,24 +12,24 @@ module Metacrunch
         private
 
           def descriptions
-            unless @descriptions
-              @descriptions = []
+            @descriptions ||= begin
+              descriptions = []
 
               # 405 - Erscheinungsverlauf von Zeitschriften
-              @descriptions += descriptions_for("405")
+              descriptions += descriptions_for("405")
               # 522 - Teilungsvermerk bei fortlaufenden Sammelwerken
-              @descriptions += descriptions_for("522")
+              descriptions += descriptions_for("522")
               # 523 - Erscheinungsverlauf von Monos
-              @descriptions += descriptions_for("523")
+              descriptions += descriptions_for("523")
               # Sonstige 500er
-              (501..519).each { |f| @descriptions += descriptions_for("#{f}") }
+              (501..519).each { |f| descriptions += descriptions_for("#{f}") }
               # 536 - Voraussichtlicher Erscheinungstermin
-              @descriptions += descriptions_for("536")
+              descriptions += descriptions_for("536")
               # 537 - Redaktionelle Bemerkungen (bei Zeitschriften ignorieren)
-              @descriptions += descriptions_for("537") unless helper.is_journal?
-            end
+              descriptions += descriptions_for("537") unless helper.is_journal?
 
-            @descriptions
+              descriptions
+            end
           end
 
         private
