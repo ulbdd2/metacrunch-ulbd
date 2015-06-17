@@ -1,4 +1,4 @@
-describe "mab2snr#creation_date" do
+describe Metacrunch::UBPB::Transformations::MAB2SNR::CreationDate do
   let(:transformer) do
     transform(
       Metacrunch::UBPB::Transformations::MAB2SNR::CreationDate,
