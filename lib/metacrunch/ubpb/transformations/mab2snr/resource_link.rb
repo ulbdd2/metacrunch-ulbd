@@ -5,7 +5,7 @@ module Metacrunch
         class ResourceLink < Metacrunch::Transformer::Step
 
           def perform
-            target.add("display", "link", resource_links)
+            target.add("link", "resource", resource_links)
           end
 
         private
@@ -15,19 +15,21 @@ module Metacrunch
           #   Kommt das in der Praxis vor und was soll das bedeuten?
           #
           def resource_links
-            links = []
+            @resource_links ||= begin
+              links = []
 
-            source.datafields("655").each do |datafield|
-              url = datafield.subfields("u").first_value # URL
-              u3  = datafield.subfields("3").first_value # Hinweise auf HBZ Inhaltsverzeichnisse
-              uz  = datafield.subfields("z").first_value # Hinweise auf BVB Inhaltsverzeichnisse
-              ut  = datafield.subfields("t").first_value # Type: VIEW => Adam Inhaltsverzeichnis
+              source.datafields("655").each do |datafield|
+                url   = datafield.subfields("u").first_value # URL
+                label = datafield.subfields("y").first_value # Link Text
 
-              # Ignore links that point to known tocs
-              links << url unless url && (u3 =~ /^inhaltsv/i || uz =~ /^inhaltsv/i || ut =~ /^view/i)
+                # Ignore links that point to TOC
+                if url && !helper.is_toc?(datafield)
+                  links << { url: url, label: label }
+                end
+              end
+
+              links
             end
-
-            links
           end
 
         end
