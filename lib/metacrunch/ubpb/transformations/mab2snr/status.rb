@@ -30,7 +30,7 @@ module Metacrunch
             status = DELETE_STATE if detmold_locations.present? && detmold_locations.all?{ |l| l == "50" }
 
             # Interimsaufnahmen unterdrücken
-            temp_records = source.datafields("537", ind1: "-", ind2: "1").subfields("a").values
+            temp_records = source.datafields("537", ind1: :blank, ind2: "1").subfields("a").values
             status = DELETE_STATE if temp_records.any?{ |v| v.downcase.include? "interimsaufnahme" }
 
             status
