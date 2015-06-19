@@ -27,7 +27,7 @@ module Metacrunch
 
             # Standort Detmold unterdrücken
             detmold_locations = source.datafields("LOC").subfields("n").values
-            status = DELETE_STATE if detmold_locations.all?{ |l| l == "50" }
+            status = DELETE_STATE if detmold_locations.present? && detmold_locations.all?{ |l| l == "50" }
 
             # Interimsaufnahmen unterdrücken
             temp_records = source.datafields("537", ind1: "-", ind2: "1").subfields("a").values
