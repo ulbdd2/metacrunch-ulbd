@@ -13,4 +13,8 @@ module TransformationHelper
     transformer
   end
 
+  def mab_builder(&block)
+    Metacrunch::Mab2::Builder.build(&block)
+  end
+
 end
