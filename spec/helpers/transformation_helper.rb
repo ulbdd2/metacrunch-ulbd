@@ -17,4 +17,25 @@ module TransformationHelper
     Metacrunch::Mab2::Builder.build(&block)
   end
 
+  def mab2snr(mab)
+    transformer = transform(described_class, mab, Metacrunch::SNR.new)
+    Mab2SnrResult.new(transformer)
+  end
+
+  class Mab2SnrResult
+    attr_reader :transformer
+
+    def initialize(transformer)
+      @transformer = transformer
+    end
+
+    def values(path)
+      @transformer.target.values(path)
+    end
+
+    def first_value(path)
+      values(path).first
+    end
+  end
+
 end
