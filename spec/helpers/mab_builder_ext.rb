@@ -6,6 +6,10 @@ module Metacrunch
         controlfield("051", "n")
       end
 
+      def journal!
+        controlfield("052", "p")
+      end
+
     end
   end
 end

@@ -39,7 +39,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::Description do
 
   it "537 will be ignored for journals" do
     mab = mab_builder do
-      controlfield("052", "p")
+      journal!
       datafield("537", ind1: "-", ind2: "1") do
         subfield("a", "DESCRIPTION")
         subfield("p", "PREFIX")
