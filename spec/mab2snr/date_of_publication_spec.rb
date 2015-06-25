@@ -1,6 +1,6 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication do
 
-  it "425a works" do
+  it "425 ind1=a works" do
     mab = mab_builder do
       datafield("425", ind1: "a", ind2: "1") { subfield("a", "1998") }
     end
@@ -11,7 +11,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication do
     expect(result.first_value("sort/date_of_publication")).to eq("1998")
   end
 
-  it "425p works" do
+  it "425 ind1=p works" do
     mab = mab_builder do
       datafield("425", ind1: "p", ind2: "1") { subfield("a", "1999") }
     end
@@ -34,7 +34,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication do
     expect(result.first_value("sort/date_of_publication")).to eq("1999")
   end
 
-  it "425b works" do
+  it "425 ind1=b works" do
     mab = mab_builder do
       superorder!
       datafield("425", ind1: "b", ind2: "1") { subfield("a", "2000") }
@@ -46,7 +46,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication do
     expect(result.first_value("sort/date_of_publication")).to eq("2000")
   end
 
-  it "425c works" do
+  it "425 ind1=c works" do
     mab = mab_builder do
       superorder!
       datafield("425", ind1: "c", ind2: "1") { subfield("a", "2010") }
@@ -58,7 +58,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::DateOfPublication do
     expect(result.first_value("sort/date_of_publication")).to eq("2010")
   end
 
-  it "425b and 425c works" do
+  it "425 ind1=b and 425 ind1=c works" do
     mab = mab_builder do
       superorder!
       datafield("425", ind1: "b", ind2: "1") { subfield("a", "2000") }

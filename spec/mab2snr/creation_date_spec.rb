@@ -1,6 +1,6 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::CreationDate do
 
-  it "creation_date should be 20070905" do
+  it "Creation_date should be 20070905" do
     mab = mab_builder do
       datafield("LOC", ind1: " ", ind2: " ") { subfield("k", "20070905") }
       datafield("LOC", ind1: " ", ind2: " ") { subfield("k", "20070906") }

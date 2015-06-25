@@ -1,7 +1,7 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::Title do
 
   context "Search" do
-    it "all fields work" do
+    it "All fields work" do
       all_fields.each do |field|
         field_s = sprintf("%03d", field)
         mab     = mab_builder { datafield(field_s, ind2: "1") { subfield("a", "SOME VALUE")} }
@@ -16,7 +16,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::Title do
       end
     end
 
-    it "removes non-sort characters" do
+    it "Removes non-sort characters" do
       mab     = mab_builder { datafield("331", ind2: "1") { subfield("a", "<<SOME>> VALUE")} }
       result  = perform(mab)
       expect(result[:search][0]).to eq("SOME VALUE")

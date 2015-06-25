@@ -13,7 +13,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::ResourceLink do
     expect(result.first_value("link/resource")[:label]).to eq("SOME LABEL")
   end
 
-  it "label is optional" do
+  it "Label is optional" do
     mab = mab_builder do
       datafield("655", ind1: " ", ind2: " ") do
         subfield("u", "http://example.com")
@@ -25,7 +25,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::ResourceLink do
     expect(result.first_value("link/resource")[:label]).to be_nil
   end
 
-  it "ignores HBZ TOC" do
+  it "Ignores HBZ TOC" do
     mab = mab_builder do
       datafield("655", ind1: " ", ind2: " ") do
         subfield("u", "http://example.com")
@@ -38,7 +38,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::ResourceLink do
     expect(result.values("link/resource")).to be_empty
   end
 
-  it "ignores BVB TOC" do
+  it "Ignores BVB TOC" do
     mab = mab_builder do
       datafield("655", ind1: " ", ind2: " ") do
         subfield("u", "http://example.com")
@@ -51,7 +51,7 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::ResourceLink do
     expect(result.values("link/resource")).to be_empty
   end
 
-  it "ignores Adam TOC" do
+  it "Ignores Adam TOC" do
     mab = mab_builder do
       datafield("655", ind1: " ", ind2: " ") do
         subfield("u", "http://example.com")

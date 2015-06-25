@@ -1,6 +1,6 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::Id do
 
-  it "works" do
+  it "Works" do
     mab = mab_builder {} # empty
 
     result = mab2snr(mab, {source_id: "123456789"})
