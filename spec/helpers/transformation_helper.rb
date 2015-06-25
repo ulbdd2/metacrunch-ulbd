@@ -17,8 +17,8 @@ module TransformationHelper
     Metacrunch::Mab2::Builder.build(&block)
   end
 
-  def mab2snr(mab)
-    transformer = transform(described_class, mab, Metacrunch::SNR.new)
+  def mab2snr(mab, options = {})
+    transformer = transform(described_class, mab, Metacrunch::SNR.new, options)
     Mab2SnrResult.new(transformer)
   end
 
