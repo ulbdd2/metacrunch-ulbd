@@ -30,7 +30,7 @@ module Metacrunch
               uz  = datafield_655.subfields("z").first_value # Hinweise auf BVB Inhaltsverzeichnisse
               ut  = datafield_655.subfields("t").first_value # Type: VIEW => Adam Inhaltsverzeichnis
 
-              u3 =~ /^inhaltsv/i || uz =~ /^inhaltsv/i || ut =~ /^view/i
+              !!(u3 =~ /^inhaltsv/i || uz =~ /^inhaltsv/i || ut =~ /^view/i)
             end
 
           end
