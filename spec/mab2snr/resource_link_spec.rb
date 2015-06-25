@@ -1,104 +1,67 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::ResourceLink do
 
   it "655 works" do
-    result = perform(test_default)
-    expect(result[:links].first[:url]).to eq("http://example.com")
-    expect(result[:links].first[:label]).to eq("SOME LABEL")
+    mab = mab_builder do
+      datafield("655", ind1: " ", ind2: " ") do
+        subfield("u", "http://example.com")
+        subfield("y", "SOME LABEL")
+      end
+    end
+
+    result = mab2snr(mab)
+    expect(result.first_value("link/resource")[:url]).to eq("http://example.com")
+    expect(result.first_value("link/resource")[:label]).to eq("SOME LABEL")
   end
 
   it "label is optional" do
-    result = perform(test_default_no_label)
-    expect(result[:links].first[:url]).to eq("http://example.com")
-    expect(result[:links].first[:label]).to be_nil
+    mab = mab_builder do
+      datafield("655", ind1: " ", ind2: " ") do
+        subfield("u", "http://example.com")
+      end
+    end
+
+    result = mab2snr(mab)
+    expect(result.first_value("link/resource")[:url]).to eq("http://example.com")
+    expect(result.first_value("link/resource")[:label]).to be_nil
   end
 
   it "ignores HBZ TOC" do
-    result = perform(test_hbz_toc)
-    expect(result[:links]).to be_empty
+    mab = mab_builder do
+      datafield("655", ind1: " ", ind2: " ") do
+        subfield("u", "http://example.com")
+        subfield("y", "SOME LABEL")
+        subfield("3", "Inhaltsverzeichnis")
+      end
+    end
+
+    result = mab2snr(mab)
+    expect(result.values("link/resource")).to be_empty
   end
 
   it "ignores BVB TOC" do
-    result = perform(test_bvb_toc)
-    expect(result[:links]).to be_empty
+    mab = mab_builder do
+      datafield("655", ind1: " ", ind2: " ") do
+        subfield("u", "http://example.com")
+        subfield("y", "SOME LABEL")
+        subfield("z", "Inhaltsverzeichnis")
+      end
+    end
+
+    result = mab2snr(mab)
+    expect(result.values("link/resource")).to be_empty
   end
 
   it "ignores Adam TOC" do
-    result = perform(test_adam_toc)
-    expect(result[:links]).to be_empty
-  end
+    mab = mab_builder do
+      datafield("655", ind1: " ", ind2: " ") do
+        subfield("u", "http://example.com")
+        subfield("y", "SOME LABEL")
+        subfield("t", "VIEW")
+      end
+    end
 
-private
-
-  def perform(source)
-    transformer = transform(
-      Metacrunch::UBPB::Transformations::MAB2SNR::ResourceLink,
-      source,
-      Metacrunch::SNR.new
-    )
-
-    links = transformer.target.values("link/resource")
-
-    {
-      transformer: transformer,
-      links: links
-    }
-  end
-
-  def test_default
-    Metacrunch::Mab2::Document.from_aleph_mab_xml <<-XML
-      <record>
-        <datafield tag="655" ind1=" " ind2=" ">
-          <subfield code="u">http://example.com</subfield>
-          <subfield code="y">SOME LABEL</subfield>
-        </datafield>
-      </record>
-    XML
-  end
-
-  def test_default_no_label
-    Metacrunch::Mab2::Document.from_aleph_mab_xml <<-XML
-      <record>
-        <datafield tag="655" ind1=" " ind2=" ">
-          <subfield code="u">http://example.com</subfield>
-        </datafield>
-      </record>
-    XML
-  end
-
-  def test_hbz_toc
-    Metacrunch::Mab2::Document.from_aleph_mab_xml <<-XML
-      <record>
-        <datafield tag="655" ind1=" " ind2=" ">
-          <subfield code="3">Inhaltsverzeichnis</subfield>
-          <subfield code="u">http://example.com</subfield>
-          <subfield code="y">SOME LABEL</subfield>
-        </datafield>
-      </record>
-    XML
-  end
-
-  def test_bvb_toc
-    Metacrunch::Mab2::Document.from_aleph_mab_xml <<-XML
-      <record>
-        <datafield tag="655" ind1=" " ind2=" ">
-          <subfield code="z">Inhaltsverzeichnis</subfield>
-          <subfield code="u">http://example.com</subfield>
-          <subfield code="y">SOME LABEL</subfield>
-        </datafield>
-      </record>
-    XML
-  end
-
-  def test_adam_toc
-    Metacrunch::Mab2::Document.from_aleph_mab_xml <<-XML
-      <record>
-        <datafield tag="655" ind1=" " ind2=" ">
-          <subfield code="t">VIEW</subfield>
-          <subfield code="u">http://example.com</subfield>
-          <subfield code="y">SOME LABEL</subfield>
-        </datafield>
-      </record>
-    XML
+    result = mab2snr(mab)
+    expect(result.values("link/resource")).to be_empty
   end
 
 end
