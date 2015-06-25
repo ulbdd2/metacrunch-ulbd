@@ -5,7 +5,7 @@ module Metacrunch
         class Toc < Metacrunch::Transformer::Step
 
           def perform
-            target.add("search",  "toc", toc)
+            target.add("search", "toc", toc)
           end
 
         private
