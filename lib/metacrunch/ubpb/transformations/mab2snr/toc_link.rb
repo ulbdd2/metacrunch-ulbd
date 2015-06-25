@@ -14,11 +14,12 @@ module Metacrunch
             links = []
 
             source.datafields("655").each do |datafield|
-              url = datafield.subfields("u").first_value
+              url   = datafield.subfields("u").first_value # URL
+              label = datafield.subfields("y").first_value # Link Text
 
               # Pick only links that point to known tocs
               if url && helper.is_toc?(datafield)
-                links << url
+                links << { url: url, label: label }
               end
             end
 
