@@ -10,6 +10,7 @@ module Metacrunch
 
         private
 
+          # TODO: Noch unfertig. Vergleich mabmapper Implementierung.
           def volume_count
             volumes = []
 

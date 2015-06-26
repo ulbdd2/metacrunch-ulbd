@@ -11,6 +11,8 @@ module Metacrunch
 
         private
 
+          # TODO: Verläufe von Zeitschriften sollten ggf. in ein eigenes
+          # Feld, oder?
           def descriptions
             @descriptions ||= begin
               descriptions = []
