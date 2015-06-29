@@ -87,7 +87,8 @@ module Metacrunch
         [
           "Id", "TitleId", "Status", "CreationDate", "VolumeCount", "Superorder",
           "SelectionCode", "Title", "Edition", "Publisher", "PlaceOfPublication",
-          "DateOfPublication", "Description", "Toc", "TocLink", "ResourceLink"
+          "DateOfPublication", "Description", "Toc", "TocLink", "ResourceLink",
+          "CMC"
         ]
       end
 
