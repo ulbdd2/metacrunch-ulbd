@@ -1,19 +1,31 @@
 describe Metacrunch::UBPB::Transformations::MAB2SNR::CMC do
 
+  context "Media" do
+    it "Default is z => unspecified" do
+      perform_test(:media, {}, "z")
+    end
+  end
+
+  context "Content" do
+    it "Default is zzz => unspecified" do
+      perform_test(:content, {}, "zzz")
+    end
+  end
+
   context "Carrier" do
     it "Default is zu => unspecified" do
       perform_test(:carrier, {}, "zu")
     end
 
     context "Druckschrift" do
-      it "0(a) => zu" do
-        perform_test(:carrier, {"0": "a"}, "zu")
+      it "0(a) => nc" do
+        perform_test(:carrier, {"0": "a"}, "nc")
       end
     end
 
     context "Handschrift" do
-      it "1(a) => zu" do
-        perform_test(:carrier, {"1": "a"}, "zu")
+      it "1(a) => nc" do
+        perform_test(:carrier, {"1": "a"}, "nc")
       end
     end
 
@@ -224,8 +236,8 @@ describe Metacrunch::UBPB::Transformations::MAB2SNR::CMC do
     end
 
     context "Spiele" do
-      it "9(a) => zu" do
-        perform_test(:carrier, {"9": "a"}, "zu")
+      it "9(a) => nz" do
+        perform_test(:carrier, {"9": "a"}, "nz")
       end
     end
 
