@@ -11,8 +11,8 @@ module Metacrunch
         private
 
           def type_of_content
-            f051 = source.controlfield("051")
-            f052 = source.controlfield("052")
+            f051 = source.controlfield("051").values
+            f052 = source.controlfield("052").values
 
             f051_13 = f051.slice(1..3).join
             f052_16 = f052.slice(1..6).join
