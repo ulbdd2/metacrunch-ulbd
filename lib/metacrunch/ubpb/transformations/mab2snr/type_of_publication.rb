@@ -12,7 +12,10 @@ module Metacrunch
 
           def type_of_publication
             f051 = source.controlfield("051").values
+            f051 = Array.new(14) if f051.empty?
+
             f052 = source.controlfield("052").values
+            f052 = Array.new(14) if f052.empty?
 
             f051_0  = f051[0]
             f051_13 = f051.slice(1..3).join
@@ -33,8 +36,8 @@ module Metacrunch
               when f052_0 == "r" then "series"
               when f052_0 == "z" then "newspaper"
 
-              when f052s.include?("au") then "article"
-              when f052s.include?("se") then "series"
+              when f052_16.include?("au") then "article"
+              when f052_16.include?("se") then "series"
             else
               # TODO: helper.is_suborder? ? "monograph" : "other"
               "other"

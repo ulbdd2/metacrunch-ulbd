@@ -12,7 +12,10 @@ module Metacrunch
 
           def type_of_content
             f051 = source.controlfield("051").values
+            f051 = Array.new(14) if f051.empty?
+
             f052 = source.controlfield("052").values
+            f052 = Array.new(14) if f052.empty?
 
             f051_13 = f051.slice(1..3).join
             f052_16 = f052.slice(1..6).join

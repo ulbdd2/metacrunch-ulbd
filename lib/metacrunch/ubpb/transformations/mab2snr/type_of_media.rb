@@ -11,7 +11,7 @@ module Metacrunch
         private
 
           def type_of_media
-            f050 = doc.controlfield("050").values
+            f050 = source.controlfield("050").values
 
             case
               when f050.at(0) == "a" then "print" # Druckschrift
