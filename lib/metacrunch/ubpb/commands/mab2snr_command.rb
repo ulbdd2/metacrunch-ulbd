@@ -88,7 +88,7 @@ module Metacrunch
           "Id", "TitleId", "ZDBId", "Status", "CreationDate", "VolumeCount", "Superorder",
           "TypeOfPublication", "TypeOfContent", "TypeOfMedia", "SelectionCode", "Title",
           "Edition", "Publisher", "PlaceOfPublication", "DateOfPublication", "Description",
-          "Toc", "TocLink", "ResourceLink", "ISBN", "ISSN", "DDC", "Abstract"
+          "Toc", "TocLink", "ResourceLink", "ISBN", "ISSN", "DDC", "Abstract", "Language"
         ]
       end
 
