@@ -38,7 +38,7 @@ module Metacrunch
               issns += source.datafields("635", ind1: "a").subfields("a").values # ISSN formal richtig
               issns += source.datafields("635", ind1: "b").subfields("a").values # ISSN formal falsch
 
-              issns
+              issns.uniq
             end
           end
         end

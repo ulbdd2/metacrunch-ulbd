@@ -35,7 +35,7 @@ module Metacrunch
               isbns += source.datafields("634", ind1: "a").subfields("a").values # ISBN formal richtig
               isbns += source.datafields("634", ind1: "b").subfields("a").values # ISBN formal falsch
 
-              isbns
+              isbns.uniq
             end
           end
         end
