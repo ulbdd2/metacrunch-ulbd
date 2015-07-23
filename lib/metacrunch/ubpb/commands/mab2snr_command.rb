@@ -89,7 +89,7 @@ module Metacrunch
           "TypeOfPublication", "TypeOfContent", "TypeOfMedia", "SelectionCode", "Title",
           "Edition", "Publisher", "PlaceOfPublication", "DateOfPublication", "Description",
           "Toc", "TocLink", "ResourceLink", "ISBN", "ISSN", "DDC", "Abstract", "Language",
-          "Subject"
+          "Subject", "Signature"
         ]
       end
 
