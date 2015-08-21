@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001209723</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>01329cM2.01200024------h</leader>
+          <controlfield tag="LDR">01329cM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015878884</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20090317</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20120624081508</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20120703</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">2485513-3</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">993235735</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">634330414</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">2485513-3</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB2485513-3</subfield>
+          </datafield>
+          <controlfield tag="030">b|1dcz|z|||35</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="052">p||||||z|||||||</controlfield>
+          <controlfield tag="058">cr||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6999</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">9999</subfield>
+          </datafield>
+          <datafield tag="073" ind1="-" ind2="1">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ZDB-18-BEO</subfield>
+          </datafield>
+          <datafield tag="310" ind1="-" ind2="1">
+            <subfield code="a">Zeitschrift für Urheber- und Medienrecht / Rechtsprechungsdienst</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Zeitschrift für Urheber- und Medienrecht</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">ZUM</subfield>
+          </datafield>
+          <datafield tag="360" ind1="-" ind2="1">
+            <subfield code="a">Rechtsprechungsdienst [Elektronische Ressource]</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">ZUM</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">ZUM-Rechtsprechungsdienst</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">Rechtsprechungsdienst</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">beck online</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">ZUM-RD</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">1.1997 -</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Baden-Baden</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Nomos-Verl.-Ges.</subfield>
+          </datafield>
+          <datafield tag="415" ind1="-" ind2="1">
+            <subfield code="a">München</subfield>
+          </datafield>
+          <datafield tag="417" ind1="-" ind2="1">
+            <subfield code="a">Beck</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1997</subfield>
+          </datafield>
+          <datafield tag="451" ind1="b" ind2="1">
+            <subfield code="a">beck online</subfield>
+          </datafield>
+          <datafield tag="505" ind1="-" ind2="1">
+            <subfield code="p">Nebent.</subfield>
+            <subfield code="a"> ZUM-RD</subfield>
+          </datafield>
+          <datafield tag="507" ind1="-" ind2="1">
+            <subfield code="a">Gesehen am 09.06.11</subfield>
+          </datafield>
+          <datafield tag="515" ind1="-" ind2="1">
+            <subfield code="p">Ab 2000</subfield>
+            <subfield code="a"> beck online</subfield>
+          </datafield>
+          <datafield tag="516" ind1="-" ind2="1">
+            <subfield code="a">ISSN 1433-0350 wird in der Vorlage genannt, gehört jedoch zu einer anderen Zeitschrift</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="a">Volltext auch als Teil einer Datenbank verfügbar</subfield>
+          </datafield>
+          <datafield tag="527" ind1="z" ind2="1">
+            <subfield code="p">Druckausg. ---&gt;</subfield>
+            <subfield code="a">Zeitschrift für Urheber- und Medienrecht / Rechtsprechungsdienst</subfield>
+            <subfield code="9">HT009978477</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="d">ISSN 1433-0342</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="d">ISSN 1433-0350</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="653" ind1="-" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://beck-online.beck.de/Default.aspx?vpath=bibdata%2Fzeits%2FZUM%2DRD%2Fcont%2FZUM%2DRD%2Ehtm</subfield>
+            <subfield code="x">Verlag</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2485513</subfield>
+            <subfield code="x">EZB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">340</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">540</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">550</subfield>
+          </datafield>
+          <controlfield tag="SYS">001209723</controlfield>
+          <datafield tag="655" ind1="e" ind2=" ">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/frontdoor.phtml?id=2485513&amp;bibid=UBPB</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

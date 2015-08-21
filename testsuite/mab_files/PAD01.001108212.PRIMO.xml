@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001108212</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00511nM2.01200024------h</leader>
+          <controlfield tag="LDR">00511nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015861545</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20090312</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20100329</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT015861545</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">AT</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|b|||||||||||</controlfield>
+          <controlfield tag="051">s|||z|||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">Lan 1</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Nestroy, Johann</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Obermaier, Walter</subfield>
+            <subfield code="d">1942-</subfield>
+            <subfield code="9">(DE-588)129476846</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Johann Nestroy - Dokumente</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">hrsg. von Walter Obermaier ...</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">Dokumente</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Wien</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Deuticke</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2009</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">XXV, 822 S.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Sämtliche Werke / Johann Nestroy</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT000289652</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">&lt;Dokumente&gt;</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">dokumente</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-552-06061-6</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">200</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">GL 7105</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Quelle</subfield>
+          </datafield>
+          <controlfield tag="SYS">001108212</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">CPMN</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Johann Nestroy - Dokumente</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=2949449&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: JOHANN NESTROY - DOKUMENTE AUTOR: NESTROY, JOHANN JAHR: 2009 V INHALTSVERZEICHNIS VORWORT DER HERAUSGEBER XIII ZUR WIEDERGABE DER TEXTE XVI ABKUERZUNGEN UND ZEICHEN XXIV EINFUEHRUNG 1 1801-1831. VON DER GEBURT BIS ZUM ENGAGEMENT AN CARLS BUEHNEN. 1. 7. DEZEMBER 1801. TAUFE NESTROYS 7 2. 1811-1813. BESUCH DES AKADEMISCHEN GYMNASIUMS 9 3. 15. SEPTEMBER 1814. TOD DER MUTTER 12 4. 1814-1816. BESUCH DES SCHOTTENGYMNASIUMS 15 5. 1817-1822. BESUCH DER UNIVERSITAET 17 6. 28. JUNI 1818. AUFFUEHRUNG DES ORATORIUMS TIMOTHEUS 26 7. 5. APRIL 1821. PROBE ZUM ORATORIUM DAS LEIDEN UNSERS HERRN JESUS 27 8. 27. AUGUST 1823. TAUFSCHEIN NESTROYS 30 9. 2. SEPTEMBER 1823. REISEPASS NACH AMSTERDAM 31 10.7. SEPTEMBER 1823. EHE MIT WILHELMINE NESPIESNI 31 11. 21. APRIL 1824. GEBURT DES SOHNES GUSTAV 33 12. 22. APRIL 1824. REISEPASS NACH AMSTERDAM 34 13. 14. MAERZ 1825. REISEPASS NACH AMSTERDAM 34 14. 7. OKTOBER - 21. DEZEMBER 1825. POLIZEIPROTOKOLLE AUS BRUNN 34 15. 22. MAERZ 1826. REISEPASS NACH BRUNN 45 16. 17. MAI 1826. REISEPASS NACH GRAZ 46 17. 11. JAENNER 1828 - 27. NOVEMBER 1829. ROLLEN GESPIELT VON MARIE WEILER 46 18. 24. JUNI 1830. REISEPASS NACH PRESSBURG 52 19. 30. JULI 1830. HONORARBESTAETIGUNG DES KAERNTNERTORTHEATERS 52 20. 5. APRIL 1831. REISEPASS NACH LEMBERG 53 1831-1854. AN CARLS BUEHNEN. 21. 3. OKTOBER 1831. GEBURT DES SOHNES KARL 54 22. 14. NOVEMBER 1832. VERTRAG MIT CARL CARL 57 23. 5. MAERZ 1834. TOD DES VATERS 59 24. 1. MAERZ 1835. ADDITIONALARTIKEL ZUM VERTRAG MIT CARL 63 VI 25. SEPTEMBER 1835. G. A. PAPST, JOHANN NESTROY, THEATERDICHTER UND KOMIKER 64 26. 3. OKTOBER 1835. BESTRAFUNG WEGEN EXTEMPORIE- RENS IN 7,U EBENER ERDE UND ERSTER STOCK 67 27. ANFANG APRIL 1836. FLUCHT NACH PRESSBURG 67 28. 11. JUNI 1836. ZENSUR FUER PRINZ FRIEDRICH 68 29. 29. OKTOBER 1836. VERTRAG MIT DEM THEATER IN DER JOSEFSTADT 68 30. 1837. EINTRAG IN OESTERREICHISCHE NATIONAL- ENCYKLOPAEDIE 69 31. MAI 1837. MUSEN-REUNION (GEDICHT ZUM GASTSPIEL IN PEST) 70</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">32. 13. DEZEMBER 1837. ERMIN, JOHANN NESTROY ALS LOCALDICHTER 73 33. 1840. U. HOERN, OESTERREICHISCHER PARNASS BESTIEGEN VON EINEM HERUNTERGEKOMMENEN ANTIQUAR 75 34.2. APRIL 1840. GEBURT DER TOCHTER MARIE 76 35. 20. JULI (CA.) 1840. ANWEISUNG FUER DIE THEATERLEITUNG WAEHREND CARLS REISE NACH PARIS 79 36. 7. SEPTEMBER 1841. ERKLAERUNG VON WILHELMINE NESTROY 88 37. 13. NOVEMBER 1843. KUENSTLER-SILHOUETTEN AUS WIEN: JOHANN NESTROY 89 38. 27. JUNI 1844. J. N. HOFZINSER, TASCHENSPIELER BEMERKUNGEN UEBER JOHANN NESTROY 91 39. 27. AUGUST 1844. LEBEWOHL (GEDICHT ZUM GASTSPIEL IN BERLIN) 93 40. 30. DEZEMBER 1844. VERTRAG MIT DEM HAMBURGER THALIA-THEATER 94 41. 15. FEBRUAR 1845. EHESCHEIDUNG NESTROYS 95 42. 3. MAI 1845. AUFRUF FUER DEN SCHAUSPIELER FRANZ BONNOT 97 43. 1846. EINTRAG IM ALLGEMEINEN THEATER-LEXIKON UND BEI REALIS 98 44. AUGUST 1846. GEDICHT ZUM GASTSPIEL IN PEST 100 45. 1847. VERTRAG MIT CARL CARL 101 46. 15. JUNI 1848. VORMERKUNG VON 15.000 GULDEN AUF NESTROYS GAGE 103 47. 31. JULI 1848. REISEPASS NACH GRAZ UND IN DIE DEUTSCHEN STAATEN 103 48. 22. MAERZ - 3. APRIL 1851. ZENSUR FUER MEIN FREUND 104 49. 4. MAI 1851. BIOGRAPHISCHE MITTEILUNGEN UEBER NESTROY 104 VII 50. 5.-6. MAI 1851. ZENSUR FUER ZWOELF MAEDCHEN IN UNIFORM 107 51. 27. MAI - 28. JUNI 1851. ZENSUR FUER F. KAISERS VERRECHNET 108 52. 12.- 18. DEZEMBER 1851. ZENSUR FUER DER GUTMUETHIGE TEUFEL 113 53. 26. MAERZ - 12. NOVEMBER 1852. ZENSUR FUER KAMPL 116 54. 1852/53 (?). SAMMLUNG VON STUECKTITELN 116 55. 1852/53 (?). KARTENRESERVIERUNGEN FUER HERRN SCHLESINGER 118 56. 14. MAERZ 1853. ZENSUR FUER HEIMLICHES GELD, HEIMLICHE LIEBE 118 57. 12. JULI 1853. REISEPASS NACH DEUTSCHLAND UND INS INLAND 119 58. 26. JAENNER 1854. ZENSUR FUER THEATERG'SCHICHTEN 119 59. 9. JUNI 1854. REISEPASS NACH DEUTSCHLAND UND INS INLAND 119 60. 3. AUGUST 1854. CARL CARL UEBER DIE THEATERLEITUNG IN SEINER ABWESENHEIT 120 61. 9. OKTOBER 1854. VERTRAG MIT WENZEL SCHOLZ 126 62. 10. OKTOBER 1854. WECHSEL UEBER 530 GULDEN 128</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">63. 12. OKTOBER 1854 - 28. MAI 1855. DOKUMENTE IN ZUSAMMENHANG MIT NESTROYS PACHT DES CARLTHEATERS 128 64. 20.-30. OKTOBER 1854. 7 WECHSEL UEBER INSGESAMT 4560 GULDEN 140 65. 31. OKTOBER 1854. ZENSUR FUER DER TREULOSE 141 1854-1860. DIREKTOR DES CARLTHEATERS. 66. 1. NOVEMBER 1854. M. G. SAPHIR, PROLOG ZU NESTROYS DIREKTIONSBEGINN 142 67. 3. OKTOBER 1854. K. K. PRIV. CARLTHEATER {HUMORIST) 144 68. 3. OKTOBER 1854. K. K. PRIV. CARLTHEATER (THEATERZEITUNG) 145 69. 22. NOVEMBER-2. DEZEMBER 1854. ZENSUR FUER F. KAISERS DES KRAEMERS TOECHTERLEIN 147 70. 18. DEZEMBER 1854. REISEPASS INS INLAND UND NACH DEUTSCHLAND 152 71. 1854/55 (7). PRAENOTIERUNGEN 152 72. 30. JAENNER - 3. MAERZ 1855.4 WECHSEL UEBER INSGESAMT 4000 GULDEN 156 73. 7. MAERZ 1855. DOKUMENTENFRAGMENT 156 74. ENDE APRIL (?) 1855. DIE DREI NESTROY 157 VIII 75. 22. JUNI 1855. ANTRAG ZUR UMBENENNUNG VON DIE TANTE AUS SCHWABEN 160 76. 22. AUGUST 1855. ZEUGNIS FUER J. MARCKHL 160 77. 31. AUGUST-5. SEPTEMBER 1855. ZENSUR FUER ZWOELF MAEDCHEN IN UNIFORM 161 78. 12. NOVEMBER 1855. ANTRAG, DAS STUECK GUT BUERGER LICH ALS BENEFIZ FUER WENZEL SCHOLZ GEBEN ZU DUERFEN 163 79. 7. DEZEMBER 1855. F. HOPP, GEBURTSTAGS GEDIEHT FUER NESTROY 164 80. 15. JAENNER 1856. ZAHLUNGSEINTRAGUNGEN FUER EINEN KUENSTLERBALL 165 81. 28. FEBRUAR 1856. ZENSUR FUER JUDITH UND HOLOFERNES 168 82. 10. MAERZ 1856. ZEUGNIS FUER JOHANN BUCHNER 169 83. 19. MAERZ 1856. ZENSUR FUER WENZEL SCHOLZ UND DIE CHINESISCHE PRINZESSIN 169 84. 16. MAI 1856. F. HOPP, NAMENSTAGSGEDICHT FUER NESTROY 169 85. 23. MAI 1856. ANTRAG, GRAFESSEX ALS BENEFIZVORSTELLUNG BRINGEN ZU DUERFEN 170 86. 26. MAI 1856. ANTRAG ZUR UMBENENNUNG VON VOM BODEN BIS ZUM KELLER 171 87. 9. JUNI 1856. NESTROYS ERKLAERUNG VOR DER BADEREISE 172 88. 23. SEPTEMBER 1856. VERTRAG MIT LOUIS KNEISS 172 89. 18. NOVEMBER 1856. STRAFERKENNTNIS WEGEN EXTEMPORIERENS 177 90. 9. DEZEMBER 1856. INSTRUKTION UEBER DIE BEFUGNISSE VON MARIE WEILER 178 91. 21.-23. FEBRUAR 1857. ZENSUR FUER UMSONST 179</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">92. 15. MAERZ 1857. AUFNAHME ALS „GRUENDER" DES HAUPT- VEREINES FUER KINDER-BEWAHRANSTALTEN IN WIEN 180 93. 23. MAERZ 1857. ANTRAG ZUR UMBENENNUNG VON ZWOELF MAEDCHEN IN UNIFORM 181 94. 6.- 17. AUGUST 1857. REISEAUSGABEN VON EMMERICH NACH WIEN (NESTROYS ,NOTIZBUCH') 182 95. 13. OKTOBER 1857. ZENSUR FUER TANNHAEUSER 191 96. 10.-13. DEZEMBER 1857. ZENSUR FUER DIE VERHAENGNISVOLLE FASCHINGSNACHT 192 97. 18. DEZEMBER 1857. ERNENNUNG ZUM EHREN-AUSSCHUSS-MITGLIED DES „VEREINS ZUR ERZIEHUNG VERWAISTER MITTELLOSER TOECHTER K. K. OFFIZIERE ZU OEDENBURG" 193 98. 25. DEZEMBER 1857. POLIZEIBERICHT UEBER DAS CARLTHEATER 194 IX 99. 1. FEBRUAR 1858. MITGLIEDSCHAFT BEIM „VEREIN FUER DEN AUSBAU DER KIRCHENTHUERME DER PFARRE ,MARIA-TREU' IN DER JOSEF STADT" 197 100. 29. JAENNER - 6. FEBRUAR 1858. ZENSUR FUER DIE BRAUT AUS MEXIKO 198 101. 6. MAERZ 1858. LEGITIMIERUNG FUER KARL UND MARIE NESTROY 200 102. 25. MAERZ 1858. EHRENMITGLIEDSCHAFT DES „MEDICINISCHEN UNTERSTUETZUNGS-VEREINES FUER HILFSBEDUERFTIGE COLLEGEN" 201 103. ENDE MAERZ/ANFANG APRIL 1858. AUSGABEN IN VENEDIG (NESTROYS ,NOTIZBUCH') 202 104. 26. APRIL 1858. ZENSUR FUER VERWICKELTE GESCHICHTE 203 105. 3. MAI 1858. SML, NESTROY UND-SONST NICHTS 203 106. 7. MAI 1858. ANTRAG ZUR UMBENENNUNG VON DIE SCHOENE KASSIERIN 207 107. 8. MAI 1858 - 28. JAENNER 1859. BESCHWERDE GEGEN JUDITH UND HOLOFERNES 207 108. 20. MAERZ 1859. ZENSUR FUER LOHENGRIN 209 109. 27. MAI 1859. GELDGEBARUNGSMANIPULATION DES CARLTHEATERS 210 110. 28. SEPTEMBER 1859. ANTRAG ZUR UMBENENNUNG VON EINE BRILLANTE VERLEGENHEIT 212 111. 15. NOVEMBER 1859. WECHSEL UEBER 330 GULDEN 213 112. 16. NOVEMBER 1859. ERKLAERUNG BETREFFEND DAS THEATERPROJEKT TREUMANNS 213 113. 29. DEZEMBER 1859. SCHULDSCHEIN UEBER 1000 GULDEN 214 114. ANFANG JAENNER 1860 (?). AUSGABENVERZEICHNIS (NESTROYS,NOTIZBUCH') 214 115. 16. JAENNER 1860. ERINNERUNG AN DEN BALL IM ELYSIUM 215 116. 26. APRIL 1860. ANTRAG, EIN KIND DES GLUECKS</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">ALS BENEFIZVORSTELLUNG GEBEN ZU DUERFEN 215 117. ANFANG MAI 1860. ZENSUR FUER A. BITTNERS DAS KIND DES BETTLERS 216 118. 6. JUNI 1860. REISEPASS IN DIE DEUTSCHEN BUNDES STAATEN UEBER BELGIEN, HOLLAND UND ENGLAND 218 119. 13. JUNI-5. JULI 1860. AUSGABEN AUF DER HELGOLANDREISE (NESTROYS ,NOTIZBUCH') 220 1860 HERBST. ABSCHIED ALS DIREKTOR DES CARLTHEATERS. 120. 26. SEPTEMBER / 3. OKTOBER 1860. METAMORPHOSEN UNSERER VORSTADTBUEHNEN 232 X 121. 21. OKTOBER 1860. NESTROY'S ABSCHIED (TELEGRAF) 238 122. 29. OKTOBER 1860. JOHANN NESTROY 239 123. 30. OKTOBER 1860. VERLEIHUNG DER GROSSEN GOLDENEN SALVATORMEDAILLE 242 124. 31. OKTOBER 1860. ZEUGNIS FUER A. K. SCRIBANY 242 125. 31. OKTOBER 1860. ZUSTELLBOGEN DES POLIZEIKOMMISSARIATS LEOPOLDSTADT 243 126. 31. OKTOBER 1860. A. LANGER, MEIN LETZTES WORT 244 127. 31. OKTOBER 1860. L. RAUDNITZ, DAS LEOPOLDSTAEDTER THEATER UND SEINE WANDLUNGEN. II 248 128. 31. OKTOBER 1860. E. EISERLE, JOHANN NESTROY 248 129. 1. NOVEMBER 1860. ].WEY\,FIXSTEMLIED 263 130. 1. NOVEMBER 1860. CARLTHEATER - EINGESENDET 266 131. 1. NOVEMBER 1860. NESTROY'S ABSCHIED (MORGENPOST) 268 132. 1. NOVEMBER 1860. THEATER 271 133. 1. NOVEMBER 1860. NESTROY'S ABSCHIEDSABEND IM CARLTHEATER 275 134. 2. NOVEMBER 1860. NESTROY'S ABSCHIEDSABEND 278 135. 3. NOVEMBER 1860. CARL-THEATER. EPILOG UND PROLOG 280 136. 7. NOVEMBER 1860. E. KUH, NESTROY. EINE KUENSTLER-SILHOUETTE 284 137. 7. NOVEMBER 1860. VORSTADTTHEATER 287 138. 7. NOVEMBER 1860. .. O.JOHANN NESTROY. ELEGIE 291 139. 11. NOVEMBER 1860. WIENER BRIEF. SCHREIBEN DES LEOPOLDSTAEDTERS AN DEN SCHOTTENFELDER. NESTROY'S ABSCHIED 293 1860-1862. DIE LETZTEN JAHRE. 140. 1.-4. NOVEMBER 1860. AUSGABEN AUF DER REISE NACH ISCHL (NESTROYS ,NOTIZBUCH') 297 141. 30. JAENNER 1861. NESTROYS TESTAMENT 297 142. 21. FEBRUAR 1861. A. SILBERSTEIN, NESTROY 301 143. 20. MAERZ 1861. VOLLMACHT FUER C. W. TREMEL 304 144. 27. MAERZ 1861. ZESSION EINES BETRAGES VON 6300 GULDEN AN DIE SPARKASSA 307</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">145. 2.-4. JUNI 1861. AUSGABEN AUF DER REISE NACH ISCHL (NESTROYS,NOTIZBUCH') 317 146. 13. JULI- 13. AUGUST 1861. AUSGABEN AUF DER REISE NACH SCHEVENINGEN (NESTROYS ,NOTIZBUCH') 319 147. 13. OKTOBER 1861. AUSGABEN AUF DER REISE NACH WIEN (NESTROYS ,NOTIZBUCH') 329 148. 4. DEZEMBER 1861. ZENSUR FUER FRUEHERE VERHAELTNISSE 330 XI 149. 13. JAENNER 1862. ZENSUR FUER ZEITVERTREIB 330 150. 16. JAENNER 1862. ZENSUR FUER DER BOESE GEIST LUMPACIVAGABUNDUS 330 1862 MAI/JUNI. TOD UND BEGRAEBNIS. 151. 24. MAI 1862. DER BOTSCHAFTER 332 152. 25. MAI 1862. TOD NESTROYS (STERBEREGISTER) 333 153. 25. MAI 1862. TAGESPOST 334 154. 26. MAI 1862. TODFALLSAUFNAHME 335 155. 26. MAI 1862. OBDUKTIONSBEFUND 337 156. 26. MAI 1862. TAGESPOST 338 157. 26. MAI 1862. DIE PRESSE 339 158. 27. MAI 1862. RECHNUNG UEBER DIE AUFBAHRUNG IN GRAZ 340 159. 27. MAI 1862. C. PFEIFER - E. STOLZ, SCHEIDEGRUSS 341 160. 27. MAI 1862. FREMDENBLATT 342 161. 27. MAI 1862. S. SCHLESINGER, NESTROY 343 162. 27. MAI 1862. TAGESPOST 346 163. 27. MAI 1862. NEKROLOG 347 164. 27. MAI 1862. JOHANN NESTROY (DER WANDERER) 347 165. 28. MAI 1862. RECHNUNG FUER DIE OBDUKTION 351 166. 28. MAI 1862. JOHANN NESTROY (DONAUZEITUNG) 352 167. 28. MAI 1862. FREMDENBLATT 355 168. 28. MAI 1862. N.JOHANN NESTROY 356 169. 29. MAI 1862. A. LANGER, AM SARGE NESTROY 'S 357 170. 29. MAI 1862. NESTROY'S LEICHENBEGAENGNISS IN GRAZ 362 171. 30. MAI 1862. TODESANZEIGE 363 172. 30. MAI 1862. FREMDENBLATT 364 173. [30. MAI 1862]. TELHDM, JOHANN NESTROY 365 174. 31. MAI 1862. H - G. AUS GRAZ. NESTROY'S LEICHENFEIER 367 175. 31. MAI 1862. IM ELISIUM 368 176. 31.MAIL862.W.,ZNE VISION 371 177. ENDE MAI/ANFANG JUNI 1862. A. MUELLER, GRABGESANG FUER JOHANN NESTROY 373 178. 1. JUNI 1862. C. F. STIX, NESTROY IM HIMMEL 374 179. 1. JUNI 1862. F. UHL, WIENER CHRONIK. JOHANN NESTROY 377 180. 1. JUNI 1862. L. KOMPERT, JOHANN NESTROY. EIN NACHRUF 383 181. 1. JUNI 1862. BRIEFE EINES MUESSIGGAENGERS 388</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">182. L.JUNIL862. S. SCHLESINGER, VOM TAGE 392 183. 1. JUNI 1862. M. KLAPP, ZUM ANDENKEN AN NESTROY 393 XII 184. 2. JUNI 1862. RECHNUNG FUER DIE HERSTELLUNG DER GRUFT 395 185. 2. JUNI 1862. VORMERKBUCH DES WAEHRINGER FRIEDHOFAUFSEHERS 397 186. 2. JUNI 1862. GRAEBERVERZEICHNIS DES WAEHRINGER ORTSFRIEDHOFS 397 187. 2. JUNI 1862. FREMDENBLATT 397 188. 2. JUNI 1862. C. PFEIFER JOHANN NESTROY 398 189. 2. JUNI 1862. E. EISERLE JOHANN NESTROY 400 190. 3. JUNI 1862. S., NESTROY'S LEICHENBEGAENGNISS 403 191. 3. JUNI 1862. DAS LEICHENBEGAENGNISS NESTROY'S 404 192. 3. JUNI 1862. WIENER ZEITUNG 405 193. 3. JUNI 1862. E. EISERLE, NESTROY'S LEICHENFEIER 407 194. [3. JUNI?] 1862. MUNGANAST, NESTROY IM OLYMP 412 195. 6. JUNI 1862. BLAETTER FUER MUSIK, THEATER UND KUNST 415 196. 7. JUNI 1862. E. M., NESTROY'S LEICHENBEGAENGNISS 416 197. 8. JUNI 1862. JOHANN NESTROY (RECENSIONEN UND MITTHEILUNGEN UEBER THEATER, MUSIK UND BILDENDE KUNST) 417 198. 9. JUNI 1862. A. SILBERSTEIN, AUS DER GEGENWART 424 199. 15. JUNI 1862. E. KUH, ARISTOPHANES - NESTROY 427 200. 15. JUNI 1862. DIE PRESSE 435 201. 23. JUNI 1862. F. WALLNER, NOCH ETWAS UEBER NESTROY 436 ROLLENVERZEICHNISSE 1822-1831. ZU JOHANN NESTROYS THEATERTAGEBUECHERN 441 202. ROLLENVERZEICHNIS 24. 8. 1822-2. 4. 1830 446 203. ROLLENVERZEICHNIS 4. 10. 1823-5. 1.1828 514 204. ROLLENVERZEICHNIS 12. 4. 1830-26. 3. 1831 539 205. ROLLENVERZEICHNIS 24. 8.1822-6. 8.1826 550 206. ROLLENVERZEICHNIS 1822-1830 599 EINNAHMENVERZEICHNISSE (1838-1842 UND 1851-1854). 207. 16. NOVEMBER 1838-23. FEBRUAR 1842. PROTOCOLL DER EINNAHME 646 208. 1. JUNI 1851 - 10. SEPTEMBER 1854. SPIELHONORARBUCH 698 VERZEICHNIS DER WERKE VON A. TROMLITZ 209. TROMLITZ IN 3 LIEFERUNGEN 742 ABBILDUNGEN 745 PERSONENREGISTER 769 ORTSREGISTER 790 TITELREGISTER 793</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057960</subfield>
+            <subfield code="m">&lt;Dokumente&gt;.^Johann Nestroy - Dokumente.^2009</subfield>
+            <subfield code="n">Sämtliche Werke.^1977</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">10</subfield>
+            <subfield code="d">CPMN1395-D</subfield>
+            <subfield code="i">2009/147</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20090317</subfield>
+            <subfield code="5">1108271-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

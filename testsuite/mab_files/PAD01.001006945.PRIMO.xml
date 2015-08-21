@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001006945</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00386pM2.01200024------u</leader>
+          <controlfield tag="LDR">00386pM2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT014038346</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT002919097</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20081106</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">19990517</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20090330</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT002919097</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">HBZHT002919097</subfield>
+          </datafield>
+          <controlfield tag="030">a|1ua||z|||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">82</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">292</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">292</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">361</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">14</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">14</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Diestelkamp, Bernhard</subfield>
+            <subfield code="d">1929-</subfield>
+            <subfield code="9">(DE-588)119170906</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="2">
+            <subfield code="k">Akademie der Wissenschaften und der Literatur</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">&lt;&lt;Die&gt;&gt; Zeit Wenzels 1397 - 1400</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Urkundenregesten zur Tätigkeit des deutschen Königs- und Hofgerichts bis 1451</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">bearb. von Ute Rödel</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">Akademie der Wissenschaften und der Literatur, Mainz. Hrsg. von Bernhard Diestelkamp</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Köln [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Böhlau</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">1986</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2004</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">LXVIII, 384 S.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Quellen und Forschungen zur höchsten Gerichtsbarkeit im alten Reich : Sonderreihe ; 14</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="2">
+            <subfield code="a">Quellen und Forschungen zur höchsten Gerichtsbarkeit im alten Reich : Sonderreihe ; ...</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT003165994</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">14</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">14</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-412-12902-X</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">330</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">353</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">600</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">PW 2270</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">PW 3000</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">NM 1100</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">330</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">353</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">NT 2101</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">NM 1100</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">PW 2270</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">PW 3000</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="z">Geschichte 1397-1400</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Reichshofgericht</subfield>
+            <subfield code="9">(DE-588)4049139-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="z">Geschichte 911-1451</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="f">Regest</subfield>
+          </datafield>
+          <datafield tag="903" ind1="-" ind2="1">
+            <subfield code="a">0</subfield>
+          </datafield>
+          <controlfield tag="SYS">001006945</controlfield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Academy of Sciences and Literature</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Akademie der Wissenschaften und Literatur</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Academia Scientiarum et Literarum</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Akademie der Wissenschaften und der Literatur</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Academy of Sciences and Literature</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Akademie der Wissenschaften und Literatur</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Academia Scientiarum et Literarum</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Akademie der Wissenschaften und der Literatur</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carlo</subfield>
+            <subfield code="c">di Lussemburgo</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Bohemia, Rex</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Imperium Romano-Germanicum, Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Allemagne, Empereur</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="c">Bourgogne, Roi</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="c">de Luxembourg</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Germany, Emperor</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="c">Burgund, König</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="c">Mähren, Markgraf</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="c">von Luxemburg</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Wenceslas</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Wenzel</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Imperator Romanorum</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carl</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Romanorum Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Germania, Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karel</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="c">IV:</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carlo</subfield>
+            <subfield code="c">di Lussemburgo</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Bohemia, Rex</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Imperium Romano-Germanicum, Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Allemagne, Empereur</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="c">Bourgogne, Roi</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="c">de Luxembourg</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Charles</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Germany, Emperor</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="c">Burgund, König</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="c">Mähren, Markgraf</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karl</subfield>
+            <subfield code="c">von Luxemburg</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Wenceslas</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Wenzel</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Imperator Romanorum</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carl</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Römisch-Deutsches Reich, Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Kaiser</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Romanorum Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="c">Germania, Imperator</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Karel</subfield>
+            <subfield code="n">IV.</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Carolus</subfield>
+            <subfield code="c">IV:</subfield>
+            <subfield code="d">1316-1378</subfield>
+            <subfield code="9">(DE-588)118560085</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Academy of Sciences and Literature</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Akademie der Wissenschaften und Literatur</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Academia Scientiarum et Literarum</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Akademie der Wissenschaften und der Literatur</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Academy of Sciences and Literature</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Akademie der Wissenschaften und Literatur</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Academia Scientiarum et Literarum</subfield>
+            <subfield code="h">Mainz</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Akademie der Wissenschaften und der Literatur</subfield>
+            <subfield code="9">(DE-588)35487-9</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000438377</subfield>
+            <subfield code="m">14;^.^&lt;&lt;Die&gt;&gt; Zeit Wenzels 1397 - 1400.^2004</subfield>
+            <subfield code="n">Urkundenregesten zur Tätigkeit des deutschen Königs- und Hofgerichts bis 1451.^1986</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000479391</subfield>
+            <subfield code="m">14.^&lt;&lt;Die&gt;&gt; Zeit Wenzels 1397 - 1400.^2004</subfield>
+            <subfield code="n">Quellen und Forschungen zur höchsten Gerichtsbarkeit im alten Reich / Sonderreihe.^1988</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">LKL2468-14</subfield>
+            <subfield code="i">08/12860</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20081119</subfield>
+            <subfield code="5">1027268-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
