@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000178500</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00513vM2.01200024------h</leader>
+          <controlfield tag="LDR">00513vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT001109705</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19980907</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20061120</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">s|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">467</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">82</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Söll, Georg</subfield>
+            <subfield code="9">(DE-588)105547476</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Mariologie</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Georg Söll</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Freiburg im Breisgau [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Herder</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1978</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">VI, 255 S.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Handbuch der Dogmengeschichte : Band 3 ; Fasz. 4</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT001231518</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">Bd. 3, Christologie, Soteriologie, Ekklesiologie, Mariologie, Gnadenlehre ; Fasz.4</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">3,4</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-451-00729-0</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">450</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Mariologie</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <controlfield tag="SYS">000178500</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marienlehre</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marienkunde</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marienlehre</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marienkunde</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marienlehre</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marienkunde</subfield>
+            <subfield code="9">(DE-588)4074572-7</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">IOL</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Mariologie</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=4964813&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: MARIOLOGIE AUTOR: SOELL, GEORG JAHR: 1978 INHALT VORBEMERKUNG..................................... 2 A) ZUR KONZEPTION............................... 2 B) ZUR LITERATUR ................................ 3 ERSTES KAPITEL: DIE GRUNDLEGUNG DER MARIENLEHRE BIS ZUM JAHR 200........ 5  1. MARIA IM NEUEN TESTAMENT .......................... 5 A) PAULUS .................................... 9 B) MARKUS.................................... 11 C) MATTHAEUS................................... 12 D) LUKAS .................................... 14 E) JOHANNES................................... 20 F) DIE VERBINDUNG VON MARIOLOGIE UND CHRISTOLOGIE IM NT........ 21  2. DAS MARIENBILD DER APOKRYPHEN ....................... 24  3. DIE ERSTEN MARIOLOGISCHEN ZEUGNISSE DER TRADITION ............. 30 A) IGNATIUS VON ANTIOCHIEN (UM 110)..................... 31 B) JUSTIN DER MAERTYRER (UM 165) ....................... 33 C) IRENAEUS VON LYON (202)........................... 34 ZWEITES KAPITEL: DER GANG DER MARIENLEHRE BIS ZUM KONZIL VON CHALCEDON (451) 41  4. DIE VORBEDINGUNGEN FUER DAS DOGMA VON DER GOTTESMUTTERSCHAFT MARIENS: NIKAIA (325) .................................. 41 A) DIE VIRGINITAS MARIAE ANTE PARTUM..................... 42 B) DIE VIRGINITAS POST PARTUM ......................... 44 C) DIE VIRGINITAS IN PARTU ........................... 46 D) DAS ETHISCHE MARIENBILD .......................... 47 E) DIE GOTTESMUTTERSCHAFT........................... 48 F) MARIA UND DIE KIRCHE............................ 49 G) DER ARIANISMUS UND DAS KONZIL VON NIKAIA ............... 50  5. MARIA IM GESAMTKIRCHLICHEN SYMBOLUM: KONSTANTINOPEL (381) ....... 51 A) DIE IMMERWAEHRENDE JUNGFRAEULICHKEIT MARIENS .............. 52 B) DIE GOTTESMUTTERSCHAFT........................... 60 C) DAS ETHISCHE MARIENBILD .......................... 63 D) MARIA IN KULT UND SYMBOLUM........................ 66  6. MARIA IM ALTKIRCHLICHEN DOGMA VON EPHESUS (431) UND CHALCEDON (451) . 73</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">A) DIE IMMERWAEHRENDE JUNGFRAEULICHKEIT ................... 74 B) DAS ETHISCHE MARIENBILD .......................... 81 C) DIE GOTTESMUTTERSCHAFT........................... 88 RUECKBLICK ....................................... 96 VI INHALT III/4 DRITTES KAPITEL: DER FORTSCHRITT DER MARIENLEHRE BIS ZUM AUSGANG DER VAETERZEIT . 100  7. DIE ANERKENNUNG DER IMMERWAEHRENDEN JUNGFRAEULICHKEIT MARIENS: KON- STANTINOPEL 553 ................................. 101 A) DIE HEILIGKEIT UND HEILSWIRKSAMKEIT MARIENS .............. 101 B) DIE FRAGE NACH BESONDEREN PRIVILEGIEN DER GOTTESMUTTER ........ 103 C) DIE IMMERWAEHRENDE JUNGFRAEULICHKEIT (AEIPARTHENIA) MARIENS...... 105  8. DIE FORTENTWICKLUNG DER NEUEN MARIOLOGISCHEN DOGMEN BIS ZUM 2. KONZIL VON NIKAIA (787) ................................ 110 A) DAS ENDSCHICKSAL DER GOTTESMUTTER..................... 112 B) DIE MAKELLOSIGKEIT DER JUNGFRAU...................... 129 VIERTES KAPITEL: DIE MARIOLOGISCHE ENTWICKLUNG IM MITTELALTER UND IN DER NEUZEIT 135  9. DIE WEITERE ENTFALTUNG DER MARIENLEHRE IN DER OSTKIRCHE BIS ZUM FALL VON KONSTANTINOPEL (1453).............................. 136 A) DIE IMMACULATA............................... 137 B) DIE ASSUMPTA................................ 144  10. DER WEG DER NEUEN DOGMEN IN DER WESTKIRCHE BIS ZUM KONZIL VON TRIENT (1546) ...................................... 146 A) DIE AUSGANGSSITUATION BIS ZUM 9. JAHRHUNDERT .............. 149 B) DAS THEOLOGISCHE FUER UND WIDER DIE LEIBLICHE AUFNAHME MARIENS ... 158 C) DER WERDEGANG DES GLAUBENS AN DIE ERBSUENDENFREIHEIT MARIENS...... 164 D) DAS RINGEN DER SCHULEN UND DIE STELLUNG DES LEHRAMTS......... 177 11. DIE SCHLUSSPHASE IM RINGEN UM DAS DOGMA VON DER UNBEFLECKTEN EMPFAENG- NIS MARIENS BIS ZUR DEFINITION 1854...................... 193 A) DIE FORTENTWICKLUNG DES ASSUMPTA-GLAUBENS IM 19. JAHRHUNDERT . . . 195 B) DAS IMMACULATA-DOGMA IM LETZTEN WIDERSTREIT............... 198</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">C) DIE VORBEREITUNG DER DOGMATISIERUNG UND DAS LEHRURTEIL VON 1854 . . 207  12. DIE ASSUMPTIONISTISCHEN BEWEGUNGEN UND DIE DEFINITION DER HIMMELAUF- NAHME MARIENS 1950 .............................. 215 ANALYSE UND RUECKBLICK................................ 228 A) DIE DEFINITIONSDOKUMENTE UND IHRE ARGUMENTATION........... 228 B) DIE FRAGE DER OPPORTUNITAET DER DOGMATISIERUNG............. 229 C) DAS PROBLEM DER LEGITIMITAET DER NEUEN MARIENDOGMEN ......... 230 EPILOG ......................................... 234 A) DIE PROKLAMATION VON "MARIA, KOENIGIN" (1954) UND "MARIA, MUTTER DER KIRCHE" (1964) ................................. 234 B) MARIA AUF DEM 2. VATIKANISCHEN KONZIL .................. 238 C) DIE NACHKONZILIARE MARIOLOGIE....................... 240 D) DIE GESCHICHTE DER MARIENDOGMEN UND DAS OEKUMENISCHE GESPRAECH . . 251</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000202777</subfield>
+            <subfield code="m">Bd. 3, Christologie, Soteriologie, Ekklesiologie, Mariologie, Gnadenlehre ; Fasz.4.^Mariologie.^1978</subfield>
+            <subfield code="n">Handbuch der Dogmengeschichte.^1951</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">10</subfield>
+            <subfield code="d">IOL1299-3,4</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">193466-10</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">IOL1299-3,4+1</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">193466-20</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

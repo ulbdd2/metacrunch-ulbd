@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000000872</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00718vM2.01200024------h</leader>
+          <controlfield tag="LDR">00718vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT000004180</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19941102</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20090428</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT000004180</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">sk||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">38 M</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Kasper, Heinrich</subfield>
+            <subfield code="d">1932-</subfield>
+            <subfield code="9">(DE-588)104531460</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Arnold, Rudolf</subfield>
+            <subfield code="9">(DE-588)101861141</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Aktuelle Probleme der klinischen Diätetik</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Erkrankungen des Verdauungstraktes ; 30 Tabellen</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">hrsg. von Heinrich Kasper. Mit Beitr. von R. Arnold ...</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Stuttgart</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Thieme</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1978</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">99 S. : graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">... Wissenschaftliche Tagung der Arbeitsgemeinschaft für Klinische Diätetik ; 2</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT001310809</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield tag="461" ind1="-" ind2="1">
+            <subfield code="a">Aktuelle Ernährungsmedizin ; [3], Suppl.</subfield>
+          </datafield>
+          <datafield tag="463" ind1="-" ind2="1">
+            <subfield code="a">HT002182783</subfield>
+          </datafield>
+          <datafield tag="465" ind1="-" ind2="1">
+            <subfield code="a">[3], Suppl</subfield>
+          </datafield>
+          <datafield tag="466" ind1="-" ind2="1">
+            <subfield code="a">3,S,2</subfield>
+          </datafield>
+          <datafield tag="516" ind1="-" ind2="1">
+            <subfield code="a">Beitr. teilw. dt., teilw. engl.</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-13-564001-9</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">YT 7000</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Gastrointestinale Krankheit</subfield>
+            <subfield code="9">(DE-588)4114483-1</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Ernährung</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Kongress</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="g">Würzburg &lt;1977&gt;</subfield>
+          </datafield>
+          <datafield tag="903" ind1="-" ind2="1">
+            <subfield code="a">2134</subfield>
+          </datafield>
+          <controlfield tag="SYS">000000872</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Magen-Darm-Krankheit</subfield>
+            <subfield code="9">(DE-588)4114483-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Magen-Darm-Kanal</subfield>
+            <subfield code="x">Krankheit</subfield>
+            <subfield code="9">(DE-588)4114483-1</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Kasper-Zang, ...</subfield>
+            <subfield code="d">1932-</subfield>
+            <subfield code="9">(DE-588)104531460</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Kasper, H.</subfield>
+            <subfield code="d">1932-</subfield>
+            <subfield code="9">(DE-588)104531460</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Kasper-Zang, ...</subfield>
+            <subfield code="d">1932-</subfield>
+            <subfield code="9">(DE-588)104531460</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Kasper, H.</subfield>
+            <subfield code="d">1932-</subfield>
+            <subfield code="9">(DE-588)104531460</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Magen-Darm-Krankheit</subfield>
+            <subfield code="9">(DE-588)4114483-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Magen-Darm-Kanal</subfield>
+            <subfield code="x">Krankheit</subfield>
+            <subfield code="9">(DE-588)4114483-1</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">RRT</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000312675</subfield>
+            <subfield code="m">[3], Suppl.^Aktuelle Probleme der klinischen Diätetik.^1978</subfield>
+            <subfield code="n">Aktuelle Ernährungsmedizin.^1976</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000218603</subfield>
+            <subfield code="m">2.^Aktuelle Probleme der klinischen Diätetik.^1978</subfield>
+            <subfield code="n">... wissenschaftliche Tagung der Arbeitsgemeinschaft für Klinische Diätetik.^</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">41</subfield>
+            <subfield code="d">RRT2927</subfield>
+            <subfield code="i">81/2335</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">824-10</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="i">81/2336</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">824-20</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

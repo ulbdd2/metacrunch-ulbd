@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001559463</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00390nM2.01200024------h</leader>
+          <controlfield tag="LDR">00390nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT017294924</subfield>
+          </datafield>
+          <datafield tag="002" ind1="b" ind2="1">
+            <subfield code="a">20120704</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20130416</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">1022719564</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">1022719564</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">DNB1022719564</subfield>
+          </datafield>
+          <controlfield tag="030">a|1daz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE-NW</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="051">nx||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">Kn 28</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Denneborg, Annika</subfield>
+            <subfield code="9">(DE-588)1022719505</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Dreiner, Esther</subfield>
+            <subfield code="9">(DE-588)121650286</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Lebensfreude</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Arbeitsbuch Religion</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">erarb. von Annika Denneborg ... Hrsg. von Esther Dreiner ...</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">[Grundschule]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Paderborn</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Schöningh</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">2012</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Schöningh Schulbuch</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">S</subfield>
+          </datafield>
+          <controlfield tag="SYS">001559463</controlfield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">IVN</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001559464</subfield>
+            <subfield code="m">Lebensfreude.^2012</subfield>
+            <subfield code="n">1./2. Schuljahr;^[Schülerbd.];^.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001559465</subfield>
+            <subfield code="m">Lebensfreude.^2012</subfield>
+            <subfield code="n">1./2. Schuljahr;^Lehrerbd.;^.^2012</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">UEO</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">10</subfield>
+            <subfield code="d">IVN1116-...</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">1559975-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
