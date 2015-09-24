@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/datafield_089"
@@ -9,7 +9,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitle < Metacrunch::Tran
   include parent::Helpers::Merge
 
   def call
-    target ? MightyHash.add(target, "title", title) : title
+    target ? Metacrunch::Hash.add(target, "title", title) : title
   end
 
   private

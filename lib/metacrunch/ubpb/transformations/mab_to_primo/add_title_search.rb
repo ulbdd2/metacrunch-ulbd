@@ -1,11 +1,11 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_title_display"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "title_search", title_search) : title_search
+    target ? Metacrunch::Hash.add(target, "title_search", title_search) : title_search
   end
 
   private

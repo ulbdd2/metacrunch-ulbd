@@ -1,11 +1,11 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_is_suborder"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddErscheinungsform < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "erscheinungsform", erscheinungsform) : erscheinungsform
+    target ? Metacrunch::Hash.add(target, "erscheinungsform", erscheinungsform) : erscheinungsform
   end
 
   private

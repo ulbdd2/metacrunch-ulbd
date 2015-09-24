@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/corporate_body_from_field"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddCorporateBodyCreatorDisp
   include parent::Helpers::CorporateBodyFromField
   
   def call
-    target ? MightyHash.add(target, "corporate_body_creator_display", corporate_body_creator_display) : corporate_body_creator_display
+    target ? Metacrunch::Hash.add(target, "corporate_body_creator_display", corporate_body_creator_display) : corporate_body_creator_display
   end
 
   private

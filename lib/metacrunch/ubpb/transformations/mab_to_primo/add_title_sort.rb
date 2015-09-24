@@ -1,11 +1,11 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_title"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSort < Metacrunch::Transformator::Transformation::Step
   def call
-    MightyHash.add(target, "title_sort", title_sort)
+    Metacrunch::Hash.add(target, "title_sort", title_sort)
   end
 
   private

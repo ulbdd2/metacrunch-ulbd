@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/merge"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddIsPartOf < Metacrunch::T
   include parent::Helpers::Merge
 
   def call
-    target ? MightyHash.add(target, "is_part_of", is_part_of) : is_part_of
+    target ? Metacrunch::Hash.add(target, "is_part_of", is_part_of) : is_part_of
   end
 
   private

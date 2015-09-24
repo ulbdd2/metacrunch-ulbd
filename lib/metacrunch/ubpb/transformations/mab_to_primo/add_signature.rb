@@ -1,10 +1,10 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignature < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "signature", signature) : signature
+    target ? Metacrunch::Hash.add(target, "signature", signature) : signature
   end
 
   private

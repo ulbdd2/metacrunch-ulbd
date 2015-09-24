@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/datafield_089"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleDisplay < Metacrunc
   include parent::Helpers::Datafield089
 
   def call
-    target ? MightyHash.add(target, "title_display", title_display) : title_display
+    target ? Metacrunch::Hash.add(target, "title_display", title_display) : title_display
   end
 
   private

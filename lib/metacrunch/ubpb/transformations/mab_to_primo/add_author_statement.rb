@@ -1,10 +1,10 @@
-require "mighty_hash" 
+require "metacrunch/hash" 
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddAuthorStatement < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "author_statement", author_statement) : author_statement
+    target ? Metacrunch::Hash.add(target, "author_statement", author_statement) : author_statement
   end
 
   private

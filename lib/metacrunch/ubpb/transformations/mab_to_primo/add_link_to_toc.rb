@@ -1,10 +1,10 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddLinkToToc < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "link_to_toc", link_to_toc) : link_to_toc
+    target ? Metacrunch::Hash.add(target, "link_to_toc", link_to_toc) : link_to_toc
   end
 
   private

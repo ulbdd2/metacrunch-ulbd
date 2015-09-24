@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_erscheinungsform"
@@ -6,7 +6,7 @@ require_relative "./add_materialtyp"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddDeliveryCategory < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "delivery_category", delivery_category) : delivery_category
+    target ? Metacrunch::Hash.add(target, "delivery_category", delivery_category) : delivery_category
   end
 
   private

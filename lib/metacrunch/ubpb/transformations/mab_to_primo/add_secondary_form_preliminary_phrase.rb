@@ -1,10 +1,10 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddSecondaryFormPreliminaryPhrase < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "secondary_form_preliminary_phrase", secondary_form_preliminary_phrase) : secondary_form_preliminary_phrase
+    target ? Metacrunch::Hash.add(target, "secondary_form_preliminary_phrase", secondary_form_preliminary_phrase) : secondary_form_preliminary_phrase
   end
 
   private

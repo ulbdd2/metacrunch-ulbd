@@ -1,10 +1,10 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddRelation < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "relation", relation) : relation
+    target ? Metacrunch::Hash.add(target, "relation", relation) : relation
   end
 
   private

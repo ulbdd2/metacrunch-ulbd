@@ -1,11 +1,11 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_creator_contributor_display"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "creator_contributor_search", creator_contributor_search) : creator_contributor_search
+    target ? Metacrunch::Hash.add(target, "creator_contributor_search", creator_contributor_search) : creator_contributor_search
   end
 
   private

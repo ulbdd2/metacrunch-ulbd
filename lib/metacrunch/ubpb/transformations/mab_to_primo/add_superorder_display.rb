@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/datafield_089"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddSuperorderDisplay < Meta
   include parent::Helpers::Datafield089
 
   def call
-    target ? MightyHash.add(target, "superorder_display", superorder_display) : superorder_display
+    target ? Metacrunch::Hash.add(target, "superorder_display", superorder_display) : superorder_display
   end
 
   private

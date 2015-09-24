@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/merge"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddFormat < Metacrunch::Tra
   include parent::Helpers::Merge
 
   def call
-    target ? MightyHash.add(target, "format", format) : format
+    target ? Metacrunch::Hash.add(target, "format", format) : format
   end
 
   private

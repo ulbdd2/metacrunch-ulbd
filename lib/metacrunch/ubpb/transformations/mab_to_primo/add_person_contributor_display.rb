@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/datafield_1xx"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddPersonContributorDisplay
   include parent::Helpers::Datafield1XX
 
   def call
-    target ? MightyHash.add(target, "person_contributor_display", person_contributor_display) : person_contributor_display
+    target ? Metacrunch::Hash.add(target, "person_contributor_display", person_contributor_display) : person_contributor_display
   end
 
   private

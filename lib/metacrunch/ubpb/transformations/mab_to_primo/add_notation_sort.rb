@@ -1,11 +1,11 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_notation"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddNotationSort < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "notation_sort", notation_sort) : notation_sort
+    target ? Metacrunch::Hash.add(target, "notation_sort", notation_sort) : notation_sort
   end
 
   private

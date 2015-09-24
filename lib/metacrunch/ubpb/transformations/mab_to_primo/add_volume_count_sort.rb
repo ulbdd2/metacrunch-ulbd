@@ -1,10 +1,10 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddVolumeCountSort < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? MightyHash.add(target, "volume_count_sort", volume_count_sort) : volume_count_sort
+    target ? Metacrunch::Hash.add(target, "volume_count_sort", volume_count_sort) : volume_count_sort
   end
 
   private

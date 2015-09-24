@@ -1,4 +1,4 @@
-require "mighty_hash"
+require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/is_superorder"
@@ -7,7 +7,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreationdate < Metacrunc
   include parent::Helpers::IsSuperorder
 
   def call
-    target ? MightyHash.add(target, "creationdate", creationdate) : creationdate
+    target ? Metacrunch::Hash.add(target, "creationdate", creationdate) : creationdate
   end
 
   private
