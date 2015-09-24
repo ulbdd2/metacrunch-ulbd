@@ -1,9 +1,9 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_creationdate"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreationdateSearch < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreationdateSearch < Metacrunch::Transformator::Transformation::Step
   def call
     target ? MightyHash.add(target, "creationdate_search", creationdate_search) : creationdate_search
   end

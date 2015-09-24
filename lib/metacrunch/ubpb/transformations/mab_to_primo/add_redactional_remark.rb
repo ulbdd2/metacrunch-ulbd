@@ -1,8 +1,8 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddRedactionalRemark < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddRedactionalRemark < Metacrunch::Transformator::Transformation::Step
   def call
     target ? MightyHash.add(target, "redactional_remark", redactional_remark) : redactional_remark
   end

@@ -1,9 +1,9 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/corporate_body_from_field"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddCorporateBodyCreatorDisplay < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddCorporateBodyCreatorDisplay < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::CorporateBodyFromField
   
   def call

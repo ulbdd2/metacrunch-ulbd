@@ -26,4 +26,3 @@ gem "metacrunch",               ">= 2.1.0", github: "ubpb/metacrunch",      bran
 gem "metacrunch-mab2",          ">= 1.0.0", github: "ubpb/metacrunch-mab2", branch: "master"
 gem "metacrunch-elasticsearch", ">= 1.0.0", github: "ubpb/metacrunch-elasticsearch", branch: "master"
 gem "mighty_hash",                          github: "msievers/mighty_hash", branch: :master
-gem "transformator",                        github: "ubpb/transformator",   branch: :master

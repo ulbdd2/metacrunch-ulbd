@@ -1,9 +1,9 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/merge"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddFormat < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddFormat < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::Merge
 
   def call

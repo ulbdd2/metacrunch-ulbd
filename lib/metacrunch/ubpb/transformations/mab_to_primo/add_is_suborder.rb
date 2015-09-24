@@ -1,9 +1,9 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_superorder_display"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddIsSuborder < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddIsSuborder < Metacrunch::Transformator::Transformation::Step
   def call
     target ? MightyHash.add(target, "is_suborder", is_suborder) : is_suborder
   end

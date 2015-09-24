@@ -1,8 +1,8 @@
 require "mighty_hash" 
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddStatus < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddStatus < Metacrunch::Transformator::Transformation::Step
   def call
     target ? MightyHash.add(target, "status", status) : status
   end

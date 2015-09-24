@@ -1,9 +1,9 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_creator_contributor_display"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorFacet < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorFacet < Metacrunch::Transformator::Transformation::Step
   def call
     target ? MightyHash.add(target, "creator_contributor_facet", creator_contributor_facet) : creator_contributor_facet
   end

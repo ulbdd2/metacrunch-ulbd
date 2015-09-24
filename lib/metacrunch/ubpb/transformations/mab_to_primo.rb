@@ -1,10 +1,10 @@
 require "active_support"
 require "active_support/core_ext"
 require "metacrunch/mab2/document"
-require "transformator/transformation"
+require "metacrunch/transformator/transformation"
 require_relative "../transformations"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo < Transformator::Transformation
+class Metacrunch::UBPB::Transformations::MabToPrimo < Metacrunch::Transformator::Transformation
   require_directory "#{File.dirname(__FILE__)}/mab_to_primo"
 
   # @param [String] source repesenting a MAB document in Aleph MAB XML format

@@ -1,8 +1,8 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddSecondaryFormPublisher < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddSecondaryFormPublisher < Metacrunch::Transformator::Transformation::Step
   def call
     target ? MightyHash.add(target, "secondary_form_publisher", secondary_form_publisher) : secondary_form_publisher
   end

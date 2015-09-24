@@ -1,10 +1,10 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/datafield_089"
 require_relative "./helpers/merge"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitle < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitle < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::Datafield089
   include parent::Helpers::Merge
 

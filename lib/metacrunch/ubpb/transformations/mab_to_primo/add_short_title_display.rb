@@ -1,9 +1,9 @@
 require "mighty_hash"
-require "transformator/transformation/step"
+require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./helpers/datafield_089"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddShortTitleDisplay < Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddShortTitleDisplay < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::Datafield089
 
   def call
