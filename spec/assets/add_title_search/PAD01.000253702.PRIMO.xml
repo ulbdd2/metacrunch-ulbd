@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000253702</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT001359192</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19991119</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20130422103241</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">216425-5</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">011268964</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">216425-5</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">224455116</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">608672887</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB216425-5</subfield>
+          </datafield>
+          <controlfield tag="030">b|zucz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="052">p||||||zm||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">9001</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">1241</subfield>
+          </datafield>
+          <datafield tag="073" ind1="-" ind2="1">
+            <subfield code="a">21</subfield>
+          </datafield>
+          <datafield tag="076" ind1="-" ind2="1">
+            <subfield code="a">||a|||</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Deutsche Gesellschaft für Ernährung</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Ernährungs-Umschau</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Forschung &amp; Praxis ; Organ der Deutschen Gesellschaft für Ernährung e.V. (DGE), des Verbandes der Diätassistenten, Deutscher Bundesverband e.V. (VDD), der Gütegemeinschaft Diät und Vollkost e.V. (GDV), des Verbandes der Oecotrophologen e.V. (VDOE), des Bundesverbandes Deutscher Ernährungsmediziner e.V. (BDEM)</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">Gemeinschafts-Verpflegung</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">Zeitschrift über die Ernährung des Gesunden und Kranken</subfield>
+          </datafield>
+          <datafield tag="376" ind1="-" ind2="1">
+            <subfield code="a">Ernaehr.-Umsch.</subfield>
+          </datafield>
+          <datafield tag="376" ind1="-" ind2="1">
+            <subfield code="a">ERNAEHR UMSCH</subfield>
+          </datafield>
+          <datafield tag="376" ind1="-" ind2="1">
+            <subfield code="a">ERNAHR.-UMSCH.</subfield>
+          </datafield>
+          <datafield tag="376" ind1="b" ind2="1">
+            <subfield code="a">ERUMA</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">1.1954,1(Juni)-4; 2.1955 -</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Sulzbach, Ts.</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Umschau-Zeitschr.-Verl.</subfield>
+          </datafield>
+          <datafield tag="418" ind1="-" ind2="1">
+            <subfield code="a">Frankfurt, M.</subfield>
+            <subfield code="g">Umschau-Verl.</subfield>
+            <subfield code="h">anfangs</subfield>
+          </datafield>
+          <datafield tag="418" ind1="-" ind2="1">
+            <subfield code="a">Frankfurt, M.</subfield>
+            <subfield code="g">Umschau-Zeitschr.-Verl. Breidenstein</subfield>
+            <subfield code="h">-2006,2</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1954</subfield>
+          </datafield>
+          <datafield tag="507" ind1="-" ind2="1">
+            <subfield code="p">Zusatz bis 23.1976</subfield>
+            <subfield code="a"> Zeitschrift über die Ernährung des Gesunden und Kranken</subfield>
+          </datafield>
+          <datafield tag="509" ind1="-" ind2="1">
+            <subfield code="p">Beteil. Körp. bis 14.1967</subfield>
+            <subfield code="a"> Verband Deutscher Diätassistentinnen e.V. Frankfurt am Main; bis 24.1977: Vereinigung staatlich anerkannter Diätassistentinnen und Ernährungsberaterinnen Deutschlands e.V.; bis 42.1995,11: Verband Deutscher Diätassistenten e.V.; bis 46.1999: Gütegemeinschaft Diätverpflegung e.V. Düsseldorf</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="a">Ersch. monatl.</subfield>
+          </datafield>
+          <datafield tag="524" ind1="-" ind2="1">
+            <subfield code="p">Darin</subfield>
+            <subfield code="a"> Gemeinschafts-Verpflegung; ungezählte Beil. 32.1985 - 48.2001: Sonderheft</subfield>
+          </datafield>
+          <datafield tag="527" ind1="z" ind2="1">
+            <subfield code="p">Online-Ausg. ---&gt;</subfield>
+            <subfield code="a">Ernährungs-Umschau</subfield>
+            <subfield code="9">HT013494126</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">1991 - 1995 Beil. ---&gt;</subfield>
+            <subfield code="a">Arbeitsgemeinschaft Ernährungsverhalten: Schriftenreihe der Arbeitsgemeinschaft Ernährungsverhalten</subfield>
+            <subfield code="9">HT011196610</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">&lt;&lt;Die&gt;&gt; Gesundheit</subfield>
+            <subfield code="9">HT012623320</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">Deutsche Gesellschaft für Ernährung: DGE-Info</subfield>
+            <subfield code="9">HT007281869</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">Cholesterin, die andere Meinung</subfield>
+            <subfield code="9">HT007070729</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">1964 - 2007 Beil. ---&gt;</subfield>
+            <subfield code="a">Ernährungslehre und -Praxis</subfield>
+            <subfield code="9">HT002727722</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Ab 2007 Beil. ---&gt;</subfield>
+            <subfield code="a">Aktuell</subfield>
+            <subfield code="9">HT015488105</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">Zugl. Bd. von</subfield>
+            <subfield code="a">Deutsche Gesellschaft für Ernährung: Kurzfassung der Vorträge</subfield>
+            <subfield code="9">HT001317619</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">1978,Sonderh.=20 von</subfield>
+            <subfield code="a">Vereinigung Staatlich Anerkannter Diätassistentinnen und Ernährungsberaterinnen Deutschlands: Vorträge der Fortbildungstagung der Vereinigung Staatlich Anerkannter Diätassistentinnen und Ernährungsberaterinnen Deutschlands</subfield>
+            <subfield code="9">HT007576753</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">26,Sonderh.=21; 27,Sonderh.=22; 32,Sonderh.=27; 34,Sonderh.=29; 35,Sonderh.=30; 36,Sonderh.=31; 37,Sonderh.=32; 38,Sonderh.=33; 39,Sonderh.=34; 40,Sonderh.=35; 41,Sonderh.=36; 42,Sonderh.=37 von</subfield>
+            <subfield code="a">Verband Deutscher Diätassistenten: Vorträge der Fortbildungstagung des Verbandes Deutscher Diätassistenten e.V.</subfield>
+            <subfield code="9">HT001415014</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">43,Sonderh.=38; 44,Sonderh.=39; 45,Sonderh.=40; 46,Sonderh.=41; 48,Sonderh.=43 von</subfield>
+            <subfield code="a">Verband der Diätassistenten: Vorträge der Fortbildungstagung des Verbandes der Diätassistenten - Deutscher Bundesverband e.V.</subfield>
+            <subfield code="9">HT007965391</subfield>
+          </datafield>
+          <datafield tag="542" ind1="a" ind2="1">
+            <subfield code="a">0174-0008</subfield>
+          </datafield>
+          <datafield tag="542" ind1="a" ind2="1">
+            <subfield code="a">0014-021X</subfield>
+          </datafield>
+          <datafield tag="542" ind1="b" ind2="1">
+            <subfield code="a">0340-2341</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="a">ISSN 0174-0008 = Ernährungs-Umschau (1977) &lt;1977 -&gt;</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="a">ISSN 0340-2371 = Ernährungs-Umschau. Ausgabe B &lt;1964 - 1977&gt;</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="a">ISSN 0340-2320 = Ernährungs-Umschau. Ausgabe M &lt;1964 - 1977&gt;</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="a">ISSN 0014-021X = Ernährungs-Umschau &lt;1954 - 1964&gt;</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">610</subfield>
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">630</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">640</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">610</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">850 ; 970</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">670</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">800</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">ZA 2590</subfield>
+          </datafield>
+          <datafield tag="700" ind1="d" ind2="1">
+            <subfield code="a">27.3c</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Ernährung</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Zeitschrift</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Ernährung</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="f">Zeitschrift</subfield>
+          </datafield>
+          <datafield tag="909" ind1="-" ind2="1">
+            <subfield code="a">DE-101DE-101</subfield>
+          </datafield>
+          <controlfield tag="SYS">000253702</controlfield>
+          <datafield tag="016" ind1="-" ind2="1">
+            <subfield code="a">943728606</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="406" ind1="b" ind2="1">
+            <subfield code="j">1954</subfield>
+          </datafield>
+          <datafield tag="705" ind1="-" ind2="1">
+            <subfield code="a">613.205</subfield>
+            <subfield code="c">613.2</subfield>
+            <subfield code="e">DDC22ger</subfield>
+            <subfield code="f">05</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Gesellschaft für Ernährung</subfield>
+            <subfield code="h">Deutschland, Bundesrepublik</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Ernährungsgesellschaft Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">German Society of Nutrition</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Society of Nutrition</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Gesellschaft für Ernährung</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">German Nutrition Society</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Nemško Prehransko Društvo</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Prehransko Društvo</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">DGE</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Gesellschaft für Ernährung</subfield>
+            <subfield code="h">Deutschland, Bundesrepublik</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Ernährungsgesellschaft Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">German Society of Nutrition</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Society of Nutrition</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Gesellschaft für Ernährung</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">German Nutrition Society</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Nemško Prehransko Društvo</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Prehransko Društvo</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">DGE</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Gesellschaft für Ernährung</subfield>
+            <subfield code="h">Deutschland, Bundesrepublik</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Ernährungsgesellschaft Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">German Society of Nutrition</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Society of Nutrition</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Gesellschaft für Ernährung</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">German Nutrition Society</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Nemško Prehransko Društvo</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Prehransko Društvo</subfield>
+            <subfield code="h">Deutschland</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">DGE</subfield>
+            <subfield code="9">(DE-588)2008060-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Nutrition</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungsstatus</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ernährungszustand</subfield>
+            <subfield code="9">(DE-588)4015332-0</subfield>
+          </datafield>
+          <datafield tag="200" ind1=" " ind2=" ">
+            <subfield code="0">1</subfield>
+            <subfield code="b">3.1956; 5.1958 -</subfield>
+            <subfield code="f">P 40/55 e 3</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000359443</subfield>
+            <subfield code="m">Ernährungs-Umschau.^1954</subfield>
+            <subfield code="n">30, Suppl.^Nutritional behaviour as a topic of social sciences.^1983</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">51.2004 + Beilagen</subfield>
+            <subfield code="i">04:395</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20040413</subfield>
+            <subfield code="5">876107-210</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">52.2005 + Beilagen</subfield>
+            <subfield code="i">05:253</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20050224</subfield>
+            <subfield code="5">876107-380</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">53.2006 + Beilagen</subfield>
+            <subfield code="i">06:277</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20070417</subfield>
+            <subfield code="5">876107-510</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">54.2007</subfield>
+            <subfield code="i">07:416</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20080603</subfield>
+            <subfield code="5">876107-640</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">55.2008 + Beilagen</subfield>
+            <subfield code="i">08:520</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20090818</subfield>
+            <subfield code="5">876107-770</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">56.2009 + Beilagen</subfield>
+            <subfield code="i">09:232</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20110117</subfield>
+            <subfield code="5">876107-1020</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">57.2010 + Beilagen</subfield>
+            <subfield code="i">10:148</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20111014</subfield>
+            <subfield code="5">876107-1030</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">58.2011 + Beilagen</subfield>
+            <subfield code="i">11:98</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20120511</subfield>
+            <subfield code="5">876107-1280</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,1 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1160</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,10 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1250</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,11 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1260</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,12 + Beilage "Ernährungslehre &amp; Praxis + Register (lose)</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1270</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,2 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1170</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,3 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1180</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,4 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1190</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,5 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1200</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,6 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1210</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,7 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1220</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,8 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1230</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">59.2012,9 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1240</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,1 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1290</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,10 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1380</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,11 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1390</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,12 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1400</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,2 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1300</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,3 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1310</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,4 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1320</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,5 + Beilagen "Ernährungslehre &amp; Praxis" und "Alpro Found. Newsletter 13/1"</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1330</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,6 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1340</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,7 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1350</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,8 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1360</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">55e3</subfield>
+            <subfield code="g">60.2013,9 + Beilage "Ernährungslehre &amp; Praxis</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">876107-1370</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

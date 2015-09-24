@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000323362</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00514vM2.01200024------h</leader>
+          <controlfield tag="LDR">00514vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT002202433</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19880218</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20060113</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">LU</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">n|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">465</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziale Angelegenheiten und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Neue Technologien und sozialer Wandel</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Komm. d. Europ. Gemeinschaften, Generaldir. Beschäftigung, Soziale Angelegenheiten u. Bildung</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Luxemburg</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Amt für Amtl. Veröff. d. Europ. Gemeinschaften</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Soziales Europa : Beiheft ; ...</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Neue Technologie</subfield>
+            <subfield code="9">(DE-588)4194462-8</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Sozialer Wandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="903" ind1="-" ind2="1">
+            <subfield code="a">231</subfield>
+            <subfield code="a">321</subfield>
+          </datafield>
+          <controlfield tag="SYS">000323362</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaft</subfield>
+            <subfield code="x">Strukturwandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaft</subfield>
+            <subfield code="x">Wandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaftlicher Wandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaftswandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Soziale Änderung</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Soziale Veränderung</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaft</subfield>
+            <subfield code="x">Strukturelle Anpassung</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">European Communities</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Communautés Européennes</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Gemeinsamer Markt</subfield>
+            <subfield code="h">EG</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">EG</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaft</subfield>
+            <subfield code="x">Strukturwandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaft</subfield>
+            <subfield code="x">Wandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaftlicher Wandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaftswandel</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Soziale Änderung</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Soziale Veränderung</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gesellschaft</subfield>
+            <subfield code="x">Strukturelle Anpassung</subfield>
+            <subfield code="9">(DE-588)4077587-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">European Communities</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Communautés Européennes</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Gemeinsamer Markt</subfield>
+            <subfield code="h">EG</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">EG</subfield>
+            <subfield code="9">(DE-588)4039634-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Neue Technologien</subfield>
+            <subfield code="9">(DE-588)4194462-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Neue Technik</subfield>
+            <subfield code="9">(DE-588)4194462-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Neue Technologien</subfield>
+            <subfield code="9">(DE-588)4194462-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Neue Technik</subfield>
+            <subfield code="9">(DE-588)4194462-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziale Angelegenheiten und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Directorate General for Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Directorate General for Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Directorate General Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Directorate General Employment, Social Affairs mand Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziales und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziales und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Direction Générale de l'Emploi, des Affaires Sociales et de l'Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Directorate-General for Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Direction Générale de l'Emploi, des Affaires Sociales et de l'Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziale Angelegenheiten und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Directorate General for Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Directorate General for Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Directorate General Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Directorate General Employment, Social Affairs mand Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziales und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Generaldirektion Beschäftigung, Soziales und Bildung</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Direction Générale de l'Emploi, des Affaires Sociales et de l'Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Directorate-General for Employment, Social Affairs and Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Europäische Gemeinschaften</subfield>
+            <subfield code="b">Kommission</subfield>
+            <subfield code="b">Direction Générale de l'Emploi, des Affaires Sociales et de l'Education</subfield>
+            <subfield code="9">(DE-588)2088884-3</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000460328</subfield>
+            <subfield code="m">Neue Technologien und sozialer Wandel.^</subfield>
+            <subfield code="n">&lt;Zehn&gt;.^Zehn Jahre Gemeinschaftspolitik, Chancengleichheit für Männer und Frauen.^1986</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

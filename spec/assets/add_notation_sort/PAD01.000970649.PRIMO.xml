@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000970649</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00469vM2.01200024------h</leader>
+          <controlfield tag="LDR">00469vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT008859505</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19980811</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20091019</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT008859505</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">s|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">HBZ/Off</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">51</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Herbst, Fritz</subfield>
+            <subfield code="9">(DE-588)104924977</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Herold, Kurt</subfield>
+            <subfield code="9">(DE-588)104822082</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Wat fört Gemoide</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Ruimsel un Vertellsel in lippks Platt</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">van Fritz Herbst. Biller van Kurt Herold</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Detmold</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Topp &amp; Möller</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1968</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">88 S. : Ill.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Lippische Heimatbücher : Plattdeutsche Reihe ; 5</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT013315280</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">5</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">5</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="g">Kreis Lippe</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Niederdeutsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Lyrik</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Anthologie</subfield>
+          </datafield>
+          <datafield tag="903" ind1="-" ind2="1">
+            <subfield code="a">2134</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="g">Kreis Lippe</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Niederdeutsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Erzählung</subfield>
+            <subfield code="9">(DE-588)4015464-6</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="f">Anthologie</subfield>
+          </datafield>
+          <datafield tag="908" ind1="-" ind2="1">
+            <subfield code="a">2134</subfield>
+          </datafield>
+          <controlfield tag="SYS">000970649</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Landkreis Lippe</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Land Lippe</subfield>
+            <subfield code="h">Kreis</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Lipper Land</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Lipperland</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Lippe</subfield>
+            <subfield code="h">Kreis</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geschichte</subfield>
+            <subfield code="h">Erzählung</subfield>
+            <subfield code="9">(DE-588)4015464-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Prosaerzählung</subfield>
+            <subfield code="9">(DE-588)4015464-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gedicht</subfield>
+            <subfield code="h">Lyrik</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Poem</subfield>
+            <subfield code="h">Lyrik</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Dichtung</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Poesie</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Lyrisches Werk</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Lyrikwerk</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gedichtwerk</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Neuniederdeutsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Plattdeutsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Missingsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geschichte</subfield>
+            <subfield code="h">Erzählung</subfield>
+            <subfield code="9">(DE-588)4015464-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Prosaerzählung</subfield>
+            <subfield code="9">(DE-588)4015464-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Landkreis Lippe</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Land Lippe</subfield>
+            <subfield code="h">Kreis</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Lipper Land</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Lipperland</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="g">Lippe</subfield>
+            <subfield code="h">Kreis</subfield>
+            <subfield code="9">(DE-588)4035891-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gedicht</subfield>
+            <subfield code="h">Lyrik</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Poem</subfield>
+            <subfield code="h">Lyrik</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Dichtung</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Poesie</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Lyrisches Werk</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Lyrikwerk</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Gedichtwerk</subfield>
+            <subfield code="9">(DE-588)4036774-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Neuniederdeutsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Plattdeutsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Missingsch</subfield>
+            <subfield code="9">(DE-588)4042178-8</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">CKQW</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">LUHL</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Wat fört Gemoide</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?application=DIGITOOL-3&amp;owner=resourcediscovery&amp;custom_att_2=simple_viewer&amp;user=GUEST&amp;pid=2160595</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">OCR-TEXT: SEITE VORWORT DE MESTERS 9 NIU WERD ET BAULE 9 DE RSTEN FREOJOHRSDAGE 10 DE LEIJE APRIL 10 DE KREONENTRECK 11 STIEGELITTKEN 12 FREOTUIT ES DOR! 12 DE WECKREOP (MIT BILD) 13 PINGESTDRAUELN 14 DE EEKSTERN 14 DE FRELLENBIEKE 15 MAIDAG IN'N HAUGEN FDITEN 15 OBENDS INNER SENNE 16 EIKERN 16 SCHLOPVERLANGEN 17 DE HERRGOTTSWINKEL 17 GLIUT INNER SENNE 18 TEOFRIE 18 REOSENTUIT 19 REJENDAGE 19 NOBERS 20 HERWESTTUIT 20 GILFMEOND 21 GONG MET! 21 NIEWELMEOND 22 DE SCHWARTE DRAUEL 22 HERWESTREJEN 23 DE HEXENSCHOTT 23 DE GESTRENGE HERR 24 WAT HAT SICK BIUTEN? 25 RIUHFROSTSUNNDAG 25 DE RSTE SCHNEU 26 SCHNEUKNNIGS 26 TEO NUIJOHR 27 DE DOMPAPEN 28 DE STERNE 28 DE AULE SCHAIPER UN PPPENVADDER 29 (MIT BILD) MUINE SCHWALBEN (BILD S. 8) 31 ET ES MAN'N MEKEN! 32 SCHMED PEIDERINGS VERTELLSEL 33 SNFFELKEN 34 KLSKEN 34 UNNERN WUIHNACHTSBAUM 35 KLDDERJHNKEN WAS DOR! 35 SEITE DAT KRLKEN 36 DAT SCHATTEN 37 DWELS WILM 38 DE TWILLINGE 39 SEON AULE! (MIT BILD) 40 DE LEIJE WELT 42 ECK SAGE UN KLEUBE 42 DE AULE MLLER 43 DE POHLBORG 44 HERMS HEINACH 45 DAT LEUWE BRAUT 46 DE KRIPPEN BLIWT, DE SCHWUINE WESSELT! 47 WORMME STRMPE? 47 DE GRSSPREDIGT 48 GLLNE HOCHTUIT 50 UP KSTERS KAMPE 51 DE AULE WATJE 53 HOPA KICKT VOR 55 TRJJEGIEBEN 56 DE DUIWEL IUT DALBERN (MIT BILD) 56 DE ALMERG 58 DAT LEUWE HOOR 58 DE HOFF-HME 59 DE VETERANEN 60 DE AULE SENNTKER 61 MILLJEONENMJJER 62 POLLETIK IN'N MLMERKREOGE 63 WULF-WILMS RSTE 64 MJJERS MAMME 64 GLCKE MOTTEN HBBEN! 66 ECK SIN ECK! 67 DRUIJE SCHWENKEN 68 PRICKS HASE (MIT BILD) 69 DE INHUCKER 70 DE KAULE SCHLAG 71 UPN SCHNNERSHAGEN 73 DAT SPOIKEN 74 FUIEROMD IN'N TICHLERHIUSE (MIT BILD) 77 JAKOB BOTTERFATT 78 DE LEIJEN AUGEN 80 DE EES ES NAU DRUIJE 78 GKE MICHEUL 76 DE DUIWEL UN DE BONSTAPEL 81 SUIM UP SCHLOTTWADOE 82 WRTERVERZEICHNIS 84 DIE KURSIV GEDRUCKTEN TITEL SIND PROSASTCKE.</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000853937</subfield>
+            <subfield code="m">5.^Wat fört Gemoide.^1968</subfield>
+            <subfield code="n">Lippische Heimatbücher / Plattdeutsche Reihe.^</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">03</subfield>
+            <subfield code="d">SR1820</subfield>
+            <subfield code="i">2007.2276</subfield>
+            <subfield code="n">21</subfield>
+            <subfield code="k">20070904</subfield>
+            <subfield code="5">989187-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

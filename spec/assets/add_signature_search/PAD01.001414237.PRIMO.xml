@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001414237</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------h</leader>
+          <controlfield tag="LDR">------M2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT016846901</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20110608</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20110712</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT016846901</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">s|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">1116</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Engelmann, Jonas</subfield>
+            <subfield code="d">1978-</subfield>
+            <subfield code="9">(DE-588)132989409</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Access denied - Ortsverschiebungen in der realen und virtellen Gegenwart</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">[Hrsg. und Red.: Jonas Engelmann ...]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Mainz</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Ventil-Verl.</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">294 S. : Ill.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Testcard ; 20</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT008498405</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">20</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">20</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-931555-19-1</subfield>
+            <subfield code="b">kart. : € 15.00</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-931555-19-4</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="m">B:DE-101</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=4247878&amp;custom_att_2=simple_viewer</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Subkultur</subfield>
+            <subfield code="9">(DE-588)4058326-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Popmusik</subfield>
+            <subfield code="9">(DE-588)4046781-8</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Politischer Protest</subfield>
+            <subfield code="9">(DE-588)4229763-1</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Aufsatzsammlung</subfield>
+          </datafield>
+          <controlfield tag="SYS">001414237</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Scene</subfield>
+            <subfield code="9">(DE-588)4058326-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Szene</subfield>
+            <subfield code="h">Subkultur</subfield>
+            <subfield code="9">(DE-588)4058326-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Scene</subfield>
+            <subfield code="9">(DE-588)4058326-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Szene</subfield>
+            <subfield code="h">Subkultur</subfield>
+            <subfield code="9">(DE-588)4058326-0</subfield>
+          </datafield>
+          <datafield tag="100" ind1=" " ind2=" ">
+            <subfield code="a">34t24</subfield>
+          </datafield>
+          <datafield tag="105" ind1=" " ind2=" ">
+            <subfield code="a">10</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="9">34</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Access denied - Ortsverschiebungen in der realen und virtellen Gegenwart</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=4247879&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: ACCESS DENIED - ORTSVERSCHIEBUNGEN IN DER REALEN UND VIRTELLEN GEGENWART AUTOR: ENGELMANN, JONAS JAHR: 2011 4 6 8 16 27 30 EDITORIAL NACHRUFE »ORTSVERSCHIEBUNGEN TISCH NORD ROGER BEHRENS POST POP CITY LIFE NOT IN OUR NAME, MARKE HAMBURG! PASCAL JURT BOHEMISTISCHE LEBENSWEISEN BRAUCHEN SUBKULTURELLE ORTE IM GESPRAECH MIT KLAUS RONNEBERGER DAGMAR BRUNOW SOUNDSCAPES ALS AKUSTISCHES GEDAECHTNIS DER STADT KUENSTLERISCHE STRATEGIEN GEGEN GENTRIFIZIERUNG ANNIKA MECKLENBRAUCK WE ARE SO NOT BERLIN EIN KRITISCHER BLICK AUF KOELN-EHRENFELD STEFFEN HENDEL DIE ZURICHTUNG BERND VOLKERT DAS TERRITORIUM NICHT BESETZEN. DAS TERRITORIUM SEIN. AUF DEN SPUREN DES AUFSTANDS: ORTSBEGEHUNGEN MIT DEM UNSICHTBAREN KOMITEE TORSTEN NAGEL LINKE RAEUME - SHORT CUTS VERENA SPILKER QUEERE SUBKULTUR GEBOREN AUS DER RANDSTAENDIGKEIT, BEDINGT DURCH DEN RADIKALEN MOMENT FLORIAN NEUNER KULTURHAUPTSTADT IM WINTER MAIK RENNERT DEN RAEUMEN ZEIT GEBEN »HR. FLEISCHERS-KIOSK SEBASTIAN LOEWE DIE IBA-MITSCHREI-PREDIGT 37 42 46 58 64 68 74 79 82 BIBLIOGRAFISCHE INFORMATIONEN HTTP://D-NB.INFO/1002348811 DIGITALISIERT DURCH 84 JONAS ENGELMANN ERINNERUNGSRAEUME IM GESPRAECH MIT MICHAELA MELIAN »ORTSVERSCHIEBUNGEN TISCH SUED 88 100 MATTHIAS RAUCH SOUND, ORTE UND LANDSCHAFTEN EIN VERSUCH DER RELATION 108 WOLFGANG SEIDEL ECHTZEITMUSIK 115 JONAS ENGELMANN WO IST ZUHAUSE? ZWISCHEN DEN ORTEN! PHANTOM LIMBO 121 FRANK APUNKT SCHNEIDER FUER EINE KLEINE IDENTITAET ZUR AESTHETIK DER VERKRAMPFUNG 130 MICK SCHULZ WO MACHST DU MUSIK? FOTOS VON PROBERAEUMEN 136 EWGENIY KASAKOW »IMMER DAGEGEN ZUR GESCHICHTE DES SIBIRISCHEN UNDERGROUNDS 144 MICHAEL WEHREN VON DER NATION ZUR HEIMAT UND ZURUECK RAUMSTRATEGIEN IM NEOFOLK UND BLACK</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">METAL 150 THOMAS BURKHALTER WELTMUSIK 2.0 MUSIKALISCHE POSITIONEN ZWISCHEN SPASS UND PROTESTKULTUR 160 ERNEST M. FABER DER HAENDLER DER VIER JAHRESZEITEN 168 STEFFEN GREINER / WIEBKE REINERT ANSAETZE EINER POSTMODERNEN PLATTENKRITIK VOM VERSTECKTEN POP-APPEAL SOZIALISTISCHER GROSSTAFELBAUWEISE 172 JONAS ENGELMANN/KLAUS WALTER NAHOST-TISCH IM GESPRAECH MIT AVI PITCHON 176 CHRISTIAN HELLER MEINE DATEN IN MEINER FESTUNG KLEINE KRITIK DER PRIVATSPHAERE 182 MICHAEL LIEGL DIE SORGE UM DEN RAUM MEDIALE ORTLOSIGKEIT UND DISPOSITIVE DER VERORTUNG 190 JANA BALLENTHIEN/TANJA CARSTENSEN DAS ENTGRENZTE SUBJEKT VOM MUTIGSEIN IN DIGITALEN RAEUMEN 194 JOHANNES ULLMAIER ORTSVERSCHIEBUNGEN 213 DIE JUGEND VON HEUTE DARIUS (11) UND PAUL (12) ZUM THEMA MUSIKKONSUM VON JUGENDLICHEN HEUTE 214 TONTRAEGER 246 PAPIER 285 DVDS 294 IMPRESSUM 295 ABO</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000765779</subfield>
+            <subfield code="m">20.^Access denied - Ortsverschiebungen in der realen und virtellen Gegenwart.^2011</subfield>
+            <subfield code="n">Testcard.^1995</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

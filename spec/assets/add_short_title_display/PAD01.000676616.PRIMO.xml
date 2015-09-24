@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000676616</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00410vM2.01200024------h</leader>
+          <controlfield tag="LDR">00410vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT006652395</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19961202</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20021105</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">sk||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">38</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Arndt, Andreas</subfield>
+            <subfield code="d">1949-</subfield>
+            <subfield code="9">(DE-588)118171569</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="e">International Hegel Congress</subfield>
+            <subfield code="n">19</subfield>
+            <subfield code="d">1992</subfield>
+            <subfield code="c">Nürnberg</subfield>
+            <subfield code="9">(DE-588)3029465-4</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Recht und Staat</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">XIX. Internationaler Hegel-Kongress, Nürnberg 1992. [Hrsg. von Andreas Arndt ...]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Berlin</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Akad.-Verl.</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1995</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">471 S.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Hegel-Jahrbuch ; 1993/94</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT002672902</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">1993/94</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">1993,94</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-05-002533-6</subfield>
+          </datafield>
+          <controlfield tag="SYS">000676616</controlfield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="e">Internationaler Hegel-Kongress</subfield>
+            <subfield code="n">19</subfield>
+            <subfield code="d">1992</subfield>
+            <subfield code="c">Nürnberg</subfield>
+            <subfield code="9">(DE-588)3029465-4</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="e">Internationaler Hegel-Kongress</subfield>
+            <subfield code="n">19</subfield>
+            <subfield code="d">1992</subfield>
+            <subfield code="c">Nürnberg</subfield>
+            <subfield code="9">(DE-588)3029465-4</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">JHEQ</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000392641</subfield>
+            <subfield code="m">1993/94.^Recht und Staat.^1995</subfield>
+            <subfield code="n">Hegel-Jahrbuch.^1961</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">JHEQ1217-1993/94</subfield>
+            <subfield code="i">95:1974</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">644643-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000135071</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00538vM2.01200024------h</leader>
+          <controlfield tag="LDR">00538vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT000891387</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19981128</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20090514</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT000891387</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||17</controlfield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">s|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">290</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="078" ind1="o" ind2="1">
+            <subfield code="a">retro</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Künzi, Hans P.</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="104" ind1="a" ind2="1">
+            <subfield code="p">Müller, Otto</subfield>
+            <subfield code="9">(DE-588)100810004</subfield>
+          </datafield>
+          <datafield tag="108" ind1="a" ind2="1">
+            <subfield code="p">Nievergelt, Erwin</subfield>
+            <subfield code="9">(DE-588)176842055</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Einführungskursus in die dynamische Programmierung</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">H. P. Künzi ; O. Müller ; E. Nievergelt</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Berlin [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Springer</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1968</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">103 S. : graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Lecture notes in operations research and mathematical economics ; 6</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT001233854</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="700" ind1="m" ind2="1">
+            <subfield code="a">90-XX</subfield>
+          </datafield>
+          <controlfield tag="SYS">000135071</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nievergelt, E.</subfield>
+            <subfield code="9">(DE-588)176842055</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nievergelt, E.</subfield>
+            <subfield code="9">(DE-588)176842055</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi, Hans Paul</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi-Krelle-von Randow, ...</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi-Krelle- von Randow, ...</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi, Hans</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi, H. P.</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi-Girsberger, Hans Paul</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Girsberger, Hans Paul Künzi-</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi, Hans Paul</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi-Krelle-von Randow, ...</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi-Krelle- von Randow, ...</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi, Hans</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi, H. P.</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Künzi-Girsberger, Hans Paul</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Girsberger, Hans Paul Künzi-</subfield>
+            <subfield code="d">1924-2004</subfield>
+            <subfield code="9">(DE-588)11885464X</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">TVY</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000204539</subfield>
+            <subfield code="m">6.^Einführungskursus in die dynamische Programmierung.^1968</subfield>
+            <subfield code="n">Lecture notes in operations research and mathematical systems.^1967</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">03</subfield>
+            <subfield code="d">MQ13501</subfield>
+            <subfield code="i">73/17</subfield>
+            <subfield code="n">21</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">151437-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

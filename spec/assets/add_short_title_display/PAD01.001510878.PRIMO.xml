@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001510878</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------u</leader>
+          <controlfield tag="LDR">------M2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT014145670</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT014121814</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20120831</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">20040909</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20120905</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT014121814</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">HBZHT014121814</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">929</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">929</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">[Buch]</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">Buch</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Führe, Uli</subfield>
+            <subfield code="d">1957-</subfield>
+            <subfield code="9">(DE-588)134634640</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="2">
+            <subfield code="p">Leupold, Regula</subfield>
+            <subfield code="d">1950-</subfield>
+            <subfield code="9">(DE-588)129854654</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Tanzhaus</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="2">
+            <subfield code="a">Medienkombination</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Regula Leupold</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Boppard am Rhein</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Fidula-Verl.</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">2003</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2004</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">123 S. : Ill., graph. Darst., Notenbeisp.</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-87226-571-7</subfield>
+          </datafield>
+          <datafield tag="551" ind1="a" ind2="1">
+            <subfield code="a">Best.-Nr. 571</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">140</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">145</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">550</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">140</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">145</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">550</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Gruppentanz</subfield>
+            <subfield code="9">(DE-588)4158473-9</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Beispielsammlung</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Tanzspiel</subfield>
+            <subfield code="9">(DE-588)4059037-9</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="f">Beispielsammlung</subfield>
+          </datafield>
+          <controlfield tag="SYS">001510878</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Führe, Ulrich</subfield>
+            <subfield code="d">1957-</subfield>
+            <subfield code="9">(DE-588)134634640</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Führe, Ulrich</subfield>
+            <subfield code="d">1957-</subfield>
+            <subfield code="9">(DE-588)134634640</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Führe, Ulrich</subfield>
+            <subfield code="d">1957-</subfield>
+            <subfield code="9">(DE-588)134634640</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Führe, Ulrich</subfield>
+            <subfield code="d">1957-</subfield>
+            <subfield code="9">(DE-588)134634640</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">KVV</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001510877</subfield>
+            <subfield code="m">[Buch];^.^2004</subfield>
+            <subfield code="n">Tanzhaus.^2003</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">03</subfield>
+            <subfield code="d">MQ24535</subfield>
+            <subfield code="i">12/9742</subfield>
+            <subfield code="n">21</subfield>
+            <subfield code="k">20120904</subfield>
+            <subfield code="5">1510878-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

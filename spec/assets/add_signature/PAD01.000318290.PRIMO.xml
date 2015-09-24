@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000318290</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT002193106</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19991118</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20130205</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">145208-3</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">01085746X</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">145208-3</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">631807321</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB145208-3</subfield>
+          </datafield>
+          <controlfield tag="030">b|zucz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="052">p||||||zz||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">9001</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="073" ind1="-" ind2="1">
+            <subfield code="a">14</subfield>
+          </datafield>
+          <datafield tag="073" ind1="-" ind2="1">
+            <subfield code="a">5,3</subfield>
+          </datafield>
+          <datafield tag="076" ind1="-" ind2="1">
+            <subfield code="a">||a|||</subfield>
+          </datafield>
+          <datafield tag="078" ind1="n" ind2="1">
+            <subfield code="a">NWBib-Zeitschrift</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">90</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Geographie heute</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Themen, Modelle, Materialien für die Unterrichtspraxis aller Sekundarstufen</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">Geographie heute / Materialausgabe</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">Geographie im Unterricht</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">1.1980/81=H. 1 -</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Seelze-Velber</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Friedrich</subfield>
+          </datafield>
+          <datafield tag="415" ind1="-" ind2="1">
+            <subfield code="a">[Stuttgart]</subfield>
+          </datafield>
+          <datafield tag="417" ind1="-" ind2="1">
+            <subfield code="a">Klett</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1980</subfield>
+          </datafield>
+          <datafield tag="431" ind1="-" ind2="1">
+            <subfield code="a">Index 1/6.1980/85 in: 7.1986,39; 7/10.1986/89 in: 11.1990; 11/14.1990/93 in: 14.1993</subfield>
+          </datafield>
+          <datafield tag="435" ind1="-" ind2="1">
+            <subfield code="a">30 cm</subfield>
+          </datafield>
+          <datafield tag="507" ind1="-" ind2="1">
+            <subfield code="p">Nebent. 6.1985 - 9.1988 teils</subfield>
+            <subfield code="a">Geographie im Unterricht</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="a">Ersch. 10x jährl.</subfield>
+          </datafield>
+          <datafield tag="524" ind1="-" ind2="1">
+            <subfield code="a">Ab 2006 ersch. jedes 2. H. als Materialausg.</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">&lt;&lt;Eine&gt;&gt; Welt in der Schule</subfield>
+            <subfield code="9">HT006448749</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">Bildung + Medien</subfield>
+            <subfield code="9">HT013403962</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">Bildung + science</subfield>
+            <subfield code="9">HT013579844</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">Bildung + Reisen</subfield>
+            <subfield code="9">HT013547964</subfield>
+          </datafield>
+          <datafield tag="529" ind1="z" ind2="1">
+            <subfield code="p">Beil. ---&gt;</subfield>
+            <subfield code="a">Bildung + Leben</subfield>
+            <subfield code="9">HT013733405</subfield>
+          </datafield>
+          <datafield tag="531" ind1="z" ind2="1">
+            <subfield code="p">Darin aufgeg. ---&gt;</subfield>
+            <subfield code="a">Zeitschrift für den Erdkundeunterricht</subfield>
+            <subfield code="9">HT000446637</subfield>
+          </datafield>
+          <datafield tag="531" ind1="z" ind2="1">
+            <subfield code="p">Darin aufgeg. ---&gt;</subfield>
+            <subfield code="a">Geographie im Unterricht</subfield>
+            <subfield code="9">HT002193108</subfield>
+          </datafield>
+          <datafield tag="542" ind1="a" ind2="1">
+            <subfield code="a">0721-8400</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="a">ISSN 0721-8400</subfield>
+          </datafield>
+          <datafield tag="574" ind1="-" ind2="1">
+            <subfield code="a">86,A34,0384</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">910</subfield>
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">370</subfield>
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">370</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">910</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">120 ; 710</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">280</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">766</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Geographieunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Zeitschrift</subfield>
+          </datafield>
+          <datafield tag="904" ind1="-" ind2="1">
+            <subfield code="a">DE-101DE-101</subfield>
+          </datafield>
+          <controlfield tag="SYS">000318290</controlfield>
+          <datafield tag="016" ind1="-" ind2="1">
+            <subfield code="a">550646604</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="705" ind1="-" ind2="1">
+            <subfield code="a">910.712</subfield>
+            <subfield code="c">910</subfield>
+            <subfield code="e">DDC22ger</subfield>
+            <subfield code="f">0712</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkundeunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkunde</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografieunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkundeunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkunde</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografieunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkundeunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkunde</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografieunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkundeunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkunde</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografieunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkundeunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Erdkunde</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geographiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografieunterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografiedidaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Unterricht</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Geografie</subfield>
+            <subfield code="x">Didaktik</subfield>
+            <subfield code="9">(DE-588)4020219-7</subfield>
+          </datafield>
+          <datafield tag="200" ind1=" " ind2=" ">
+            <subfield code="0">3</subfield>
+            <subfield code="a">DVD-Materialien zu</subfield>
+            <subfield code="b">2006 -</subfield>
+            <subfield code="f">P 96/43 g 18</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="200" ind1=" " ind2=" ">
+            <subfield code="0">2</subfield>
+            <subfield code="a">Materialien zu</subfield>
+            <subfield code="b">2006 -</subfield>
+            <subfield code="f">P 02/43 g 18</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="200" ind1=" " ind2=" ">
+            <subfield code="0">1</subfield>
+            <subfield code="b">1.1980/81=Nr. 1 -</subfield>
+            <subfield code="f">P 30/43 g 18</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984152</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">239 = 27.2006,März.^Tourismus.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984155</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">241/242 = 27.2006,Juni.^Klimawandel.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984158</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">244 = 27.2006,Sept./Okt..^&lt;&lt;Die&gt;&gt; Erde - ein faszinerendes System.^Materialausg..^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001353608</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">281/282 = 31.2010, Juni/Juli.^Globale Herausforderungen des 21. Jahrhunderts.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001257542</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">275 = 30.2009, November.^Zwischen Ostsee und Schwarzem Meer.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001365917</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">284 = 31.2010, Oktober.^Südamerika und Karibik.^Materialausg..^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001470201</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">299 = 33.2012, März.^Planet Erde.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001470204</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">300 = 33.2012, April.^Planet Erde.^Materialausg..^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000988890</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">260 = 29.2008,April.^&lt;&lt;Das&gt;&gt; Meer entdecken.^Materialausg..^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001286612</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">[271/272,Erg.-H.] = 30.2009, [Sonderh.].^Methodentraining Geographie.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001331469</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">280 = 31.2010, April.^Mobilität.^Materialausg..^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984156</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">243 = 27.2006,Sept..^System Erde - Mensch.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984159</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">245 = 27.2006,Nov..^Strukturieren, visualisieren, präsentieren.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984150</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">237 = 27.2006,Jan..^Wüsten heute.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984151</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">238 = 27.2006,Feb..^Durch die Wüste.^Materialausg..^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984153</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">240 = 27.2006,April.^&lt;&lt;Dem&gt;&gt; Tourismus auf der Spur.^Materialausg..^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984170</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">254 = 28.2007,Okt..^Selbstständig Bilder analysieren.^Materialausg..^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984169</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">253 = 28.2007,Sept..^Bilder lesen lernen.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984171</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">255/256 = 28.2007,Nov./Dez..^Kompetenzen, Standards, Aufgaben.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984165</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">250 = 28.2007,April.^Energie und Nachhaltigkeit begeistern!.^Materialausg..^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984167</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">251 = 28.2007,Juni.^Mit Naturrisiken umgehen.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984168</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">252 = 28.2007,Juli.^Naturrisiken vorbeugen und bewältigen.^Materialausg..^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984160</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">246 = 27.2006,Dez..^Präsentieren leicht gemacht.^Materialausg..^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984161</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">247 = 28.2007,Jan..^Vulkanismus.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984162</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">248 = 28.2007,Feb..^Vulkanismus erleben.^Materialausg..^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984164</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">249 = 28.2007,März.^Energie und Nachhaltigkeit.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984174</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">257 = 29.2008,Jan..^Landschaften im Wandel.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001516287</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">304 = 33.2012, September.^Digitale Medien.^Materialausg..^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000984227</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">258 = 29.2008,Feb..^Landschaften erforschen &amp; gestalten.^Materialausg..^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001431429</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">293 = 32.2011, September.^Mensch und Wasser.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001365918</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">283 = 31.2010, September.^Südamerika und Karibik.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206896</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">261/262 = 29.2008,Juni/Juli.^Bevölkerungsentwicklung und Migration.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206897</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">263 = 29.2008,Sept..^Kurzexkursionen.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206898</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">267 = 30.2009,Januar.^Winde und Windsysteme.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001377369</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">285 = 31.2010, November.^Individualisierung.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001377372</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">286 = 31.2010, Dezember.^Individualisierung.^Materialausg..^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001524763</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">305 = 33.2012, Dezember.^Nordamerika.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001524764</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">306 = 33.2012, Dezember.^Nordamerika.^Materialausg..^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206900</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">269 = 30.2009,März.^Vom Sachunterricht zum Geographieunterricht.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001285326</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">277 = 31.2010, Januar.^Üben.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001285327</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">278 = 31.2010, Februar.^Üben.^Materialausg..^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206932</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">264 = 29.2008,Oktober.^Kurzexkursionen.^Materialausg..^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001499218</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">301/302 = 33.2012, Juli.^Raumentwicklung in Deutschland.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001418523</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">291/292 = 32.2011, Juni/Juli.^Aufgaben stellen - Kompetenzen fördern.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001408477</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">290 = 32.2011, April.^Afrika im Wandel.^Materialausg..^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206934</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">265 = 29.2008,Nov..^Schülervorstellungen.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206936</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">266 = 29.2008,Dezember.^Schülervorstellungen.^Materialausg..^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206937</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">268 = 30.2009,Februar.^Winde und Windsysteme.^Materialausg..^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001206938</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">270 = 30.2009,April.^Vom Sachunterricht zum Geographieunterricht.^Materialausg..^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001457777</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">295 = 32.2011, November.^Bildung für nachhaltige Entwicklung.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001457778</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">296 = 32.2011, Dezember.^Bildung für nachhaltige Entwicklung.^Materialausg..^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001257540</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">276 = 30.2009, Dezember.^Zwischen Ostsee und Schwarzem Meer.^Materialausg..^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000988883</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">259 = 29.2008,März.^Meere.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001462222</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">297 = 33.2012, Januar.^Asiens Riesen - Indien &amp; China.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001544572</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">307 = 34.2013, Februar.^Küsten.^2013</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001215517</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">271/272 = 30.2009, Juni/Juli.^Medien auswerten, Methoden anwenden.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001544573</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">308 = 34.2013, Februar.^Küsten.^Materialausg..^2013</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001431430</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">294 = 32.2011, Oktober.^Mensch und Wasser.^Materialausg..^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001248536</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">273 = 30.2009, September.^Fünf neue Länder.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001248537</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">274 = 30.2009, Oktober.^Fünf neue Länder.^Materialausg..^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001379980</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">287 = 32.2011, Januar.^Endogene und exogene Prozesse.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001331461</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">279 = 31.2010, März.^Mobilität.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000318291</subfield>
+            <subfield code="m">Später unter dem Titel:^Geographie heute.^1980</subfield>
+            <subfield code="n">Früher unter dem Titel:^Geographie im Unterricht.^1976</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000868924</subfield>
+            <subfield code="m">Beilage zu:^Geographie heute.^1980</subfield>
+            <subfield code="n">Beilage:^Bildung + Leben.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000863045</subfield>
+            <subfield code="m">Beilage zu:^Geographie heute.^1980</subfield>
+            <subfield code="n">Beilage:^Bildung + Reisen.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001379984</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">288 = 32.2011, Februar.^Endogene und exogene Prozesse.^Materialausg..^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000665728</subfield>
+            <subfield code="m">Beilage zu:^Geographie heute.^1980</subfield>
+            <subfield code="n">Beilage:^&lt;&lt;Eine&gt;&gt; Welt in der Schule.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001408475</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">289 = 32.2011, März.^Afrika im Wandel.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001462229</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">298 = 33.2012, Februar.^Asiens Riesen - Indien &amp; China.^Materialausg..^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000863994</subfield>
+            <subfield code="m">Beilage zu:^Geographie heute.^1980</subfield>
+            <subfield code="n">Beilage:^Bildung + science.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000857717</subfield>
+            <subfield code="m">Beilage zu:^Geographie heute.^1980</subfield>
+            <subfield code="n">Beilage:^Bildung + Medien.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001560270</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">309 = 34.2013, April.^Wertvorstellungen entwickeln.^2013</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001560271</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">310 = 34.2013, April.^Wertvorstellungen entwickeln.^Materialausg..^2013</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001516286</subfield>
+            <subfield code="m">Geographie heute.^1980</subfield>
+            <subfield code="n">303 = 33.2012, September.^Digitale Medien.^2012</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">27.2006,238 (=Materialien zu H. 237)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-220</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">27.2006,240 (=Materialien zu H. 239)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-240</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">27.2006,246 (=Materialien zu H. 245)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-300</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">28.2007,248 (=Materialien zu H. 247)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-420</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">28.2007,250 (= Materialien zu H. 249)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-350</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">28.2007,252 (= Materialien zu H. 251)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-370</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">28.2007,254  (= Materialien zu H. 253)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-390</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">29.2008,266 (=Materialen zu H. 265)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-530</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,268 (=Materialien zu H. 267)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20090304</subfield>
+            <subfield code="5">877013-560</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,270 (= Materialien zu H. 269)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-580</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,274 (= Materialien zu H. 273)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-620</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,276 (= Materialien zu H. 275)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-640</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,280 (= Materialausgabe zu H. 279)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-720</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,284 (= Materialausgabe zu H. 283)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-760</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,286 (= Materialausgabe zu H. 285)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-780</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,288 (= Materialausgabe zu H. 287)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-850</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,290 (= Materialausgabe zu H. 289)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-870</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,294 = (Materialausgabe zu H. 293)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-910</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,296 = Materialausgabe zu H. 295</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-930</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,298 = Materialausgabe zu H. 297</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121008</subfield>
+            <subfield code="5">877013-1010</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,300 = Materialausgabe zu H. 299</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121008</subfield>
+            <subfield code="5">877013-1030</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,306 = Materialausgabe zu H. 305</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121221</subfield>
+            <subfield code="5">877013-1090</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,308 = Materialausgabe zu H. 307</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20130213</subfield>
+            <subfield code="5">877013-1280</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,310 = Materialausgabe zu H. 309</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20130412</subfield>
+            <subfield code="5">877013-1200</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">25.2004</subfield>
+            <subfield code="i">04:399; 05:1030</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20040413</subfield>
+            <subfield code="5">877013-180</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">26.2005</subfield>
+            <subfield code="i">05:318</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20050308</subfield>
+            <subfield code="5">877013-310</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">27.2006</subfield>
+            <subfield code="i">06:552</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20070322</subfield>
+            <subfield code="5">877013-430</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">28.2007</subfield>
+            <subfield code="i">07:453</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20080314</subfield>
+            <subfield code="5">877013-540</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">29.2008</subfield>
+            <subfield code="i">08:521</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20090922</subfield>
+            <subfield code="5">877013-680</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009 +Beil.</subfield>
+            <subfield code="i">09:369</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20111130</subfield>
+            <subfield code="5">877013-980</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010 + Sonderh.</subfield>
+            <subfield code="i">10:296</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20111130</subfield>
+            <subfield code="5">877013-990</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSBD</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011</subfield>
+            <subfield code="i">11:338</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121015</subfield>
+            <subfield code="5">877013-1160</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">29.2008,258 (= Materialien zu H. 257)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-450</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">29.2008,260 (=Materialien zu H. 259)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-470</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">29.2008,264 (=Materialen zu H. 263)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-510</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">02</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,278 (= Materialausgabe zu H. 277)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-700</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">27.2006,244 (=Material-DVD zu Heft 243)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-280</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">29.2008,266 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-650</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,268 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20090304</subfield>
+            <subfield code="5">877013-670</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,270 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-660</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">30.2009,276 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-800</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,280 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-820</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,284 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-830</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">31.2010,286 CD-Rom</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-940</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,288 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-950</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,290 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-960</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,293 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-970</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">32.2011,296 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121221</subfield>
+            <subfield code="5">877013-1100</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,298 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121008</subfield>
+            <subfield code="5">877013-1110</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,300 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121008</subfield>
+            <subfield code="5">877013-1120</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,304 CD-ROM (=Materialausgabe 304)</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121008</subfield>
+            <subfield code="5">877013-1150</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,306 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20121221</subfield>
+            <subfield code="5">877013-1270</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,308 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20130213</subfield>
+            <subfield code="5">877013-1290</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSEJ</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">96</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,310 CD-ROM</subfield>
+            <subfield code="n">36</subfield>
+            <subfield code="k">20130213</subfield>
+            <subfield code="5">877013-1300</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,297</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1000</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,299</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1020</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,301/302</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1040</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,303</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1060</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">33.2012,305</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1080</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,307</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1170</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,309</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1190</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,311</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1210</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,312</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1220</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,313</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1230</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,314</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1240</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,315</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1250</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">ISSUE</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">43g18</subfield>
+            <subfield code="g">34.2013,316</subfield>
+            <subfield code="n">32</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">877013-1260</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

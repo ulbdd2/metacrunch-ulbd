@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001249043</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>01024nM2.01200024------u</leader>
+          <controlfield tag="LDR">01024nM2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT016086679</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT016112936</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20091012</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">20091102</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20091102</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT016112936</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">GBV152883185</subfield>
+          </datafield>
+          <datafield tag="026" ind1="h" ind2="1">
+            <subfield code="a">152883185</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">HBZHT016112936</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">XD-US</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">[Hauptbd.]</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">Hauptbd.</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Barnett-Clarke, Carne</subfield>
+            <subfield code="9">(DE-588)139636064</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Fractions, decimals, ratios, and percents</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="2">
+            <subfield code="a">hard to teach and hard to learn?</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">ed. by Carne Barnett...</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">[Nachdr.]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Portsmouth, NH</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Heinemann</subfield>
+          </datafield>
+          <datafield tag="425" ind1="-" ind2="1">
+            <subfield code="a">[20]08</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">1994</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2008</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">XX, 127 S. : Ill., graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="2">
+            <subfield code="a">Mathematics teaching cases</subfield>
+          </datafield>
+          <datafield tag="517" ind1="-" ind2="1">
+            <subfield code="a">Includes bibliographical references (p. 125-127)</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">0-435-08357-0</subfield>
+            <subfield code="b">acid-free</subfield>
+          </datafield>
+          <controlfield tag="SYS">001249043</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Clarke, Carne Barnett-</subfield>
+            <subfield code="9">(DE-588)139636064</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Clarke, Carne Barnett-</subfield>
+            <subfield code="9">(DE-588)139636064</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Clarke, Carne Barnett-</subfield>
+            <subfield code="9">(DE-588)139636064</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Clarke, Carne Barnett-</subfield>
+            <subfield code="9">(DE-588)139636064</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">TML</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Bd. Hauptbd. Fractions, decimals, ratios, and percents.</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=3288075&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: BD. HAUPTBD. FRACTIONS, DECIMALS, RATIOS, AND PERCENTS. AUTOR: JAHR: 2008 CONTENTS FOREWORD JUDITH H. SHULMAN AND LEE S. SHULMAN IX PREFACE XIII ACKNOWLEDGMENTS XVII TEACHER TO TEACHER: INTRODUCTION TO CASES XIX INSIDE STUDENT THOTTGHTS ' ' '. ,-,*- TAKE ONE-THIRD 4 TTTGPAGE STUDENT DRAWINGS ILLUSTRATE CONFUSION BETWEEN SUBTRACTION ST»TAIT4L»*™ES AND MULTIPLICATION LANGUAGE. A?NW!*?I» ?, . BEANS, RULERS, AND ALGORITHMS 7 &amp;MTT*IFFE?#, ;. ' STUDENTS USING RULERS AND BEANS HAVE DIFFICULTY CONNECTING IFEFWMIRSAFLMJT-C, I/ZESE EXPERIENCES TO ABSTRACT CONCEPTS. THERE'S NO ONE-HALF HERE 1O ^) AI|NMV^. UNDERSTANDING HOW TO FIND A FRACTION OF A FRACTION ISN'T AS BNFLFCFING OWNCEPTE SIMPFE AS IF SEEMS. EVERYTHING I KNOW ABOUT DECIMALS 11 AASEAECKG* PART ONE 11 STUDENT WTFFING PART TWO 13 APRILY EPILOGUE 20 THE TEACHER STOPS MIDWAY IN A DECIMAL UNIT AND ASKS WHAT TO DO DIFFERENTLY. MATHEMATICAL HOW CAN 1OO% OF SOMETHING BE JUST TTFATINTIBPS ONE THING? 22 ABSRTWNTOT A "IN'CJT" PROBLEM ABOUT PERCENT CONFUSES THE WHOLE CLAS- VV**? /VUKSXIG SERWFC* OR MEZRTOR&amp;I?BGR BT4S? POINT SEVEN PLUS POINT FOUR IS Q""^8^*' POINT ELEVEN 26 4|W(MI»-.'W "/// /CIFT/;I7 TRH •! HS-ZJ/V; »/N//I'I/ /C /?.//' -/.VF/T/- H/»/C R-ZUM/ QFOTHTAW DECIMAL PLACE VALUE. I STILL DON'T SEE WHY MY WAY INVENTED DOESN'T WORK 28 ALGORITHM* GLEN INVENTS HIS AWN RULE FOR MULTIPLYING FRACTIONS AND }U^MMIM WANTS TO KNOW WHY IT DOESN'T WORK. THE DECIMAL WALL 3O REPRESENTATIONS STUDENTS CAN ROUND WHOLE NUMBERS BUT RUN INTO DIFFICULTY NUMBER MGWE WITH DECIMAL NUMBERS. KNOCKING- OFF ZEROS 32 INVCNFTXI STUDENTS INVENT A SHORTCUT TO SIMPLIFY FRACTIONS AND THEN JJJJUOLJUNFI USE IT INCORRECTLY WITH PERCENT PROBLEMS. MUTNFTIATEIH V V Y TTFEFLNFTTHIPS ' LINING UP THE DECIMAL 3S MANJEUHIIVM HANDS-ON EXPERIENCES DON'T HELP WHEN STUDENTS SHIFT FROM I'ONWEWW</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">USING MONEY TO NUMBER SENTENCES. " "'^ "MC"''!-"1 A PROPORTION PU!G2ILE 37 :R.!-.I:':\;- '\\ :•.'•.• STUDENTS SOLVE SIMPLE PROBLEMS INTUITIVELY, BUT THE TEACHER IW-II-M -T"1. -PR WONDERS WHAT WILL HAPPEN WHEN THE PROBLEMS ARE MORE "' '•'••'' ZEROS SOM.ETIM.ES 7N^AKE A DIFFERENCE 42 ASW'SSMENT WOORFJ/ /ZFLS FL CONVERSATION ABOUT DECIMAL PLACE VALUE WITH BUILDING CONCEPTS HIS TEACHER. SIX-TENTHS OR FOUR-FIFTHS OF CONNECTIONS A DOLLAR? 4S STUDWIL WRITINF.! STUDENT JOURNALS SHOW THAT WORK WITH A FRACTION KIT DID III'L TRANSFER TO A NEW KIND OF PROBLEM. TESTING THEORIES 48 PATTERNS AND GRAPH PAPER IS USED TO HELP STUDENTS UNDERSTAND DECIMAL RELATIONSHIPS ... ,. ,. ALTERNATIVE MULTIPLICATION. . . . R STRATEGIES CLASSROOM DISCOURSE HUGH'S INVENTION S2 PROPORTIONAL HUGH HAS DEVELOPED HIS OWN WAY OF RECORDING MEASURES REASONING WITH FRACTIONS THAT SHOWS AN INTUITIVE UNDERSTANDING OF NUMBER SENSE ; INTUITIVE THINKING RATIO CONCEPTS. THIRTEEN CAN'T FIT OVER TWELVE SS CLASSROOM : EPILOGUE 58 DISCOURSE A DISCUSSION ABOUT IMPROPER FRACTIONS SERVES AS A BACKDROP TEACHE»#EFLEETKHI FOR A TEACHER TO TALK ABOUT HIS REAL GOALS FOR STUDENTS. *^ REFLECTING PROBLEM OF THE "WEEK: ASSESSMENT "BOUNCE, BOUNCE" 62 STUDENT WRITING STUDENTS SOLVED THE PROBLEM IN A VARIETY OF WAYS, BUT MANY */*: : HAD DIFFICULTY WITH THE TRANSITION FROM WHOLE NUMBERS TO FRACTIONS. FUNCTION MACHINE 69 PATTERNS AND THIS LESSON EXPLORES RATIO CONCEPTS THROUGH PATTERNS IN FUNCTIONS FUNCTION TABLES. STUDENT WRITING STUDENT THEORIES WHY ISN'T IT ONE LESS? 77 PROPORTIONAL STUDENTS SOLVE A PROPORTION WORD PROBLEM USING MULTIPLE REASONING ' STRATEGIES. FOTUITIVE THFOWOG PROBLEM SOLVING /WANIPULATIVES AREN'T MAGIC ROTE MANIPULATIVE^? 82 PROPORTIONAL THE RELATIONSHIP BETWEEN RATIO AND DIVISION CONCEPTS RAISES REASONING</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">QUESTIONS FOR THE TEACHER AND THE STUDENTS. CONNECTIONS ' ' NUMBER SENSE TWO GREEN TRIANGLES 86 CLASSROOM THIS LESSON EXPLORES FRACTIONAL RELATIONSHIPS AMONG DIFFERENT DISCOURSE PATTERN-BLOCK PIECES. • MANIPULATIVE R R MATHEMATICAL RELATIONSHIPS WHAT NEXT? WHERE DO I GO FROM. HERE? 92 STUDENT DRAWINGS STUDENTS' DRAWINGS DISPLAY A VARIETY OF WAYS TO THINK ABOUT ASSESSMENT DECIMAL COMPARISONS. REPRESENTATIONS FAVORITE-FOOD CIRCLE GRAPH 98 MATHEMATICAL A "FAVORITE FOOD" GRAPH SETS THE STAGE FOR LEARNING ABOUT NELATKNELNPS FRACTION AND PERCENT CONCEPTS. CJDODATARE GRAPHING WHAT'S MY GRADE? 1O1 PTOPORTKMAL PHILLIP WANTS TO KNOW WHY HE GOT A "C" WHEN HE ONLY GOT LEAEONIOG. TWO PROBLEMS ON THE QUIZ WRONG. LANGJIAJSE 5 MATHEMATICAL RELATIONSHIPS CO NNTX1. TU N,S PERDENTS, PROPORTIONS, AND GRIDS 1O6 IR'MJ.ORTIOML GRAPH PAPER GRIDS ARE USED TO SHOW STUDENTS A RELATED WAY MASONING TO SOLVE ALL THREE TYPES OF PERCENT PROBLEMS. REPIESENIAFONS SIX HOURS ISN'T ONE-SIXTH OF A DAY HO SP»TIASI STUDENTS CREATE CIRCLE GRAPHS THAT PORTRAY THE FRACTION OF A . YISHSTFIMRTUIN DAY EACH ACTIVITY TAKES. KEPNFISKHFBLIAAS COMWITITM BUBBLES TO KICIKBALL 114 I&amp;GFEEPATKAL PART ONE 114 .-FLALATTONSHIPS PART TWO 117 CAILATORA „,.,,,,,,. . , . , , . , TEACHER X&amp;TEAION THIS BUBBLE-BLOWING EXPERIMENT WINDS UP BEING A LESSON ON FINDING AVERAGES WITH DECIMAL QUOTIENTS. THE BEAUTY OF MATH 119 MATHEMATICAL STUDENTS SOLVE THE PROBLEM BUT DO NOT SEE THE ELEGANT RELATIONSHIPS SOLUTION THE TEACHER HAD IN MIND. STUILEILT &amp;***** THE RATIO OF GIRLS TO BOYS 122 QMNECTIONS STUDENTS CONFUSE FRACTIONS AND RATIOS IN A BEGINNING LESSON LANGUAGE AN RATIO CONCEPTS. APPENDIX ADVISORY BOARD MEMBERS 123 REFERENCES 125</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001251360</subfield>
+            <subfield code="m">[Hauptbd.];^.^2008</subfield>
+            <subfield code="n">Fractions, decimals, ratios, and percents.^1994</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">03</subfield>
+            <subfield code="d">M40353</subfield>
+            <subfield code="i">09/16049</subfield>
+            <subfield code="n">43</subfield>
+            <subfield code="k">20091014</subfield>
+            <subfield code="5">1249063-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

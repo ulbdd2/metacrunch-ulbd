@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000969531</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------h</leader>
+          <controlfield tag="LDR">------M2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT014925960</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20061205</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20111205</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT014925960</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">m|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">82</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Albers, Sönke</subfield>
+            <subfield code="d">1948-</subfield>
+            <subfield code="9">(DE-588)121414841</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Handbuch Produktmanagement</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Strategieentwicklung, Produktplanung, Organisation, Kontrolle</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Sönke Albers ... (Hrsg.)</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">3., überarb. u. erw. Aufl.</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Wiesbaden</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Gabler</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2007</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">XX, 1094 S. : Ill., graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-8349-0268-9</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">650</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">QP 624</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Produktmanagement</subfield>
+            <subfield code="9">(DE-588)4125960-9</subfield>
+          </datafield>
+          <controlfield tag="SYS">000969531</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Albers, S.</subfield>
+            <subfield code="d">1948-</subfield>
+            <subfield code="9">(DE-588)121414841</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Albers, S.</subfield>
+            <subfield code="d">1948-</subfield>
+            <subfield code="9">(DE-588)121414841</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">QBK</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Handbuch Produktmanagement</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?application=DIGITOOL-3&amp;owner=resourcediscovery&amp;custom_att_2=simple_viewer&amp;user=GUEST&amp;pid=2164299</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">OCR-TEXT: INHALTSVERZEICHNIS VORWORT V AUTORENVERZEICHNIS XV ERSTER TEIL BEGRIFF UND ANLIEGEN DES PRODUKTMANAGEMENT SNKE ALBERS UND ANDREAS HERR MANN ZIELE, AUFGABEN UND GRUNDKONZEPT DES PRODUKTMANAGEMENT 1 ZWEITER TEIL STRATEGISCHE ASPEKTE DES PRODUKTMANAGEMENT 1. KAPITEL: NEUE PRODUKTE UND LEISTUNGEN KLAUS BROCKHOFF PRODUKTINNOVATION 19 GERHARD SCHEWE PRODUKTIMITATION 49 WOLFGANG FRITZ UND DIETRICH VON DER OELSNITZ MARKTEINTRITTSSTRATEGIEN 71 2. KAPITEL: GESTALTUNGSALTERNATIVEN CORNELIA ZANGER LEISTUNGSKERN 97 UDO KOPPELMANN DESIGN UND VERPACKUNG 119 FRIEDHELM BLIEMEL UND GEORG FASSOTT SEKUNDRDIENSTLEISTUNGEN 141 X INHALTSVERZEICHNIS 3. KAPITEL: MARKENBILDUNG CHRISTOPH BURMANN UND HERIBERT MEFFERT MARKENBILDUNG UND MARKENSTRATEGIEN 161 FRANZ-RUDOLF ESCH MARKENPROFILIERUNG UND MARKENTRANSFER 185 MARIO FARSKY UND HENRIK SATTLER MARKENBEWERTUNG 219 DRITTER TEIL PRODUKTPLANUNG 1. KAPITEL: NEUPRODUKTGESTALTUNG UDO WAGNER UND ARTUR BALDAUF MARKTABGRENZUNG UND MARKTSTRUKTURIERUNG 251 INGO BAIDERJAHN UND JOACHIM SCHOLDERER BENEFIT- UND LIFE STYLE-SEGMENTIERUNG 273 HARTMUT H. HOLZMLLER UND BETTINA BHM POTENZIALANALYSE 295 HERIBERT GIERL UND ROLAND HELM GENERIERUNG VON PRODUKTIDEEN UND -KONZEPTEN 315 VOLKER TROMMSDORFF PRODUKTPOSITIONIERUNG 341 SNKE ALBERS OPTIMALE AUSWAHL VON PRODUKTEIGENSCHAFTEN 363 BERND ERICHSON PRFUNG VON PRODUKTIDEEN UND -KONZEPTEN 395 INHALTSVERZEICHNIS XI HOLGER ERNST MANAGEMENT DER NEUPRODUKTENTWICKLUNG 421 MARK HEITMANN UND MANUELA LIPPUNER PRFERENZKONSTRUKTION 445 2. KAPITEL: MANAGEMENT EXISTIERENDER PRODUKTE TORSTEN TOMCZAK, SVEN REINECKE, PHILOMELA KAETZKE UND SILKE MHLMEIER KONZEPT ZUR GESTALTUNG UND ZUM CONTROLLING EXISTIERENDER LEISTUNGEN 471 LUTZ HILDEBRANDT UND DANIEL KLAPPER WETTBEWERBSANALYSE 493 HARALD HRUSCHKA WIRKSAMKEIT DER MARKETINGINSTRUMENTE 517 DIETER K. TSCHEULIN UND BERND HELMIG MARKENTREUE, WIEDERKAUF- UND WECHSELVERHALTEN 539 3. KAPITEL: PRODUKTPROGRAMMPLANUNG CARSTEN LURSE PRODUKTMODIFIKATION 561</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">REINHOLD DECKER UND CLAUDIA BORNEMEYER PRODUKTLINIENGESTALTUNG 573 JOACHIM BSCHKEN UND CHRISTIAN VON THADEN PRODUKTVARIATION, -DIFFERENZIERUNG UND -DIVERSIFIKATION 595 FRANK HUBER UND ANKE KOPSCH PRODUKTBNDELUNG 617 ANDREAS HERRMANN UND KLAUS PEINE VARIANTENMANAGEMENT 649 XII INHALTSVERZEICHNIS MARTIN SPANN UND STEFAN MANG VERSIONING 681 VIERTER TEIL ORGANISATION UND KONTROLLE 1. KAPITEL: ORGANISATION DES PRODUKTMANAGEMENT RALF SCHMIDT UND HARTWIG STEFFENHAGEN QUALITY FUNCTION DEPLOYMENT 699 AXEL JOHNE UND SREN SALOMO ORGANISATION DER PRODUKTINNOVATION 717 RICHARD KHLER ORGANISATION DES PRODUKTMANAGEMENT 741 MARTIN BENKENSTEIN SCHNITTSTELLEN IM PRODUKTMANAGEMENT 763 RALPH BERNDT UND CLAUDIA FANTAPIE ALTOBELLI INTERNATIONALES PRODUKTMANAGEMENT 789 2. KAPITEL: KONTROLLE DES PRODUKTMANAGEMENT BIRGIT FRIED! ERFOLGSKONTROLLE 815 CHRISTIAN HOMBURG UND NICOLE KOSCHATE KUNDENZUFRIEDENHEIT UND KUNDENBINDUNG 843 INHALTSVERZEICHNIS XIII FNFTER TEIL TRENDS IM PRODUKTMANAGEMENT BERND SKIERN UND ANJA LAMBRECHT ERLSMODELLE IM INTERNET 869 MICHAEL LINGENFELDER UND CLAUDIA KREIPL EFFICIENT CONSUMER RESPONSE 887 LOTHAR MLLER-HAGEDORN UND STEPHAN ZIELKE CATEGORY MANAGEMENT 915 FRANK THOMAS PILLER MASS CUSTOMIZATION 941 SECHSTER TEIL AUSGEWHLTE BEISPIELE HANS BERGER, RALPH-GERHARD WILLNER UND MARTIN EINHORN KUNDENORIENTIERTE PRODUKTGESTALTUNG AM BEISPIEL DES AUDI Q7 969 GEORG TACKE UND MARTIN GEHRING NUTZENORIENTIERTE PRODUKTGESTALTUNG AM BEISPIEL VON PKW 981 HEINRICH A. LITZENROTH UND THOMAS HERTLE TESTMARKTSIMULATION AM BEISPIEL VON KRPERPFLEGEMITTEL 1003 SUSANNE JANSEN UND KAREN GEDENK MARKENTRANSFER AM BEISPIEL NIVEA BEAUTE 1035 MICHEL CLEMENT PRODUKTMANAGEMENT VON MEDIENGTERN 1053 JENS GUTSCHE, CHRISTIAN HAHN UND INA KROSTITZ DEUTSCHE TELEKOM AG: MIT SERVICEVERSPRECHEN ZUM ERFOLG 1069 STICHWORTVERZEICHNIS 1089</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">QBK9375(3)</subfield>
+            <subfield code="i">07/8067</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20070905</subfield>
+            <subfield code="5">987897-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

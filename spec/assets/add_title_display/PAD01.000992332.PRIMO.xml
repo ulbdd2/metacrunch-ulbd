@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000992332</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00608nM2.01200024------h</leader>
+          <controlfield tag="LDR">00608nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015365715</subfield>
+          </datafield>
+          <datafield tag="002" ind1="b" ind2="1">
+            <subfield code="a">20071203</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20090114</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">98499632X</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">98499632X</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">DNB98499632X</subfield>
+          </datafield>
+          <controlfield tag="030">a|1daz|z|||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE-BE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="051">m|||z|||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">51</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="078" ind1="n" ind2="1">
+            <subfield code="a">NWBib-6</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Gehlen, Herbert</subfield>
+            <subfield code="d">1926-</subfield>
+            <subfield code="9">(DE-588)13349375X</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">&lt;&lt;Der&gt;&gt; Hexenbürgermeister von Lemgo</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">ein Lesedrama in Versen</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Herbert Gehlen</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">1. Aufl.</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Berlin</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Frieling</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2007</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">110 S.</subfield>
+          </datafield>
+          <datafield tag="435" ind1="-" ind2="1">
+            <subfield code="a">21 cm</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-8280-2498-4</subfield>
+            <subfield code="b">Pb. : EUR 6.90</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-8280-2498-X</subfield>
+            <subfield code="b">Pb. : EUR 6.90</subfield>
+          </datafield>
+          <datafield tag="568" ind1="-" ind2="1">
+            <subfield code="a">07,N32,1150</subfield>
+          </datafield>
+          <datafield tag="574" ind1="-" ind2="1">
+            <subfield code="a">07,A47,1593</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">830</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">B</subfield>
+          </datafield>
+          <datafield tag="700" ind1="n" ind2="1">
+            <subfield code="a">99</subfield>
+            <subfield code="b">Lemgo</subfield>
+          </datafield>
+          <datafield tag="700" ind1="n" ind2="1">
+            <subfield code="a">768010</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="g">Lemgo</subfield>
+            <subfield code="9">(DE-588)4035306-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Hexenverfolgung</subfield>
+            <subfield code="9">(DE-588)4113908-2</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="z">Geschichte 1666-1683</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Belletristische Darstellung</subfield>
+          </datafield>
+          <datafield tag="903" ind1="-" ind2="1">
+            <subfield code="a">2134</subfield>
+          </datafield>
+          <controlfield tag="SYS">000992332</controlfield>
+          <datafield tag="553" ind1="a" ind2="1">
+            <subfield code="a">9783828024984</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hexe</subfield>
+            <subfield code="x">Verfolgung</subfield>
+            <subfield code="9">(DE-588)4113908-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hexenverfolgungen</subfield>
+            <subfield code="9">(DE-588)4113908-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hexe</subfield>
+            <subfield code="x">Verfolgung</subfield>
+            <subfield code="9">(DE-588)4113908-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hexenverfolgungen</subfield>
+            <subfield code="9">(DE-588)4113908-2</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">CKQW</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">CJSH</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">LUHL</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Der Hexenbürgermeister von Lemgo</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=2457713&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">OCR-TEXT: INHALT ERSTER AUFZUG 7 1. SZENE WOHNUNG BOENDEL AM OSTERTOR 7 2. SZENE BUERGERMEISTERZIMMER 14 3. SZENE IM FREIEN 22 ZWEITER AUFZUG 27 1. SZENE KIRCHE ST. NICOLAI 27 2. SZENE RATSVERSAMMLUNG 28 3. SZENE FOLTERKAMMER 34 4. SZENE HEXENTURM 44 5. SZENE BUERGERMEISTERZIMMER 47 DRITTER AUFZUG 51 1. SZENE EINGANG ZUM RATHAUS 51 2. SZENE BUERGERMEISTERZIMMER 55 VIERTER AUFZUG 62 1. SZENE JOHANNISTOR 62 2. SZENE HINTERSTUBE „IM WEISSEN SCHWAN" 64 3. SZENE BEI ST. MARIEN. DAEMMERUNG 67 4. SZENE KRIEGERS WOHNUNG 74 5. SZENE BUERGERMEISTERZIMMER 77 FUENFTER AUFZUG 83 1. SZENE MARKTPLATZ 83 2. SZENE IN COTHMANS HAUSE 89 3. SZENE HEXENTURM 95 4. SZENE KRIEGERS "WOHNUNG 100 LETZTE (5.) SZENE IN COTHMANS HAUSE 104</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">03</subfield>
+            <subfield code="d">SR2215</subfield>
+            <subfield code="i">08/6102</subfield>
+            <subfield code="n">21</subfield>
+            <subfield code="k">20080605</subfield>
+            <subfield code="5">1012470-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

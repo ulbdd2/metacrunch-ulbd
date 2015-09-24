@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001499880</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------u</leader>
+          <controlfield tag="LDR">------M2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT017215916</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT017055615</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20120508</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">20111201</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20130319</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20130218</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT017055615</subfield>
+          </datafield>
+          <datafield tag="020" ind1="b" ind2="2">
+            <subfield code="a">BV039732615</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT017215916</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">BVBBV039732615</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">467</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">107</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Rösch, Gertrud M.</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Heinrich Mann bis Zwerenz</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Fakten und Fiktionen</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="2">
+            <subfield code="a">Werklexikon der deutschsprachigen Schlüsselliteratur ; 1900 - 2010</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">hrsg. von Gertrud Maria Rösch</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Stuttgart</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Hiersemann</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2013</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">XII S., S. 407 - 795</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="2">
+            <subfield code="a">Hiersemanns bibliographische Handbücher ; 21</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="2">
+            <subfield code="a">HT001260573</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="2">
+            <subfield code="a">21</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="2">
+            <subfield code="a">21</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="2">
+            <subfield code="p">Erschienen</subfield>
+            <subfield code="a">Halbbd. 1 - 2</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-7772-1214-2</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">978-3-7772-1129-9</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="m">B:DE-101</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=5056665&amp;custom_att_2=simple_viewer</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">206</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">200</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">206</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">200</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="s">Deutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="s">Schlüsselliteratur</subfield>
+            <subfield code="9">(DE-588)4179761-9</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="z">Geschichte 1900-2010</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="f">Wörterbuch</subfield>
+          </datafield>
+          <controlfield tag="SYS">001499880</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Neuhochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Deutsche Sprache</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Hochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Neuhochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Deutsche Sprache</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Hochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Neuhochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Deutsche Sprache</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Hochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">BTQ</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Heinrich Mann bis Zwerenz</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=5056666&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: HEINRICH MANN BIS ZWERENZ AUTOR: JAHR: 2013 INHALT ZWEITER HALBBAND EINLEITUNG MITARBEITERINNEN UND MITARBEITER ABGEKUERZT ZITIERTE LITERATUR UND SIGLEN VIII XI XII 407 BEITRAEGE 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 MANN, HEINRICH MANN, KLAUS MANN, THOMAS MARON, MONIKA MAUTZ, KURT MEHRING, WALTER MEIR, GERHARD MENASSE, ROBERT MOERS, WALTER MORGENSTERN, SORNA MOSEBACH, MARTIN MUELLER, HERTA MUSIL, ROBERT ORTHEIL, HANNS-JOSEF RANSMAYR, CHRISTOPH RECK-MALLECZEWEN, FRITZ REGER, ERIK REGLER, GUSTAV REINACHER, EDUARD REVENTLOW, FRANZISKA ZU RICHTER, HANS WERNER RILKE, RAINER MARIA ROSEI, PETER ROSENDORFER, HERBERT 407 414 427 437 443 447 451 453 457 461 465 470 475 482 487 491 494 500 504 509 514 517 523 526 V HTTP://D-NB.INFO/1031396799 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 ROTH, JOSEPH RUEDERER, JOSEF SAHL, HANS SCHAEFFER, ALBRECHT SCHICKELE, RENE SCHINDEL, ROBERT SCHLATTNER, EGINALD SCHLEIME, CORNELIA SCHMITZ, OSCAR SCHNEIDER, PETER SCHNITZLER, ARTHUR SCHULLERN, HEINRICH VON SEBALD, WINFRIED GEORG SEGHERS, ANNA SPARSCHUH, JENS STEINBERG, WERNER TEILKAMP, UWE TERGIT, GABRIELE TIMM, UWE TREICHEL, HANS-ULRICH . WALSER, MARTIN WALTHER, JENS WALTHER, JOACHIM WEISENBORN, GUENTHER . WEISS, ERNST WEISS, PETER WERFEL, FRANZ WIDMER, URS WITTELS, FRITZ WITTSTOCK, JOACHIM WOLF, CHRISTA ZACH, MANFRED ZWEIG, ARNOLD ZWERENZ, GERHARD 533 542 546 549 555 564 567 575 578 582 585 590 593 598 614 617 620 626 632 640 643 658 662 667 669 672 680 688 693 697 702 716 720 739 INHALT REGISTER</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">REGISTER DER HISTORISCHEN PERSONEN WERKREGISTER 1. AUSFUEHRLICH BEHANDELTE WERKE 2. VERZEICHNIS ALLER ERWAEHNTEN FIKTIONALEN UND NICHT-FIKTIONALEN WERKE 3. FILME UND TV-SENDUNGEN 4. ERWAEHNTE ZEITSCHRIFTEN UND ZEITUNGEN SACHREGISTER ORTSREGISTER WIEDERABDRUCK DES REGISTERS AUS BAND II: ENTSCHLUESSELUNG DEUTSCHER ROMANE UND DRAMEN» DES WERKES DIE SCHLUESSELLITERATUR» VON GEORG SCHNEIDER (1952) 741 741 763 763 765 771 772 774 780 785 VII</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001499877</subfield>
+            <subfield code="m">2;^.^Heinrich Mann bis Zwerenz.^2013</subfield>
+            <subfield code="n">Fakten und Fiktionen.^2011</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">10</subfield>
+            <subfield code="d">BTQ2320-2</subfield>
+            <subfield code="i">13/6704</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20130611</subfield>
+            <subfield code="5">1499917-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

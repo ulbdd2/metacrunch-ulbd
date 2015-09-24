@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000978033</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------u</leader>
+          <controlfield tag="LDR">------M2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015190654</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT015093286</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20070625</subfield>
+          </datafield>
+          <datafield tag="002" ind1="b" ind2="2">
+            <subfield code="a">20070515</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20080910</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="2">
+            <subfield code="a">20070227</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT015093286</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="2">
+            <subfield code="a">983163901</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT015190654</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">HBZHT015093286</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">XA-DE-BW</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">Bi 10</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">385</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="2">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">294</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">Audio CDs 1-4</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">&lt;cds&gt;</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="2">
+            <subfield code="p">Gear, Jolene</subfield>
+            <subfield code="9">(DE-588)152069011</subfield>
+          </datafield>
+          <datafield tag="104" ind1="a" ind2="2">
+            <subfield code="p">Gear, Robert</subfield>
+            <subfield code="9">(DE-588)152564810</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Cambridge preparation for the TOEFL test</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="2">
+            <subfield code="a">Medienkombination</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="2">
+            <subfield code="a">[iBT internet-based test ; 7 practice tests on CD-ROM ; complete test preparation]</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">Jolene Gear ; Robert Gear</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="2">
+            <subfield code="a">4. ed.</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Cambridge [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Cambridge Univ. Press</subfield>
+          </datafield>
+          <datafield tag="415" ind1="-" ind2="2">
+            <subfield code="a">Stuttgart</subfield>
+          </datafield>
+          <datafield tag="417" ind1="-" ind2="2">
+            <subfield code="a">Klett</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">2006</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2006</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">4 CDs</subfield>
+          </datafield>
+          <datafield tag="501" ind1="-" ind2="2">
+            <subfield code="a">Paket besteht aus Buch, CD-ROM und 8 Audio-CDs</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">978-3-12-534374-0</subfield>
+            <subfield code="b">: EUR 96.00 (freier Pr.), sfr 155.00 (freier Pr.)</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">3-12-534374-7</subfield>
+            <subfield code="b">: EUR 96.00 (freier Pr.), sfr 155.00 (freier Pr.)</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">978-0-521-75587-0</subfield>
+          </datafield>
+          <controlfield tag="SYS">000978033</controlfield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">EMI</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000978030</subfield>
+            <subfield code="m">Audio CDs 1-4;^.^2006</subfield>
+            <subfield code="n">Cambridge preparation for the TOEFL test.^2006</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">AVMAT</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">86</subfield>
+            <subfield code="d">EMI2567(4)-CD1</subfield>
+            <subfield code="i">07/12649</subfield>
+            <subfield code="n">49</subfield>
+            <subfield code="k">20071205</subfield>
+            <subfield code="5">997504-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

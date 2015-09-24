@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000322492</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00489nM2.01200024------h</leader>
+          <controlfield tag="LDR">00489nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT002201048</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19930719</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20010529</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20031206</subfield>
+          </datafield>
+          <controlfield tag="030">h|5dc||||||37</controlfield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">n||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">61</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">HBZ/Red</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Hösel, Christian</subfield>
+            <subfield code="9">(DE-588)109352793</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Huss, Kurt</subfield>
+            <subfield code="9">(DE-588)178295957</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="1">
+            <subfield code="p">Leistner, Hansjoachim</subfield>
+            <subfield code="9">(DE-588)115121528</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Mathematik fuer Wirtschaftswissenschaften</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">Lehr- und Uebungsbuch ; fuer Fachhochschueler, Fachoberschueler, Wirtschaftsingenieure, Abend- und Fernkurse zur Wiederholung und zum Selbststudium</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Thun</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Deutsch</subfield>
+          </datafield>
+          <controlfield tag="SYS">000322492</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hösel-Kinitz-Bose, ...</subfield>
+            <subfield code="9">(DE-588)109352793</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hösel-Kinitz-Bose, ...</subfield>
+            <subfield code="9">(DE-588)109352793</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">TLU</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000322493</subfield>
+            <subfield code="m">Mathematik fuer Wirtschaftswissenschaften.^</subfield>
+            <subfield code="n">1;^.^[Autoren: Christian Hoesel ...].^1978</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000322494</subfield>
+            <subfield code="m">Mathematik fuer Wirtschaftswissenschaften.^</subfield>
+            <subfield code="n">2;^.^[Autoren: Kurt Huss ...].^1977</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000322495</subfield>
+            <subfield code="m">Mathematik fuer Wirtschaftswissenschaften.^</subfield>
+            <subfield code="n">3;^.^[Autoren: Hansjoachim Leistner ...].^1978</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000322496</subfield>
+            <subfield code="m">Mathematik fuer Wirtschaftswissenschaften.^</subfield>
+            <subfield code="n">4;^.^[Autoren: Christian Hoesel ...].^1978</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">UEO</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">40</subfield>
+            <subfield code="d">TLU1839-...</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">298758-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

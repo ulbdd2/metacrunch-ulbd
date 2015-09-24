@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000870753</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------h</leader>
+          <controlfield tag="LDR">------M2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT013803972</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20031006</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20110505</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT013803972</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">n|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Nicolaou, Kyriacos C.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Sorensen, Erik J.</subfield>
+            <subfield code="d">1966-</subfield>
+            <subfield code="9">(DE-588)172891523</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="1">
+            <subfield code="p">Snyder, Scott A.</subfield>
+            <subfield code="9">(DE-588)124964087</subfield>
+          </datafield>
+          <datafield tag="112" ind1="b" ind2="1">
+            <subfield code="p">Chen, Jason S.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Classics in total synthesis</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Weinheim [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">VCH</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1996</subfield>
+          </datafield>
+          <datafield tag="511" ind1="-" ind2="1">
+            <subfield code="p">Verlagsname später</subfield>
+            <subfield code="a">Wiley-VCH</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="p">Erschienen</subfield>
+            <subfield code="a">Bd. [1] - 3</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">VK 5500</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Naturstoff</subfield>
+            <subfield code="9">(DE-588)4041418-8</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Retrosynthese</subfield>
+            <subfield code="9">(DE-588)4330854-5</subfield>
+          </datafield>
+          <controlfield tag="SYS">000870753</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Retrosynthetische Analyse</subfield>
+            <subfield code="9">(DE-588)4330854-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Retrosynthetische Analyse</subfield>
+            <subfield code="9">(DE-588)4330854-5</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, Kyriacos</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, K. C.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, K.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Snyder, S. A.</subfield>
+            <subfield code="9">(DE-588)124964087</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, Jason</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, J. S.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, J.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sorensen, E. J.</subfield>
+            <subfield code="d">1966-</subfield>
+            <subfield code="9">(DE-588)172891523</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, Jason</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, J. S.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, J.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sorensen, E. J.</subfield>
+            <subfield code="d">1966-</subfield>
+            <subfield code="9">(DE-588)172891523</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, Kyriacos</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, K. C.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, K.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Snyder, S. A.</subfield>
+            <subfield code="9">(DE-588)124964087</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, Kyriacos</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, K. C.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nicolaou, K.</subfield>
+            <subfield code="9">(DE-588)11391041X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sorensen, E. J.</subfield>
+            <subfield code="d">1966-</subfield>
+            <subfield code="9">(DE-588)172891523</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sorensen, E. J.</subfield>
+            <subfield code="d">1966-</subfield>
+            <subfield code="9">(DE-588)172891523</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Snyder, S. A.</subfield>
+            <subfield code="9">(DE-588)124964087</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, Jason</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, J. S.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Chen, J.</subfield>
+            <subfield code="9">(DE-588)143527339</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Retrosynthetische Analyse</subfield>
+            <subfield code="9">(DE-588)4330854-5</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">UVB</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000870754</subfield>
+            <subfield code="m">Classics in total synthesis.^1996</subfield>
+            <subfield code="n">[1];^.^Targets, strategies, methods.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000870755</subfield>
+            <subfield code="m">Classics in total synthesis.^1996</subfield>
+            <subfield code="n">2;^.^More targets, strategies, methods.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001003045</subfield>
+            <subfield code="m">Classics in total synthesis.^1996</subfield>
+            <subfield code="n">[1];^.^Targets, strategies, methods.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001403718</subfield>
+            <subfield code="m">Classics in total synthesis.^1996</subfield>
+            <subfield code="n">3;^.^Further targets, strategies, methods.^2011</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">UEO</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">41</subfield>
+            <subfield code="d">UVB3677-...</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">812975-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000147985</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>01116vM2.01200024------h</leader>
+          <controlfield tag="LDR">01116vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT000928722</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19840831</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20070126</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||25</controlfield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">s|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">HBZ/Off</subfield>
+          </datafield>
+          <datafield tag="078" ind1="b" ind2="1">
+            <subfield code="a">alt</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">10</subfield>
+          </datafield>
+          <datafield tag="200" ind1="-" ind2="1">
+            <subfield code="e">Seminar Abfallentsorgung durch Abfallverwertung</subfield>
+            <subfield code="d">1979</subfield>
+            <subfield code="c">Stuttgart</subfield>
+            <subfield code="9">(DE-588)2055098-4</subfield>
+          </datafield>
+          <datafield tag="204" ind1="a" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="310" ind1="a" ind2="1">
+            <subfield code="a">MANUSKRIPTSAMMELBAND ZUM SEMINAR ABFALLENTSORGUNG DURCH ABFALLVERWERTUNG</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">MANUSKRIPTSAMMELBAND ZUM SEMINAR ABFALLENTSORGUNG DURCH ABFALLVERWERTUNG : IN D. ZEIT VOM 4. - 7. APRIL 1979 AN D. UNIV. STUTTGART / VERANST.: FORSCHUNGS- U. ENTWICKLUNGSINST. FUER INDUSTRIE- U. SIEDLUNGSWASSERWIRTSCHAFT SOWIE ABFALLWIRTSCHAFT E.V. IN STUTTGART (FEI) IN ZUSAMMENARBEIT MIT D. INST. FUER SIEDLUNGSWASSERBAU, WASSERGUETE- U. ABFALLWIRTSCHAFT D. UNIV. STUTTGART U.D. VEREIN POLN. SANITAERINGENIEURE U. -TECHNIKER, (PZITS), WARSCHAU</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">ABFALLENTSORGUNG DURCH ABFALLVERWERTUNG</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">BERLIN</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">E. SCHMIDT</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1979</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">VI, 406 S. : GRAPH. DARST.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">STUTTGARTER BERICHTE ZUR ABFALLWIRTSCHAFT ; BD. 10</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT001231277</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">10</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">10</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-503-01369-5</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">AR 21500</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">QT 200</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Abfallbeseitigung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="903" ind1="-" ind2="1">
+            <subfield code="a">21</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="f">Stuttgart &lt;1979&gt;</subfield>
+          </datafield>
+          <datafield tag="908" ind1="-" ind2="1">
+            <subfield code="a">231</subfield>
+          </datafield>
+          <datafield tag="912" ind1="-" ind2="1">
+            <subfield code="s">Abfallbeseitigung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="912" ind1="-" ind2="1">
+            <subfield code="s">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="912" ind1="-" ind2="1">
+            <subfield code="s">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="912" ind1="-" ind2="1">
+            <subfield code="f">Stuttgart &lt;1979&gt;</subfield>
+          </datafield>
+          <datafield tag="913" ind1="-" ind2="1">
+            <subfield code="a">3412</subfield>
+          </datafield>
+          <controlfield tag="SYS">000147985</controlfield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallentsorgung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hausmüllentsorgung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllbeseitigung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Kolloquium</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Symposion</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Tagung</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Vortragssammlung</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Symposium</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Sommerschule</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Künstlersymposion</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Kongresse</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallentsorgung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hausmüllentsorgung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllbeseitigung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Kolloquium</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Symposion</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Tagung</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Vortragssammlung</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Symposium</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Sommerschule</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Künstlersymposion</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Kongresse</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederaufbereitung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederverwendung</subfield>
+            <subfield code="x">Abfall</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rückgewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiedergewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Verwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallrecycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rohstoffkreislauf</subfield>
+            <subfield code="h">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallnutzung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Recyclingverfahren</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederaufbereitung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederverwendung</subfield>
+            <subfield code="x">Abfall</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rückgewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiedergewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Verwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallrecycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rohstoffkreislauf</subfield>
+            <subfield code="h">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallnutzung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Recyclingverfahren</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallentsorgung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Hausmüllentsorgung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllbeseitigung</subfield>
+            <subfield code="9">(DE-588)4000100-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederaufbereitung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederverwendung</subfield>
+            <subfield code="x">Abfall</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rückgewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiedergewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Verwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallrecycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rohstoffkreislauf</subfield>
+            <subfield code="h">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallnutzung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Recyclingverfahren</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederaufbereitung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiederverwendung</subfield>
+            <subfield code="x">Abfall</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rückgewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Müllverwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Wiedergewinnung</subfield>
+            <subfield code="h">Umwelttechnik</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfall</subfield>
+            <subfield code="x">Verwertung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallrecycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Rohstoffkreislauf</subfield>
+            <subfield code="h">Recycling</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Abfallnutzung</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Recyclingverfahren</subfield>
+            <subfield code="9">(DE-588)4076573-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Kolloquium</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Symposion</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Tagung</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Vortragssammlung</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Symposium</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Sommerschule</subfield>
+            <subfield code="h">Kongress</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Künstlersymposion</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Kongresse</subfield>
+            <subfield code="9">(DE-588)4130470-6</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">FEI</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Forschungs- und Entwicklungsinstitut für Industrie- und Siedlungswasserwirtschaft sowie Abfallwirtschaft e.V.</subfield>
+            <subfield code="9">(DE-588)1002311-2</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">ZFN</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000202597</subfield>
+            <subfield code="m">10.^MANUSKRIPTSAMMELBAND ZUM SEMINAR ABFALLENTSORGUNG DURCH ABFALLVERWERTUNG.^1979</subfield>
+            <subfield code="n">Stuttgarter Berichte zur Abfallwirtschaft.^</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">50</subfield>
+            <subfield code="d">ZFN1139</subfield>
+            <subfield code="i">80/20818</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">164210-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

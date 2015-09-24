@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001206544</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------u</leader>
+          <controlfield tag="LDR">------M2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015886066</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT015822259</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20090402</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">20090203</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20110401</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20110404</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT015822259</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="2">
+            <subfield code="a">991578341</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT015886066</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">DNB991578341</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">XA-DE-SN</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="2">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">361</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">361</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">4. Fakultäten, Institute, Zentrale Einrichtungen</subfield>
+            <subfield code="a">1. Halbbd.</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">4,1</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Bünz, Enno</subfield>
+            <subfield code="d">1961-</subfield>
+            <subfield code="9">(DE-588)115832068</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="2">
+            <subfield code="p">Zwahr, Hartmut</subfield>
+            <subfield code="d">1936-</subfield>
+            <subfield code="9">(DE-588)120531100</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="2">
+            <subfield code="p">Hehl, Ulrich &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="200" ind1="-" ind2="2">
+            <subfield code="k">Universität Leipzig</subfield>
+            <subfield code="b">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="331" ind1="a" ind2="2">
+            <subfield code="a">Geschichte der Universität Leipzig 1409 - 2009</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="2">
+            <subfield code="a">Ausgabe in fünf Bänden</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">hrsg. von Ulrich von Hehl ...</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">hrsg. ... von der Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Leipzig</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Leipziger Univ.-Verl.</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">2009</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2009</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">942 S. : Ill., graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="2">
+            <subfield code="p">Erschienen</subfield>
+            <subfield code="a">Bd. 1 - 5</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-86583-304-4</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">978-3-86583-310-5</subfield>
+            <subfield code="b">Gb. : EUR 249.00</subfield>
+          </datafield>
+          <datafield tag="574" ind1="-" ind2="2">
+            <subfield code="a">09,N01,3500</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="2">
+            <subfield code="a">900</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="k">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="z">Geschichte</subfield>
+          </datafield>
+          <controlfield tag="SYS">001206544</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hehl, U. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hehl, U. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hehl, U. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Hehl, U. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Hehl, U. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Hehl, U. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1947-</subfield>
+            <subfield code="9">(DE-588)121713563</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Senatskommission zur Erforschung der Leipziger Universitäts- und Wissenschaftsgeschichte</subfield>
+            <subfield code="9">(DE-588)16006157-X</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Alma Mater</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">KMU</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universite Karl Marx</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl-Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx-Universität</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karl Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marx University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Karla Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Marxoweje Uniwersita</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Lejpcig'skyj Universytet Imeni Karla Marksa</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universytet Imeni Karla Marksa</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsiensis</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Academia Lipsiensis</subfield>
+            <subfield code="h">Universität Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">Universitas Literarum Lipsica</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Leipzig</subfield>
+            <subfield code="9">(DE-588)2024343-1</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">LUHL</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">AJJL</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Bd. 4,1. Geschichte der Universität Leipzig 1409 - 2009. Fakultäten, Institute, Zentrale Einrichtu</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=2951839&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: BD. 4,1. GESCHICHTE DER UNIVERSITAET LEIPZIG 1409 - 2009. FAKULTAETEN, INSTITUTE, ZENTRALE EINRICHTU AUTOR: UNIVERSITAET LEIPZIG JAHR: 2009 INHALT VORWORT DER HERAUSGEBER 9 DIE UNIVERSITAET LEIPZIG IN IHRER WISSENSCHAFTSORGANISATORISCHEN ENTWICKLUNG 1409-2009. VON VIER ZU VIERZEHN FAKULTAETEN (JONAS FLOETER, SEBASTIAN KUSCHE) 13 THEOLOGISCHE FAKULTAET THEOLOGIE (KLAUS FITSCHEN) 35 JURISTENFAKULTAET RECHTSWISSENSCHAFT (BERND-RUEDIGER KERN) 103 FAKULTAET FUER GESCHICHTE, KUNST- UND ORIENTWISSENSCHAFTEN EINLEITUNG (MARKUS A. DENZEL, REGINA POSER) 151 GESCHICHTE (ULRICH VON HEHL, MARKUS HUTTNER F) 157 KLASSISCHE ARCHAEOLOGIE (HANS-PETER MUELLER) 197 KUNSTGESCHICHTE (THOMAS TOPFSTEDT, FRANK ZOELLNER) 218 KUNSTPAEDAGOGIK (KATJA SCHROETER) 235 MUSIKWISSENSCHAFT (SEBASTIAN KLOTZ, HELMUT LOOS) 253 MUSIKPAEDAGOGIK (HANS-JUERGEN FEURICH) 270 THEATERWISSENSCHAFT (CORINNA KIRSCHSTEIN) 282 AFRIKANISTIK (FELIX BRAHM, ADAM JONES) 295 AEGYPTOLOGIE (HANS-W. FISCHER-ELFERT, FRIEDERIKE SEYFRIED) 325 ALTORIENTALISTIK (MICHAEL P. STRECK) 345 ETHNOLOGIE (KATJA GEISENHAINER) 367 INDOLOGIE UND ZENTRALASIENWISSENSCHAFTEN (ELI FRANCO, MANFRED TAUBE) 393 ARABISTIK (HOLGER PREISSLER F, DANIEL KINITZ) 415 JAPANOLOGIE (STEFFI RICHTER) 439 SINOLOGIE (RALF MORITZ) 448 RELIGIONSWISSENSCHAFT (CHRISTIAN ESPIG) 458 PHILOLOGISCHE FAKULTAET EINLEITUNG (ANITA STEUBE) 483 AMERIKANISTIK (ANJA BECKER) 492 ANGLISTIK (JUERGEN RONTHALET; ELMAR SCHENKEL, BEATE SEIDEL) 512 GERMANISTIK (GUENTHER OEHLSCHLAEGER, LUDWIG STOCKINGER) 534 HERDER-INSTITUT (MARGIT EBERSBACH) 562 KLASSISCHE PHILOLOGIE UND KOMPARATISTIK (MARCUS DEUFERT, KURT SIER, FOTEINI KOLOVOU, ANGELIKA HOFFMANN-MAXIS) 575 6 INHALT LINGUISTIK (ANITA STEUBE) 596 ANGEWANDTE LINGUISTIK UND TRANSLATOLOGIE (EBERHARD FLEISCHMANN, ANKE LUTZ) 618 ROMANISTIK (KLAUS BOCHMANN, ALFONSO DE TORO) 632 SLAWISTIK (AUTORENTEAM, LEITUNG: WOLFGANG F. SCHWARZ) 656 SORABISTIK (TOMASZ DERLATKA) 681 ERZIEHUNGSWISSENSCHAFTLICHE FAKULTAET</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">ERZIEHUNGSWISSENSCHAFT (JONAS FLOETER) 693 FAKULTAET FUER SOZIALWISSENSCHAFTEN UND PHILOSOPHIE EINLEITUNG (DIETER KOOP) 737 KOMMUNIKATIONS- UND MEDIENWISSENSCHAFT (ARNULF KUTSCH) 741 KULTURWISSENSCHAFTEN (HANNES SIEGRIST, THOMAS HOEPEL, UTA KOESSER) 760 LOGIK (LOTHAR KREISER) 785 PHILOSOPHIE (KLAUS-DIETER EICHLER) 798 POLITIKWISSENSCHAFT (DIETER KOOP) 826 SOZIOLOGIE (DIETER KOOP) 846 WIRTSCHAFTSWISSENSCHAFTLICHE FAKULTAET WIRTSCHAFTSWISSENSCHAFTEN (FRIEDRUN QUAAS) 861 SPORTWISSENSCHAFTLICHE FAKULTAET SPORTWISSENSCHAFT (HANS-JOERG KIRSTE, VOLKER SCHUERMANN, PETRA TZSCHOPPE) .... 905 2. HALBBAND MEDIZINISCHE FAKULTAET MEDIZIN (ORTRUN RIHA) 951 FAKULTAET FUER MATHEMATIK UND INFORMATIK MATHEMATIK (HANS-JOACHIM GIRLICH, KARL-HEINZ SCHLOTE) 1049 INFORMATIK (SIEGMAR GERBER, GERHARD HEYER) 1093 FAKULTAET FUER BIOWISSENSCHAFTEN, PHARMAZIE UND PSYCHOLOGIE EINLEITUNG (RAINER SCHIMKE) 1101 BIOCHEMIE (OTMAR ASPERGER) 1104 BOTANIK (WERNER REISSER) 1125 ZOOLOGIE (WILFRIED W. NAUMANN) 1138 PHARMAZIE (ERIKA MAYR, HEIDEMARIE HOERN) 1162 PSYCHOLOGIE (ANNEROS MEISCHNER-METGE) 1191 INHALT 7 FAKULTAET FUER PHYSIK UND GEOWISSENSCHAFTEN EINLEITUNG (TILMAN BUTZ) 1223 PHYSIK (DIETER MICHEL, VOLKER RIEDE) 1228 GEOWISSENSCHAFTEN (MICHAEL BOERNGEN, FRANZ JACOBS) 1285 GEOGRAPHIE (HELGA SCHMIDT) 1309 FAKULTAET FUER CHEMIE UND MINERALOGIE CHEMIE UND MINERALOGIE (AUTORENTEAM, LEITUNG: LOTHAR BEYER, HELMUT PAPP)... 1335 VETERINAERMEDIZINISCHE FAKULTAET VETERINAERMEDIZIN (FRANZ- VIKTOR SALOMON, MARTIN FRITZ BRUMME) 1411 ZENTRALE EINRICHTUNGEN UNIVERSITAETSBIBLIOTHEK (ULRICH JOHANNES SCHNEIDER) 1473 UNIVERSITAETSARCHIV (JENS BLECHER, GERALD WIEMERS) 1495 KUSTODIE (RUDOLF HILLER VON GAERTRINGEN, CORNELIA JUNGE, SIMONE SCHULZ) 1514 DEUTSCHES LITERATURINSTITUT LEIPZIG (JOSEF HASLINGER) 1542 UNIVERSITAETSRECHENZENTRUM (CARLA FRIEDRICH, ULRICH ROHLAND, GUENTER TOMASELLI) 1571 ANHANG VERZEICHNIS DER ABKUERZUNGEN, SIGLEN UND ABGEKUERZT ZITIERTEN LITERATUR 1583 AUTORENVERZEICHNIS 1586 PERSONENREGISTER 1589</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">ABBILDUNGSVERZEICHNIS 1639</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001105062</subfield>
+            <subfield code="m">4. Fakultäten, Institute, Zentrale Einrichtungen;^1. Halbbd.;^.^2009</subfield>
+            <subfield code="n">Geschichte der Universität Leipzig 1409 - 2009.^2009</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">AJJL1024-4,1</subfield>
+            <subfield code="i">09/3561</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20090327</subfield>
+            <subfield code="5">1109243-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

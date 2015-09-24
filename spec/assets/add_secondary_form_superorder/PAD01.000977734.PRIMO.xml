@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000977734</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>02056cM2.01200024------h</leader>
+          <controlfield tag="LDR">02056cM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015269184</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20070823</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20120412102339</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20120612</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">2384272-6</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">98544715X</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">1763249</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">2384272-6</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB2384272-6</subfield>
+          </datafield>
+          <controlfield tag="030">b|1dcz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-GB</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="052">p||||||zq||||z|</controlfield>
+          <controlfield tag="058">cr||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">9001</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">8007</subfield>
+          </datafield>
+          <datafield tag="076" ind1="c" ind2="1">
+            <subfield code="a">nl</subfield>
+            <subfield code="a">ld</subfield>
+            <subfield code="a">dm</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ZDB-1-BPC</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ZDB-1-AAS1</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ZDB-1-AAS2</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ZDB-1-AAS3</subfield>
+          </datafield>
+          <datafield tag="078" ind1="z" ind2="1">
+            <subfield code="a">lzZDB</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">&lt;&lt;The&gt;&gt; quarterly review</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">Bd. 1.1809 - 206.1906 = Nr. 1-409[?]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">London</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Murray</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1809</subfield>
+          </datafield>
+          <datafield tag="425" ind1="c" ind2="1">
+            <subfield code="a">1967</subfield>
+          </datafield>
+          <datafield tag="510" ind1="-" ind2="1">
+            <subfield code="p">Repr.</subfield>
+            <subfield code="a"> New York, NY: Ezra Sargeant</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="p">Periodizität</subfield>
+            <subfield code="a"> vierteljährl.</subfield>
+          </datafield>
+          <datafield tag="527" ind1="z" ind2="1">
+            <subfield code="p">Druckausg. ---&gt;</subfield>
+            <subfield code="a">&lt;&lt;The&gt;&gt; quarterly review</subfield>
+            <subfield code="9">HT001382310</subfield>
+          </datafield>
+          <datafield tag="542" ind1="a" ind2="1">
+            <subfield code="a">2043-5819</subfield>
+          </datafield>
+          <datafield tag="580" ind1="-" ind2="1">
+            <subfield code="a">ZDB-1-BPC-4166</subfield>
+          </datafield>
+          <datafield tag="610" ind1="-" ind2="1">
+            <subfield code="a">Digital. Ausg.</subfield>
+          </datafield>
+          <datafield tag="610" ind1="a" ind2="1">
+            <subfield code="a">Weimar : Herzogin Anna Amalia Bibliothek, 2011</subfield>
+          </datafield>
+          <datafield tag="611" ind1="-" ind2="1">
+            <subfield code="a">Weimar</subfield>
+          </datafield>
+          <datafield tag="613" ind1="-" ind2="1">
+            <subfield code="a">Herzogin Anna Amalia Bibliothek</subfield>
+          </datafield>
+          <datafield tag="619" ind1="b" ind2="1">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="619" ind1="c" ind2="1">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="621" ind1="b" ind2="1">
+            <subfield code="a">Zeitschriften der HAAB Weimar. Projekt Sicherungsverfilmung der HAAB Weimar</subfield>
+          </datafield>
+          <datafield tag="627" ind1="b" ind2="1">
+            <subfield code="a">Faustsammlung der HAAB Weimar</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="653" ind1="-" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2384272</subfield>
+            <subfield code="x">EZB</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://gateway.proquest.com/openurl?url_ver=Z39.88-2004&amp;res_dat=xri:pqm&amp;rft_val_fmt=info:ofi/fmt:kev:mtx:journal&amp;genre=journal&amp;req_dat=xri:pqil:pq_clntid=10957&amp;svc_dat=xri:pqil:context=title&amp;rft_dat=xri:pqd:PMID=431</subfield>
+            <subfield code="x">Verlag</subfield>
+            <subfield code="z">Deutschlandweit zugänglich</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://search.ebscohost.com/direct.asp?db=h9h&amp;jid=%228BBP%22&amp;scope=site</subfield>
+            <subfield code="x">Verlag; 19.1818,37-38</subfield>
+            <subfield code="z">Deutschlandweit zugänglich</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://search.ebscohost.com/direct.asp?db=h9i&amp;jid=%226I7L%22&amp;scope=site</subfield>
+            <subfield code="x">Digitalisierung; 1831 - 1837</subfield>
+            <subfield code="z">Deutschlandweit zugänglich</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://search.ebscohost.com/direct.asp?db=h9i&amp;jid=%226L3N%22&amp;scope=site</subfield>
+            <subfield code="x">Digitalisierung; 1821 - 1832</subfield>
+            <subfield code="z">Deutschlandweit zugänglich</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://search.ebscohost.com/login.aspx?direct=true&amp;db=h9j&amp;jid=6I7L&amp;site=ehost-live</subfield>
+            <subfield code="x">Digitalisierung; 61.1837 - 80.1850</subfield>
+            <subfield code="z">Deutschlandweit zugänglich</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="a">Klassik Stiftung Weimar</subfield>
+            <subfield code="n">Weimar</subfield>
+            <subfield code="q">jpeg</subfield>
+            <subfield code="u">http://ora-web.swkk.de/digimo_online/digimo.entry?source=digimo.Sammelband&amp;a_id=19159</subfield>
+            <subfield code="x">Digitalisierung; 10.1814; 1826; 1834 u. 1880</subfield>
+          </datafield>
+          <datafield tag="673" ind1="b" ind2="1">
+            <subfield code="a">London</subfield>
+            <subfield code="9">1005809-6</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">070</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">900</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">100</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">300</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">z101</subfield>
+          </datafield>
+          <controlfield tag="SYS">000977734</controlfield>
+          <datafield tag="655" ind1="e" ind2=" ">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/frontdoor.phtml?id=2384272&amp;bibid=UBPB</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000270315</subfield>
+            <subfield code="m">Auch unter dem Titel:^&lt;&lt;The&gt;&gt; quarterly review.^1809</subfield>
+            <subfield code="n">Auch unter dem Titel:^&lt;&lt;The&gt;&gt; quarterly review.^1809</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

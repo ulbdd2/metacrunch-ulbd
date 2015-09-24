@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001249913</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00746vM2.01200024------h</leader>
+          <controlfield tag="LDR">00746vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015449855</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20091021</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT015449855</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+            <subfield code="a">tur</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||d|||||</controlfield>
+          <controlfield tag="051">m||||||2</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">467</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Akin, Fatih</subfield>
+            <subfield code="d">1973-</subfield>
+            <subfield code="9">(DE-588)130055808</subfield>
+            <subfield code="b">[Regie]</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Davrak, Baki</subfield>
+            <subfield code="9">(DE-588)136168590</subfield>
+            <subfield code="b">[Darst.]</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="1">
+            <subfield code="p">Köse, Nursel</subfield>
+            <subfield code="d">1961-</subfield>
+            <subfield code="9">(DE-588)122698991</subfield>
+            <subfield code="b">[Darst.]</subfield>
+          </datafield>
+          <datafield tag="112" ind1="b" ind2="1">
+            <subfield code="p">Schygulla, Hanna</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)118612328</subfield>
+            <subfield code="b">[Darst.]</subfield>
+          </datafield>
+          <datafield tag="116" ind1="b" ind2="1">
+            <subfield code="p">Shantel</subfield>
+            <subfield code="d">1968-</subfield>
+            <subfield code="9">(DE-588)135158443</subfield>
+            <subfield code="b">[Filmmusik]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Auf der anderen Seite</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">ein Film von Fatih Akin. [Darsteller] Baki Davrak ; Patrycia Ziolkowska ; Nursel Köse ; Hanna Schygulla ; Tuncel Kurtiz ; Nurgül Yesilcay. [Filmmusik: Shantel]</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">Special ed.</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Köln</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Pandora Film</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2008</subfield>
+          </datafield>
+          <datafield tag="511" ind1="-" ind2="1">
+            <subfield code="p">Orig.</subfield>
+            <subfield code="a">D 2007. - Freigegeben ab 12 Jahren</subfield>
+          </datafield>
+          <datafield tag="516" ind1="-" ind2="1">
+            <subfield code="p">Sprachen</subfield>
+            <subfield code="a">dt. Fassung (auch für Hörgeschädigte) / türk. Fassung</subfield>
+          </datafield>
+          <datafield tag="516" ind1="-" ind2="1">
+            <subfield code="p">Untertitel</subfield>
+            <subfield code="a">dt.</subfield>
+          </datafield>
+          <datafield tag="517" ind1="-" ind2="1">
+            <subfield code="p">Bonus-Disc</subfield>
+            <subfield code="a">Regiekommentar, Statements von Regisseur und Schauspielern</subfield>
+          </datafield>
+          <datafield tag="517" ind1="-" ind2="1">
+            <subfield code="a">Freigegeben ab 12 Jahren</subfield>
+          </datafield>
+          <datafield tag="530" ind1="-" ind2="1">
+            <subfield code="a">Dieser Film ist 2. Teil d. Trilogie "Liebe, Tod und Teufel"</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">DVD-Video</subfield>
+          </datafield>
+          <datafield tag="653" ind1="-" ind2="1">
+            <subfield code="a">2 DVD-Videos</subfield>
+            <subfield code="b">PAL, Ländercode 2, 116 Min. + 130 Min. Bonus</subfield>
+            <subfield code="c">farb., Bildformat 16:9 (anamorph); Ton DD 5.1 / DD 2.0</subfield>
+            <subfield code="d">12 cm</subfield>
+          </datafield>
+          <controlfield tag="SYS">001249913</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schygulla, Hana</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)118612328</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schygulla, Hana</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)118612328</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Akim, Fatih</subfield>
+            <subfield code="d">1973-</subfield>
+            <subfield code="9">(DE-588)130055808</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Akim, Fatih</subfield>
+            <subfield code="d">1973-</subfield>
+            <subfield code="9">(DE-588)130055808</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hantel, Stefan</subfield>
+            <subfield code="d">1968-</subfield>
+            <subfield code="9">(DE-588)135158443</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hantel, Stefan</subfield>
+            <subfield code="d">1968-</subfield>
+            <subfield code="9">(DE-588)135158443</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">KNLA</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">AVMAT</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">88</subfield>
+            <subfield code="d">KNLA2245</subfield>
+            <subfield code="i">09/17353</subfield>
+            <subfield code="n">49</subfield>
+            <subfield code="k">20091102</subfield>
+            <subfield code="5">1250006-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

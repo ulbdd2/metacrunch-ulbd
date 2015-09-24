@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000954111</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00853cM2.01200024------h</leader>
+          <controlfield tag="LDR">00853cM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT014970945</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20070117</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20110805071656</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20120327</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">2266306-X</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">982724888</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">645155591</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">2266306-X</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB2266306-X</subfield>
+          </datafield>
+          <controlfield tag="030">b|1dcz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XB-JP</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">jpn</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="052">p||||||z|||||||</controlfield>
+          <controlfield tag="058">cr||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">8999</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">9001</subfield>
+          </datafield>
+          <datafield tag="078" ind1="z" ind2="1">
+            <subfield code="a">lzZDB</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Kitakantō-Igakkai</subfield>
+            <subfield code="9">(DE-588)210429-5</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Kitakantō-igaku</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="341" ind1="-" ind2="1">
+            <subfield code="a">&lt;&lt;The&gt;&gt; Kitakanto medical journal</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Kitakantō Jgakkai</subfield>
+          </datafield>
+          <datafield tag="376" ind1="-" ind2="1">
+            <subfield code="a">Kitakanto Igaku</subfield>
+          </datafield>
+          <datafield tag="376" ind1="-" ind2="1">
+            <subfield code="a">Kitakanto Med. J.</subfield>
+          </datafield>
+          <datafield tag="376" ind1="b" ind2="1">
+            <subfield code="a">KKAIA</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">Nachgewiesen 53.2003 -</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Maebashi</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Gakkai</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">2003</subfield>
+          </datafield>
+          <datafield tag="516" ind1="-" ind2="1">
+            <subfield code="a">Text japan.; Zsfassung engl</subfield>
+          </datafield>
+          <datafield tag="527" ind1="z" ind2="1">
+            <subfield code="p">Druckausg. ---&gt;</subfield>
+            <subfield code="a">Kitakantō-igaku</subfield>
+            <subfield code="9">HT003065590</subfield>
+          </datafield>
+          <datafield tag="542" ind1="a" ind2="1">
+            <subfield code="a">1881-1191</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="d">ISSN 1343-2826</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="653" ind1="-" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://ci.nii.ac.jp/vol_issue/nels/AN10585677_en.html</subfield>
+            <subfield code="x">Verlag</subfield>
+            <subfield code="z">kostenfrei</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2266306</subfield>
+            <subfield code="x">EZB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">610</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">800</subfield>
+          </datafield>
+          <controlfield tag="SYS">000954111</controlfield>
+          <datafield tag="GKZ" ind1="-" ind2="1">
+            <subfield code="a">KF</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Kitakanto Medical Society</subfield>
+            <subfield code="9">(DE-588)210429-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Medical Society</subfield>
+            <subfield code="h">Maebashi</subfield>
+            <subfield code="9">(DE-588)210429-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Kitakanto Medical Society</subfield>
+            <subfield code="9">(DE-588)210429-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Medical Society</subfield>
+            <subfield code="h">Maebashi</subfield>
+            <subfield code="9">(DE-588)210429-5</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

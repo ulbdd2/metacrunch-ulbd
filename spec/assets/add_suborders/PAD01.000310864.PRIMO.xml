@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000310864</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00308vM2.01200024------h</leader>
+          <controlfield tag="LDR">00308vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT002162049</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20000117</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20051215</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||27</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="052">r||||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">464</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="200" ind1="-" ind2="1">
+            <subfield code="k">Universität Paderborn</subfield>
+            <subfield code="9">(DE-588)64857-7</subfield>
+          </datafield>
+          <datafield tag="331" ind1="a" ind2="1">
+            <subfield code="a">Paderborner Universitätsreden</subfield>
+          </datafield>
+          <datafield tag="370" ind1="a" ind2="1">
+            <subfield code="a">PUR</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">1.1984 -</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Paderborn</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1984</subfield>
+          </datafield>
+          <datafield tag="505" ind1="-" ind2="1">
+            <subfield code="p">Nebent. ab Bd. 28</subfield>
+            <subfield code="a">PUR</subfield>
+          </datafield>
+          <controlfield tag="SYS">000310864</controlfield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Paderborn</subfield>
+            <subfield code="9">(DE-588)64857-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Paderborn</subfield>
+            <subfield code="9">(DE-588)64857-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">University</subfield>
+            <subfield code="h">Paderborn</subfield>
+            <subfield code="9">(DE-588)64857-7</subfield>
+          </datafield>
+          <datafield tag="078" ind1=" " ind2=" ">
+            <subfield code="a">c</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">AFG</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000360575</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">1.^Wie verstehen wir die Weltentwicklung.^1984</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000846764</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">78.^Eugen Drewermann.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000896701</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">94.^Geschichte mit Füßen getreten.^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000877263</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">91.^"Wie geschrieben steht" - ist die paulinische Christologie schriftgemäß?.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001277468</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">115.^Zurück zum Beton, Pop in der Universität.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000545754</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">21.^Literatur und Theologie.^1990</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000525661</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">18.^Sprachvergleich zwischen Französisch und Deutsch.^1989</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000525662</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">19.^Theorie und Praxis des Übersetzens bei Rudolf Borchardt.^1989</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000809817</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">68.^Political Correctness.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000855102</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">79.^Ethik in der Informationsgesellschaft.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000889763</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">93.^Warum moralisch handeln?.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000973989</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">107.^Choreographie der Ökumene.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000924267</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">99.^&lt;&lt;Das&gt;&gt; UNESCO-Weltkulturerbe und Zur Genese eines Völkerrechtsvertrags.^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000929243</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">101.^"... damit Studieren gelingt".^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000499933</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">17.^25 Jahre Ingenieurausbildung in Paderborn.^1988</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000611613</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">33.^20 Jahre Universität - Gesamthochschule Paderborn.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000871605</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">89.^Förderung von Anfang an.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000859243</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">83.^Leben mit Novalis.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000633159</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">35.^&lt;&lt;Das&gt;&gt; Gedächtnis nicht verlieren.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000418222</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">5.^Karl der Große, Paderborn und die Kirche.^1986</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001562719</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">126.^Ehrenpromotion der Fakultät für Kulturwissenschaften der Universität Paderborn an Herta Müller Paderborn, 29.10.2012.^2013</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000906967</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">96.^Religionspädagogik als Kulturwissenschaft.^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000906970</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">95.^Warum schreiben (Sie?).^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001408846</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">119.^Literatur als Impuls für eine Kulturgeschichte der Mathematik.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000492113</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">16.^Personelle Anpassungsprozesse als Gegenstand unternehmenspolitischer Entscheidungen.^1988</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000565774</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">24.^&lt;&lt;Die&gt;&gt; Herrschaft der europäischen Vernunft.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000867523</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">86.^Mit- und Gegeneinander der Kulturen in der globalen Informationsgesellschaft.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000452496</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">9.^Zeit: Geschichtlichkeit und vierte Dimension.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000857547</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">82.^Neujahrsreden 2001 und 2002.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000481625</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">13.^Franz Kafka (1883 - 1924).^1988</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000441581</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">7.^&lt;&lt;The&gt;&gt; American dream and the American nightmare.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000444159</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">8.^Heinrich Heine - der 'erste Artist der deutschen Sprache'.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000445438</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">6.^&lt;&lt;Das&gt;&gt; Spannungsfeld zwischen Umweltschutz und Wirtschaft.^1986</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000460799</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">10.^Technikentwicklung und Frauenerwerbsarbeit im Dienstleistungsbereich.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000460801</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">11.^Gelehrtenbibliotheken im Zeitalter der Aufklärung.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000460804</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">12.^&lt;&lt;Das&gt;&gt; Ende der Befangenheit?.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000388208</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">4.^&lt;&lt;Die&gt;&gt; Wiederentdeckung der Corveyer Schloßbibliothek.^1986</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000565769</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">23.^Lebenskürze und Informationsbeschleunigung.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000604438</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">31.^Karrieren im Ingenieurberuf.^1992</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000605102</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">30.^In memoriam Broder Carstensen.^1992</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000555477</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">22.^Vom gespaltenen zum gemeinsamen Arbeitsmarkt.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000700088</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">52.^Vom "Schmelztiegel" zum "Mosaik": Die USA als Modell einer multikulturellen Gesellschaft?.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000499719</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">15.^Wirtschaft und Kultur im historischen Kontext.^1988</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000611064</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">32.^In memoriam Heinrich Lausberg.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000711965</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">54.^PLAZ - Reden zur Eröffnung des Paderborner Lehrerausbildungszentrum.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000962962</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">105.^Vom Vorteil des Stolperns.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000962961</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">106.^Klimaforschung im tropischen Deutschland.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000703089</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">51.^Zungengewahrsam oder Der uferlose Mund des schreienden Schweigens.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000658130</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">41.^Instrumente der Unternehmensführung.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001348215</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">117.^&lt;&lt;Die&gt;&gt; "Killerspieldebatte", Jugendmedienschutz und deren mögliche wirtschaftliche Konsequenzen.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000759116</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">60.^Neue Medien und Schule.^1997</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000765558</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">61.^&lt;&lt;Die&gt;&gt; germanistische Didaktik: Ein wissenschaftliches "Schmuddelkind" zwischen allen (Lehr)stühlen.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000712223</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">56.^&lt;&lt;Das&gt;&gt; Jenny-Aloni-Archiv der Universität Paderborn.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000765560</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">63.^Über das Komische: Der außengeleitete Humor.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000592883</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">28.^Rektoratsübergabe 1991.^1992</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000857035</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">80.^Europäische Erinnerungsorte im Mittelalter und die Zentren ihrer Erforschung.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000589300</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">29.^Vom Gehirn zum Neurocomputer.^1992</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000857039</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">81.^&lt;&lt;Die&gt;&gt; Entdeckung Amerikas aus dem Weltbild des Mittelalters.^2002</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000953108</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">103.^Judith Kuckart.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000538553</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">20.^Wie Wahrnehmung sich erfindet.^1990</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000711963</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">53.^Kulturelle Narrative und Dekonstruktion.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000711964</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">55.^Sympathie für den Teufel?.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000628212</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">34.^&lt;&lt;Das&gt;&gt; Spannungsfeld von Qualität, Zeit und Kosten.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000821640</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">58.^Meine Realitätserfahrung als Schriftsteller.^1997</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000864022</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">84.^Schöne Neue Universität.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000822326</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">71.^Formen der inneren und äußeren Welt.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000695848</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">50.^Zehn Jahre Austausch mit den USA.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000864965</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">85.^Koordinaten der Aufklärung.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000649126</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">39.^Wissenschaftliche Kreativität.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000644663</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">38.^Sprachenpolitik, Fachsprachenlinguistik und fachbezogener Englischunterricht.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001339564</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">116.^Telleranalysen.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000656476</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">40.^Familienbande.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000661267</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">42.^Ausländische Studierende in Paderborn.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000661271</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">43.^Festvorträge und Ansprachen bei den Abschlußfeiern des Fachbereichs Wirtschaftswissenschaften im Studienjahr 1993/94.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000661276</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">44.^&lt;&lt;Das&gt;&gt; deutsche Wissenschaftssystem auf dem Weg nach Europa.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000661279</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">45.^Technologiemanagement und Innovation.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000578129</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">27.^Anfang und Ende - die Bannung des Chaos.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000577645</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">25.^Physik der Geschichte?.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000676561</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">48.^&lt;&lt;Die&gt;&gt; Zukunft der Wörter.^1995</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000578126</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">26.^&lt;&lt;Der&gt;&gt; befreiende Blick aus der Fremde.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000868856</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">87.^Lehrerbildung im 21. Jahrhundert aus der Perspektive von Bildungsforschung und Mathematikdidaktik.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000870099</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">88.^Kulturpathologien: Die "seltsamen Fälle" von Dr. Jekyll und Mr. Hyde und Jack the Ripper.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000633834</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">37.^&lt;&lt;Die&gt;&gt; Hälfte des Himmels.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000634121</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">36.^Kultur in der Stadt.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000717530</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">57.^PLAZ - 50 Jahre akademische Lehrerausbildung in Paderborn.^1997</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000726943</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">59.^Alternative Nation? Die "Generation X" in der amerikanischen Gegenwartsliteratur.^1997</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000920785</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">98.^"Cristallisation, c'est l'opération de l'esprit".^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000920782</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">97.^Gender-Forschung in der Linguistik.^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000886803</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">90.^Verleihung an Hans-Ulrich Treichel 2003.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000886805</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">92.^&lt;&lt;Die&gt;&gt; Universität in der Informationsgesellschaft.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000936909</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">102.^&lt;&lt;Die&gt;&gt; Welt, in der ich schreibe.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001000686</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">110.^&lt;&lt;Das&gt;&gt; Meer rauscht und rauscht - bis es lauscht.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001000690</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">111.^&lt;&lt;Die&gt;&gt; Reform der Lehrerbildung und die Reform der Hochschulen.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000924233</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">66.^Karl der Große: Mensch, Herrscher, Mythos.^2. Aufl..^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000960746</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">104.^&lt;&lt;Das&gt;&gt; Bild des Menschen in den Wissenschaften.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000811637</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">70.^Teilautonomie der Schulen.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000766662</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">62.^&lt;&lt;Die&gt;&gt; Zukunft der Universität oder wie eine alte Institution neu werden kann.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000810578</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">69.^Kulturanthropologie und Kulturhermeneutik.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000678551</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">49.^Zeitgeschichtliche Erinnerungen und Erfahrungen in Deutschland und Amerika zwischen 1933 und dem Beginn einer neuen Demokratie.^1995</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000792981</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">65.^Abschlußfeier des Fachbereichs Wirtschaftswissenschaften 1998.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000838658</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">77.^Erlesene und ergrabene Geschichte.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000835190</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">76.^Auf dem Weg zu den Produkten für die Märkte von morgen.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000928040</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">100.^Vom apokalyptischen zum entropischen Ende: Thermodynamik, Informatik und Literatur.^2006</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000787167</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">64.^Zwei Interviews: Erica Jong und T. Coraghessan Boyle.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000824347</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">72.^Theologie an der Universität?.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000799710</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">67.^&lt;&lt;Der&gt;&gt; Gang ins innerste Afrika: Lyotard oder die Leute lassen sich alles erzählen.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000834325</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">73.^Zukunftsvisionen zur Ingenieurausbildung.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000834328</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">74.^Mail-order catalogs in the US 1880 - 1930.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000834331</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">75.^&lt;&lt;Die&gt;&gt; USA als Einwanderungsland.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001018741</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">112.^Über den Eigensinn der Bibel.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000669066</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">47.^Wie steht es um die "These" vom Zusammenhang von Calvinismus und "Geist des Kapitalismus"?.^1995</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000669065</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">46.^"No one would have guessed her race".^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000361134</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">2.^Leipzig ist unerschöpflich.^1984</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000481549</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">14.^Humor and the recent American novel.^1988</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000798272</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">66.^Karl der Große: Mensch, Herrscher, Mythos.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001360579</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">118.^Fußball als Allegorie der (Post-)Moderne.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000999179</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">108.^Einführung in die Ökonophysik.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000999188</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">109.^&lt;&lt;Die&gt;&gt; Entlohnung von Fußball-Profis.^2008</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001469262</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">123.^Heterogenität und Studienerfolg.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001452108</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">122.^&lt;&lt;Das&gt;&gt; Stottern des Realismus.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001214007</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">113.^Ehrenpromotion Reinhard Höppner.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001239095</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">114.^"Wenn wir aber nicht hören wollen".^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001423679</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">120.^Josef in Ägypten.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001430782</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">121.^Verleihung der Ehrendoktorwürde an Professor em. Dr. sc. techn. Dr. h.c. mult. Alfred Fettweis.^2011</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001522160</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">125.^Nach Wilna.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001515968</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">124.^Towards a new order.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000300851</subfield>
+            <subfield code="m">Paderborner Universitätsreden.^1984</subfield>
+            <subfield code="n">3.^&lt;&lt;Die&gt;&gt; Entfesselung des Prometheus.^1985</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">UEO</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">18</subfield>
+            <subfield code="d">AFG1066-...</subfield>
+            <subfield code="n">38</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">294786-10</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">UEO</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">28</subfield>
+            <subfield code="d">AFG3709-...</subfield>
+            <subfield code="n">58</subfield>
+            <subfield code="k">00000000</subfield>
+            <subfield code="5">294786-30</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

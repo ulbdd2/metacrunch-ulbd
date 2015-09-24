@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000301195</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00468nM2.01200024------h</leader>
+          <controlfield tag="LDR">00468nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT002126023</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20000117</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20031206</subfield>
+          </datafield>
+          <controlfield tag="030">a|5dc||||||35</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">PL</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="052">r||||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="b">Komitet Badań i Prognoz Polska 2000</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="310" ind1="-" ind2="1">
+            <subfield code="a">Polska dwutysieczna / Special number</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Polska 2000</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Polish Acad. of Sciences, The Research and Prognostic Committee 'Poland 2000'</subfield>
+          </datafield>
+          <datafield tag="360" ind1="-" ind2="1">
+            <subfield code="a">Special number</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Wroclaw [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Zakl. Narodowy im. Ossolinskich</subfield>
+          </datafield>
+          <datafield tag="542" ind1="a" ind2="1">
+            <subfield code="a">0079-3620</subfield>
+          </datafield>
+          <controlfield tag="SYS">000301195</controlfield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komitet Badań i Prognoz Polska 2000</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="b">Komitet Issledovanij i Prognozov Pol'ša</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="b">Committee Poland 2000</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Committee Poland 2000</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komitet Issledovanij i Prognozov Pol'ša</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komitet Badań i Prognoz Polska 2000</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="b">Komitet Issledovanij i Prognozov Pol'ša</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="b">Committee Poland 2000</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Committee Poland 2000</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komitet Issledovanij i Prognozov Pol'ša</subfield>
+            <subfield code="h">Warschau</subfield>
+            <subfield code="9">(DE-588)1056203-5</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000301198</subfield>
+            <subfield code="m">Polska dwutysieczna / Special number.^</subfield>
+            <subfield code="n">1983.^Perspectives of world economy.^1983</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

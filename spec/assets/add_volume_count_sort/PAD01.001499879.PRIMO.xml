@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001499879</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------u</leader>
+          <controlfield tag="LDR">------M2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT017095879</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT017055615</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20120803</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">20111201</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20130218</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT017055615</subfield>
+          </datafield>
+          <datafield tag="020" ind1="b" ind2="2">
+            <subfield code="a">BV039732615</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT017095879</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">BVBBV039732615</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">61</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">107</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Rösch, Gertrud M.</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Andres bis Loest</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Fakten und Fiktionen</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="2">
+            <subfield code="a">Werklexikon der deutschsprachigen Schlüsselliteratur ; 1900 - 2010</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">hrsg. von Gertrud Maria Rösch</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Stuttgart</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Hiersemann</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">XX, 405 S.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="2">
+            <subfield code="a">Hiersemanns bibliographische Handbücher ; 21</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="2">
+            <subfield code="a">HT001260573</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="2">
+            <subfield code="a">21</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="2">
+            <subfield code="a">21</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="2">
+            <subfield code="p">Erschienen</subfield>
+            <subfield code="a">Halbbd. 1 - 2</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-7772-1130-5</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">978-3-7772-1129-9</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">206</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">200</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">206</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="2">
+            <subfield code="a">200</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="s">Deutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="s">Schlüsselliteratur</subfield>
+            <subfield code="9">(DE-588)4179761-9</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="z">Geschichte 1900-2010</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="f">Wörterbuch</subfield>
+          </datafield>
+          <controlfield tag="SYS">001499879</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Neuhochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Deutsche Sprache</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Hochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Neuhochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Deutsche Sprache</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Hochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="2">
+            <subfield code="p">Rösch, Gertrud Maria</subfield>
+            <subfield code="d">1959-</subfield>
+            <subfield code="9">(DE-588)129585734</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Neuhochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Deutsche Sprache</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Hochdeutsch</subfield>
+            <subfield code="9">(DE-588)4113292-0</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">BTQ</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001499877</subfield>
+            <subfield code="m">1;^.^Andres bis Loest.^2011</subfield>
+            <subfield code="n">Fakten und Fiktionen.^2011</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">10</subfield>
+            <subfield code="d">BTQ2320-1</subfield>
+            <subfield code="i">12/8877</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20120814</subfield>
+            <subfield code="5">1499916-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

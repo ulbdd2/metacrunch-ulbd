@@ -1,0 +1,1069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000057960</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00499vM2.01200024------h</leader>
+          <controlfield tag="LDR">00499vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT000289652</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19980804</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20100315</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT000289652</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">AT</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">n|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">467</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Hein, Jürgen</subfield>
+            <subfield code="d">1942-</subfield>
+            <subfield code="9">(DE-588)116658606</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="300" ind1="-" ind2="1">
+            <subfield code="a">Sammlung</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Sämtliche Werke</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">historisch-kritische Ausgabe</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Johann Nestroy. Von Jürgen Hein ...</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Wien [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Jugend und Volk</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1977</subfield>
+          </datafield>
+          <datafield tag="511" ind1="-" ind2="1">
+            <subfield code="a">Teilw. erschienen im Verl. Deuticke, Wien</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">200</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="1">
+            <subfield code="a">GL 7105</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Textkritik</subfield>
+            <subfield code="9">(DE-588)4059657-6</subfield>
+          </datafield>
+          <controlfield tag="SYS">000057960</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J. N.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, J.</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Nestroy, Johann Nepomuk Eduard Ambrosius</subfield>
+            <subfield code="d">1801-1862</subfield>
+            <subfield code="9">(DE-588)118587080</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">CPMN</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057986</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^22;^.^&lt;&lt;Die&gt;&gt; beiden Herrn Söhne.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057984</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^27,2;^.^Höllenangst.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057985</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^8,1;^.^&lt;&lt;Die&gt;&gt; Familien Zwirn, Knieriem und Leim.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057987</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^18,2;^.^&lt;&lt;Die&gt;&gt; Papiere des Teufels oder der Zufall.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057990</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^16,2;^.^&lt;&lt;Der&gt;&gt; Erbschleicher.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057988</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^28,1;^.^&lt;&lt;Der&gt;&gt; holländische Bauer.^1997</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057989</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^27,1;^.^&lt;&lt;Der&gt;&gt; alte Mann mit der jungen Frau.^1997</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057991</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^26,2;^.^Lady und Schneider.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057992</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^35;^.^Umsonst.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057993</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^28,2;^.^Karrikaturen-Charivari mit Heurathszweck.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057994</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^17,2;^.^&lt;&lt;Das&gt;&gt; Mädl aus der Vorstadt.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057995</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^8,2;^.^Weder Lorbeerbaum noch Bettelstab.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057996</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^11;^.^&lt;&lt;Die&gt;&gt; beiden Nachtwandler oder das Notwendige und das Überflüssige.^1998</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057997</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^4;^.^&lt;&lt;Die&gt;&gt; Zauberreise in die Ritterzeit.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058000</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^36;^.^Tannhäuser.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057998</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^16,1;^.^&lt;&lt;Der&gt;&gt; Färber und sein Zwillingsbruder.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057999</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^29;^.^Alles will den Prophet'n seh'n.^1999</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058001</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^2;^.^&lt;&lt;Der&gt;&gt; gefühlvolle Kerckermeister oder Adelheid die verfolgte Wittib.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058002</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^24,1;^.^Zwey ewige Juden und Keiner.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058003</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^24,2;^.^&lt;&lt;Der&gt;&gt; Schützling.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058004</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^25,1;^.^&lt;&lt;Die&gt;&gt; schlimmen Buben in der Schule.^2000</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058005</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^37;^.^Lohengrin.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058006</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^25,2;^.^&lt;&lt;Die&gt;&gt; lieben Anverwandten.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057968</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^7,1;^.^&lt;&lt;Das&gt;&gt; Verlobungsfest im Feenreiche.^1987</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057969</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^19;^.^Liebesgeschichten und Heurathssachen.^1988</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057970</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^34;^.^"Nur keck!".^1989</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057971</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^7,2;^.^&lt;&lt;Der&gt;&gt; Tritschtratsch.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057972</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^18,1;^.^&lt;&lt;Einen&gt;&gt; Jux will er sich machen.^1991</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057973</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^31;^.^Kampl.^1992</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057974</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^33;^.^Theaterg'schichten durch Liebe, Intrigue, Geld und Dummheit.^1992</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057961</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^12;^.^&lt;&lt;Eine&gt;&gt; Wohnung ist zu vermiethen.^1982</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057964</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^21;^.^Hinüber - herüber.^1985</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000893107</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">&lt;Briefe&gt;.^Sämtliche Briefe.^[Erw. Neuaufl. der Ausg. von 1977].^2005</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001108212</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">&lt;Dokumente&gt;.^Johann Nestroy - Dokumente.^2009</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057980</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^26,1;^.^Freiheit in Krähwinkel.^1995</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057981</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^23,2;^.^&lt;&lt;Der&gt;&gt; Unbedeutende.^1995</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057982</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^38;^.^Frühere Verhältnisse.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057983</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^10;^.^&lt;&lt;Der&gt;&gt; Treulose.^1996</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057975</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^17,1;^.^&lt;&lt;Der&gt;&gt; Talisman.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057976</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^32;^.^Heimliches Geld, heimliche Liebe.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057977</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^5;^.^&lt;&lt;Der&gt;&gt; Feenball oder Tischler, Schneider und Schlosser.^1993</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057978</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^23,1;^.^Unverhofft.^1994</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057979</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^15;^.^Gegen Thorheit giebt es kein Mittel.^1995</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057962</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^14;^.^Glück, Mißbrauch und Rückkehr.^1982</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057963</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^6;^.^&lt;&lt;Der&gt;&gt; Zauberer Sulphurelectrimagneticophosphoratus.^1985</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057965</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^20;^.^Nur Ruhe!.^1986</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057966</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^1;^.^1979</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057967</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^13;^.^&lt;&lt;[Das&gt;&gt; Haus der Temperamente].^1981</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000884657</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^9,1;^.^Eulenspiegel.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000058007</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^30;^.^Mein Freund.^2001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000884658</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^9,2;^.^Zu ebener Erde und erster Stock.^2003</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000890810</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Stücke;^3;^.^Zampa der Tagdieb oder die Braut von Gyps.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000972818</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Nachträge;^1;^.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000972819</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Nachträge;^2;^.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001288646</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Register;^.^2010</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">DN</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001514795</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">Erg.;^.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000057958</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">&lt;Briefe&gt;.^Briefe.^1977</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000073067</subfield>
+            <subfield code="m">Sämtliche Werke.^1977</subfield>
+            <subfield code="n">&lt;Schwarz&gt;.^Johann Nestroy im Bild.^1977</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">UEO</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">10</subfield>
+            <subfield code="d">CPMN1395-...</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">56282-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

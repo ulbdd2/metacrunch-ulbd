@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000968502</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00620pM2.01200024------h</leader>
+          <controlfield tag="LDR">00620pM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015019239</subfield>
+          </datafield>
+          <datafield tag="002" ind1="b" ind2="1">
+            <subfield code="a">20070315</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20131101</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20070206</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">982876645</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="022" ind1="-" ind2="1">
+            <subfield code="a">HT016666600</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT015019239</subfield>
+          </datafield>
+          <controlfield tag="030">a|1daz|z|||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="051">m|||z|||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">294/18</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Gardini, Marco A.</subfield>
+            <subfield code="d">1964-</subfield>
+            <subfield code="9">(DE-588)114826277</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Einführung in das Marketing-Management</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">ein Überblick in Schaubildform</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">von Marco A. Gardini</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">München [u.a.]</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Oldenbourg</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2007</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">XIV, 255 S. : zahlr. Ill. und graph. Darst., Kt.</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-486-58203-1</subfield>
+            <subfield code="b">pbk : € 32.80</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-486-58203-8</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="q">text/html</subfield>
+            <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=2912666&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+            <subfield code="3">Inhaltstext</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">650</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Marketingmanagement</subfield>
+            <subfield code="9">(DE-588)4168907-0</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Lehrbuch</subfield>
+          </datafield>
+          <controlfield tag="SYS">000968502</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Gardini, M.A.</subfield>
+            <subfield code="d">1964-</subfield>
+            <subfield code="9">(DE-588)114826277</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marketing-Management</subfield>
+            <subfield code="9">(DE-588)4168907-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marketing-Management</subfield>
+            <subfield code="9">(DE-588)4168907-0</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Marketing-Management</subfield>
+            <subfield code="9">(DE-588)4168907-0</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Gardini, M.A.</subfield>
+            <subfield code="d">1964-</subfield>
+            <subfield code="9">(DE-588)114826277</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Gardini, M.A.</subfield>
+            <subfield code="d">1964-</subfield>
+            <subfield code="9">(DE-588)114826277</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">QBH</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Einführung in das Marketing-Management</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?application=DIGITOOL-3&amp;owner=resourcediscovery&amp;custom_att_2=simple_viewer&amp;user=GUEST&amp;pid=2125145</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">OCR-TEXT: SEITENVERZEICHNIS SEITE 1. TERMINOLOGISCHE GRUNDLAGEN DES MARKETING-MANAGEMENT 1 1.1 BEGRIFF UND ENTWICKLUNGSLINIEN DES MARKETING 1 1.2 MARKETINGKONZEPTION UND MARKETINGPROZESS 4 1.3 KUNDENZUFRIEDENHEIT UND KUNDENNUTZEN ALS KERNGREN DES MARKETING 6 2. INFORMATIONSGRUNDLAGEN DES MARKETING-MANAGEMENT 11 2.1 MARKETINGFORSCHUNG 11 2.1.1 AUFGABEN UND PROZESS DER MARKTFORSCHUNG 12 2.1.2 ASPEKTE UND METHODEN DER PRIMRFORSCHUNG 17 2.1.3 ASPEKTE UND METHODEN DER SEKUNDRFORSCHUNG 25 2.2 ANALYSE DES KUFERVERHALTENS 27 2.2.1 KONSUMKONTEXT UND INDIVIDUELLE KAUFENTSCHEIDUNGSPROZESSE 28 2.2.2 PSYCHOLOGISCHE GRUNDLAGEN DES INDIVIDUELLEN KUFERVERHALTENS 34 2.2.3 SOZIOLOGISCHE GRUNDLAGEN DES INDIVIDUELLEN KUFERVERHALTENS 44 2.2.4 GRUNDLAGEN DES ORGANISATIONALEN KUFERVERHALTENSA 55 3. STRATEGISCHES MARKETING-MANAGEMENT 60 3.1 GRUNDSTZLICHES ZUM STRATEGISCHEN MANAGEMENT 60 3.2 WERTORIENTIERUNGEN ALS AUSGANGSPUNKT STRATEGISCHEN HANDELNS 66 3.3 MARKETINGZIELE IM ZIELSYSTEM VON UNTERNEHMEN 71 3.4 STRATEGISCHE MARKETING-ANALYSE 73 3.4.1 EXTERNE ANALYSE 74 3.4.2 INTERNE ANALYSE 77 3.5 MARKTSEGMENTIERUNG, MARKTAUSWAHL, POSITIONIERUNG 84 3.5.1 GRUNDLAGEN UND KRITERIEN DER MARKTSEGMENTIERUNG 84 3.5.2 AUSWAHL UND BEARBEITUNG VON ZIELMRKTEN 92 3.5.3 POSITIONIERUNG UND DIFFERENZIERUNG 93 X SEITENVERZEICHNIS 3.6 GRUNDLEGENDE STRATEGISCHEN VERHALTENSWEISEN IM WETTBEWERB 98 3.6.1 UNTERNEHMENSSTRATEGIEN 99 3.6.2 GESCHFTSFELDSTRATEGIEN 101 3.6.3 KOOPERATIONSSTRATEGIEN 105 4. QUERSCHNITTSPROZESSE UND BERGREIFENDE ENTSCHEIDUNGSTATBESTNDE IM MARKETING-MANAGEMENT 108 4.1 QUALITTSMANAGEMENT 108 4.1.1 BEGRIFF UND DIMENSIONEN DER QUALITT 109 4.1.2 QUALITT ALS UNTERNEHMENSKONZEPT 112 4.1.3 MESSUNG VON QUALITT UND KUNDENZUFRIEDENHEIT 115 4.2 MARKENMANAGEMENT 121 4.2.1 BEGRIFF UND DIMENSIONEN DER MARKE 122 4.2.2 MARKENIDENTITT UND MARKENIMAGE 129 4.2.3 STRATEGISCHE OPTIONEN DER MARKENFHRUNG 135 4.2.4 MARKENWERT UND MARKENKONTROLLE 145 4.3 MANAGEMENT VON KUNDENBEZIEHUNGEN 147</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">4.3.1 ZUR BEDEUTUNG DES RELATIONSHIP MARKETING 147 4.3.2 MANAGEMENT DER KUNDENSTRUKTUR 152 4.3.3 KUNDENFEEDBACKSYSTEME ALS INFORMATIONSPLATTFORM 159 4.3.4 FORMEN UND INSTRUMENTE VON KUNDENKONTAKTPROGRAMMEN 161 4.4 INTERNATIONALES MARKETING-MANAGEMENT 165 4.4.1 INTERNATIONALISIERUNG DES MARKETING 166 4.4.2 MARKTEINTRITT UND WETTBEWERBSSTRATEGIE 173 4.4.3 INTERKULTURELLES MANAGEMENT 182 4.4.4 INTERNATIONALE GESTALTUNGSASPEKTE DES MARKETING-MIX 187 5. MANAGEMENT DER OPERATIVEN MARKETINGPROGRAMME 197 5.1 MANAGEMENT DER LEISTUNGSPROGRAMME 197 5.2 PREISMANAGEMENT 210 5.3 MANAGEMENT DES DISTRIBUTIONSSYSTEMS 214 5.4 MANAGEMENT DER KOMMUNIKATIONSBEZIEHUNGEN 220 6. MARKETING-KONTROLLE UND KOORDINATION 238 6.1 ORGANISATION UND UMSETZUNG VON MARKETINGPROGRAMMEN 238 6.2 BEWERTUNG UND KONTROLLE DER MARKETINGLEISTUNG 248 7. LITERATUR 255</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">31</subfield>
+            <subfield code="d">QBH9257</subfield>
+            <subfield code="i">07/7000</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20070806</subfield>
+            <subfield code="5">986333-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

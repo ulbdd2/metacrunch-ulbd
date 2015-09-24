@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000307083</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00186vM2.01200024------u</leader>
+          <controlfield tag="LDR">00186vM2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT002148526</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT002148514</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19870406</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">19981112</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20130215</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20130215</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT002148514</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT002148526</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">HBZHT002148514</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">1</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Ott, Erich</subfield>
+            <subfield code="d">1945-</subfield>
+            <subfield code="9">(DE-588)135807255</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="2">
+            <subfield code="k">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Handbuch zur Humanisierung der Arbeit</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="2">
+            <subfield code="a">mit Beiträgen von 60 Experten aus Wissenschaft und Betriebspraxis</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">hrsg. von der Bundesanstalt für Arbeitsschutz, Dortmund. Erich Ott ... (Projektleitung)</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Bremerhaven</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Wirtschaftsverl. NW, Verl. für Neue Wiss.</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">1985</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1985</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">631 S. : Ill., graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="2">
+            <subfield code="p">Erschienen</subfield>
+            <subfield code="a">Bd. 1 - 2</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="2">
+            <subfield code="a">3-88314-389-8</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">QP 410</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">QV 000</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">AR 17000</subfield>
+          </datafield>
+          <datafield tag="700" ind1="g" ind2="2">
+            <subfield code="a">CW 1500</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="s">Humanisierung der Arbeit</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="2">
+            <subfield code="f">Wörterbuch</subfield>
+          </datafield>
+          <controlfield tag="SYS">000307083</controlfield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeit</subfield>
+            <subfield code="x">Humanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeit</subfield>
+            <subfield code="x">Menschengerechte Gestaltung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeitshumanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeitswelt</subfield>
+            <subfield code="x">Humanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Humanisierung des Arbeitslebens</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeit</subfield>
+            <subfield code="x">Humanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeit</subfield>
+            <subfield code="x">Menschengerechte Gestaltung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeitshumanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeitswelt</subfield>
+            <subfield code="x">Humanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Humanisierung des Arbeitslebens</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeit</subfield>
+            <subfield code="x">Humanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeit</subfield>
+            <subfield code="x">Menschengerechte Gestaltung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeitshumanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Arbeitswelt</subfield>
+            <subfield code="x">Humanisierung</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="2">
+            <subfield code="s">Humanisierung des Arbeitslebens</subfield>
+            <subfield code="9">(DE-588)4026139-6</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Federal Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institute for Occupational Safety and Health</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Institut Fédéral de Sécurité de Santé au Travail</subfield>
+            <subfield code="h">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="h">Bundesrepublik</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">Deutschland</subfield>
+            <subfield code="b">Bundesanstalt für Arbeitsschutz</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="2">
+            <subfield code="k">BAU</subfield>
+            <subfield code="9">(DE-588)2076562-9</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">QAS</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000307082</subfield>
+            <subfield code="m">1;^.^1985</subfield>
+            <subfield code="n">Handbuch zur Humanisierung der Arbeit.^1985</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">31</subfield>
+            <subfield code="d">QAS5327-1</subfield>
+            <subfield code="i">85/26416</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">292966-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001015068</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>01103nM2.01200024------u</leader>
+          <controlfield tag="LDR">01103nM2.01200024------u</controlfield>
+          <controlfield tag="FMT">MU</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015708162</subfield>
+          </datafield>
+          <datafield tag="001" ind1="-" ind2="2">
+            <subfield code="a">HT015707971</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20081022</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="2">
+            <subfield code="a">20081022</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20100218</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="2">
+            <subfield code="a">20100218</subfield>
+          </datafield>
+          <datafield tag="010" ind1="-" ind2="1">
+            <subfield code="a">HT015707971</subfield>
+          </datafield>
+          <datafield tag="020" ind1="b" ind2="1">
+            <subfield code="a">547376499</subfield>
+          </datafield>
+          <datafield tag="020" ind1="c" ind2="2">
+            <subfield code="a">ZLB14832672</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">985875313</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">DNB985875313</subfield>
+          </datafield>
+          <datafield tag="026" ind1="h" ind2="1">
+            <subfield code="a">547376499</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="2">
+            <subfield code="a">KBVZLB14832672</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||||</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE-BE</subfield>
+          </datafield>
+          <datafield tag="036" ind1="a" ind2="2">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="2">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="2">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="2">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="2">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="089" ind1="-" ind2="1">
+            <subfield code="a">Bd. 2, Teilbd. 1, Von der Frühen Neuzeit bis zum Ersten Weltkrieg</subfield>
+            <subfield code="a">[Schülerbd.]</subfield>
+          </datafield>
+          <datafield tag="090" ind1="-" ind2="1">
+            <subfield code="a">2,x,1,schuel</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="2">
+            <subfield code="p">Regenhardt, Hans-Otto</subfield>
+            <subfield code="9">(DE-588)111624975</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="2">
+            <subfield code="p">Bente, Markus</subfield>
+            <subfield code="9">(DE-588)122105605</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="2">
+            <subfield code="p">Britt, Thomas P.</subfield>
+            <subfield code="9">(DE-588)136477925</subfield>
+          </datafield>
+          <datafield tag="112" ind1="b" ind2="2">
+            <subfield code="p">Asch, Bettina</subfield>
+            <subfield code="9">(DE-588)115804021</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="2">
+            <subfield code="a">Forum Geschichte kompakt</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">[erarb. von Thomas P. Britt ...]</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="2">
+            <subfield code="a">hrsg. von Hans-Otto Regenhardt</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">1.Aufl., 1. Dr.</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="2">
+            <subfield code="a">[Gymnasium] Nordrhein-Westfalen</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="2">
+            <subfield code="a">Berlin</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="2">
+            <subfield code="a">Cornelsen</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="2">
+            <subfield code="a">2008</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2008</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">207 S. : Ill., graph. Darst., Kt.</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="2">
+            <subfield code="a">Das Lehrwerk erscheint in einer zweibändigen und einer inhaltsgleichen dreibändigen Ausgabe</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-06-063969-4</subfield>
+            <subfield code="b">Pb. : ca. EUR 19.95, ca. sfr 35.10</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-06-063969-8</subfield>
+            <subfield code="b">Pb. : ca. EUR 19.95, ca. sfr 35.10</subfield>
+          </datafield>
+          <datafield tag="568" ind1="-" ind2="1">
+            <subfield code="a">07N431711</subfield>
+          </datafield>
+          <datafield tag="655" ind1="-" ind2="1">
+            <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=3010171&amp;prov=M&amp;dok_var=1&amp;dok_ext=htmTest</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="2">
+            <subfield code="a">$qtext/html$uhttp://deposit.d-nb.de/cgi-bin/dokserv?id=3092092&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm$3Inhaltstext$A2</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="2">
+            <subfield code="a">$u</subfield>
+          </datafield>
+          <datafield tag="675" ind1="-" ind2="2">
+            <subfield code="a">Schulbuch Gymnasium Nordrhein-Westfalen</subfield>
+          </datafield>
+          <datafield tag="710" ind1="-" ind2="2">
+            <subfield code="a">Geschichtsunterricht</subfield>
+          </datafield>
+          <datafield tag="710" ind1="-" ind2="2">
+            <subfield code="a">Nordrhein-Westfalen</subfield>
+          </datafield>
+          <datafield tag="710" ind1="-" ind2="2">
+            <subfield code="a">Schulbuch</subfield>
+          </datafield>
+          <controlfield tag="SYS">001015068</controlfield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">MQX</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Bd. 2,1,1. Forum Geschichte kompakt.</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=2891995&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: BD. 2,1,1. FORUM GESCHICHTE KOMPAKT. AUTOR: JAHR: 2008 1. WAS DIE MENSCHEN IM MITTELALTER 8 AUFTAKTSEITE 10 WELTVORSTELLUNGEN UND GEOGRAPHISCHE KENNTNISSE 11 WELTBILDER IN DER ZEIT DES EUROPAEISCHEN MITTELALTERS 12 METHODE: HISTORISCHE KARTEN LESEN UND VERGLEICHEN 14 WELTBILDER IM CHRISTLICHEN EUROPA 15 WELTBILDER IM ISLAMISCHEN ORIENT 16 WELTBILDER IN CHINA 17 KOMPETENZ-CHECK 2. NEUE WELTEN - NEUE HORIZONTE 36 AUFTAKTSEITE 38 DIE STADTGESELLSCHAFT ALS URSPRUNG VON RENAISSANCE UND HUMANISMUS 39 STAEDTISCHE HERRSCHAFT UND KULTUR IN ITALIEN 40 METHODE: BILDER VERGLEICHEN 42 LEONARDO - EIN MENSCH DER RENAISSANCE? 44 FLORENZ - STADT DER RENAISSANCE 46 DIE FUGGER: VON DER HANDELSGESELLSCHAFT ZUM GROSSUNTERNEHMEN 48 HUMANISMUS: DER MENSCH IM MITTELPUNKT 50 EIN NEUES BILD VOM MENSCHLICHEN KOERPER 51 KOMPETENZ-CHECK 52 ENTDECKUNG UND EROBERUNG 53 GALILEO GALILEI - DIE ENTDECKUNG DES EXPERIMENTS 54 HIMMELSBEOBACHTUNGEN VERAENDERN DAS WELTBILD 56 CHRISTOPH KOLUMBUS - EINE FAHRT NACH WESTEN 58 DIE VOELKER DES ALTAMERIKANISCHEN KONTINENTS 60 DIE ANKUNFT DER „WEISSEN GOETTER" 62 DIE KOLONIALHERRSCHAFT: IM AUFTRAG VON KRONE UND KREUZ ' VONEINANDER WUSSTEN 18 KULTURELLE BEGEGNUNGEN UND KONFLIKTE 19 DIE ISLAMISCHE WELT UND DAS MITTELALTERLICHE EUROPA 20 MUSLIMEJUDEN UND CHRISTEN - DAS BEISPIEL SPANIEN 22 DIE KREUZZUEGE 24 JUDEN IN EUROPA 26 POLEN UND DEUTSCHE 28 PILGERREISEN IM MITTELALTER 30 HANDELSREISEN - DAS BEISPIEL SEIDENSTRASSE 32 FEINDBILDER - FREMDBILDER - ERFAHRUNGEN 33 KOMPETENZ-CHECK 34 UEBERBLICK 64 FOLGEN DER EROBERUNG 66 WERKSTAT I: HABEN CHINESEN AMERIKA ENTDECKT? 67 KOMPETON?-CHECK 68 REFORMATION: GLAUBENSSTREIT UND MACHTKAMPF 69 MARTIN LUTHER - STREIT UM DEN RICHTIGEN GLAUBEN 70 DIE REFORMATION 71 DER BAUERNKRIEG 72 DIE GEGENREFORMATION DER KATHOLISCHEN KIRCHE 73 DER DREISSIGJAEHRIGE KRIEG - EIN EUROPAEISCHER KRIEG 74 HEXENVERFOLGUNG IN DER FRUEHEN NEUZEIT 76 METHODE: INFORMATIONEN PRAESENTIEREN 77 KOMPETENZ-CHECK 78 UEBERBLICK</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">3. EUROPA WANDELT SICH 80 AUFTAKTSEITE 82 ABSOLUTISMUS UND AUFKLAERUNG - DAS BEISPIEL FRANKREICH 83 DER MACHTANSPRUCH LUDWIGS XIV. 84 STAENDESTAAT ODER FUERSTENSTAAT? 86 DIE FRANZOESISCHE GESELLSCHAFT IM 18.JAHRHUNDERT 88 DER MERKANTILISMUS: STAATLICH GELENKTE WIRTSCHAFT? 90 DIE AUFKLAERUNG: CEGENMODELL ZUM ABSOLUTISMUS? 92 WELCHEN STAAT WOLLTEN DIE AUFKLAERER? 94 WERKSTATT: ENGLAND: ALTERNATIVE ZUM ABSOLUTISMUS? 95 KOMPETENZ-CHECK 96 DIE FRANZOESISCHE REVOLUTION UND EUROPA 97 DIE AMERIKANISCHE REVOLUTION - VORBILD FUER FRANKREICH? 98 FRANKREICH IN DER KRISE 100 METHODE: KARIKATUREN ENTSCHLUESSELN 102 DIE DREI REVOLUTIONEN DES SOMMERS 1789 104 DIE REVOLUTION GEHT WEITER 106 MENSCHEN SOLLEN FREI UND GLEICH SEIN 108 VON DER KONSTITUTIONELLEN MONARCHIE ZUR REPUBLIK 109 METHODE: EIN VERFASSUNGSMODELL INTERPRETIEREN 110 KONFLIKTE IM INNEREN UND KRIEG NACH AUSSEN 112 METHODE: EINE TEXTQUELLE ANALYSIEREN 114 DIE ALLEINHERRSCHAFT NAPOLEONS 116 WIRKUNGEN DER FRANZOESISCHEN VORHERRSCHAFT AUF DEM KONTINENT 117 KOMPETENZ-CHECK 118 DEUTSCHLAND IM 19.JAHRHUNDERT - RESTAURATION, REVOLUTION UND REICHSGRUENDUNG 119 DIE NEUORDNUNG EUROPAS 120 DEMONSTRATIONEN FUER EINHEIT UND FREIHEIT 122 METHODE: POLITISCHE DICHTUNG DEUTEN UND VERGLEICHEN 124 DIE KRISE DES MONARCHISCHEN SYSTEMS 126 1848 - DIE „MAERZREVOLUTION" 128 DIE NATIONALVERSAMMLUNG ARBEITET DIE VERFASSUNG AUS 130 IST DIE REVOLUTION GESCHEITERT? 132 DIE REICHSGRUENDUNG 1871 134 METHODE: HISTORIENGEMAELDE DEUTEN 136 WERKSTATT: „WAS IST DES DEUTSCHEN VATERLAND?" 137 KOMPETENZ-CHECK 138 DIE INDUSTRIALISIERUNG UND IHRE FOLGEN 139 DIE INDUSTRIALISIERUNG - EINE REVOLUTION DER LEBENSWEISE? 140 FAKTOREN DER INDUSTRIALISIERUNG - DAS BEISPIEL ENGLAND 144 METHODE: STATISTIKEN AUSWERTEN UND GRAPHISCH UMSETZEN 146 FAKTOREN DER INDUSTRIALISIERUNG IN DEUTSCHLAND 148 INDUSTRIALISIERUNG IN RHEINLAND-WESTFALEN 150 LEBEN UND ARBEITEN IM „RUHRPOTT" 152 FRUEHINDUSTRIELLE ARBEITS- UND LEBENSBEDINGUNGEN</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">154 METHODE: FOTOS ANALYSIEREN 156 DIE SOZIALE FRAGE IN STAAT UND GESELLSCHAFT 158 SOZIALISMUS UND POLITISCHE PRAXIS 160 INDUSTRIEGESELLSCHAFT-WOHIN? 161 KOMPETENZ-CHECK 162 UEBERBLICK 4. IMPERIALISMUS UND ERSTER WELTKI 164 AUFTAKTSEITE 166 VON DER VORHERRSCHAFT EUROPAS ZUM ERSTEN WELTKRIEG 167 DER IMPERIALISMUS - LERNEN AN STATIONEN 168 METHODE: SACHTEXTE EXZERPIEREN 170 STATION 1: ZIELE UND METHODEN IMPERIALISTISCHER POLITIK 171 STATION 2: GROSSBRITANNIEN - HANDEL UND INDIREKTE HERRSCHAFT 172 STATION 3: FRANKREICH - KOLONIALISMUS ALS „ZIVILISIERUNG" 173 STATION 4: RUSSLAND - KOLONIALISMUS ALS KONTINENTALE EXPANSION 174 STATION 5: USA- KOLONIALISMUS ALS PRINZIP DER „OFFENEN TUER" 175 STATION 6: DEUTSCHLAND - STREBEN NACH WELTMACHT 176 STATION 7: KONFLIKTE IN KOLONIEN - DAS BEISPIEL CHINA 177 STATION 8: FOLGEN DER KOLONIALHERRSCHAFT IN AFRIKA - DAS BEISPIEL RUANDA ANHANG 192 LEXIKON 194 METHODENUEBERSICHT 178 STIMMEN ZUM IMPERIALISMUS - GESTERN UND HEUTE 180 WERKSTATT: IMPERIALISMUS MULTIPERSPEKTIVISCH GESEHEN 181 EUROPA - NOCH IM GLEICHGEWICHT? 182 DER WEG IN DEN WELTKRIEG 184 DER KRIEG DES I NDUSTRIEZEITALTERS 186 DAS ENDE DES ERSTEN WELTKRIEGS 188 METHODE: KRIEGERDENKMAELER ERKUNDEN 189 KOMPETENZCHECK 190 UEBERBLICK 202 HISTORISCHE SACHVERHALTE BESCHREIBEN UND EROERTERN 204 REGISTER 207 BILDQUELLEN</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">UP</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001015067</subfield>
+            <subfield code="m">Bd. 2, Teilbd. 1, Von der Frühen Neuzeit bis zum Ersten Weltkrieg;^[Schülerbd.];^.^2008</subfield>
+            <subfield code="n">Forum Geschichte kompakt.^2008</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">30</subfield>
+            <subfield code="d">MQX4954-2,1,S</subfield>
+            <subfield code="i">08/14439</subfield>
+            <subfield code="n">30</subfield>
+            <subfield code="k">20081209</subfield>
+            <subfield code="5">1030203-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

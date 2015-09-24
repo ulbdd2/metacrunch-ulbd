@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001452439</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">CT006000003</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20120531</subfield>
+          </datafield>
+          <datafield tag="021" ind1="-" ind2="1">
+            <subfield code="a">HT016964750</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZCT006000003</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+            <subfield code="a">lat</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="051">m|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ldd</subfield>
+            <subfield code="a">s2w-retropadubpb</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Lucas</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Ferdinand</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Paderborn, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Immortalitas. Das ist: Unsterbliche Gedächtnüß Weyland des Hochwürdigsten, Hochgebohrnen Fürsten und Herrn, Herrn Ferdinandi Bischoffen zu Paderborn und Münster, ... Unsers nunmehr in Gott ruhenden Lands-Fürsten und Herrn, bey dero Hoch-Fürstlichen Gnaden kläglicher Besingnüß in gewöhnlicher Lob-Rede und Leich-Predig vorgestellet Am 3. Tag Augustmonats im Jahr 1683</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Von P. Luca Nagel, der Societät Jesu Priester, und Prediger in der hohen Thums-Kirchen zu Paderborn</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Neuhaus</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Todt</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1683</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">26 S.</subfield>
+          </datafield>
+          <datafield tag="435" ind1="-" ind2="1">
+            <subfield code="a">2</subfield>
+          </datafield>
+          <datafield tag="516" ind1="-" ind2="1">
+            <subfield code="a">Text teilw. dt, teilw. lat.</subfield>
+          </datafield>
+          <datafield tag="552" ind1="b" ind2="1">
+            <subfield code="a">urn:nbn:de:hbz:466:1-7723</subfield>
+          </datafield>
+          <datafield tag="610" ind1="-" ind2="1">
+            <subfield code="a">Digitalisierte Ausg.</subfield>
+          </datafield>
+          <datafield tag="611" ind1="a" ind2="1">
+            <subfield code="a">Paderborn</subfield>
+          </datafield>
+          <datafield tag="613" ind1="a" ind2="1">
+            <subfield code="a">Universitätsbibliothek Paderborn</subfield>
+          </datafield>
+          <datafield tag="619" ind1="a" ind2="1">
+            <subfield code="a">2012</subfield>
+          </datafield>
+          <datafield tag="621" ind1="-" ind2="1">
+            <subfield code="a">Digitale Sammlungen der Universitätsbibliothek Paderborn</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="q">text/html</subfield>
+            <subfield code="u">http://nbn-resolving.de/urn:nbn:de:hbz:466:1-7723</subfield>
+            <subfield code="x">Resolving-System</subfield>
+            <subfield code="z">kostenfrei</subfield>
+            <subfield code="3">Volltext</subfield>
+          </datafield>
+          <datafield tag="675" ind1="-" ind2="1">
+            <subfield code="a">Gedächtnis weiland hochgebornen Bischof Bischofen Landesfürsten bei hochfürstlichen Lobrede Leichenpredigt vorgestellt</subfield>
+          </datafield>
+          <controlfield tag="SYS">001452439</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinand</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinand &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;a&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenbergius, Ferdinandus</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Paderborn, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinand</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinand &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;a&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenbergius, Ferdinandus</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Paderborn, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Luca</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Lukas</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Luca</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Lukas</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Luca</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Nagel, Lukas</subfield>
+            <subfield code="d">1638-1711</subfield>
+            <subfield code="9">(DE-588)124229239</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinand</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinand &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;a&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenbergius, Ferdinandus</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Paderborn, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinand</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinand &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;a&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenbergius, Ferdinandus</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Paderborn, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinand</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinand &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fürstenberg, Ferdinandus &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenberg, Ferdinandus &lt;&lt;a&gt;&gt;</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Furstenbergius, Ferdinandus</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Münster, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ferdinandus</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Paderborn, Bischof</subfield>
+            <subfield code="d">1626-1683</subfield>
+            <subfield code="9">(DE-588)118686755</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

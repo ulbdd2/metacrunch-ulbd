@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>090397503</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="030">a||dr||||||27</controlfield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="052">p||||||a|||||||</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <datafield tag="001" ind1=" " ind2=" ">
+            <subfield code="a">2718140-6</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2=" ">
+            <subfield code="a">20150318</subfield>
+          </datafield>
+          <datafield tag="003" ind1=" " ind2=" ">
+            <subfield code="a">20150521213004</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2=" ">
+            <subfield code="a">1200005090</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2=" ">
+            <subfield code="a">2718140-6</subfield>
+          </datafield>
+          <datafield tag="026" ind1=" " ind2=" ">
+            <subfield code="a">ZDB2718140-6</subfield>
+          </datafield>
+          <datafield tag="036" ind1="a" ind2=" ">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2=" ">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="060" ind1=" " ind2=" ">
+            <subfield code="b">txt</subfield>
+          </datafield>
+          <datafield tag="061" ind1=" " ind2=" ">
+            <subfield code="b">n</subfield>
+          </datafield>
+          <datafield tag="062" ind1=" " ind2=" ">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="064" ind1="a" ind2=" ">
+            <subfield code="a">$9</subfield>
+            <subfield code="9">(DE-588)4067488-5</subfield>
+          </datafield>
+          <datafield tag="070" ind1=" " ind2=" ">
+            <subfield code="a">1141</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2=" ">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2=" ">
+            <subfield code="a">9999</subfield>
+          </datafield>
+          <datafield tag="085" ind1="x" ind2=" ">
+            <subfield code="a">[Deutsche Ausgabe]</subfield>
+          </datafield>
+          <datafield tag="200" ind1=" " ind2=" ">
+            <subfield code="k">KHS GmbH</subfield>
+            <subfield code="h">Dortmund</subfield>
+            <subfield code="9">(DE-588)16076113-X</subfield>
+            <subfield code="4">isb</subfield>
+          </datafield>
+          <datafield tag="204" ind1="b" ind2=" ">
+            <subfield code="k">KHS AG</subfield>
+            <subfield code="h">Dortmund</subfield>
+            <subfield code="9">(DE-588)10152692-1</subfield>
+            <subfield code="4">isb</subfield>
+          </datafield>
+          <datafield tag="331" ind1=" " ind2=" ">
+            <subfield code="a">KHS competence</subfield>
+          </datafield>
+          <datafield tag="359" ind1=" " ind2=" ">
+            <subfield code="a">Herausgeber KHS GmbH, Dortmund</subfield>
+          </datafield>
+          <datafield tag="360" ind1=" " ind2=" ">
+            <subfield code="a">[Deutsche Ausgabe]</subfield>
+          </datafield>
+          <datafield tag="375" ind1=" " ind2=" ">
+            <subfield code="a">KHS competence in solutions</subfield>
+            <subfield code="f">01 (2010)</subfield>
+          </datafield>
+          <datafield tag="405" ind1=" " ind2=" ">
+            <subfield code="a">01 (2010)-</subfield>
+          </datafield>
+          <datafield tag="419" ind1=" " ind2=" ">
+            <subfield code="a">Dortmund</subfield>
+            <subfield code="b">KHS AG</subfield>
+            <subfield code="c">2010</subfield>
+          </datafield>
+          <datafield tag="419" ind1=" " ind2=" ">
+            <subfield code="a">Dortmund</subfield>
+            <subfield code="b">KHS GmbH</subfield>
+            <subfield code="c">[2010]-</subfield>
+            <subfield code="A">3</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2=" ">
+            <subfield code="a">2010</subfield>
+          </datafield>
+          <datafield tag="435" ind1=" " ind2=" ">
+            <subfield code="a">30 cm</subfield>
+          </datafield>
+          <datafield tag="501" ind1=" " ind2=" ">
+            <subfield code="a">Erscheint 2-3x j&#xE4;hrlich</subfield>
+          </datafield>
+          <datafield tag="501" ind1=" " ind2=" ">
+            <subfield code="a">Herausgeber 01 (2010): KHS AG</subfield>
+          </datafield>
+          <datafield tag="527" ind1="z" ind2=" ">
+            <subfield code="p">Parallele Sprachausgabe</subfield>
+            <subfield code="n">englisch</subfield>
+            <subfield code="a">KHS GmbH &lt;Dortmund&gt;: KHS competence</subfield>
+            <subfield code="9">2718142-X</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">330</subfield>
+            <subfield code="2">DNB</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">620</subfield>
+            <subfield code="2">DNB</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">330</subfield>
+            <subfield code="2">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">620</subfield>
+            <subfield code="2">ZDB</subfield>
+          </datafield>
+          <datafield tag="CAT" ind1=" " ind2=" ">
+            <subfield code="a">BATCH</subfield>
+            <subfield code="b">90</subfield>
+            <subfield code="c">20150828</subfield>
+            <subfield code="l">HBZ01</subfield>
+            <subfield code="h">1353</subfield>
+          </datafield>
+          <datafield tag="CAT" ind1=" " ind2=" ">
+            <subfield code="a">BATCH-UPD</subfield>
+            <subfield code="b">90</subfield>
+            <subfield code="c">20150828</subfield>
+            <subfield code="l">HBZ01</subfield>
+            <subfield code="h">1354</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

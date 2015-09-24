@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000990520</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00930cM2.01200024------h</leader>
+          <controlfield tag="LDR">00930cM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015496409</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20080403</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20100309113239</subfield>
+          </datafield>
+          <datafield tag="004" ind1="-" ind2="1">
+            <subfield code="a">20120327</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">2418913-3</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">988134926</subfield>
+          </datafield>
+          <datafield tag="025" ind1="o" ind2="1">
+            <subfield code="a">230012798</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">2418913-3</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB2418913-3</subfield>
+          </datafield>
+          <controlfield tag="030">b|1dcz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-IS</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ice</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="052">z||||||zw||||||</controlfield>
+          <controlfield tag="058">cr||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">8999</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">9999</subfield>
+          </datafield>
+          <datafield tag="076" ind1="c" ind2="1">
+            <subfield code="a">ld</subfield>
+          </datafield>
+          <datafield tag="078" ind1="z" ind2="1">
+            <subfield code="a">lzZDB</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Norðlingur</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">1.1875/76,2.Juli - 6.1881/82,12.Juli[?]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Akureyri</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1875</subfield>
+          </datafield>
+          <datafield tag="425" ind1="c" ind2="1">
+            <subfield code="a">1882</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="p">Periodizität</subfield>
+            <subfield code="a"> wöchentl.</subfield>
+          </datafield>
+          <datafield tag="527" ind1="z" ind2="1">
+            <subfield code="p">Druckausg. ---&gt;</subfield>
+            <subfield code="a">Norđlingur</subfield>
+            <subfield code="9">HT007064637</subfield>
+          </datafield>
+          <datafield tag="530" ind1="z" ind2="1">
+            <subfield code="p">In ---&gt;</subfield>
+            <subfield code="a">Timarit.is</subfield>
+            <subfield code="9">HT015226038</subfield>
+          </datafield>
+          <datafield tag="610" ind1="-" ind2="1">
+            <subfield code="a">Digital. Ausg.</subfield>
+          </datafield>
+          <datafield tag="610" ind1="a" ind2="1">
+            <subfield code="a">Reykjavik : National and University Library of Iceland. (Timarit.is)</subfield>
+          </datafield>
+          <datafield tag="611" ind1="-" ind2="1">
+            <subfield code="a">Reykjavik</subfield>
+          </datafield>
+          <datafield tag="613" ind1="-" ind2="1">
+            <subfield code="a">National and University Library of Iceland</subfield>
+          </datafield>
+          <datafield tag="621" ind1="b" ind2="1">
+            <subfield code="a">Timarit.is</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="653" ind1="-" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://www.timarit.is/titlebrowse.jsp?t_id=300068&amp;lang=4</subfield>
+            <subfield code="x">Digitalisierung</subfield>
+            <subfield code="z">kostenfrei</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2418913</subfield>
+            <subfield code="x">EZB</subfield>
+          </datafield>
+          <datafield tag="673" ind1="b" ind2="1">
+            <subfield code="a">Akureyri</subfield>
+            <subfield code="9">1045984-4</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">070</subfield>
+            <subfield code="a">ZDB</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">100</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">130</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">z102</subfield>
+          </datafield>
+          <datafield tag="700" ind1="z" ind2="1">
+            <subfield code="a">z475</subfield>
+          </datafield>
+          <controlfield tag="SYS">000990520</controlfield>
+          <datafield tag="GKZ" ind1="-" ind2="1">
+            <subfield code="a">KF</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000968433</subfield>
+            <subfield code="m">Beilage:^Norðlingur.^1875</subfield>
+            <subfield code="n">Beilage zu:^Timarit.is.^1773</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
