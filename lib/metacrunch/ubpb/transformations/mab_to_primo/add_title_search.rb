@@ -53,6 +53,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch < Metacrunch
     end
     .flatten
     .map(&:presence)
+    .compact
     .map do |_title_search|
       _title_search.gsub(/\[.+\]/, "").strip
     end
