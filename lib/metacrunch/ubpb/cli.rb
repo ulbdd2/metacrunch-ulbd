@@ -1,12 +1,12 @@
-require_relative "./commands/import_aleph_command"
-require_relative "./commands/init_index_command"
-require_relative "./commands/mab2snr_command"
+require_relative "./cli/import_aleph_command"
+require_relative "./cli/init_index_command"
+require_relative "./cli/mab2snr_command"
 
 Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r|
   #
   # Init elasticsearch index for storage
   #
-  r.register(Metacrunch::UBPB::InitIndexCommand) do |c|
+  r.register(Metacrunch::UBPB::Cli::InitIndexCommand) do |c|
     c.name  "init_index"
     c.usage "init_index"
     c.desc  "Init ElasticSearch for MAB XML storage"
@@ -28,7 +28,7 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
   #
   # Load Aleph MAB XML into elastic search
   #
-  r.register(Metacrunch::UBPB::ImportAlephCommand) do |c|
+  r.register(Metacrunch::UBPB::Cli::ImportAlephCommand) do |c|
     c.name  "import_aleph"
     c.usage "import_aleph FILES..."
     c.desc  "Import Aleph MAB XML files into ElasticSearch"
@@ -55,7 +55,7 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
   #
   # Normalizes MAB to SNR
   #
-  r.register(Metacrunch::UBPB::Mab2SnrCommand) do |c|
+  r.register(Metacrunch::UBPB::Cli::Mab2SnrCommand) do |c|
     c.name  "mab2snr"
     c.usage "mab2snr"
     c.desc  "Normalize MAB into SNR"
