@@ -31,11 +31,11 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddDescription < Metacrunch
 
     # RDA
     source.datafields('520').each do |_field| # Hochschulschriftenvermerk
-      charakter_der_hochschulschrift       = _field.subfield('b').value
-      name_der_institution_oder_fakultät   = _field.subfield('b').value
-      jahr_in_dem_der_grad_verliehen_wurde = _field.subfield('d').value
-      zusätzliche_angaben                  = _field.subfield('g').values.presence
-      hochschulschriften_identifier        = _field.subfield('o').value
+      charakter_der_hochschulschrift       = _field.subfields('b').value
+      name_der_institution_oder_fakultät   = _field.subfields('b').value
+      jahr_in_dem_der_grad_verliehen_wurde = _field.subfields('d').value
+      zusätzliche_angaben                  = _field.subfields('g').values.presence
+      hochschulschriften_identifier        = _field.subfields('o').value
 
       _description = []
       _description << "#{charakter_der_hochschulschrift}:" if charakter_der_hochschulschrift
