@@ -1,5 +1,5 @@
 module Metacrunch
   module UBPB
-    VERSION = "1.0.20"
+    VERSION = "2.1"
   end
 end
