@@ -36,6 +36,15 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             index: "not_analyzed"
           }
         }
+      },
+      {
+        facets: {
+          match: ".+facet|erscheinungsform|delivery_category|materialtyp|inhaltstyp",
+          match_pattern: "regex",
+          mapping: {
+            index: "not_analyzed"
+          }
+        }
       }
     ]
   }
