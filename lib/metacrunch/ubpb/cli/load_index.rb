@@ -9,6 +9,7 @@ require "pry"
 class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
   include Metacrunch::Parallel::DSL
 
+  BULK_SIZE = 1000
   DEFAULT_MAPPING = {
     _id: { # http://elasticsearch-users.115913.n3.nabble.com/Range-for-id-td4025670.html
       index: "not_analyzed"
@@ -71,7 +72,6 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       file_reader = Metacrunch::File::Reader.new(filename: _filename)
       elasticsearch_indexer = Metacrunch::Elasticsearch::Indexer.new({
         "id_accessor": -> (item) { item["id"] },
-        "bulk_size": 200,
         "index": options[:index],
         "logger": logger,
         "type": options[:type],
@@ -79,7 +79,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       })
 
 
-      file_reader.each_slice(200) do |_bulk|
+      file_reader.each_slice(BULK_SIZE) do |_bulk|
         _bulk.map! do |_file|
           transformation_result = transformation.call(_file.content)
           decode_json!(transformation_result)
