@@ -21,5 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "metacrunch",               "~> 2.2"
   spec.add_dependency "metacrunch-elasticsearch", "~> 2.0"
   spec.add_dependency "metacrunch-mab2",          "~> 1.1"
+  spec.add_dependency "nokogiri",                 "~> 1.6"
   spec.add_dependency "ruby-progressbar",         "~> 1.7"
 end
