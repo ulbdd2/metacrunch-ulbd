@@ -3,6 +3,7 @@ module Metacrunch
     module Cli
       require_relative "./cli/import_aleph_command"
       require_relative "./cli/init_index_command"
+      require_relative "./cli/load_index"
       require_relative "./cli/mab2snr_command"
       require_relative "./cli/mabmapper_command"
     end
@@ -120,6 +121,38 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
       aliases: "-s",
       type: :boolean,
       default: false
+    c.option :number_of_processes,
+      desc: "Number of parallel processes",
+      aliases: "-n",
+      type: :numeric
+  end
+
+  #
+  # load_index
+  #
+  r.register(Metacrunch::UBPB::Cli::LoadIndex) do |c|
+    c.name  "load_index"
+    c.usage "load_index"
+    c.desc "load_index"
+    c.option :default_mapping,
+      desc: "Default mapping",
+      aliases: "-d",
+      type: :string
+    c.option :url,
+      desc: "Elasticsearch url",
+      aliases: "-u",
+      type: :string,
+      default: "http://localhost:9200"
+    c.option :index,
+      desc: "Name of the index to index to",
+      required: true,
+      aliases: "-i",
+      type: :string
+    c.option :type,
+      desc: "Type of documents indexed",
+      required: true,
+      aliases: "-t",
+      type: :string
     c.option :number_of_processes,
       desc: "Number of parallel processes",
       aliases: "-n",
