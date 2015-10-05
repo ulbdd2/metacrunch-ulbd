@@ -17,7 +17,27 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
     _timestamp: {
       enabled: true,
       store: true # not needed for query, just to be able to view it with fields: ["*"]
-    }
+    },
+    dynamic_templates: [
+      {
+        nested_fields: {
+          match: "additional_data|relation|secondary_form_superorder|superorder_display",
+          match_pattern: "regex",
+          mapping: {
+            type: "nested"
+          }
+        }
+      },
+      {
+        non_analyzed_searchable_fields: {
+          match: "isbn|issn|ht_number|selection_code|signature",
+          match_pattern: "regex",
+          mapping: {
+            index: "not_analyzed"
+          }
+        }
+      }
+    ]
   }
 
   def call
