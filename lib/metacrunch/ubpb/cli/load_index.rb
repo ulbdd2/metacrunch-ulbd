@@ -4,8 +4,6 @@ require "metacrunch/file/reader"
 require_relative "../cli"
 require_relative "../transformations/mab_to_primo"
 
-require "pry"
-
 class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
   include Metacrunch::Parallel::DSL
 
@@ -63,7 +61,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       if user_given_default_mappping_filename.end_with?(".json")
 
       elsif user_given_default_mappping_filename.end_with?(".yml")
-        YAML.load_file(user_given_default_mappping_filename) 
+        YAML.load_file(user_given_default_mappping_filename)
       end
 
       merger = -> (key, old_value, new_value) do
