@@ -1,10 +1,10 @@
 require "metacrunch/elasticsearch/index_creator"
 require "metacrunch/elasticsearch/indexer"
+require "metacrunch/elasticsearch/searcher"
 require "metacrunch/file/reader"
 require_relative "../cli"
 require_relative "../transformations/mab_to_primo"
-
-require "pry"
+require_relative "../transformations/primo_to_elasticsearch"
 
 class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
   include Metacrunch::Parallel::DSL
@@ -19,6 +19,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       store: true # not needed for query, just to be able to view it with fields: ["*"]
     },
     dynamic_templates: [
+=begin
       {
         nested_fields: {
           match: "additional_data|relation|secondary_form_superorder|superorder_display",
@@ -28,6 +29,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           }
         }
       },
+=end
       {
         non_analyzed_searchable_fields: {
           match: "isbn|issn|ht_number|selection_code|signature",
@@ -93,12 +95,27 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
 
     elasticsearch_index_creator.call
 
-    filenames = params.map { |_param| Dir.glob(File.expand_path(_param)) }.flatten
-    number_of_processes = options[:number_of_processes] || 0 # disables multiprocessing
-    transformation = Metacrunch::UBPB::Transformations::MabToPrimo.new
+    params
+    .map! do |_param|
+      _param.start_with?("http") ? _param : Dir.glob(File.expand_path(_param))
+    end
+    .flatten!
 
-    Parallel.each(filenames, in_processes: number_of_processes) do |_filename|
-      file_reader = Metacrunch::File::Reader.new(filename: _filename)
+    number_of_processes = options[:number_of_processes] || 0 # disables multiprocessing
+    mab_to_primo = Metacrunch::UBPB::Transformations::MabToPrimo.new
+    primo_to_elasticsearch = Metacrunch::UBPB::Transformations::PrimoToElasticsearch.new
+
+    Parallel.each(params, in_processes: number_of_processes) do |_param|
+=begin
+      if _param.start_with?("http")
+        _url = _param.sub(URI(_param).path, "")
+        _index, _type = URI(_param).path.split("/").map(&:presence).compact
+
+        elasticsearch_reader = Metacrunch::Elasticsearch::Searcher.new(index: _index, type: _type, url: _url)
+      end
+=end
+
+      reader = Metacrunch::File::Reader.new(filename: _param)
       elasticsearch_indexer = Metacrunch::Elasticsearch::Indexer.new({
         "id_accessor": -> (item) { item["id"] },
         "index": options[:index],
@@ -107,11 +124,11 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         "url": options[:url]
       })
 
-
-      file_reader.each_slice(BULK_SIZE) do |_bulk|
+      reader.each_slice(BULK_SIZE) do |_bulk|
         _bulk.map! do |_file|
-          transformation_result = transformation.call(_file.content)
-          decode_json!(transformation_result)
+          mab_to_primo_result = mab_to_primo.call(_file.content)
+          decode_json!(mab_to_primo_result)
+          primo_to_elasticsearch.call(mab_to_primo_result)
         end
 
         elasticsearch_indexer.call(_bulk)
