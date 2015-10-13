@@ -65,7 +65,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       if user_given_default_mappping_filename.end_with?(".json")
 
       elsif user_given_default_mappping_filename.end_with?(".yml")
-        YAML.load_file(user_given_default_mappping_filename) 
+        YAML.load_file(user_given_default_mappping_filename)
       end
 
       merger = -> (key, old_value, new_value) do
