@@ -22,6 +22,9 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddStatus < Metacrunch::Tra
     # Interimsaufnahmen unterdrücken
     value = 'D' if source.datafields('537', ind1: '-', ind2: '1').subfields('a').values.flatten.any? { |v| v.downcase.include? 'interimsaufnahme' }
 
+    # wenn gelöscht via datafield "DEL"
+    value = 'D' if source.datafields('DEL').subfields('a').values.include?('Y')
+
     value
   end
 end

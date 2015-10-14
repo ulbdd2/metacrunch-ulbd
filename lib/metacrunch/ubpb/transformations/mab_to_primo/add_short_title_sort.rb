@@ -3,16 +3,16 @@ require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 require_relative "./add_short_title"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddShortTitleDisplay < Metacrunch::Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddShortTitleSort < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "short_title_display", short_title_display) : short_title_display
+    target ? Metacrunch::Hash.add(target, "short_title_sort", short_title_sort) : short_title_sort
   end
 
   private
 
-  def short_title_display
+  def short_title_sort
     if short_title.present?
-      short_title.gsub(/<<|>>/, '')
+      short_title.gsub(/<<[^>]*>>/, "").strip.presence
     end
   end
 

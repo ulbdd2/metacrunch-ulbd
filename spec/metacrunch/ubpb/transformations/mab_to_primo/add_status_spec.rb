@@ -12,4 +12,7 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddStatus do
 
   # Interimsaufnahmen unterdrücken
   define_field_test '000898036', status: 'D'
+
+  # Datafield "DEL" unterdrücken
+  define_field_test '000003140', status: 'D'
 end

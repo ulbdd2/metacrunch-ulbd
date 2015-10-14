@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header status="deleted">
+        <identifier>aleph-publish:000003140</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00521nM2.01200024------h</leader>
+          <controlfield tag="LDR">00521nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <controlfield tag="SYS">000003140</controlfield>
+          <datafield tag="DEL" ind1="-" ind2="1">
+            <subfield code="a">Y</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
