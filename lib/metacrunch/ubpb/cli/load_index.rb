@@ -19,17 +19,15 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       store: true # not needed for query, just to be able to view it with fields: ["*"]
     },
     dynamic_templates: [
-=begin
       {
         nested_fields: {
-          match: "additional_data|relation|secondary_form_superorder|superorder_display",
+          match: "additional_data|relation|secondary_form_superorder|is_part_of",
           match_pattern: "regex",
           mapping: {
             type: "nested"
           }
         }
       },
-=end
       {
         non_analyzed_searchable_fields: {
           match: "isbn|issn|ht_number|selection_code|signature",
@@ -41,11 +39,18 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       },
       {
         facets: {
-          match: ".+facet|erscheinungsform|delivery_category|materialtyp|inhaltstyp",
+          match: ".+_facet|erscheinungsform|delivery_category|materialtyp|inhaltstyp",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"
           }
+        }
+      },
+      {
+        sortable_fields: ".+_sort",
+        match_pattern: "regex",
+        mapping: {
+          index: "not_analyzed"
         }
       }
     ]
@@ -117,7 +122,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
 
       reader = Metacrunch::File::Reader.new(filename: _param)
       elasticsearch_indexer = Metacrunch::Elasticsearch::Indexer.new({
-        "id_accessor": -> (item) { item["id"] },
+        "id_accessor": -> (item) { "PAD_ALEPH#{item["id"]}" },
         "index": options[:index],
         "logger": logger,
         "type": options[:type],
