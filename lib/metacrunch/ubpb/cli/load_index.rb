@@ -93,7 +93,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
     end
 
     elasticsearch_index_creator = Metacrunch::Elasticsearch::IndexCreator.new({
-      delete_existing_index: true,
+      delete_existing_index: !!option[:delete_existing_index],
       default_mapping: default_mapping,
       index: options[:index],
       logger: logger,

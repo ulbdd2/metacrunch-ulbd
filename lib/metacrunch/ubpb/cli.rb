@@ -143,6 +143,10 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
       aliases: "-u",
       type: :string,
       default: "http://localhost:9200"
+    c.option :delete_existing_index,
+      desc: "Delete existing index",
+      aliases: "-f",
+      type: :boolean
     c.option :index,
       desc: "Name of the index to index to",
       required: true,
