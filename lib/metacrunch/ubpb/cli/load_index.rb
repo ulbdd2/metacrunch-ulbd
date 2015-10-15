@@ -47,10 +47,12 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         }
       },
       {
-        sortable_fields: ".+_sort",
-        match_pattern: "regex",
-        mapping: {
-          index: "not_analyzed"
+        sortable_fields: {
+          match: ".+_sort",
+          match_pattern: "regex",
+          mapping: {
+            index: "not_analyzed"
+          }
         }
       }
     ]
