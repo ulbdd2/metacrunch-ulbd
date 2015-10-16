@@ -11,12 +11,12 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
 
   BULK_SIZE = 1000
   DEFAULT_MAPPING = {
-    _id: { # http://elasticsearch-users.115913.n3.nabble.com/Range-for-id-td4025670.html
-      index: "not_analyzed"
-    },
+    #_id: { # http://elasticsearch-users.115913.n3.nabble.com/Range-for-id-td4025670.html
+    #  index: "not_analyzed"
+    #},
     _timestamp: {
       enabled: true,
-      store: true # not needed for query, just to be able to view it with fields: ["*"]
+      #store: true # not needed for query, just to be able to view it with fields: ["*"]
     },
     dynamic_templates: [
       {
