@@ -20,6 +20,14 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
     },
     dynamic_templates: [
       {
+        cataloging_date: {
+          match: "cataloging_date",
+          mapping: {
+            type: "date"
+          }
+        }
+      },
+      {
         nested_fields: {
           match: "additional_data|relation|secondary_form_superorder|is_part_of",
           match_pattern: "regex",
