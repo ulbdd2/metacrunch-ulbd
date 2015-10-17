@@ -24,7 +24,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           match: "additional_data|relation|secondary_form_superorder|is_part_of",
           match_pattern: "regex",
           mapping: {
-            type: "nested"
+            type: "object"
           }
         }
       },
