@@ -47,7 +47,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       },
       {
         facets: {
-          match: ".+_facet|erscheinungsform|delivery_category|materialtyp|inhaltstyp",
+          match: ".+_facet|erscheinungsform|delivery_category|materialtyp|inhaltstyp|notation",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"
@@ -56,7 +56,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       },
       {
         sortable_fields: {
-          match: ".+_sort",
+          match: ".+_sort|.+_sort2",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"
