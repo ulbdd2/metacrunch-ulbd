@@ -37,26 +37,8 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         }
       },
       {
-        non_analyzed_searchable_fields: {
-          match: "isbn|issn|ht_number|selection_code|signature",
-          match_pattern: "regex",
-          mapping: {
-            index: "not_analyzed"
-          }
-        }
-      },
-      {
-        facets: {
-          match: ".+_facet|erscheinungsform|delivery_category|materialtyp|inhaltstyp|notation",
-          match_pattern: "regex",
-          mapping: {
-            index: "not_analyzed"
-          }
-        }
-      },
-      {
-        sortable_fields: {
-          match: ".+_sort|.+_sort2",
+        non_analyzed_fields: {
+          match: ".+_facet|.+_sort|.+_sort2|isbn|issn|ht_number|selection_code|signature",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"

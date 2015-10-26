@@ -15,7 +15,12 @@ class Metacrunch::UBPB::Transformations::PrimoToElasticsearch < Metacrunch::Tran
   sequence [
     AddCatalogingDate,
     AddCreationdateFacet,
+    AddNotationFacet,
     AddSubjectFacet,
+    RenameErscheinungsformToErscheinungsformFacet,
+    RenameInhaltstypToInhaltstypFacet,
+    RenameMaterialtypToMaterialtypFacet,
+    RenameDeliveryCategoryToDeliveryCategoryFacet,
     RenameSuperorderDisplayToIsPartOf,
     ReplaceTitleWithShortTitleDisplay,
     SortByKey # has to be the last one
