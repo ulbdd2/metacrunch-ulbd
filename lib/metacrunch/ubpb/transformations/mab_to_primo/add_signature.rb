@@ -58,12 +58,13 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignature < Metacrunch::
 
       # Extrahiere die Signaturen aus Unterfeld d und erzeuge eine Basis-Signatur
       fields.each do |field|
-        subfield = field.subfields.find{|f| f.code == "d"}
-        if subfield.present? && subfield.value.present?
-          signature      = subfield.value
-          index          = signature.index('+') || signature.length
-          base_signature = signature[0..index-1]
-          signatures << base_signature
+        field.subfields(["d", "f"]).each do |_subfield|
+          if _subfield.value.present?
+            signature      = _subfield.value
+            index          = signature.index('+') || signature.length
+            base_signature = signature[0..index-1]
+            signatures << base_signature
+          end
         end
       end
     end

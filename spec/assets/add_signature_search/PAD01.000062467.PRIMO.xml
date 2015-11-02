@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:000062467</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00557vM2.01200024------h</leader>
+          <controlfield tag="LDR">00557vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT000311386</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19931219</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20151022</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT000311386</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">m|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">468</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Thomsen, Christian W.</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Fischer, Jens Malte</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Phantastik in Literatur und Kunst</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">hrsg. von Christian W. Thomsen und Jens Malte Fischer</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Darmstadt</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Wiss. Buchges.</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1980</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">X, 563, [16] S. : Ill.</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-534-08293-1</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">150</subfield>
+          </datafield>
+          <datafield tag="700" ind1="l" ind2="1">
+            <subfield code="a">500</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Fantastische Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="f">Aufsatzsammlung</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="s">Fantastische Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="907" ind1="-" ind2="1">
+            <subfield code="f">Aufsatzsammlung</subfield>
+          </datafield>
+          <controlfield tag="SYS">000062467</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Thomsen, Christian Werner</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Thomsen, Christian</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Phantastische Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy fiction</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Heroic fantasy fiction</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy-Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy</subfield>
+            <subfield code="h">Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Phantastische Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy</subfield>
+            <subfield code="x">Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Phantastische Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy fiction</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Heroic fantasy fiction</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy-Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy</subfield>
+            <subfield code="h">Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Thomsen, Christian Werner</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Thomsen, Christian</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Thomsen, Christian Werner</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Thomsen, Christian</subfield>
+            <subfield code="d">1940-</subfield>
+            <subfield code="9">(DE-588)123620910</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Phantastische Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy</subfield>
+            <subfield code="x">Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Phantastische Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy fiction</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Heroic fantasy fiction</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy-Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy</subfield>
+            <subfield code="h">Literatur</subfield>
+            <subfield code="9">(DE-588)4126324-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Phantastische Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Fantasy</subfield>
+            <subfield code="x">Kunst</subfield>
+            <subfield code="9">(DE-588)4115556-7</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fischer, Jens M.</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fischer, Jens M.</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fischer, Jens M.</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fischer, Jens M.</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fischer, Jens M.</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Fischer, Jens M.</subfield>
+            <subfield code="d">1943-</subfield>
+            <subfield code="9">(DE-588)116556692</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">BPOF</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Phantastik in Literatur und Kunst</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?application=DIGITOOL-3&amp;owner=resourcediscovery&amp;custom_att_2=simple_viewer&amp;user=GUEST&amp;pid=2172683</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">OCR-TEXT: INHALT VORWORT (CHRISTIAN W. THOMSEN/ JENS MALTE FISCHER) . ... IX M /EINLEITUNG (CHRISTIAN W. THOMSEN/JENS MALTE FISCHER) ... 1 TEIL I: THEORIE DER PHANTASTIK IN LITERATUR UND KUNST 1. PHANTASTIK — SCIENCE FICTION — UTOPIE. BEGRIFFSGESCHICHTE UND BEGRIFFSABGRENZUNG (REIMER JEHMLICH) 11 V 2. DIE ORDNUNG DER UNORDNUNG. EINE BILANZ ZUR THEORIE DER PHANTASTIK (DIETER PENNING) . .- 34 ». 3. DAS BILD IN DER THEORIE DES PHANTASTISCHEN (HANS HOLLAENDER) 52 Y 4. DIE VIELDEUTIGKEIT DER WIEDERKEHR. LITERATURPSYCHOLO GISCHE UEBERLEGUNGEN ZUR PHANTASTIK (JOACHIM METZNER). . 79 ( TEIL II: PHANTASTIK UND LITERATUR ./5. VORFORMEN DES PHANTASTISCHEN. 'TAUSENDUNDEINENACHT.'DAS WAHRE UND DAS FALSCHE LABYRINTH ODER DIE VIELEN HIER UND 1 JETZT (HANS JOACHIM PIECHOTTA) 111 | \/6. „SEIHST DIE SCHOENSTE GEGEND HAT GESPENSTER." ENTWICKLUNG UND KONSTANZ DES PHANTASTISCHEN BEI LUDWIG TIECK (JENS | MALTE FISCHER) 131 I 7. INTERIEUR UND SYMBOL. ZUM PHANTASTISCHEN IM WERK E. A. POES (KARL-HEINZ RESSMEYER) 150 I 8. DAEMONIE UND VERFUEHRUNG. ZU EINEM GRUNDMOTIV IM ER- T ZAEHLWERK JOSEPH SHERIDAN LEFANUS (REIN A. ZONDERGELD) . 170 9. „DIE LOGIK DES ABSI*R4M " ZUR PHANTASTIK IN BAUDELAIRES ' DICHTUNG UND KUNSTTHEORIE (WOLFGANG DROST) . . . . 182 T FF -J VI INHALT "TY 10. DER BEGRIFF DER UEBERWIRKLICHKEIT. NERVAL, MAUPASSANT, BRETON (DIETER PENNING) 201 11. HENRYJAMES"THE TURN OF THESCREW' (EDITH KREISCHER) . . 219 12. PHANTASTIK BEI LEWIS CARROLL. REALITAET UND MECHANISMUS (DIETER STUENDEL) 237 C$YL3. DAS VERHAELTNIS VON TRAUM UND PHANTASTIK IN ALFRED KUBINS "^FPR ROMAN 'DIE ANDERE SEITE' (GABRIELE BRANDSTETTER) . . . . 255 14. ENTHEMMUNG DER BILDER UND ENTHEMMUNG DER SPRACHE. ZU PAUL SCHEERBART UND CARL EINSTEIN (KARL RIHA) 268 JG/15. PHANTASTIK DES OBSKUREN ALS OBSKURITAET DES PHANTASTISCHEN. K) OKKULTISTISCHE QUELLEN PHANTASTISCHER LITERATUR (WALTER KARBACH) 281</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">16. DIE WELT IM NEBENGLEIS. 7M BRUNO SCHULZ' PROSA (HEINZ HERBEN MANN) 299 17. PRODUKTIVER EKEL. ZUM WERK HOWARD PHILLIPS LOVECRAFTS (JENS MALTE FISCHER) 314 18. DIE HOLDEN JUNGFRAUEN, URIGEN MONSTREN UND REISENDEN GENTLEMEN DES HANS CARL ARTMANN. ZUR PHANTASTIK IN SEI NEM WERK (CHRISTIAN W. THOMSEN, GABRIELE BRANDSTETTER) 333 19. PSIVILISATION UND CHEMOKRATIE: STANISLAW LEMS PHANTASTIK- D3F\ KONZEPTION ERLAEUTERT AN THEORETISCHEN SCHRIFTEN UND AN SEI- V-A-^ NEM ROMAN 'DER FUTUROLOGISCHE KONGRESS' (CHRISTIAN W. THOMSEN) 353 -^ 20. DIE AUFLOESUNG DER PHANTASTIK. EPISTEMOLOGISCHE ANMER KUNGEN ZU GABRIEL GARCIA MAERQUEZ' ROMAN 'GEN ANOS DE SOLEDAD' (HUNDERT JAHRE EINSAMKEIT, 1967) (SEBASTIAN NEU MEISTER) 369 TEIL III: PHANTASTIK UND KUNST 21. KONTUREN EINER IKONOGRAPHIE DES PHANTASTISCHEN (HANS HOL LAENDER) 387 $ 22. ZUR PHANTASTISCHEN ARCHITEKTUR (HANS HOLLAENDER) ... 404 I 23. MAGRITTE UND DAS PHANTASTISCHE (JOHANNES ODENTHAL) . . 439 24. PHANTASTIK UND WARENAESTHETIK. DIE BILDER RENE MAGRITTES IN DER WERBUNG (HEINZ-GERHARD WILKENS) ...... 457 INHALT VII 2.5. DIE WELT ALS SCBRECKENSKABINETT (WOLFGANG MUNSKY) . . 471 26. UEBERLEGUNGEN ZUM PHANTASTISCHEN FILM AM BEISPIEL VON STANLEY KUBRICKS 'A CLOCKWORK ORANGE' (ANN SIRKA). . . 492 27. PHANTASTIK IN DER MUSIK (GABRIELE UND NORBERT BRAND- STETTER) 514 BIBLIOGRAPHIE DER SEKUNDAERLITERATUR (ZUSAMMENGESTELLT VON JENS MALTE FISCHER) 531 REGISTER 549 ABBILDUNGEN 565 L</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">03</subfield>
+            <subfield code="d">M41972</subfield>
+            <subfield code="i">2010.945</subfield>
+            <subfield code="n">21</subfield>
+            <subfield code="k">20100614</subfield>
+            <subfield code="5">60568-20</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">BPOF1032</subfield>
+            <subfield code="i">80/27740</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20000217</subfield>
+            <subfield code="5">60568-10</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">BPOF1032+1</subfield>
+            <subfield code="f">ZZVS1009</subfield>
+            <subfield code="i">Schmoll/30</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20151022</subfield>
+            <subfield code="5">60568-30</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

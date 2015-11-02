@@ -11,7 +11,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureSearch < Metacr
 
   def signature_search
     signatures = []
-    signatures = signatures + source.datafields('LOC').subfields('d').values
+    signatures = signatures + source.datafields('LOC').subfields(['d', 'f']).values
     # Stücktitel Signatur
     signatures << source.datafields('100', ind2: ' ').subfields('a').value
     # Zeitschriftensignatur

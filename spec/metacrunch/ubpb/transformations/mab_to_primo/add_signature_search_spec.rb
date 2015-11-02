@@ -24,4 +24,7 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureSearch do
 
   # missing subfield 0
   define_field_test '000695094', signature_search: ["P30/49P30", "P 30/49 P 30", "49P30", "49 P 30"]
+
+  # add signature from LOC subfield f
+  define_field_test '000062467', signature_search: ["M41972", "BPOF1032", "BPOF1032+1", "ZZVS1009"]
 end
