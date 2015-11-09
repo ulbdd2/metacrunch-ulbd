@@ -16,6 +16,8 @@ class Metacrunch::UBPB::Transformations::PrimoToElasticsearch < Metacrunch::Tran
     AddCatalogingDate,
     AddCreationdateFacet,
     AddLanguageFacet,
+    AddIlsRecordId,
+    AddIsbnSearch,
     AddNotationFacet,
     AddSubjectFacet,
     RenameErscheinungsformToErscheinungsformFacet,
