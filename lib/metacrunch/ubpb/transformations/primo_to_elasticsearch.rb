@@ -26,6 +26,7 @@ class Metacrunch::UBPB::Transformations::PrimoToElasticsearch < Metacrunch::Tran
     RenameDeliveryCategoryToDeliveryCategoryFacet,
     RenameSuperorderDisplayToIsPartOf,
     ReplaceTitleWithShortTitleDisplay,
+    ReplaceTitleSortWithShortTitleSort,
     SortByKey # has to be the last one
   ]
 end
