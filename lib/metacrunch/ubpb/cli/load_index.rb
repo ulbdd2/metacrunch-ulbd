@@ -48,28 +48,26 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
     ]
   }
 
+  # http://www.fullscale.co/blog/2013/03/04/preserving_specific_characters_during_tokenizing_in_elasticsearch.html
   SETTINGS = {
     "analysis": {
       "analyzer": {
         "default": {
           "type": "custom",
-          "tokenizer": "standard",
+          "tokenizer": "whitespace",
           "filter": [
             "standard",
             "lowercase",
-            "ubpb_stop",
             "ubpb_pattern_replace_ä",
             "ubpb_pattern_replace_ö",
             "ubpb_pattern_replace_ü",
-            "ubpb_pattern_replace_ß"
+            "ubpb_pattern_replace_ß",
+            "ubpb_word_delimiter",
+            "ubpb_stop"
           ]
         }
       },
       "filter": {
-        "ubpb_stop": {
-          "type": "stop",
-          "stopwords": ["_english_", "_german_"]
-        },
         "ubpb_pattern_replace_ä": {
           "type": "pattern_replace",
           "pattern": "ä",
@@ -89,6 +87,14 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           "type": "pattern_replace",
           "pattern": "ß",
           "replacement": "ss"
+        },
+        "ubpb_stop": {
+          "type": "stop",
+          "stopwords": ["_english_", "_german_"]
+        },
+        "ubpb_word_delimiter": {
+          "type": "word_delimiter",
+          "type_table": ["+ => ALPHA", "# => ALPHA", ". => ALPHA"]
         }
       }
     }
