@@ -48,6 +48,52 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
     ]
   }
 
+  SETTINGS = {
+    "analysis": {
+      "analyzer": {
+        "default": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": [
+            "standard",
+            "lowercase",
+            "ubpb_stop",
+            "ubpb_pattern_replace_ä",
+            "ubpb_pattern_replace_ö",
+            "ubpb_pattern_replace_ü",
+            "ubpb_pattern_replace_ß"
+          ]
+        }
+      },
+      "filter": {
+        "ubpb_stop": {
+          "type": "stop",
+          "stopwords": ["_english_", "_german_"]
+        },
+        "ubpb_pattern_replace_ä": {
+          "type": "pattern_replace",
+          "pattern": "ä",
+          "replacement": "ae"
+        },
+        "ubpb_pattern_replace_ö": {
+          "type": "pattern_replace",
+          "pattern": "ö",
+          "replacement": "oe"
+        },
+        "ubpb_pattern_replace_ü": {
+          "type": "pattern_replace",
+          "pattern": "ü",
+          "replacement": "ue"
+        },
+        "ubpb_pattern_replace_ß": {
+          "type": "pattern_replace",
+          "pattern": "ß",
+          "replacement": "ss"
+        }
+      }
+    }
+  }
+
   def call
     if params.empty?
       shell.say "No files found", :red
@@ -87,6 +133,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       default_mapping: default_mapping,
       index: options[:index],
       logger: logger,
+      settings: SETTINGS,
       url: options[:url]
     })
 
