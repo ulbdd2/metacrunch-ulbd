@@ -38,10 +38,20 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       },
       {
         non_analyzed_fields: {
-          match: ".+_facet|.+_sort|.+_sort2|isbn.*|issn.*|ht_number|selection_code|signature|ils_record_id",
+          match: ".+_facet|.+_sort|.+_sort2|.*isbn.*|.*issn.*|ht_number|selection_code|signature|.+_id|id|ddc|status|superorder",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"
+          }
+        }
+      },
+      {
+        # these fields are display only or have ..._search counterparts
+        non_indexed_field: {
+          match: "isbn|format|link_to_toc|resource_link|signature|subject|title",
+          match_pattern: "regex",
+          mapping: {
+            index: "no"
           }
         }
       }
