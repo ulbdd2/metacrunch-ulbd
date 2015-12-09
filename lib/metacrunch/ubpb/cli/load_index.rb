@@ -179,7 +179,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
 
       reader = Metacrunch::File::Reader.new(filename: _param)
       elasticsearch_indexer = Metacrunch::Elasticsearch::Indexer.new({
-        id_accessor: -> (item) { "PAD_ALEPH#{item["id"]}" },
+        id_accessor: -> (item) { item["id"] },
         index: options[:index],
         logger: logger,
         type: options[:type],
