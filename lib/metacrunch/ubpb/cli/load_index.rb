@@ -72,6 +72,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             "ubpb_pattern_replace_ö",
             "ubpb_pattern_replace_ü",
             "ubpb_pattern_replace_ß",
+            "asciifolding",
             "ubpb_word_delimiter",
             "ubpb_stop"
           ]
