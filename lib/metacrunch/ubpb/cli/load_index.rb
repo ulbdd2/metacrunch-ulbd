@@ -105,6 +105,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         },
         "ubpb_word_delimiter": {
           "type": "word_delimiter",
+          "preserve_original": true,
           "split_on_numerics": false,
           "type_table": ["+ => ALPHA", "# => ALPHA", ". => ALPHA"]
         }
