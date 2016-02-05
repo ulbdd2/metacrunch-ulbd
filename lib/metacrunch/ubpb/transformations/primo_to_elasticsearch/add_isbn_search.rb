@@ -22,9 +22,7 @@ class Metacrunch::UBPB::Transformations::PrimoToElasticsearch::AddIsbnSearch < M
       [
         source_isbn_without_dashes,
         isbn_10_without_dashes,
-        isbn_13_without_dashes,
-        isbn_10_with_dashes,
-        isbn_13_with_dashes
+        isbn_13_without_dashes
       ]
     end
     .flatten
