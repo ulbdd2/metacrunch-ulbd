@@ -76,6 +76,15 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             "ubpb_word_delimiter",
             "ubpb_stop"
           ]
+        },
+        "minimal": {
+          "type": "custom",
+          "tokenizer": "whitespace",
+          "filter": [
+            "standard",
+            "lowercase",
+            "ubpb_word_delimiter"
+          ]
         }
       },
       "filter": {
