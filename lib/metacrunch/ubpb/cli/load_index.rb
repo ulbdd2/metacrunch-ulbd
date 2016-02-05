@@ -37,8 +37,17 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         }
       },
       {
+        minimal_analyzed_fields: {
+          match: "notation|selection_code",
+          match_pattern: "regex",
+          mapping: {
+            analyzer: "minimal"
+          }
+        }
+      },
+      {
         non_analyzed_fields: {
-          match: ".+_facet|.+_sort|.+_sort2|.*isbn.*|.*issn.*|ht_number|selection_code|signature|.+_id|id|ddc|status|superorder",
+          match: ".+_facet|.+_sort|.+_sort2|.*isbn.*|.*issn.*|ht_number|.+_id|id|ddc|status|superorder",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"
