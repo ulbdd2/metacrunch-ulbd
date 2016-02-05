@@ -77,6 +77,8 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           "filter": [
             "standard",
             "lowercase",
+            "ubpb_pattern_replace_<",
+            "ubpb_pattern_replace_>",
             "ubpb_pattern_replace_ä",
             "ubpb_pattern_replace_ö",
             "ubpb_pattern_replace_ü",
@@ -97,6 +99,16 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         }
       },
       "filter": {
+        "ubpb_pattern_replace_<": {
+          "type": "pattern_replace",
+          "pattern": "<",
+          "replacement": ""
+        },
+        "ubpb_pattern_replace_>": {
+          "type": "pattern_replace",
+          "pattern": ">",
+          "replacement": ""
+        },
         "ubpb_pattern_replace_ä": {
           "type": "pattern_replace",
           "pattern": "ä",
