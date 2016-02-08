@@ -37,6 +37,15 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         }
       },
       {
+        isbn_issn: {
+          match: "isbn_search|issn",
+          match_pattern: "regex",
+          mapping: {
+            analyzer: "isbn"
+          }
+        }
+      },
+      {
         minimal_analyzed_fields: {
           match: "notation|selection_code",
           match_pattern: "regex",
@@ -47,7 +56,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
       },
       {
         non_analyzed_fields: {
-          match: ".+_facet|.+_sort|.+_sort2|.*isbn.*|.*issn.*|ht_number|.+_id|id|ddc|status|superorder",
+          match: ".+_facet|.+_sort|.+_sort2|ht_number|.+_id|id|ddc|status|superorder",
           match_pattern: "regex",
           mapping: {
             index: "not_analyzed"
@@ -86,6 +95,14 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             "asciifolding",
             "ubpb_word_delimiter",
             "ubpb_stop"
+          ]
+        },
+        "isbn": {
+          "type": "custom",
+          "tokenizer": "whitespace",
+          "filter": [
+            "standard",
+            "ubpb_remove_dashes"
           ]
         },
         "minimal": {
@@ -128,6 +145,11 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           "type": "pattern_replace",
           "pattern": "ß",
           "replacement": "ss"
+        },
+        "ubpb_remove_dashes": {
+          "type": "pattern_replace",
+          "pattern": "-",
+          "replacement": ""
         },
         "ubpb_stop": {
           "type": "stop",
