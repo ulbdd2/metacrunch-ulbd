@@ -37,15 +37,6 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         }
       },
       {
-        isbn_issn: {
-          match: "isbn_search|issn",
-          match_pattern: "regex",
-          mapping: {
-            analyzer: "isbn"
-          }
-        }
-      },
-      {
         minimal_analyzed_fields: {
           match: "notation|selection_code",
           match_pattern: "regex",
@@ -97,12 +88,21 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             "ubpb_stop"
           ]
         },
-        "isbn": {
+        "default_search": {
           "type": "custom",
           "tokenizer": "whitespace",
           "filter": [
             "standard",
-            "ubpb_remove_dashes"
+            "lowercase",
+            "ubpb_pattern_replace_<",
+            "ubpb_pattern_replace_>",
+            "ubpb_pattern_replace_ä",
+            "ubpb_pattern_replace_ö",
+            "ubpb_pattern_replace_ü",
+            "ubpb_pattern_replace_ß",
+            "asciifolding",
+            "ubpb_remove_dashes",
+            "ubpb_stop"
           ]
         },
         "minimal": {
@@ -159,6 +159,11 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           "type": "word_delimiter",
           "catenate_all": true,
           "preserve_original": true,
+          "split_on_numerics": false,
+          "type_table": ["+ => ALPHA", "# => ALPHA", ". => ALPHA"]
+        },
+        "ubpb_word_delimiter_search": {
+          "type": "word_delimiter",
           "split_on_numerics": false,
           "type_table": ["+ => ALPHA", "# => ALPHA", ". => ALPHA"]
         }
