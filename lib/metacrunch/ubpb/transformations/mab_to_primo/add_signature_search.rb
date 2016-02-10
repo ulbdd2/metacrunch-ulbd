@@ -53,6 +53,15 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureSearch < Metacr
       [signature, spaced_journal_signature]
     end.flatten!
 
+    signatures.compact!
+
+    # Erzeuge zu jeder Signatur eine Basis-Signatur
+    signatures.map! do |signature|
+      index          = signature.index('+') || signature.length
+      base_signature = signature[0..index-1]
+      [signature, base_signature]
+    end
+
     signatures.flatten.map(&:presence).compact.uniq
   end
 end
