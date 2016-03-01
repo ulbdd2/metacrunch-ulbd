@@ -15,8 +15,14 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorDis
       transformation.call(mab_xml)["creator_contributor_display"]
     end
 
-    it { is_expected.to eq("Jahn, Andrea [Hrsg.]") }
+    it { is_expected.to eq("Jahn, Andrea [Hrsg., Verfasser von ergänzendem Text]") }
   end
+
+  define_field_test '001792011', creator_contributor_display: [
+    "Auer-Reinsdorff, Astrid [Verfasser, Hrsg.]",
+    "Conrad, Isabell [Verfasser, Hrsg.]",
+    "Deutscher Anwaltverein Arbeitsgemeinschaft IT-Recht"
+  ]
 
   define_field_test '001830953', creator_contributor_display: "Pott, Klaus Friedrich [Hrsg.]"
 end

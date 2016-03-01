@@ -17,12 +17,10 @@ module Metacrunch::UBPB::Transformations::MabToPrimo::Helpers::Datafield1XX
           begin                          # (mapped) Beziehungscodes
             german_shortcuts =
             _field.subfields("4").values.map do |_value|
-              "[#{Metacrunch::UBPB::Transformations::MabToPrimo::Helpers::PersonRelationshipDesignator.to_german_shortcut(_value)}]"
+              Metacrunch::UBPB::Transformations::MabToPrimo::Helpers::PersonRelationshipDesignator.to_german_shortcut(_value)
             end
 
-            if german_shortcuts.present?
-              german_shortcuts.first # for now, we only take the first one ... can be changed later
-            end
+            "[#{german_shortcuts.join(', ')}]"
           end
         ]
         .compact
