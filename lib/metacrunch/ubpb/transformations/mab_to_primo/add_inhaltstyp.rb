@@ -28,7 +28,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddInhaltstyp < Metacrunch:
     when (f051s.include?('n'))  then 'standard'
     when (f051s.include?('u'))  then 'university_text'
     when (f051s.include?('x'))  then 'textbook'
-    when (f051s.include?('y'))  then 'dissertation'
+    when (f051s.include?('y'))  then 'thesis'
     # Fortlaufende Sammelwerke (Zeitschriften u.ä.)
     when (f052s.include?('bi')) then 'bibliography'
     when (f052s.include?('ww')) then 'dissertation'
