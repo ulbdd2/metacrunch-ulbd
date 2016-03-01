@@ -70,6 +70,7 @@ module Metacrunch::UBPB::Transformations::MabToPrimo::Helpers::PersonRelationshi
     "clt" => { "de" => "Lichtdrucker", "en" => "collotyper" },
     "ltg" => { "de" => "Lithograph", "en" => "lithographer" },
     "med" => { "de" => "Medium", "en" => "medium" },
+    "ctb" => { "de" => "Mitwirkender", "en" => "contributor" },
     "mod" => { "de" => "Moderator", "en" => "moderator" },
     "msd" => { "de" => "Musikalischer Leiter", "en" => "musical director" },
     "osp" => { "de" => "On-Screen-Präsentator", "en" => "onscreen presenter" },
