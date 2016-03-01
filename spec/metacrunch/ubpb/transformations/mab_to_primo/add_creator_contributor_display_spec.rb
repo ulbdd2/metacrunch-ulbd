@@ -17,4 +17,6 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorDis
 
     it { is_expected.to eq("Jahn, Andrea [Hrsg.]") }
   end
+
+  define_field_test '001830953', creator_contributor_display: "Pott, Klaus Friedrich [Hrsg.]"
 end

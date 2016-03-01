@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001830953</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT018806810</subfield>
+          </datafield>
+          <datafield tag="002" ind1="b" ind2="1">
+            <subfield code="a">20151116</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20151201</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">1077571119</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">1077571119</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">DNB1077571119</subfield>
+          </datafield>
+          <controlfield tag="030">a||dr||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE-NW</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="051">m|||||||</controlfield>
+          <datafield tag="060" ind1="-" ind2="1">
+            <subfield code="b">txt</subfield>
+            <subfield code="a">Text</subfield>
+          </datafield>
+          <datafield tag="061" ind1="-" ind2="1">
+            <subfield code="b">n</subfield>
+            <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+          </datafield>
+          <datafield tag="062" ind1="-" ind2="1">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Pott, Klaus Friedrich</subfield>
+            <subfield code="9">(DE-588)1022104012</subfield>
+            <subfield code="4">edt</subfield>
+            <subfield code="3">Herausgeber</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Berufsbiographien von Handelsschullehrern des 19. Jahrhunderts oder Bausteine einer überfälligen Geschichte der kaufmännischen Vollzeitschulen des 19. Jahrhunderts</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">herausgegeben von Klaus Friedrich Pott</subfield>
+          </datafield>
+          <datafield tag="419" ind1="-" ind2="1">
+            <subfield code="a">Detmold</subfield>
+            <subfield code="b">Eusl-Verlagsgesellschaft mbH</subfield>
+            <subfield code="c">[2015]</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2015</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">300 Seiten</subfield>
+          </datafield>
+          <datafield tag="434" ind1="-" ind2="1">
+            <subfield code="a">Illustrationen</subfield>
+          </datafield>
+          <datafield tag="435" ind1="-" ind2="1">
+            <subfield code="a">21 cm, 450 g</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-940625-52-6</subfield>
+            <subfield code="b">Broschur : EUR 34.00 (DE), EUR 35.00 (AT)</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-940625-52-3</subfield>
+          </datafield>
+          <datafield tag="553" ind1="a" ind2="1">
+            <subfield code="a">9783940625526</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="m">B:DE-101</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6568507&amp;custom_att_2=simple_viewer</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="677" ind1="-" ind2="1">
+            <subfield code="k">Eusl-Verlagsgesellschaft mbH</subfield>
+            <subfield code="9">(DE-588)1065854714</subfield>
+            <subfield code="4">pbl</subfield>
+            <subfield code="3">Verleger</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">370</subfield>
+            <subfield code="2">DNB</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Paperback / softback</subfield>
+            <subfield code="2">Produktform</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Fachpublikum/ Wissenschaft</subfield>
+            <subfield code="2">Zielgruppe</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Carl Gustav Odermann</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Matthias Reichle</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Albert Benser</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Leonard Keil Jun.</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Franz Anton Passaquay</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">historische Pädagogik</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Berufsbiografien</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Johann Stahlmann</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Arnold Lindwurm</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Heinrich Brutzer</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Friedrich Süpke</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Leopold Carl Bleibtreu</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">August Schiebe</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Wilheim Röhrich</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Adolph Gutbier</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Friedrich Heldmann</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Kaufmännische Vollzeitschulen</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Carl Wolfrum</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Bruno Zieger</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Heinrich Brentano</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">1572: Hardcover, Softcover / Pädagogik/Bildungswesen</subfield>
+            <subfield code="2">VLB-WN</subfield>
+          </datafield>
+          <controlfield tag="SYS">001830953</controlfield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">QHR</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Berufsbiographien von Handelsschullehrern des 19. Jahrhunderts oder Bausteine einer überfälligen Geschichte der kaufmännischen Vollzeitschulen des 19. Jahrhunderts</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6568508&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: BERUFSBIOGRAPHIEN VON HANDELSSCHULLEHRERN DES 19. JAHRHUNDERTS ODER BAUSTEINE EINER BERFLLIGEN GESCHICHTE DER KAUFMNNISCHEN VOLLZEITSCHULEN DES 19. JAHRHUNDERTS AUTOR: POTT, KLAUS FRIEDRICH JAHR: 2015 INHALT STATT EINER EINLEITUNG: VORUEBERLEGUNGEN ZU EINER GESCHICHTE KAUFMAENNISCHER VOLLZEITSCHULEN IM 19. JAHRHUNDERT ALBERT BENSER (1833 - 1898) LEOPOLD CARL BLEIBTREU (1796 - 1865) HEINRICH BRENTANO (1810 - 1887) HEINRICH BRUTZER (1795 - 1872) ADOLPH GUTBIER (1800- 1875) FRIEDRICH HELDMANN (1776 - 1838) LEONHARD KEIL JUN. (1788 - 1821) ARNOLD LINDWURM (1833 - 1911) CARL GUSTAV ODERMANN (1815 - 1904) FRANZ ANTON PASSAQUAY (1750 - 1828) MATTHIAS REISCHLE (1813 - 1897) WILHELM ROEHRICH (1820 - 1908) AUGUST SCHIEBE (1779 - 1851) JOHANN STAHLMANN (1842 - 1910) FRIEDRICH SUEPKE (1796 - 1862) CARL WOLFRUM (1825 - 1907) BRUNO ZIEGER (1860 - 1908) ANHANG: ,,FENSTER IN DIE VERGANGENHEIT" PASSAQUAY, ,,GEBURTSURKUNDE" SEINER DREI (AUFEINANDER FOLGENDEN) ,,MERCANTIL-INSTITUTE" 11 47 51 55 63 73 93 97 103 113 127 141 157 167 177 187 191 205 219 7 HTTP://D-NB.INFO/1077571119 MICHAEL FRIEDRICH OPPERMANN, BERICHT UEBER EINE REISE NACH HAMBURG UND MAGDEBURG ZWECKS ERKUNDUNG DER DORTIGEN HANDELSSCHULEN [1835) 223 DEDEKIND, JULIUS LEVIN ULRICH: DIE HOEHERE HANDELSLEHRANSTALT ODER DIE MERKANTILISCHE ABTEILUNG DES HERZOGLICHEN COLLEGII CAROLINI ZU BRAUNSCHWEIG (1836) 249 MAEHRLEIN/BRUTZER: BEITRAEGE ZU EINEM LEHRPLAN FUER KAUFMAENNISCHEN UNTERRICHT GEBRUEDER NOBACK / STEGER: ALLGEMEINE ENCYKLOPAEDIE FUER KAUFLEUTE, FABRIKANTEN UND GEWERBETREIBENDE (1859) SAECHS. MINISTERIUM DES KULTUS UND OEFFENTLICHEN UNTERRICHTS: 255 269 BEDINGUNGEN, VON DEREN FORTDAUERNDER ERFUELLUNG DIE AUFNAHME EINER HANDELSLEHRANSTALT UNTER DIEJENIGEN LEHRANSTALTEN, DEREN REIFEZEUGNISSE ZUR ZULASSUNG ALS EINJAEHRIGER FREIWILLIGER BERECHTIGEN, ABHAENGIG IST (1869) KAUFMAENNISCHER VEREIN-COURIER: TRAUMBILDER EINER COMMISE (KARIKATUR 1866) ABBILDUNGSVERZEICHNIS 287 297 299 8</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">31</subfield>
+            <subfield code="d">QHR1570</subfield>
+            <subfield code="i">15/15063</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20151119</subfield>
+            <subfield code="5">1830960-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
