@@ -1,0 +1,3727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001450278</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">CT005002614</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20111129</subfield>
+          </datafield>
+          <datafield tag="021" ind1="-" ind2="1">
+            <subfield code="a">HT004394550</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZCT005002614</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||15</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DX</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">lat</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="051">m|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">6</subfield>
+          </datafield>
+          <datafield tag="078" ind1="e" ind2="1">
+            <subfield code="a">ldd</subfield>
+            <subfield code="a">vl-ulbms</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Mancinelli, Antonio</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Murmellius, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+            <subfield code="b">[Komm.]</subfield>
+          </datafield>
+          <datafield tag="310" ind1="-" ind2="1">
+            <subfield code="a">Versilogus</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">ANtonij Man//cinelli Veliterni Versilogus</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">op-//timo compendio artem versificandi tradens studiosoq[ue] scholastico// in primis necessarius. cui adiecti sunt breues [et] vtiles commenta///rij Joannis Murmellij Rure. diligenter recogniti atq[ue] ad vn///guem castigati</subfield>
+          </datafield>
+          <datafield tag="361" ind1="-" ind2="1">
+            <subfield code="a">Epistola Aene[a]e Siluij in pr[a]econi//um artis poetice</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">[Köln</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Quentel</subfield>
+          </datafield>
+          <datafield tag="425" ind1="-" ind2="1">
+            <subfield code="a">ca. 1509]</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1509</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">[18] Bl. ; 4-o</subfield>
+          </datafield>
+          <datafield tag="511" ind1="-" ind2="1">
+            <subfield code="p">Erscheinungsjahr nach dem Vorwort (Nordhoff</subfield>
+            <subfield code="a">1515)</subfield>
+          </datafield>
+          <datafield tag="552" ind1="b" ind2="1">
+            <subfield code="a">urn:nbn:de:hbz:6:1-26128</subfield>
+          </datafield>
+          <datafield tag="580" ind1="-" ind2="1">
+            <subfield code="a">Nordhoff, Denkwürd., S. 139</subfield>
+          </datafield>
+          <datafield tag="580" ind1="-" ind2="1">
+            <subfield code="a">VD 16 M 509</subfield>
+          </datafield>
+          <datafield tag="610" ind1="-" ind2="1">
+            <subfield code="a">Digitalisierte Ausg.</subfield>
+          </datafield>
+          <datafield tag="611" ind1="a" ind2="1">
+            <subfield code="a">Münster</subfield>
+          </datafield>
+          <datafield tag="613" ind1="a" ind2="1">
+            <subfield code="a">Univ.- und Landesbibliothek</subfield>
+          </datafield>
+          <datafield tag="619" ind1="a" ind2="1">
+            <subfield code="a">2011</subfield>
+          </datafield>
+          <datafield tag="621" ind1="-" ind2="1">
+            <subfield code="a">Digitale Sammlungen der Universitäts- und Landesbibliothek Münster</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="q">text/html</subfield>
+            <subfield code="u">http://nbn-resolving.de/urn:nbn:de:hbz:6:1-26128</subfield>
+            <subfield code="x">Resolving-System</subfield>
+            <subfield code="z">kostenfrei</subfield>
+            <subfield code="3">Volltext</subfield>
+          </datafield>
+          <datafield tag="673" ind1="a" ind2="1">
+            <subfield code="a">Köln</subfield>
+          </datafield>
+          <datafield tag="800" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papst</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="805" ind1="a" ind2="1">
+            <subfield code="a">Epistola Aeneae Silvii in praeconium artis poeticae</subfield>
+          </datafield>
+          <controlfield tag="SYS">001450278</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundis, Johannes &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus von Steinburg, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundensis, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Steinburg, Johannes Ruremundus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmeliusz, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="c">aus Roermond</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundis, Johannes &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus von Steinburg, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundensis, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Steinburg, Johannes Ruremundus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmeliusz, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="c">aus Roermond</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundis, Johannes &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus von Steinburg, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundensis, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Steinburg, Johannes Ruremundus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmeliusz, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="c">aus Roermond</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinello, Antonio</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, ...</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Man., Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinell, Antoni</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Manzinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinello, Antonio</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, ...</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Man., Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinell, Antoni</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Manzinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinello, Antonio</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, ...</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Man., Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinell, Antoni</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Manzinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundis, Johannes &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus von Steinburg, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundensis, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Steinburg, Johannes Ruremundus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmeliusz, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="c">aus Roermond</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundis, Johannes &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus von Steinburg, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundensis, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Steinburg, Johannes Ruremundus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmeliusz, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="c">aus Roermond</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Iohannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundis, Johannes &lt;&lt;de&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jean</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Ioannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmellius Ruremundensis, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus von Steinburg, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundensis, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Steinburg, Johannes Ruremundus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmeliusz, Jan</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Joannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johann</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmel, Johannes</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Murmelius, Johannes</subfield>
+            <subfield code="c">aus Roermond</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Ruremundus, Johannes Murmellius</subfield>
+            <subfield code="d">1480-1517</subfield>
+            <subfield code="9">(DE-588)100223354</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinello, Antonio</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, ...</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Man., Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinell, Antoni</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Manzinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinello, Antonio</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, ...</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinellus, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Man., Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Mancinell, Antoni</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Manzinelli, Antonius</subfield>
+            <subfield code="d">1452-1505</subfield>
+            <subfield code="9">(DE-588)124652174</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea S.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="c">Papa II.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolhomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Silvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomineus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Picolhominaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas Sylvius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea Silvio</subfield>
+            <subfield code="c">de' Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneas Pius</subfield>
+            <subfield code="c">Senensis</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Enea-Silvio</subfield>
+            <subfield code="c">Piccolomini</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eneass</subfield>
+            <subfield code="c">Sylwius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pie</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pape</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pio</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Papa</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Pius</subfield>
+            <subfield code="n">II.</subfield>
+            <subfield code="c">Pontifex Maximus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolhomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolominaeus, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Aeneas Sylvius Bartholomaeus</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Enea Silvio &lt;&lt;de'&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvio</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomini, Eneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Picolhominaeus von Senis, Aeneas Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Senis, Aeneas Sylvius Picolhominaeus &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Silvius, Eneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Aeneas</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylwius, Eneass</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Sylvius, Piccolomini A.</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Aeneas</subfield>
+            <subfield code="c">Sylvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Piccolomineus, Aeneas Silvius</subfield>
+            <subfield code="d">1405-1464</subfield>
+            <subfield code="9">(DE-588)118594702</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

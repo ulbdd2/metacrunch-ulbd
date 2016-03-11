@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001708346</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00436vM2.01200024------h</leader>
+          <controlfield tag="LDR">00436vM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT008227332</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">19980723</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20091124</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT008227332</subfield>
+          </datafield>
+          <controlfield tag="030">e|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DXDE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">lat</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">n|||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">HBZ/Off</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">385</subfield>
+          </datafield>
+          <datafield tag="078" ind1="o" ind2="1">
+            <subfield code="a">retro</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">50</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Böcking, Eduard</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Corpus iuris civilis anteiustinianei consilio professorum ...</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">A. Bethmann-Hollweg ; E. Böcking ... cura eorumdem [u.a.]</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Bonnae</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Marcus</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">1830</subfield>
+          </datafield>
+          <datafield tag="523" ind1="-" ind2="1">
+            <subfield code="a">Mehr nicht erschienen</subfield>
+          </datafield>
+          <datafield tag="673" ind1="a" ind2="1">
+            <subfield code="a">Bonn</subfield>
+            <subfield code="9">1001909-1</subfield>
+          </datafield>
+          <datafield tag="675" ind1="-" ind2="1">
+            <subfield code="a">juris antejustinianei</subfield>
+          </datafield>
+          <controlfield tag="SYS">001708346</controlfield>
+          <datafield tag="LOW" ind1="-" ind2="1">
+            <subfield code="a">Q0001</subfield>
+          </datafield>
+          <datafield tag="LOW" ind1="-" ind2="1">
+            <subfield code="a">Q1049</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Edvardvs</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Boecking, Eduard</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bocchus, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Edvardvs</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Boecking, Eduard</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bocchus, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz August von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von B.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, August</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Augustus</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Augustus Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ...</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, ... &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, M. A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, M. A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollwegius, A.</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. von Bethmann-</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. Bethmann &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, August &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Hollweg, Moritz A. B.- &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bethmann-Hollweg, Aug. &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1795-1877</subfield>
+            <subfield code="9">(DE-588)118510339</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Edvardvs</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Boecking, Eduard</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bocchus, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Edvardvs</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Boecking, Eduard</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bocchus, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Edvardvs</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Boecking, Eduard</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böcking, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Böckingius, E.</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Bocchus, Eduardus</subfield>
+            <subfield code="d">1802-1870</subfield>
+            <subfield code="9">(DE-588)116216948</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRD</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001708345</subfield>
+            <subfield code="m">Corpus iuris civilis anteiustinianei consilio professorum ....^1830</subfield>
+            <subfield code="n">1.^Institutionum commentarii quattuor.^1830</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

@@ -1,7 +1,6 @@
 require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
-require_relative "./add_creator_contributor_display"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorFacet < Metacrunch::Transformator::Transformation::Step
   def call
@@ -11,14 +10,12 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorFacet 
   private
 
   def creator_contributor_facet
-    if creator_contributor_display.present?
-      [creator_contributor_display].flatten(1).compact.map { |creator_contributor| creator_contributor.gsub(/\[.*\]/, '').strip.presence }.compact.presence
-    end
-  end
-
-  private
-
-  def creator_contributor_display
-    target.try(:[], "creator_contributor_display") || self.class.parent::AddCreatorContributorDisplay.new(source: source).call
+    [
+      source.get("Personen", include: "Überordnungen").map(&:normalized_name),
+      source.get("Körperschaften", include: "Überordnungen").map(&:normalized_name)
+    ]
+    .flatten
+    .compact
+    .uniq
   end
 end

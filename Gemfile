@@ -6,7 +6,7 @@ group :development do
   gem "bundler"
   gem "rake"
   gem "rspec",     ">= 3.0.0",  "< 4.0.0"
-  gem "simplecov", ">= 0.8.0"
+  # gem "simplecov", ">= 0.8.0" # disabled due to utf8 filename issues # https://github.com/colszowka/simplecov/issues/439
 
   if !ENV["CI"]
     gem "hashdiff"
@@ -19,7 +19,7 @@ group :development do
 end
 
 group :test do
-  gem "codeclimate-test-reporter", require: nil
+  # gem "codeclimate-test-reporter", require: nil # see simplecov
 end
 
 gem "metacrunch",               ">= 2.1.0", github: "ubpb/metacrunch",      branch: "master"

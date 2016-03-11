@@ -2,11 +2,11 @@ if ENV["CODECLIMATE_REPO_TOKEN"]
   # report coverage only for latest mri ruby
   if RUBY_ENGINE == "ruby" && RUBY_VERSION >= "2.2.0"
     require "codeclimate-test-reporter"
-    CodeClimate::TestReporter.start
+    #CodeClimate::TestReporter.start
   end
 else
-  require "simplecov"
-  SimpleCov.start
+  #require "simplecov"
+  #SimpleCov.start
 end
 
 # former spec_helper
@@ -79,4 +79,21 @@ def transformation_factory(*steps)
   Class.new(Metacrunch::UBPB::Transformations::MabToPrimo) do
     sequence steps
   end
+end
+
+def xml_factory(xml)
+  <<-xml.strip_heredoc
+    <?xml version="1.0" encoding="UTF-8"?>
+    <OAI-PMH>
+      <ListRecords>
+        <record>
+          <metadata>
+            <record>
+              #{xml}
+            </record>
+          </metadata>
+        </record>
+      </ListRecords>
+    </OAI-PMH>
+  xml
 end

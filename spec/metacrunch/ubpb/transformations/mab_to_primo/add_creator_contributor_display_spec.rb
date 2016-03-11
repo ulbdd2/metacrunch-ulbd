@@ -15,14 +15,25 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorDis
       transformation.call(mab_xml)["creator_contributor_display"]
     end
 
-    it { is_expected.to eq("Jahn, Andrea [Hrsg., Verfasser von ergänzendem Text]") }
+    it { is_expected.to eq("Jahn, Andrea [Herausgeber, Verfasser von ergänzendem Text]") }
   end
 
   define_field_test '001792011', creator_contributor_display: [
-    "Auer-Reinsdorff, Astrid [Verfasser, Hrsg.]",
-    "Conrad, Isabell [Verfasser, Hrsg.]",
-    "Deutscher Anwaltverein Arbeitsgemeinschaft IT-Recht"
+    "Auer-Reinsdorff, Astrid [Verfasser, Herausgeber]",
+    "Conrad, Isabell [Verfasser, Herausgeber]",
+    "Deutscher Anwaltverein. Arbeitsgemeinschaft IT-Recht [Herausgebendes Organ]"
   ]
 
-  define_field_test '001830953', creator_contributor_display: "Pott, Klaus Friedrich [Hrsg.]"
+  define_field_test '001830953', creator_contributor_display: "Pott, Klaus Friedrich [Herausgeber]"
+
+  define_field_test '000102057', creator_contributor_display: [
+    "Projektträger DV im Bildungswesen",
+    "Werkstattgespräch Analyse und Bewertung Wesentlicher Autoren- und Dialogsprachen für den Bereich des Bildungswesens (1973 : Paderborn)"
+  ]
+
+  define_field_test '001708346', creator_contributor_display: [
+    "Bethmann-Hollweg, Moritz August von",
+    "Böcking, Eduard",
+    "[u.a.]"
+  ]
 end

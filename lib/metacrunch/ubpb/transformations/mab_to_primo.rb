@@ -13,10 +13,11 @@ class Metacrunch::UBPB::Transformations::MabToPrimo < Metacrunch::Transformator:
   #
   # @return [Hash] transformation result
   def call(source, options = {})
-    source = Metacrunch::Mab2::Document.from_aleph_mab_xml(source)
+    document = Metacrunch::Mab2::Document.from_aleph_mab_xml(source)
+    record = Metacrunch::UBPB::Record.new(document)
     options[:target] ||= {}
 
-    super(source, options)
+    super(record, options)
   end
 
   sequence [
