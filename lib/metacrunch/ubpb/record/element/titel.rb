@@ -30,5 +30,13 @@ class Metacrunch::UBPB::Record::Element::Titel < Metacrunch::UBPB::Record::Eleme
     Z: { "Zuordnung zum originalschriftlichen Feld" => :NW }
   }
 
+  def initialize(datafield, options = {})
+    super
 
+    if options[:superorders]
+      @superorders = options[:superorders].map do |superorder|
+        Titel.new(superorder)
+      end
+    end
+  end
 end

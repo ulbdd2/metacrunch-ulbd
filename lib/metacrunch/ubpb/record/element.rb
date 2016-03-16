@@ -5,7 +5,7 @@ class Metacrunch::UBPB::Record::Element
 
   attr_accessor :properties
 
-  def initialize(datafield)
+  def initialize(datafield, options = {})
     @properties = {}
 
     datafield.subfields.each do |subfield|

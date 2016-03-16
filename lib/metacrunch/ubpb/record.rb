@@ -10,7 +10,7 @@ class Metacrunch::UBPB::Record
   require_relative "./record/collection/verantwortlichkeitsangaben"
 
   PROPERTIES = {
-    "Bevorzugte Titel des Werkes" => BevorzugteTitelDesWerkes,
+    "Bevorzugte Titel des Werkes" => Collection::BevorzugteTitelDesWerkes,
     "Körperschaften" => Collection::Körperschaften,
     "Körperschaften (Phrasenindex)" => Collection::KörperschaftenPhrasenindex,
     "Personen" => Collection::Personen,
