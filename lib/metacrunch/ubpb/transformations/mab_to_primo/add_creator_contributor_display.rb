@@ -1,12 +1,9 @@
 require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
-require_relative "./helpers/datafield_1xx"
 require_relative "../../record"
 
 class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorDisplay < Metacrunch::Transformator::Transformation::Step
-  include parent::Helpers::Datafield1XX
-
   def call
     target ? Metacrunch::Hash.add(target, "creator_contributor_display", creator_contributor_display) : creator_contributor_display
   end
