@@ -27,4 +27,7 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureSearch do
 
   # add signature from LOC subfield f
   define_field_test '000062467', signature_search: ["M41972", "BPOF1032", "BPOF1032+1", "ZZVS1009"]
+
+  # https://github.com/ubpb/issues/issues/54
+  define_field_test '000517673', signature_search: ["CSCB6417+1", "CSCB6417"]
 end
