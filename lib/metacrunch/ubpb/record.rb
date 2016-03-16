@@ -1,6 +1,7 @@
 require_relative "../ubpb"
 
 class Metacrunch::UBPB::Record
+  require_relative "./record/collection/bevorzugte_titel_des_werkes"
   require_relative "./record/collection/körperschaften"
   require_relative "./record/collection/körperschaften_phrasenindex"
   require_relative "./record/collection/personen"
@@ -9,6 +10,7 @@ class Metacrunch::UBPB::Record
   require_relative "./record/collection/verantwortlichkeitsangaben"
 
   PROPERTIES = {
+    "Bevorzugte Titel des Werkes" => BevorzugteTitelDesWerkes,
     "Körperschaften" => Collection::Körperschaften,
     "Körperschaften (Phrasenindex)" => Collection::KörperschaftenPhrasenindex,
     "Personen" => Collection::Personen,
