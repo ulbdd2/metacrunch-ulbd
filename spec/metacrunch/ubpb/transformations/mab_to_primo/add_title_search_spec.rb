@@ -44,4 +44,14 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch do
     "Goldmann",
     "The abs diet: the six-week plan to flatten your stomach"
   ]
+
+  define_field_test '001813859', title_search: [
+    "Die RDA-Implementierung in der hbz-Verbunddatenbank - ALLE neuen RDA-Felder : kommt auch alles an und sieht es so aus wie gewünscht?",
+    "Haupttitel der 1. Reihe",
+    "Titel",
+    "Erster/frühere Titel von fortlaufenden Ressourcen",
+    "Weiterer früherer Titel",
+    "Werktitel",
+    "Werktitel ALLE neuen RDA-Felder"
+  ]
 end
