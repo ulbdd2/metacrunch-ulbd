@@ -38,4 +38,10 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch do
 
   # RDA - frühere Titel
   define_field_test 'HBZ07.090397503', title_search: ["KHS competence", "KHS competence in solutions"]
+
+  define_field_test '001810059', title_search: [
+    "Sexy Sixpack : flacher und straffer Bauch in sechs Wochen : Geheimtipp: auch für Frauen",
+    "Goldmann",
+    "The abs diet: the six-week plan to flatten your stomach"
+  ]
 end

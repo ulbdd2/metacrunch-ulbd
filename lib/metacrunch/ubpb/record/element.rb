@@ -21,7 +21,7 @@ class Metacrunch::UBPB::Record::Element
     end
   end
 
-  def get(property = nil)
+  def get(property = nil, options = {})
     unless property
       @properties.values.first
     else

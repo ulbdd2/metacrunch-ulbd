@@ -30,13 +30,43 @@ class Metacrunch::UBPB::Record::Element::Titel < Metacrunch::UBPB::Record::Eleme
     Z: { "Zuordnung zum originalschriftlichen Feld" => :NW }
   }
 
-  def initialize(datafield, options = {})
-    super
+  def get(property = nil, options = {})
+    if property.is_a?(Hash)
+      options = property
+      property = nil
+    end
 
-    if options[:superorders]
-      @superorders = options[:superorders].map do |superorder|
-        Titel.new(superorder)
+    property ? super : normalized_title(options)
+  end
+
+  def normalized_title(options = {})
+    options[:include] = [options[:include]].flatten(1).compact
+    options[:omit] = [options[:omit]].compact.flatten(1)
+
+    if options[:include].include?("Überordnungen")
+      [
+        [
+          get("Titel"),
+          get("Zählung")
+        ]
+        .compact
+        .join(", ")
+        .presence,
+        get("Titel eines Teils") || get("Titel einer Abteilung")
+      ]
+      .compact
+      .join(". ")
+      .presence
+    else
+      (get("Titel eines Teils") || get("Titel einer Abteilung")).try(:first) || get("Titel")
+    end
+    .try do |result|
+      if options[:omit].include?("sortierirrelevante Worte")
+        result.gsub(/<<[^>]+>>/, "")
+      else
+        result.gsub(/<|>/, "")
       end
     end
+    .try(:strip)
   end
 end

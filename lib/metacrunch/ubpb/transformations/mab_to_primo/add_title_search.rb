@@ -40,6 +40,8 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch < Metacrunch
       search_titles << _früherer_titel
     end
 
+    search_titles << source.get("Bevorzugte Titel des Werkes", include: "Überordnungen").map(&:get)
+
     search_titles
     .flatten
     .compact
@@ -57,7 +59,8 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch < Metacrunch
     .map do |_title_search|
       _title_search.gsub(/\[.+\]/, "").strip
     end
-    .compact.uniq
+    .compact
+    .uniq
   end
 
   private

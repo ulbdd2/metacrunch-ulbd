@@ -93,7 +93,7 @@ class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Elem
     end
     .try do |result|
       if options[:omit].include?("sortierirrelevante Worte")
-        result.gsub(/<<(.+)>>/, "")
+        result.gsub(/<<[^>]+>>/, "")
       else
         result.gsub(/<|>/, "")
       end

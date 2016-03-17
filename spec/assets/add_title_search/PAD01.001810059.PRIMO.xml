@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001810059</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT018641754</subfield>
+          </datafield>
+          <datafield tag="002" ind1="b" ind2="1">
+            <subfield code="a">20150515</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20160108</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">1070330612</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">1070330612</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">DNB1070330612</subfield>
+          </datafield>
+          <controlfield tag="030">a||dr||||||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE-BY</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <datafield tag="038" ind1="b" ind2="1">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="051">m|||||||</controlfield>
+          <datafield tag="060" ind1="-" ind2="1">
+            <subfield code="b">txt</subfield>
+            <subfield code="a">Text</subfield>
+          </datafield>
+          <datafield tag="061" ind1="-" ind2="1">
+            <subfield code="b">n</subfield>
+            <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+          </datafield>
+          <datafield tag="062" ind1="-" ind2="1">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">Kn 41</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Zinczenko, David</subfield>
+            <subfield code="9">(DE-588)1080969659</subfield>
+          </datafield>
+          <datafield tag="104" ind1="a" ind2="1">
+            <subfield code="a">Spiker, Ted</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="1">
+            <subfield code="p">Brodersen, Imke</subfield>
+            <subfield code="9">(DE-588)123313813</subfield>
+            <subfield code="4">trl</subfield>
+            <subfield code="3">Übersetzer</subfield>
+          </datafield>
+          <datafield tag="303" ind1="-" ind2="1">
+            <subfield code="p">Zinczenko, David</subfield>
+            <subfield code="t">&lt;&lt;The&gt;&gt; abs diet: the six-week plan to flatten your stomach</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Sexy Sixpack</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">flacher und straffer Bauch in sechs Wochen : Geheimtipp: auch für Frauen</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">David Zinczenko mit Ted Spiker ; aus dem Amerikanischen von Imke Brodersen</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">1. Auflage, vollständige Taschenbuchausgabe</subfield>
+          </datafield>
+          <datafield tag="419" ind1="-" ind2="1">
+            <subfield code="a">München</subfield>
+            <subfield code="b">Goldmann</subfield>
+            <subfield code="c">Januar 2016</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2016</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">384 S. : zahlr. Ill.</subfield>
+          </datafield>
+          <datafield tag="434" ind1="-" ind2="1">
+            <subfield code="a">Illustrationen</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Goldmann</subfield>
+            <subfield code="v">17582</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">17582</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-442-17582-6</subfield>
+            <subfield code="b">Pb. : ca. EUR 9.99 (DE), ca. EUR 10.30 (AT), ca. sfr 13.90 (freier Pr.)</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">3-442-17582-8</subfield>
+          </datafield>
+          <datafield tag="553" ind1="a" ind2="1">
+            <subfield code="a">9783442175826</subfield>
+          </datafield>
+          <datafield tag="574" ind1="-" ind2="1">
+            <subfield code="a">15,N19</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="m">B:DE-101</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6612082&amp;custom_att_2=simple_viewer</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">610</subfield>
+            <subfield code="2">DNB</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Paperback / softback</subfield>
+            <subfield code="2">Produktform</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Bauchmuskeln</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Bauchtraining</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">flacher Bauch</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Situps</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Fitnesstraining</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Blähbauch</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Bauch Beine Po</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Problemzonengymnastik</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Problemzone</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">Bikinifigur</subfield>
+          </datafield>
+          <datafield tag="720" ind1="-" ind2="1">
+            <subfield code="a">2464: Taschenbuch / Ratgeber/Gesundheit/Fitness, Aerobic, Bodybuilding, Gymnastik</subfield>
+            <subfield code="2">VLB-WN</subfield>
+          </datafield>
+          <controlfield tag="SYS">001810059</controlfield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">KSV</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Sexy Sixpack</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=6612083&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: SEXY SIXPACK AUTOR: JAHR: 2016 INHALT 9 11 DANKSAGUNGEN EINLEITUNG AUCH SIE HABEN BAUCHMUSKELN WIE SIE FETT IN MUSKELN VERWANDELN 21 24 DER SEXY-SIXPACK-SPICKZETTEL KAPITEL 1 FETT ADE - SORGEN ADE SECHS GRUENDE, WESHALB EIN FLACHER BAUCH AUSSEHEN, KOERPERGEFUEHL UND LEBENSLUST VERBESSERT 51 54 DAS BRAUCHEN SIE FUER SEXY SIXPACK KAPITEL 2 WARUM SEXY SIXPACK? UND WARUM JETZT? WICHTIGES ZUM THEMA ERNAEHRUNG 76 KAPITEL 3 FETTVERBRENNUNG RUND UM DIE UHR WIE DER STOFFWECHSEL DIE FIGUR BESTIMMT - UND WIE SIE DEN STOFFWECHSEL AUF TRAB BRINGEN HTTP://D-NB.INFO/1070330612 INHALT 93 KAPITEL 4 DAS GEHEIMNIS VON SEXY SIXPACK WAS MACHT IHR KOERPER GERADE MIT DER LETZTEN MAHLZEIT? 123 KAPITEL 5 IN SECHS WOCHEN EIN FLACHER UND STRAFFER BAUCH DER WOCHE-FUER-WOCHE-PLAN 131 KAPITEL 6 DER VERZICHT AUF KOHLENHYDRATE MACHT DICK DER TREND, DER IHRE GESUNDHEIT BEDROHT 144 KAPITEL 7 DIE ERNAEHRUNG BEI SEXY SIXPACK DIE GRUNDREGELN EINER GESUNDEN ERNAEHRUNG 162 KAPITEL 8 DIE ZWOELF FITMACHER VON SEXY SIXPACK SO LASSEN DIE FITMACHER DEN BAUCH SCHRUMPFEN 193 UEBRIGENS IHR GEWICHT IST NICHT IHRE SCHULD DIE VERFUEHRUNGEN DER NAHRUNGSMITTELINDUSTRIE 201 KAPITEL 9 REZEPTE FUER SEXY SIXPACK SCHNELLE UND EINFACHE REZEPTE MIT DEN FITMACHERN 236 KAPITEL 10 SEXY SIXPACK IM ALLTAG WIE DER ERNAEHRUNGSPLAN IHR LEBEN VEREINFACHT 246 KAPITEL 11 NOCH SCHNELLER FETT VERBRENNEN WIE KOERPERTRAINING FETT SCHMELZEN LAESST UND MUSKELN AUFBAUT 261 KAPITEL 12 DAS SEXY-SIXPACK-TRAINING DER EINFACHSTE UND EFFEKTIVSTE TRAININGSPLAN IHRES LEBENS . 297 KAPITEL 13 DAS BAUCHMUSKELTRAINING 56 UEBUNGEN FUER DIE BAUCHMUSKELN 359 361 376 378 UND SO GEHT ES WEITER NAEHRWERTANGABEN FUER GAENGIGE LEBENSMITTEL GLYKAEMISCHE LAST FUER HAEUFIGE LEBENSMITTEL REGISTER</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">KSV4320</subfield>
+            <subfield code="i">16/89</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20160104</subfield>
+            <subfield code="5">1810059-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
