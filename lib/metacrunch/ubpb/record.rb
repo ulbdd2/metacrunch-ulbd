@@ -13,17 +13,19 @@ class Metacrunch::UBPB::Record
   end
 
   PROPERTIES = {
-    "Arten des Inhalts" =>              { tag:  "064", ind1: "a",   element: Element::ArtDesInhalts },
-    "erweiterte Datenträgertypen" =>    { tag:  "064", ind1: "b",   element: Element::ErweiterterDatenträgertyp },
-    "Personen" =>                       { tags: (100..196).step(4), element: Element::Person },
-    "Körperschaften" =>                 { tags: (200..296).step(4), element: Element::Körperschaft },
-    "bevorzugte Titel des Werkes" =>    { tag:  "303",              element: Element::Titel },
-    "allgemeine Materialbenennung" =>   { tag:  "334",              is_collection: false },
-    "Verantwortlichkeitsangaben" =>     { tag:  "359" },
-    "Unaufgegliederte Anmerkungen" =>   { tag:  "501" },
-    "Personen der Nebeneintragungen" => { tags: (800..824).step(6), element: Element::Person },
-    "Körperschaften Phrasenindex" =>    { tag:  "PKO",              element: Element::Körperschaft },
-    "Personen Phrasenindex" =>          { tag:  "PPE",              element: Element::Person }
+    "Arten des Inhalts" =>                                    { tag:  "064", ind1: "a",   element: Element::ArtDesInhalts },
+    "erweiterte Datenträgertypen" =>                          { tag:  "064", ind1: "b",   element: Element::ErweiterterDatenträgertyp },
+    "Personen" =>                                             { tags: (100..196).step(4), element: Element::Person },
+    "Körperschaften" =>                                       { tags: (200..296).step(4), element: Element::Körperschaft },
+    "bevorzugte Titel des Werkes" =>                          { tag:  "303",              element: Element::Titel },
+    "allgemeine Materialbenennung" =>                         { tag:  "334",              is_collection: false },
+    "Verantwortlichkeitsangaben" =>                           { tag:  "359" },
+    "Manifestationstitel von weiteren verkörperten Werken" => { tag:  "362",              element: Element::ManifestationstitelVonWeiterenVerkörpertenWerken },
+    "Unaufgegliederte Anmerkungen" =>                         { tag:  "501" },
+    "Angaben zum Inhalt" =>                                   { tag:  "521",              element: Element::AngabeZumInhalt },
+    "Personen der Nebeneintragungen" =>                       { tags: (800..824).step(6), element: Element::Person },
+    "Körperschaften Phrasenindex" =>                          { tag:  "PKO",              element: Element::Körperschaft },
+    "Personen Phrasenindex" =>                                { tag:  "PPE",              element: Element::Person }
   }
 
   delegate :controlfield, :datafields, to: :@document

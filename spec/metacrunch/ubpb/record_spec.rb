@@ -19,6 +19,22 @@ describe Metacrunch::UBPB::Record do
       it { is_expected.to eq("Elektronische Ressource") }
     end
 
+    context "if \"Angaben zum Inhalt\" was given" do
+      let(:document) do
+        Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
+          <datafield tag="521" ind1="-" ind2="1">
+            <subfield code="t">Gesang der drei Männer im feurigen Ofen (SWV 448)</subfield>
+          </datafield>
+          <datafield tag="521" ind1="-" ind2="1">
+            <subfield code="t">Unser Herr Jesus Christus (SWV 495)</subfield>
+          </datafield>
+        xml
+      end
+
+      subject { record.get("Angaben zum Inhalt").map { |e| e.get("Titel") } }
+
+      it { is_expected.to eq(["Gesang der drei Männer im feurigen Ofen (SWV 448)", "Unser Herr Jesus Christus (SWV 495)"]) }
+    end
 
     context "if \"Arten des Inhalts\" was given" do
       let(:document) do
@@ -90,6 +106,22 @@ describe Metacrunch::UBPB::Record do
       subject { record.get("Körperschaften Phrasenindex").map(&:get) }
 
       it { is_expected.to eq(["Universität"]) }
+    end
+
+    context "if \"Manifestationstitel von weiteren verkörperten Werken\" was given" do
+      let(:document) do
+        Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
+          <datafield tag="362" ind1="-" ind2="1">
+            <subfield code="a">Test</subfield>
+            <subfield code="v">hbz</subfield>
+            <subfield code="Z">1</subfield>
+          </datafield>
+        xml
+      end
+
+      subject { record.get("Manifestationstitel von weiteren verkörperten Werken").map { |e| e.get("Titel") } }
+
+      it { is_expected.to eq(["Test"]) }
     end
 
     context "if \"Personen\" was given" do
