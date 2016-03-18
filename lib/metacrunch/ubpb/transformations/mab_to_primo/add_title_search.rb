@@ -40,7 +40,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch < Metacrunch
       search_titles << _früherer_titel
     end
 
-    search_titles << source.get("Bevorzugte Titel des Werkes", include: [
+    search_titles << source.get("bevorzugte Titel des Werkes", include: [
       "in der Manifestation verkörperte Werke",
       "in Beziehung stehende Werke",
       "Überordnungen"

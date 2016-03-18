@@ -5,7 +5,37 @@ describe Metacrunch::UBPB::Record do
   let(:record) { described_class.new(document) }
 
   describe "#get" do
-    context "if \"Bevorzugte Titel des Werkes\" was given" do
+    context "if \"allgemeine Materialbenennung\" was given" do
+      let(:document) do
+        Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+        xml
+      end
+
+      subject { record.get("allgemeine Materialbenennung").get }
+
+      it { is_expected.to eq("Elektronische Ressource") }
+    end
+
+
+    context "if \"Arten des Inhalts\" was given" do
+      let(:document) do
+        Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
+          <datafield tag="064" ind1="a" ind2="1">
+            <subfield code="a">Zeitschrift</subfield>
+            <subfield code="9">(DE-588)4067488-5</subfield>
+          </datafield>
+        xml
+      end
+
+      subject { record.get("Arten des Inhalts").map(&:get) }
+
+      it { is_expected.to eq(["Zeitschrift"]) }
+    end
+
+    context "if \"bevorzugte Titel des Werkes\" was given" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
           <datafield tag="303" ind1="-" ind2="1">
@@ -14,9 +44,24 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Bevorzugte Titel des Werkes") }
+      subject { record.get("bevorzugte Titel des Werkes").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Werktitel"]) }
+    end
+
+    context "if \"erweiterte Datenträgertypen\" was given" do
+      let(:document) do
+        Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
+          <datafield tag="064" ind1="b" ind2="1">
+            <subfield code="a">CD-ROM</subfield>
+            <subfield code="9">(DE-588)4139307-7</subfield>
+          </datafield>
+        xml
+      end
+
+      subject { record.get("erweiterte Datenträgertypen").map(&:get) }
+
+      it { is_expected.to eq(["CD-ROM"]) }
     end
 
     context "if \"Körperschaften\" was given" do
@@ -28,9 +73,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Körperschaften") }
+      subject { record.get("Körperschaften").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Evangelische Auferstehungs-Kirchengemeinde"]) }
     end
 
     context "if \"Körperschaften Phrasenindex\" was given" do
@@ -42,9 +87,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Körperschaften Phrasenindex") }
+      subject { record.get("Körperschaften Phrasenindex").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Universität"]) }
     end
 
     context "if \"Personen\" was given" do
@@ -56,9 +101,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Personen") }
+      subject { record.get("Personen").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Wegner, Jochen"]) }
     end
 
     context "if \"Personen der Nebeneintragungen\" was given" do
@@ -70,9 +115,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Personen der Nebeneintragungen") }
+      subject { record.get("Personen der Nebeneintragungen").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Pius"]) }
     end
 
     context "if \"Personen Phrasenindex\" was given" do
@@ -84,9 +129,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Personen Phrasenindex") }
+      subject { record.get("Personen Phrasenindex").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Murmellius, Iohannes"]) }
     end
 
     context "if \"Unaufgegliederte Anmerkungen\" was given" do
@@ -98,9 +143,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Unaufgegliederte Anmerkungen") }
+      subject { record.get("Unaufgegliederte Anmerkungen").map(&:get) }
 
-      it { is_expected.to be_present }
+      it { is_expected.to eq(["Einige Ex ohne ISBN"]) }
     end
   end
 end
