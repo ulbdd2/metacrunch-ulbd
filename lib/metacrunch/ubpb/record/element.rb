@@ -1,7 +1,9 @@
 require_relative "../record"
 
 class Metacrunch::UBPB::Record::Element
-  SUBFIELD_MAPPING = {}
+  SUBFIELDS = {
+    a: { "nicht spezifiziert" => :NW }
+  }
 
   attr_accessor :properties
 
@@ -9,7 +11,7 @@ class Metacrunch::UBPB::Record::Element
     @properties = {}
 
     datafield.subfields.each do |subfield|
-      if mapping = self.class::SUBFIELD_MAPPING[subfield.code.to_sym]
+      if mapping = self.class::SUBFIELDS[subfield.code.to_sym]
         mapping.each do |property_name, cardinality|
           if cardinality.to_s.downcase == "nw"
             @properties[property_name] = subfield.value

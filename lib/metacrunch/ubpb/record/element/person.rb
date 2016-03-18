@@ -3,7 +3,7 @@ require_relative "../beziehungscodes"
 require_relative "../element"
 
 class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Element
-  SUBFIELD_MAPPING = {
+  SUBFIELDS = {
     a: { "Name (unstrukturiert)" => :NW },
     p: { "Name (strukturiert)" => :NW },
     n: { "Zählung" => :NW },

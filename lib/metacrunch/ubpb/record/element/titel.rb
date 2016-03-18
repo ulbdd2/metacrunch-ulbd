@@ -4,7 +4,7 @@ class Metacrunch::UBPB::Record::Element::Titel < Metacrunch::UBPB::Record::Eleme
   #
   # Unterfelder Personen und Körperschaften betreffend, werden nicht berücksichtigt
   #
-  SUBFIELD_MAPPING = {
+  SUBFIELDS = {
     t: { "Titel" => :NW },
     h: { "Zusatz" => :W },
     m: { "Besetzung" => :W },

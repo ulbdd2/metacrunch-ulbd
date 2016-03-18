@@ -2,7 +2,7 @@ require_relative "../beziehungscodes"
 require_relative "../element"
 
 class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Record::Element
-  SUBFIELD_MAPPING = {
+  SUBFIELDS = {
     a: {
       "Körperschaft (unstrukturiert)" => :NW,
       "Konferenz (unstrukturiert)" => :NW,

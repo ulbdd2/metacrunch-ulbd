@@ -2,11 +2,7 @@ require_relative "../collection"
 require_relative "../element/titel"
 
 class Metacrunch::UBPB::Record::Collection::BevorzugteTitelDesWerkes < Metacrunch::UBPB::Record::Collection
-  Titel = parent.parent::Element::Titel
-
-  include Enumerable
-
-  def initialize(document, options = {})
+  def initialize(document, tags, element_class, options = {})
     options[:include] = [options[:include]].compact.flatten(1)
     ind1 = ["-"]
 
@@ -14,15 +10,6 @@ class Metacrunch::UBPB::Record::Collection::BevorzugteTitelDesWerkes < Metacrunc
       ind1 << "t"
     end
 
-    records = document.datafields("303", ind1: ind1, ind2: "1")
-    superorders = document.datafields("303", ind1: ind1, ind2: "2")
-
-    @elements = records.map do |record|
-      if options[:include].include?("Überordnungen")
-        Titel.new(record, superorders: superorders)
-      else
-        Titel.new(record)
-      end
-    end
+    super(document, tags, element_class, options.merge(ind1: ind1))
   end
 end
