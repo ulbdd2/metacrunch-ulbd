@@ -53,6 +53,8 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleDisplay do
 
   #
   define_field_test '000558925', title_display: 'Der fremdsprachliche Unterricht / Englisch'
+  define_field_test '001838193', title_display: 'Un franco, 14 pesetas : emprendían mucho más que un viaje ; iniciaban el camino hacia una nueva vida [DVD-Video]'
+
 
   #
   # synthetic tests
