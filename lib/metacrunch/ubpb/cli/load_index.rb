@@ -69,6 +69,10 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
 
   # http://www.fullscale.co/blog/2013/03/04/preserving_specific_characters_during_tokenizing_in_elasticsearch.html
   SETTINGS = {
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 2
+    },
     "analysis": {
       "analyzer": {
         "default": {
