@@ -80,6 +80,9 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleDisplay < Metacrunc
     zusätze_zum_hauptsachtitel = options[:zusätze_zum_hauptsachtitel]
     allgemeine_materialbenennung = options[:allgemeine_materialbenennung]
 
+    arten_des_inhalts = source.get("Arten des Inhalts").map(&:get)
+    erweiterte_datenträgertypen = source.get("erweiterte Datenträgertypen").map(&:get)
+
     if hauptsachtitel
       result = [hauptsachtitel]
 
@@ -95,8 +98,20 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleDisplay < Metacrunc
         result << ": #{bandangabe}"
       end
 
-      if allgemeine_materialbenennung
-        result << "[#{allgemeine_materialbenennung}]"
+      additions =
+      [
+        allgemeine_materialbenennung,
+        arten_des_inhalts,
+        erweiterte_datenträgertypen
+      ]
+      .flatten
+      .compact
+      .uniq
+      .join(", ")
+      .presence
+
+      if additions
+        result << "[#{additions}]"
       end
 
       result.join(" ")
