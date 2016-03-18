@@ -52,6 +52,16 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch do
     "Erster/frühere Titel von fortlaufenden Ressourcen",
     "Weiterer früherer Titel",
     "Werktitel",
-    "Werktitel ALLE neuen RDA-Felder"
+    "Werktitel ALLE neuen RDA-Felder",
+    "Test"
+  ]
+
+  define_field_test '001839115', title_search: [
+    "Neue Ausgabe sämtlicher Werke / Band 34/35 : Größere Kirchenkonzerte",
+    "Gesang der dreyer Menner im feurig Ofen",
+    "Gesang der drei Männer im feurigen Ofen (SWV 448)",
+    "Unser Herr Jesus Christus (SWV 495)",
+    "Unser Herr Jesus Christus in der Nacht, da er verraten ward",
+    "Gesang der drei Männer im feurigen Ofen"
   ]
 end
