@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001838225</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>01111nM2.01200024------h</leader>
+          <controlfield tag="LDR">01111nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT018848702</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20160105</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20160202</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT018848702</subfield>
+          </datafield>
+          <controlfield tag="030">a|zur||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">ES</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">spa</subfield>
+          </datafield>
+          <datafield tag="038" ind1="b" ind2="1">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||d|||||</controlfield>
+          <controlfield tag="051">s|||||||</controlfield>
+          <datafield tag="060" ind1="-" ind2="1">
+            <subfield code="b">spw</subfield>
+            <subfield code="a">gesprochenes Wort</subfield>
+          </datafield>
+          <datafield tag="060" ind1="-" ind2="1">
+            <subfield code="b">tdi</subfield>
+            <subfield code="a">zweidimensionales bewegtes Bild</subfield>
+          </datafield>
+          <datafield tag="061" ind1="-" ind2="1">
+            <subfield code="b">v</subfield>
+            <subfield code="a">video</subfield>
+          </datafield>
+          <datafield tag="062" ind1="-" ind2="1">
+            <subfield code="b">vd</subfield>
+            <subfield code="a">Videodisk</subfield>
+          </datafield>
+          <datafield tag="064" ind1="b" ind2="1">
+            <subfield code="a">DVD-Video</subfield>
+            <subfield code="9">(DE-588)4585125-6</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Hunt, Courtney</subfield>
+            <subfield code="d">1964-</subfield>
+            <subfield code="9">(DE-588)137740476</subfield>
+            <subfield code="4">fmd</subfield>
+            <subfield code="3">Filmregisseur</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Leo, Melissa</subfield>
+            <subfield code="d">1960-</subfield>
+            <subfield code="9">(DE-588)137740352</subfield>
+            <subfield code="4">act</subfield>
+            <subfield code="3">Schauspieler</subfield>
+          </datafield>
+          <datafield tag="108" ind1="b" ind2="1">
+            <subfield code="p">Upham, Misty</subfield>
+            <subfield code="d">1982-</subfield>
+            <subfield code="9">(DE-588)137740387</subfield>
+            <subfield code="4">act</subfield>
+            <subfield code="3">Schauspieler</subfield>
+          </datafield>
+          <datafield tag="112" ind1="b" ind2="1">
+            <subfield code="p">McDermott, Charlie</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+            <subfield code="4">act</subfield>
+            <subfield code="3">Schauspieler</subfield>
+          </datafield>
+          <datafield tag="116" ind1="b" ind2="1">
+            <subfield code="p">Golub, Peter</subfield>
+            <subfield code="9">(DE-588)173869130</subfield>
+            <subfield code="4">cmp</subfield>
+            <subfield code="3">Komponist</subfield>
+          </datafield>
+          <datafield tag="120" ind1="b" ind2="1">
+            <subfield code="p">Ismaily, Shazad</subfield>
+            <subfield code="d">20. Jh.</subfield>
+            <subfield code="9">(DE-588)1064472826</subfield>
+            <subfield code="4">cmp</subfield>
+            <subfield code="3">Komponist</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Frozen river</subfield>
+          </datafield>
+          <datafield tag="341" ind1="-" ind2="1">
+            <subfield code="a">Río helado</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">una película de Courtney Hunt ; con Melissa Leo, Misty Upham, Charlie MacDermott ; música Peter Golub y Shahzad Ismaily</subfield>
+          </datafield>
+          <datafield tag="419" ind1="-" ind2="1">
+            <subfield code="a">Barcelona</subfield>
+            <subfield code="b">filmax Home Video</subfield>
+            <subfield code="c">2010</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2010</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">1 DVD-Video (ca. 93 min, Ländercode 2) : Tonformat: Dolby Stereo and optional 5.1, Bildformat: 1.85:1 Anamorphic ; 12 cm</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">Colección 3 películas</subfield>
+            <subfield code="v">Frozen river</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT018848635</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">Frozen river</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">frozen</subfield>
+          </datafield>
+          <datafield tag="501" ind1="-" ind2="1">
+            <subfield code="a">Orig. USA, 2008</subfield>
+          </datafield>
+          <datafield tag="LKR" ind1="-" ind2="1">
+            <subfield code="a">ITM</subfield>
+            <subfield code="b">1812791</subfield>
+            <subfield code="l">PAD50</subfield>
+          </datafield>
+          <controlfield tag="SYS">001838225</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Leo, Melissa Chessington</subfield>
+            <subfield code="d">1960-</subfield>
+            <subfield code="9">(DE-588)137740352</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Leo, Melissa Chessington</subfield>
+            <subfield code="d">1960-</subfield>
+            <subfield code="9">(DE-588)137740352</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">McDermott, Charles</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">MacDermott, Charlie</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">McDermott, Charles</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">MacDermott, Charlie</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Leo, Melissa Chessington</subfield>
+            <subfield code="d">1960-</subfield>
+            <subfield code="9">(DE-588)137740352</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">McDermott, Charles</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">MacDermott, Charlie</subfield>
+            <subfield code="d">1990-</subfield>
+            <subfield code="9">(DE-588)137740549</subfield>
+          </datafield>
+          <datafield tag="078" ind1="r" ind2=" ">
+            <subfield code="a">film</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">KNL</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001838205</subfield>
+            <subfield code="m">Frozen river.^Frozen river.^2010</subfield>
+            <subfield code="n">Colección 3 películas.^2010</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">AVMAT</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">97</subfield>
+            <subfield code="d">KNL4558</subfield>
+            <subfield code="i">16/133</subfield>
+            <subfield code="n">27</subfield>
+            <subfield code="k">20160105</subfield>
+            <subfield code="5">1812791-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
