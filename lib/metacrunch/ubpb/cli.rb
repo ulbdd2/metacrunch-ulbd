@@ -5,7 +5,6 @@ module Metacrunch
       require_relative "./cli/init_index_command"
       require_relative "./cli/load_index"
       require_relative "./cli/mab2snr_command"
-      require_relative "./cli/mabmapper_command"
     end
   end
 end
@@ -102,29 +101,6 @@ Metacrunch::Cli.setup("ubpb", "Commands for University Library Paderborn") do |r
     c.option :id,
       desc: "Only process the MAB record with the given id",
       type: :string
-  end
-
-  #
-  # mabmapper
-  #
-  r.register(Metacrunch::UBPB::Cli::MabmapperCommand) do |c|
-    c.name  "mabmapper"
-    c.usage "mabmapper"
-    c.desc  "Normalize MAB"
-    c.option :output,
-      desc: "Output directory",
-      required: true,
-      aliases: "-o",
-      type: :string
-    c.option :silent,
-      desc: "Do not output anything on the console",
-      aliases: "-s",
-      type: :boolean,
-      default: false
-    c.option :number_of_processes,
-      desc: "Number of parallel processes",
-      aliases: "-n",
-      type: :numeric
   end
 
   #
