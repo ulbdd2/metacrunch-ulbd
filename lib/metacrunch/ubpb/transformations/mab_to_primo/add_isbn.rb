@@ -16,8 +16,8 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddIsbn < Metacrunch::Trans
       isbns << _datafield.subfields(['b','c','d']).values
     end
 
-    source.datafields('540', ind2: '1').each do |_datafield|
-      isbns << _datafield.subfields('a').values if _datafield.ind1 != "z"
+    source.get("ISBNs", include: ["formal falsch", "formal ungeprüft"]).each do |isbn|
+      isbns << isbn.get
     end
 
     source.datafields('634', ind2: '1').each do |_datafield|

@@ -23,6 +23,7 @@ class Metacrunch::UBPB::Record
     "Manifestationstitel von weiteren verkörperten Werken" => { tag:  "362",              element: Element::ManifestationstitelVonWeiterenVerkörpertenWerken },
     "Unaufgegliederte Anmerkungen" =>                         { tag:  "501" },
     "Angaben zum Inhalt" =>                                   { tag:  "521",              element: Element::AngabeZumInhalt },
+    "ISBNs" =>                                                { tag:  "540",              element: Element::ISBN },
     "Personen der Nebeneintragungen" =>                       { tags: (800..824).step(6), element: Element::Person },
     "Körperschaften Phrasenindex" =>                          { tag:  "PKO",              element: Element::Körperschaft },
     "Personen Phrasenindex" =>                                { tag:  "PPE",              element: Element::Person }
@@ -68,6 +69,6 @@ class Metacrunch::UBPB::Record
   end
 
   def derived_constant_name(name)
-    name.squish.split.map(&:titlecase).join
+    name.squish.split.map { |string| string[0].upcase + string[1..-1] }.join
   end
 end

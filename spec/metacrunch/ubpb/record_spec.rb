@@ -80,6 +80,20 @@ describe Metacrunch::UBPB::Record do
       it { is_expected.to eq(["CD-ROM"]) }
     end
 
+    context "if \"ISBNs\" was given" do
+      let(:document) do
+        Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">9781610691192</subfield>
+          </datafield>
+        xml
+      end
+
+      subject { record.get("ISBNs").map(&:get) }
+
+      it { is_expected.to eq(["9781610691192"]) }
+    end
+
     context "if \"Körperschaften\" was given" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
