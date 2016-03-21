@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001705215</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00809pM2.01200024------h</leader>
+          <controlfield tag="LDR">00809pM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT017800130</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20131015</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20140710</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT017800130</subfield>
+          </datafield>
+          <controlfield tag="030">a|1daz|z|||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|a|||||||||||</controlfield>
+          <controlfield tag="051">m|||z|||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">Kn 28</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Dieter, Theodor</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+            <subfield code="b">[Übers.]</subfield>
+          </datafield>
+          <datafield tag="104" ind1="b" ind2="1">
+            <subfield code="p">Thönissen, Wolfgang</subfield>
+            <subfield code="d">1955-</subfield>
+            <subfield code="9">(DE-588)123077850</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Lutheran-Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Vom Konflikt zur Gemeinschaft</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">gemeinsames lutherisch-katholisches Reformationsgedenken im Jahr 2017 ; Bericht der Lutherisch/Römisch-Katholischen Kommission für die Einheit</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">[verantwortl. für die dt. Übers. sind Theodor Dieter und Wolfgang Thönissen]</subfield>
+          </datafield>
+          <datafield tag="403" ind1="-" ind2="1">
+            <subfield code="a">2. Aufl.</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Leipzig</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">Evang. Verl.-Anst.</subfield>
+          </datafield>
+          <datafield tag="415" ind1="-" ind2="1">
+            <subfield code="a">Paderborn</subfield>
+          </datafield>
+          <datafield tag="417" ind1="-" ind2="1">
+            <subfield code="a">Bonifatius</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2013</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">102 S.</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-89710-549-2</subfield>
+            <subfield code="b">Bonifatius Verlag</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-3-374-03418-5</subfield>
+            <subfield code="b">Evangelische Verlagsanstalt</subfield>
+          </datafield>
+          <datafield tag="540" ind1="b" ind2="1">
+            <subfield code="a">978-3-89710-549-5</subfield>
+          </datafield>
+          <datafield tag="553" ind1="a" ind2="1">
+            <subfield code="a">9783897105492</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="m">X:MVB</subfield>
+            <subfield code="q">text/html</subfield>
+            <subfield code="u">http://deposit.d-nb.de/cgi-bin/dokserv?id=4329849&amp;prov=M&amp;dok_var=1&amp;dok_ext=htm</subfield>
+            <subfield code="3">Inhaltstext</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="m">B:DE-101</subfield>
+            <subfield code="q">application/pdf</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=5252173&amp;custom_att_2=simple_viewer</subfield>
+            <subfield code="3">Inhaltsverzeichnis</subfield>
+            <subfield code="A">2</subfield>
+          </datafield>
+          <datafield tag="700" ind1="d" ind2="1">
+            <subfield code="a">230</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Reformation</subfield>
+            <subfield code="9">(DE-588)4048946-2</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Jubiläum</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Lutherische Kirche</subfield>
+            <subfield code="9">(DE-588)4125794-7</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="s">Interkonfessionelles Gespräch</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <controlfield tag="SYS">001705215</controlfield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Dieter, Theo</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Dieter, Th.</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Dieter, Theo</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Dieter, Th.</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Jubiläumsfeier</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Jubiläen</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Jubiläumsfeier</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Jubiläen</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Evangelisch-lutherische Kirche</subfield>
+            <subfield code="9">(DE-588)4125794-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Evangelisch-lutherische Kirche</subfield>
+            <subfield code="9">(DE-588)4125794-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Konfession</subfield>
+            <subfield code="x">Gespräch</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ökumenischer Dialog</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ökumene</subfield>
+            <subfield code="x">Dialog</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Konfession</subfield>
+            <subfield code="x">Gespräch</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ökumenischer Dialog</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ökumene</subfield>
+            <subfield code="x">Dialog</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Jubiläumsfeier</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Jubiläen</subfield>
+            <subfield code="9">(DE-588)4129003-3</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Evangelisch-lutherische Kirche</subfield>
+            <subfield code="9">(DE-588)4125794-7</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Konfession</subfield>
+            <subfield code="x">Gespräch</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ökumenischer Dialog</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="s">Ökumene</subfield>
+            <subfield code="x">Dialog</subfield>
+            <subfield code="9">(DE-588)4197572-8</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Ecclesia Catholica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolikus Egyház</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Igreja Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Römisch-Katholische Kirche</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholikē Ekklēsia</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Roman Catholic Church</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">RCC</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Eglise Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Chiesa Cattolica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholieke Kerk</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Iglesia Católica</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolické Církve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Kościoł Katolicki</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličeskaj Cerkovʹ</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Crkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katoličke Cerkve</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolska Cyrkej</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katolske Kirke</subfield>
+            <subfield code="9">(DE-588)2009545-4</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Dieter, Theo</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Dieter, Th.</subfield>
+            <subfield code="d">1951-</subfield>
+            <subfield code="9">(DE-588)139659692</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Consilium ad Unitatem Christianorum Fovendam</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Katholische Kirche</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutheran-Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Lutherisch- Römisch-Katholische Kommission für die Einheit</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutheran- Roman Catholic Commission on Unity</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Luthéro-Catholique Romaine sur l'Unité</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="k">Lutherischer Weltbund</subfield>
+            <subfield code="b">Commission Internationale de Dialogue Luthéro-Catholique Romaine</subfield>
+            <subfield code="9">(DE-588)16016305-5</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">IQH</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">11</subfield>
+            <subfield code="d">IQH5102(2)</subfield>
+            <subfield code="i">14/5540</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20140410</subfield>
+            <subfield code="5">1705224-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

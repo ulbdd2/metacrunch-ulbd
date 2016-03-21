@@ -21,4 +21,6 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddIsbn do
       it { is_expected.to eq(["3-8155-0186-5", "3-930673-19-3", "978-3-8273-2478-8"]) }
     end
   end
+
+  define_field_test '001705215', isbn: ["978-3-89710-549-2", "978-3-374-03418-5", "978-3-89710-549-5"]
 end
