@@ -20,9 +20,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddPublisher < Metacrunch::
         verlagsname = _veröffentlichungsangabe.subfields('b').value
         erster_verlagsort = verlagsorte.try(:first)
 
-        if verlagsname.present?
-          publisher << [erster_verlagsort, verlagsname].compact.join(" : ")
-        end
+        publisher << [erster_verlagsort, verlagsname].compact.join(" : ")
       end
     else # is rak record
       orte_der_ersten_verleger                  = source.datafields('410', ind2: '1').subfields('a').values.presence

@@ -6,6 +6,9 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddPublisher do
   define_field_test '001206544', publisher: 'Leipzig : Leipziger Univ.-Verl.', transformation: transformation
   define_field_test '001231060', publisher: ['Washington, DC : The World Bank', 'Paris : OECD Publishing'], transformation: transformation
 
+  define_field_test '001839081', publisher: 'Paderborn'
+  define_field_test '001839082', publisher: 'Paderborn'
+
   # RAK
   #
   # f410 [NW]
@@ -90,7 +93,7 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddPublisher do
         transformation.call(mab_xml)["publisher"]
       end
 
-      it { is_expected.to eq("First publisher place : First publisher") }
+      it { is_expected.to eq(["First publisher place : First publisher", "Another place"]) }
     end
   end
 
