@@ -24,16 +24,18 @@ class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Recor
     "5": { "Beziehungskennzeichnung in einer anderen Katalogisierungssprache" => :W } # wird nicht aktiv erfasst
   }
 
+  private
+
   BEZIEHUNGSCODES = parent.parent::BEZIEHUNGSCODES
 
-  def normalized_name(options = {})
-    if value = get("Körperschaft (strukturiert)") || get("Konferenz (strukturiert)") || get("Gebietsköperschaft (strukturiert)")
+  def default_value(options = {})
+    if value = get("Körperschaft (strukturiert)", options) || get("Konferenz (strukturiert)", options) || get("Gebietsköperschaft (strukturiert)", options)
       is_conference = get("Konferenz (strukturiert)").present?
 
       composed_name =
       [
         value,
-        get("untergeordnete Körperschaft")
+        get("untergeordnete Körperschaft", options)
       ]
       .flatten
       .compact
@@ -41,14 +43,14 @@ class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Recor
         additions =
         [
           [
-            (get("Zählung") || [])[index],
-            (is_conference && index == 0) ? get("Datum der Konferenz") : nil,
-            (get("Ort der Konferenz") || [])[index]
+            (get("Zählung", options) || [])[index],
+            (is_conference && index == 0) ? get("Datum der Konferenz", options) : nil,
+            (get("Ort der Konferenz", options) || [])[index]
           ]
           .compact
           .join(" : ")
           .presence,
-          (get("Zusatz") || [])[index]
+          (get("Zusatz", options) || [])[index]
         ]
         .compact
         .join(", ")
@@ -57,8 +59,8 @@ class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Recor
         element_with_fragments =
         [
           element,
-          get("allgemeine Unterteilung"),
-          get("geografische Unterteilung")
+          get("allgemeine Unterteilung", options),
+          get("geografische Unterteilung", options)
         ]
         .flatten
         .compact
@@ -70,7 +72,7 @@ class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Recor
 
       relationship_designators =
       if [options[:include]].compact.flatten(1).include?("Beziehungskennzeichnungen")
-        (get("Beziehungscode") || [])
+        (get("Beziehungscode", options) || [])
         .map do |code|
           BEZIEHUNGSCODES[code.to_sym]
         end
@@ -80,7 +82,7 @@ class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Recor
       end
 
       relationship_designators ? "#{composed_name} [#{relationship_designators}]" : composed_name
-    elsif unstructured_name = get("Körperschaft (unstrukturiert)") || get("Konferenz (unstrukturiert)") || get("Gebietskörperschaft (unstrukturiert)")
+    elsif unstructured_name = get("Körperschaft (unstrukturiert)", options) || get("Konferenz (unstrukturiert)", options) || get("Gebietskörperschaft (unstrukturiert)", options)
       unstructured_name
     end
   end

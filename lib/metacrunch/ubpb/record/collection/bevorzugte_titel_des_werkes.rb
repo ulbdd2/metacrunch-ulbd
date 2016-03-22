@@ -1,5 +1,4 @@
 require_relative "../collection"
-require_relative "../element/titel"
 
 class Metacrunch::UBPB::Record::Collection::BevorzugteTitelDesWerkes < Metacrunch::UBPB::Record::Collection
   def initialize(datafields, options = {})

@@ -11,8 +11,8 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorFacet 
 
   def creator_contributor_facet
     [
-      source.get("Personen", include: "Überordnungen").map(&:normalized_name),
-      source.get("Körperschaften", include: "Überordnungen").map(&:normalized_name)
+      source.get("Personen", include: "Überordnungen").map(&:get),
+      source.get("Körperschaften", include: "Überordnungen").map(&:get)
     ]
     .flatten
     .compact

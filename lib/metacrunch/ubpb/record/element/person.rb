@@ -24,27 +24,28 @@ class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Elem
     "5": { "Beziehungskennzeichnung in einer anderen Katalogisierungssprache" => :W } # wird nicht aktiv erfasst
   }
 
+  private
+
   ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN = parent.parent::ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN
   BEZIEHUNGSCODES = parent.parent::BEZIEHUNGSCODES
-  
-  def normalized_name(options = {})
-    options[:include] = [options[:include]].compact.flatten(1)
-    options[:omit] = [options[:omit]].compact.flatten(1)
 
-    if name_strukturiert = get("Name (strukturiert)")
+  def default_value(options = {})
+    include_options = [options[:include]].flatten(1).compact
+
+    if name_strukturiert = get("Name (strukturiert)", options)
       name_mit_zählung_und_zusätzen =
       [
         [
           name_strukturiert,
-          get("Zählung")
+          get("Zählung", options)
         ]
         .compact
         .join(" "),
         [
-          get("Beiname"),
-          get("Gattungsname"),
-          get("Territorium"),
-          get("Titulatur")
+          get("Beiname", options),
+          get("Gattungsname", options),
+          get("Territorium", options),
+          get("Titulatur", options)
         ]
         .uniq
         .join(", ")
@@ -55,8 +56,8 @@ class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Elem
 
       # es kann mehr als eine geben
       beziehungskennzeichnungen =
-      if options[:include].include?("Beziehungskennzeichnungen")
-        (get("Beziehungscode") || [])
+      if include_options.include?("Beziehungskennzeichnungen")
+        (get("Beziehungscode", options) || [])
         .map do |code|
           BEZIEHUNGSCODES[code.to_sym]
         end
@@ -67,11 +68,11 @@ class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Elem
 
       # es kann nur eine geben
       funktionsbezeichnung =
-      if options[:include].include?("Funktionsbezeichnung") || options[:include].include?("ausgeschriebene Funktionsbezeichnung")
-        if funktionsbezeichnung_in_eckigen_klammern = get("Funktionsbezeichnung in eckigen Klammern")
+      if include_options.include?("Funktionsbezeichnung") || include_options.include?("ausgeschriebene Funktionsbezeichnung")
+        if funktionsbezeichnung_in_eckigen_klammern = get("Funktionsbezeichnung in eckigen Klammern", options)
           funktionsbezeichnung = funktionsbezeichnung_in_eckigen_klammern[/[^\[\]]+/]
 
-          if options[:include].include?("ausgeschriebene Funktionsbezeichnung")
+          if include_options.include?("ausgeschriebene Funktionsbezeichnung")
             if ausgeschriebene_funktionsbezeichnung = ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN[funktionsbezeichnung]
               ausgeschriebene_funktionsbezeichnung
             else
@@ -88,16 +89,8 @@ class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Elem
       else
         name_mit_zählung_und_zusätzen
       end
-    elsif unstructured_name = get("Name (unstrukturiert)")
+    elsif unstructured_name = get("Name (unstrukturiert)", options)
       unstructured_name
     end
-    .try do |result|
-      if options[:omit].include?("sortierirrelevante Worte")
-        result.gsub(/<<[^>]+>>/, "")
-      else
-        result.gsub(/<|>/, "")
-      end
-    end
-    .try(:strip)
   end
 end

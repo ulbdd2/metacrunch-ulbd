@@ -1,7 +1,7 @@
 require "metacrunch/ubpb/record/element/körperschaft"
 
 describe Metacrunch::UBPB::Record::Element::Körperschaft do
-  describe "#normalized_name" do
+  describe "#get" do
     context "Körperschaft mit untergeordneten Körperschaften" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
@@ -14,10 +14,9 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Evangelische Auferstehungs-Kirchengemeinde (Völklingen). Evangelische Jugendtheater-AG (Wehrden-Geislautern)") }
     end
@@ -30,10 +29,9 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Associated Ministers of Worcester-shire") }
     end
@@ -50,15 +48,14 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Deutscher Anwaltverein. Arbeitsgemeinschaft IT-Recht") }
 
       context "if include: \"Beziehungskennzeichnungen\" given" do
-        subject { körperschaft.normalized_name(include: "Beziehungskennzeichnungen") }
+        subject { element.get(include: "Beziehungskennzeichnungen") }
 
         it { is_expected.to eq("Deutscher Anwaltverein. Arbeitsgemeinschaft IT-Recht [Herausgebendes Organ]") }
       end
@@ -77,15 +74,14 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Centre de Recherches Mathématiques") }
 
       context "if include: \"Beziehungskennzeichnungen\" given" do
-        subject { körperschaft.normalized_name(include: "Beziehungskennzeichnungen") }
+        subject { element.get(include: "Beziehungskennzeichnungen") }
 
         it { is_expected.to eq("Centre de Recherches Mathématiques [Herausgebendes Organ, Veranstalter]") }
       end
@@ -104,10 +100,9 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("WM (5 : 2009 : Solothurn, Institut für Wirtschaftsinformatik, Basel)") }
     end
@@ -125,10 +120,9 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Sydney / Art Gallery of New South Wales / John Kaldor Familiy Collection") }
     end
@@ -147,10 +141,9 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Werkstoffwoche (2 : 1998 : München). Symposium (8)") }
     end
@@ -165,10 +158,9 @@ describe Metacrunch::UBPB::Record::Element::Körperschaft do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("200") }
-      let(:körperschaft ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { körperschaft.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Steinheim (Kreis Höxter)") }
     end

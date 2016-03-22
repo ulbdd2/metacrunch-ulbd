@@ -42,7 +42,23 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddRelation < Metacrunch::T
       end
     end
 
-    (526..534).each do |mab_field_number|
+    source.get("Titel von rezensierten Werken").each do |element|
+      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
+    end
+
+    source.get("andere Ausgaben").each do |element|
+      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
+    end
+
+    source.get("Titel von Rezensionen").each do |element|
+      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
+    end
+
+    source.get("Beilagen").each do |element|
+      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
+    end
+
+    (530..534).each do |mab_field_number|
       source.datafields("#{mab_field_number}", ind2: '1').each do |datafield|
         ht_number = datafield.subfields('9').value
         label = [
@@ -55,5 +71,13 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddRelation < Metacrunch::T
     end
 
     relations.flatten.select { |relation| relation[:label].present? }.map(&:to_json)
+  end
+
+  def relation_factory(label, id)
+    {
+      ht_number: id,
+      label: label
+    }
+    .compact
   end
 end

@@ -14,11 +14,11 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddCreatorContributorDispla
     creators = []
 
     creators << source.get("Personen", include: "Überordnungen").map do |p|
-      p.normalized_name(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"])
+      p.get(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"])
     end
 
     creators << source.get("Körperschaften", include: "Überordnungen").map do |k|
-      k.normalized_name(include: "Beziehungskennzeichnungen")
+      k.get(include: "Beziehungskennzeichnungen")
     end
 
     # Sonderfall: Verfasserangaben enthält [u.a.]

@@ -8,6 +8,7 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddPublisher do
 
   define_field_test '001839081', publisher: 'Paderborn'
   define_field_test '001839082', publisher: 'Paderborn'
+  #define_field_test '001840202', publisher: ''
 
   # RAK
   #

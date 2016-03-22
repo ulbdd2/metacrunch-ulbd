@@ -78,13 +78,27 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleDisplay < Metacrunc
     ausgabebezeichnung = options[:ausgabebezeichnung]
     bandangabe = options[:bandangabe]
     zusätze_zum_hauptsachtitel = options[:zusätze_zum_hauptsachtitel]
+    unterreihen = source.datafields("360", ind2: "1").subfields("a").values
     allgemeine_materialbenennung = options[:allgemeine_materialbenennung]
 
     arten_des_inhalts = source.get("Arten des Inhalts").map(&:get)
     erweiterte_datenträgertypen = source.get("erweiterte Datenträgertypen").map(&:get)
 
     if hauptsachtitel
-      result = [hauptsachtitel]
+      result =[]
+      
+      result <<
+      [
+        hauptsachtitel,
+        unterreihen.select do |unterreihe|
+          unterreihe.split.none? do |string|
+            hauptsachtitel.include?(string)
+          end
+        end
+      ]
+      .flatten
+      .compact
+      .join(". ")
 
       if zusätze_zum_hauptsachtitel
         result << ": #{zusätze_zum_hauptsachtitel}"
