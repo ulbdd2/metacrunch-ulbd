@@ -24,10 +24,40 @@ class Metacrunch::UBPB::Record::Element
   end
 
   def get(property = nil, options = {})
-    unless property
-      @properties.values.first
-    else
-      @properties[property]
+    if property.is_a?(Hash)
+      options = property
+      property = nil
     end
+
+    omit_options = [options[:omit]].flatten(1).compact
+
+    value = (property ? @properties[property] : default_value(options))
+    return unless value
+
+    if omit_options.include?("sortierirrelevante Worte")
+      regex = /<<[^>]+>>/
+
+      if value.is_a?(Array)
+        value.map do |element|
+          element.gsub(regex, "").strip
+        end
+      else
+        value.gsub(regex, "").strip
+      end
+    else
+      if value.is_a?(Array)
+        value.map do |element|
+          element.gsub(/<<|>>/, "")
+        end
+      else
+        value.gsub(/<<|>>/, "")
+      end
+    end
+  end
+
+  private
+
+  def default_value(options = {})
+    @properties.values.first
   end
 end

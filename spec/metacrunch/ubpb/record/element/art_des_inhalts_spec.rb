@@ -10,9 +10,9 @@ describe Metacrunch::UBPB::Record::Element::ArtDesInhalts do
         </datafield>
       xml
     end
-    let(:art_des_inhalts) { described_class.new(document.datafields.first) }
+    let(:element) { described_class.new(document.datafields.first) }
 
-    subject { art_des_inhalts.get }
+    subject { element.get }
 
     it { is_expected.to eq("Zeitschrift") }
   end

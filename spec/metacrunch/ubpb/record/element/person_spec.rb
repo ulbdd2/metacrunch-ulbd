@@ -62,7 +62,7 @@ describe Metacrunch::UBPB::Record::Element::Person do
     end
   end
 
-  describe "#normalized_name" do
+  describe "#get" do
     context "Person mit unstrukturiertem Namen" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
@@ -71,10 +71,9 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("100") }
-      let(:person ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { person.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Stinson, Stephenie") }
     end
@@ -88,10 +87,9 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("100") }
-      let(:person ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { person.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Alama, Stanley") }
     end
@@ -106,21 +104,20 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("100") }
-      let(:person ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { person.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Alama, Stanley") }
 
       context "wenn die Funktionsbezeichnung mit ausgegeben werden soll" do
-        subject { person.normalized_name(include: "Funktionsbezeichnung") }
+        subject { element.get(include: "Funktionsbezeichnung") }
 
         it { is_expected.to eq("Alama, Stanley [Hrsg.]") }
       end
 
       context "wenn die Funktionsbezeichnung ausgeschrieben mit ausgegeben werden soll" do
-        subject { person.normalized_name(include: "ausgeschriebene Funktionsbezeichnung") }
+        subject { element.get(include: "ausgeschriebene Funktionsbezeichnung") }
 
         it { is_expected.to eq("Alama, Stanley [Herausgeber]") }
       end
@@ -138,15 +135,14 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("100") }
-      let(:person ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { person.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Wegner, Jochen") }
 
       context "wenn die Beziehungskennzeichnungen mit ausgegeben werden sollen" do
-        subject { person.normalized_name(include: "Beziehungskennzeichnungen") }
+        subject { element.get(include: "Beziehungskennzeichnungen") }
 
         it { is_expected.to eq("Wegner, Jochen [Herausgeber]") }
       end
@@ -169,15 +165,18 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:array_of_datafields) { [document.datafields("100"), document.datafields("104")] }
-      let(:personen) { array_of_datafields.map { |datafields| described_class.new(datafields.first) } }
+      let(:elements) do
+        document.datafields.map do |datafield|
+          described_class.new(datafield)
+        end
+      end
 
-      subject { personen.map(&:normalized_name) }
+      subject { elements.map(&:get) }
 
       it { is_expected.to eq(["Wegner, Jochen", "Alama, Stanley"]) }
 
       context "wenn die Beziehungskennzeichngen/Funktionsbezeichnung mit ausgegeben werden soll" do
-        subject { personen.map { |element| element.normalized_name(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"]) } }
+        subject { elements.map { |element| element.get(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"]) } }
 
         it { is_expected.to eq(["Wegner, Jochen [Herausgeber]", "Alama, Stanley [Herausgeber]"]) }
       end
@@ -196,15 +195,14 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("100") }
-      let(:person ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { person.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Alexius I., Imperium Byzantinum, Imperator") }
 
       context "wenn die Beziehungskennzeichngen/ausgeschriebene Funktionsbezeichnung mit ausgegeben werden soll" do
-        subject { person.normalized_name(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"]) }
+        subject { element.get(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"]) }
 
         it { is_expected.to eq("Alexius I., Imperium Byzantinum, Imperator [Angeblicher Verfasser]") }
       end
@@ -221,15 +219,14 @@ describe Metacrunch::UBPB::Record::Element::Person do
           </datafield>
         xml
       end
-      let(:datafields) { document.datafields("100") }
-      let(:person ) { described_class.new(datafields.first) }
+      let(:element) { described_class.new(document.datafields.first) }
 
-      subject { person.normalized_name }
+      subject { element.get }
 
       it { is_expected.to eq("Rohr, Alheidis von") }
 
       context "wenn die sortierirrelevanten Worte entfernt werden sollen" do
-        subject { person.normalized_name(omit: "sortierirrelevante Worte") }
+        subject { element.get(omit: "sortierirrelevante Worte") }
 
         it { is_expected.to eq("Rohr, Alheidis") }
       end
