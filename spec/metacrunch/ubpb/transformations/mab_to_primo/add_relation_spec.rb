@@ -20,4 +20,10 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddRelation do
     "{\"ht_number\":\"HT018830722\",\"label\":\"Parallele Sprachausgabe französisch: Filati special\"}",
     "{\"ht_number\":\"HT018830720\",\"label\":\"Parallele Sprachausgabe niederländisch: Filati special\"}"
   ]
+
+  # belongs to example above
+  define_field_test '001840250', relation: [
+    "{\"ht_number\":\"HT018830723\",\"label\":\"Parallele Sprachausgabe deutsch: Filati special\"}",
+    "{\"ht_number\":\"HT018830722\",\"label\":\"Parallele Sprachausgabe französisch: Filati special\"}"
+  ]
 end
