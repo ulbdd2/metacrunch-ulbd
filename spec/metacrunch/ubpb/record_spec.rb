@@ -25,7 +25,7 @@ describe Metacrunch::UBPB::Record do
           <datafield tag="521" ind1="-" ind2="1">
             <subfield code="t">Gesang der drei Männer im feurigen Ofen (SWV 448)</subfield>
           </datafield>
-          <datafield tag="521" ind1="-" ind2="1">
+          <datafield tag="521" ind1="-" ind2="2">
             <subfield code="t">Unser Herr Jesus Christus (SWV 495)</subfield>
           </datafield>
         xml
@@ -33,7 +33,13 @@ describe Metacrunch::UBPB::Record do
 
       subject { record.get("Angaben zum Inhalt").map { |e| e.get("Titel") } }
 
-      it { is_expected.to eq(["Gesang der drei Männer im feurigen Ofen (SWV 448)", "Unser Herr Jesus Christus (SWV 495)"]) }
+      it { is_expected.to eq(["Gesang der drei Männer im feurigen Ofen (SWV 448)"]) }
+
+      context "if \"include: Überordnungen\" was given" do
+        subject { record.get("Angaben zum Inhalt", include: "Überordnungen").map { |e| e.get("Titel") } }
+
+        it { is_expected.to eq(["Gesang der drei Männer im feurigen Ofen (SWV 448)", "Unser Herr Jesus Christus (SWV 495)"]) }
+      end
     end
 
     context "if \"Arten des Inhalts\" was given" do

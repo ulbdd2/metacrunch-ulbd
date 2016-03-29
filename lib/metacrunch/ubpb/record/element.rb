@@ -8,6 +8,9 @@ class Metacrunch::UBPB::Record::Element
   attr_accessor :properties
 
   def initialize(datafield, options = {})
+    @tag = datafield.tag
+    @ind1 = datafield.ind1
+    @ind2 = datafield.ind2
     @properties = {}
 
     datafield.subfields.each do |subfield|
@@ -56,7 +59,21 @@ class Metacrunch::UBPB::Record::Element
   end
 
   def selected?(options = {})
-    true
+    if @ind2 == "2"
+      if include_options = options[:include]
+        include_options = [include_options].flatten(1).compact
+
+        if include_options.include?("Überordnungen")
+          true
+        else
+          false
+        end
+      else
+        false
+      end
+    else
+      true
+    end
   end
 
   private
