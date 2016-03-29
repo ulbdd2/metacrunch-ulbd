@@ -1,82 +1,74 @@
 require_relative "../ubpb"
 
 class Metacrunch::UBPB::Record
-  require_relative "./record/collection"
-  require_relative "./record/element"
+  require_relative "./record/art_des_inhalts"
+  require_relative "./record/angabe_zum_inhalt"
+  require_relative "./record/bevorzugter_titel_des_werkes"
+  require_relative "./record/beziehung"
+  require_relative "./record/erweiterter_datenträgertyp"
+  require_relative "./record/generisches_element"
+  require_relative "./record/isbn"
+  require_relative "./record/körperschaft"
+  require_relative "./record/manifestationstitel_von_weiteren_verkörperten_werken"
+  require_relative "./record/person"
 
-  Dir.glob(File.join([File.dirname(__FILE__), "record", "collection", "*.rb"])).each do |filename|
-    require_relative filename.sub(File.dirname(__FILE__) + "/", "./").sub(/.rb\Z/, "")
-  end
-
-  Dir.glob(File.join([File.dirname(__FILE__), "record", "element", "*.rb"])).each do |filename|
-    require_relative filename.sub(File.dirname(__FILE__) + "/", "./").sub(/.rb\Z/, "")
-  end
-
-  PROPERTIES = {
-    "Arten des Inhalts" =>                                    { tag:  "064", ind1: "a",   element: Element::ArtDesInhalts },
-    "erweiterte Datenträgertypen" =>                          { tag:  "064", ind1: "b",   element: Element::ErweiterterDatenträgertyp },
-    "Personen" =>                                             { tags: (100..196).step(4), element: Element::Person },
-    "Körperschaften" =>                                       { tags: (200..296).step(4), element: Element::Körperschaft },
-    "bevorzugte Titel des Werkes" =>                          { tag:  "303",              element: Element::BevorzugterTitelDesWerkes },
-    "allgemeine Materialbenennung" =>                         { tag:  "334",              is_collection: false },
-    "Verantwortlichkeitsangaben" =>                           { tag:  "359" },
-    "Manifestationstitel von weiteren verkörperten Werken" => { tag:  "362",              element: Element::ManifestationstitelVonWeiterenVerkörpertenWerken },
-    "Unaufgegliederte Anmerkungen" =>                         { tag:  "501" },
-    "Angaben zum Inhalt" =>                                   { tag:  "521",              element: Element::AngabeZumInhalt },
-    "Titel von rezensierten Werken" =>                        { tag:  "526",              element: Element::TitelVonRezensiertemWerk },
-    "andere Ausgaben" =>                                      { tag:  "527",              element: Element::AndereAusgabe },
-    "Titel von Rezensionen" =>                                { tag:  "528",              element: Element::TitelVonRezension },
-    "Beilagen" =>                                             { tag:  "529",              element: Element::Beilage },
-    #"übergeordnete Einheiten der Beilage" =>                  { tag:  "530",              element: Element::ÜbergeordneteEinheitDerBeilage },
-    #"Vorgänger" =>                                            { tag:  "531",              element: Element::Vorgänger },
-    #"Nachfolger" =>                                           { tag:  "533",              element: Element::Nachfolger },
-    #"sonstige Beziehungen" =>                                 { tag:  "534",              element: Element::SonstigeBeziehung },
-    "ISBNs" =>                                                { tag:  "540",              element: Element::ISBN },
-    "Personen der Nebeneintragungen" =>                       { tags: (800..824).step(6), element: Element::Person },
-    "Körperschaften Phrasenindex" =>                          { tag:  "PKO",              element: Element::Körperschaft },
-    "Personen Phrasenindex" =>                                { tag:  "PPE",              element: Element::Person }
-  }
+  DATAFIELDS = [
+    { tags: ["064"], ind1: ["a"], accessor: "Arten des Inhalts",                                    type: ArtDesInhalts },
+    { tags: ["064"], ind1: ["b"], accessor: "erweiterte Datenträgertypen",                          type: ErweiterterDatenträgertyp },
+    { tags: (100..196).step(4),   accessor: "Personen",                                             type: Person },
+    { tags: (200..296).step(4),   accessor: "Körperschaften",                                       type: Körperschaft },
+    { tags: ["303"], ind1: ["-"], accessor: "bevorzugte Titel des Werkes",                          type: BevorzugterTitelDesWerkes },
+    { tags: ["303"], ind1: ["t"], accessor: "in Beziehung stehende Werke",                          type: BevorzugterTitelDesWerkes },
+    { tags: ["334"],              accessor: "allgemeine Materialbenennungen",                       type: GenerischesElement },
+    { tags: ["359"],              accessor: "Verantwortlichkeitsangaben",                           type: GenerischesElement },
+    { tags: ["362"],              accessor: "Manifestationstitel von weiteren verkörperten Werken", type: ManifestationstitelVonWeiterenVerkörpertenWerken },
+    { tags: ["359"],              accessor: "Verantwortlichkeitsangaben",                           type: GenerischesElement },
+    { tags: ["501"],              accessor: "unaufgegliederte Anmerkungen",                         type: GenerischesElement },
+    { tags: ["521"],              accessor: "Angaben zum Inhalt",                                   type: AngabeZumInhalt },
+    { tags: ["526"],              accessor: "Titel von rezensierten Werken",                        type: Beziehung },
+    { tags: ["527"],              accessor: "andere Ausgaben",                                      type: Beziehung },
+    { tags: ["528"],              accessor: "Titel von Rezensionen",                                type: Beziehung },
+    { tags: ["529"],              accessor: "Beilagen",                                             type: Beziehung },
+    { tags: ["530"],              accessor: "übergeordnete Einheiten der Beilage",                  type: Beziehung },
+    { tags: ["531"],              accessor: "Vorgänger",                                            type: Beziehung },
+    { tags: ["533"],              accessor: "Nachfolger",                                           type: Beziehung },
+    { tags: ["534"],              accessor: "sonstige Beziehungen",                                 type: Beziehung },
+    { tags: ["540"],              accessor: "ISBNs",                                                type: ISBN },
+    { tags: (800..824).step(6),   accessor: "Personen der Nebeneintragungen",                       type: Person },
+    { tags: ["PKO"],              accessor: "Körperschaften (Phrasenindex)",                        type: Körperschaft },
+    { tags: ["PPE"],              accessor: "Personen (Phrasenindex)",                              type: Person },
+  ]
 
   delegate :controlfield, :datafields, to: :@document
 
   def initialize(document)
-    @document = document
-  end
+    @properties = {}
 
-  def get(property, options = {})
-    if value = PROPERTIES[property]
-      collection_class = collection_defined?(property) ? collection_get(property) : Collection
-      tags = value[:tag] ? [value[:tag]] : value[:tags].to_a
-      ind1 = options[:ind1] || value[:ind1]
-      ind2 = options[:ind2] || ([options[:include]].flatten(1).compact.include?("Überordnungen") ? ["1", "2"] : "1")
-      element_class = value[:element] || Element
-
-      datafields =
-      tags.map do |tag|
-        @document.datafields("#{tag}", ind1: ind1, ind2: ind2).to_a.presence
+    DATAFIELDS.each do |entry|
+      entry[:tags]
+      .to_a
+      .map do |tag|
+        document.datafields(tag, { ind1: entry[:ind1] }.compact)
       end
-      .flatten
-      .compact
-
-      if value[:is_collection] == false
-        element_class.new(datafields.first, options)
-      else
-        collection_class.new(datafields, options.reverse_merge(element_class: element_class))
+      .flatten(1)
+      .try do |datafields|
+        datafields.map do |datafield|
+          entry[:type].new(datafield)
+        end
+      end
+      .try do |objects|
+        if accessor = entry[:accessor]
+          @properties[accessor] = objects
+        end
       end
     end
   end
 
-  private
-
-  def collection_defined?(name)
-    self.class::Collection.const_defined? derived_constant_name(name)
-  end
-
-  def collection_get(name)
-    self.class::Collection.const_get derived_constant_name(name)
-  end
-
-  def derived_constant_name(name)
-    name.squish.split.map { |string| string[0].upcase + string[1..-1] }.join
+  def get(accessor, options = {})
+    if objects = @properties[accessor]
+      objects.select do |object|
+        object.selected?(options)
+      end
+    end
   end
 end
