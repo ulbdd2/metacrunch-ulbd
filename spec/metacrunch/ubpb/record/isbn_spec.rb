@@ -1,6 +1,6 @@
-require "metacrunch/ubpb/record/element/art_des_inhalts"
+require "metacrunch/ubpb/record/isbn"
 
-describe Metacrunch::UBPB::Record::Element::ISBN do
+describe Metacrunch::UBPB::Record::ISBN do
   describe "#get" do
     let(:document) do
       Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc

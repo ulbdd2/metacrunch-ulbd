@@ -1,10 +1,13 @@
-require_relative "../element"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::AndereAusgabe < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::Beziehung < Metacrunch::UBPB::Record::Element
   SUBFIELDS = {
     p: { "Beziehungskennzeichnung" => :W },
     n: { "Bemerkung" => :W },
-    a: { "Titel der in Beziehung stehenden Ressource" => :NW },
+    a: {
+      "Titel" => :NW,
+      "Titel der in Beziehung stehenden Ressource" => :NW 
+    },
     "9": {
       "Identifikationsnummer" => :NW,
       "Identifikationsnummer des Datensatzes der in Beziehung stehenden Ressource" => :NW

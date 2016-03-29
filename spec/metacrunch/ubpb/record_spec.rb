@@ -5,7 +5,7 @@ describe Metacrunch::UBPB::Record do
   let(:record) { described_class.new(document) }
 
   describe "#get" do
-    context "if \"allgemeine Materialbenennung\" was given" do
+    context "if \"allgemeine Materialbenennungen\" was given" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
           <datafield tag="334" ind1="-" ind2="1">
@@ -14,9 +14,9 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("allgemeine Materialbenennung").get }
+      subject { record.get("allgemeine Materialbenennungen").map(&:get) }
 
-      it { is_expected.to eq("Elektronische Ressource") }
+      it { is_expected.to eq(["Elektronische Ressource"]) }
     end
 
     context "if \"Angaben zum Inhalt\" was given" do
@@ -108,7 +108,7 @@ describe Metacrunch::UBPB::Record do
       it { is_expected.to eq(["Evangelische Auferstehungs-Kirchengemeinde"]) }
     end
 
-    context "if \"Körperschaften Phrasenindex\" was given" do
+    context "if \"Körperschaften (Phrasenindex)\" was given" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
           <datafield tag="PKO" ind1="-" ind2="1">
@@ -117,7 +117,7 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Körperschaften Phrasenindex").map(&:get) }
+      subject { record.get("Körperschaften (Phrasenindex)").map(&:get) }
 
       it { is_expected.to eq(["Universität"]) }
     end
@@ -166,7 +166,7 @@ describe Metacrunch::UBPB::Record do
       it { is_expected.to eq(["Pius"]) }
     end
 
-    context "if \"Personen Phrasenindex\" was given" do
+    context "if \"Personen (Phrasenindex)\" was given" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
           <datafield tag="PPE" ind1="-" ind2="1">
@@ -175,12 +175,12 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Personen Phrasenindex").map(&:get) }
+      subject { record.get("Personen (Phrasenindex)").map(&:get) }
 
       it { is_expected.to eq(["Murmellius, Iohannes"]) }
     end
 
-    context "if \"Unaufgegliederte Anmerkungen\" was given" do
+    context "if \"unaufgegliederte Anmerkungen\" was given" do
       let(:document) do
         Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc
           <datafield tag="501" ind1="-" ind2="1">
@@ -189,7 +189,7 @@ describe Metacrunch::UBPB::Record do
         xml
       end
 
-      subject { record.get("Unaufgegliederte Anmerkungen").map(&:get) }
+      subject { record.get("unaufgegliederte Anmerkungen").map(&:get) }
 
       it { is_expected.to eq(["Einige Ex ohne ISBN"]) }
     end

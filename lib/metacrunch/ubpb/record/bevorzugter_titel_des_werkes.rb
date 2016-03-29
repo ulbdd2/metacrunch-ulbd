@@ -1,6 +1,6 @@
-require_relative "../element"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::BevorzugterTitelDesWerkes < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::BevorzugterTitelDesWerkes < Metacrunch::UBPB::Record::Element
   #
   # Unterfelder, Personen und Körperschaften betreffend, werden nicht berücksichtigt
   #

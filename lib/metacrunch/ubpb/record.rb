@@ -1,8 +1,8 @@
 require_relative "../ubpb"
 
 class Metacrunch::UBPB::Record
-  require_relative "./record/art_des_inhalts"
   require_relative "./record/angabe_zum_inhalt"
+  require_relative "./record/art_des_inhalts"
   require_relative "./record/bevorzugter_titel_des_werkes"
   require_relative "./record/beziehung"
   require_relative "./record/erweiterter_datenträgertyp"
@@ -42,19 +42,22 @@ class Metacrunch::UBPB::Record
   delegate :controlfield, :datafields, to: :@document
 
   def initialize(document)
+    @document = document
     @properties = {}
 
     DATAFIELDS.each do |entry|
       entry[:tags]
       .to_a
       .map do |tag|
-        document.datafields(tag, { ind1: entry[:ind1] }.compact)
+        document.datafields(tag.to_s, { ind1: entry[:ind1] }.compact)
       end
-      .flatten(1)
-      .try do |datafields|
-        datafields.map do |datafield|
-          entry[:type].new(datafield)
+      .try do |datafield_sets|
+        datafield_sets.map do |datafield_set|
+          datafield_set.map do |datafield|
+            entry[:type].new(datafield)
+          end
         end
+        .flatten(1)
       end
       .try do |objects|
         if accessor = entry[:accessor]

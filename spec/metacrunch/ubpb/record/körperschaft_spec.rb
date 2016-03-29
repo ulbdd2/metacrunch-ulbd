@@ -1,6 +1,6 @@
-require "metacrunch/ubpb/record/element/körperschaft"
+require "metacrunch/ubpb/record/körperschaft"
 
-describe Metacrunch::UBPB::Record::Element::Körperschaft do
+describe Metacrunch::UBPB::Record::Körperschaft do
   describe "#get" do
     context "Körperschaft mit untergeordneten Körperschaften" do
       let(:document) do

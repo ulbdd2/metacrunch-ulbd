@@ -1,7 +1,7 @@
-require_relative "../beziehungscodes"
-require_relative "../element"
+require_relative "./beziehungscodes"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::Körperschaft < Metacrunch::UBPB::Record::Element
   SUBFIELDS = {
     a: {
       "Körperschaft (unstrukturiert)" => :NW,
@@ -26,7 +26,7 @@ class Metacrunch::UBPB::Record::Element::Körperschaft < Metacrunch::UBPB::Recor
 
   private
 
-  BEZIEHUNGSCODES = parent.parent::BEZIEHUNGSCODES
+  BEZIEHUNGSCODES = parent::BEZIEHUNGSCODES
 
   def default_value(options = {})
     if value = get("Körperschaft (strukturiert)", options) || get("Konferenz (strukturiert)", options) || get("Gebietsköperschaft (strukturiert)", options)

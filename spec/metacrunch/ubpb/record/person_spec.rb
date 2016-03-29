@@ -1,6 +1,6 @@
-require "metacrunch/ubpb/record/element/person"
+require "metacrunch/ubpb/record/person"
 
-describe Metacrunch::UBPB::Record::Element::Person do
+describe Metacrunch::UBPB::Record::Person do
   describe "#get" do
     let(:document) do
       Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc

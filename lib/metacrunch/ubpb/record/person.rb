@@ -1,8 +1,8 @@
-require_relative "../abgekürzte_funktionsbezeichnungen"
-require_relative "../beziehungscodes"
-require_relative "../element"
+require_relative "./abgekürzte_funktionsbezeichnungen"
+require_relative "./beziehungscodes"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::Person < Metacrunch::UBPB::Record::Element
   SUBFIELDS = {
     a: { "Name (unstrukturiert)" => :NW },
     p: { "Name (strukturiert)" => :NW },
@@ -26,8 +26,8 @@ class Metacrunch::UBPB::Record::Element::Person < Metacrunch::UBPB::Record::Elem
 
   private
 
-  ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN = parent.parent::ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN
-  BEZIEHUNGSCODES = parent.parent::BEZIEHUNGSCODES
+  ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN = parent::ABGEKÜRZTE_FUNKTIONSBEZEICHNUNGEN
+  BEZIEHUNGSCODES = parent::BEZIEHUNGSCODES
 
   def default_value(options = {})
     include_options = [options[:include]].flatten(1).compact
