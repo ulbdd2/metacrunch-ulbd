@@ -1,6 +1,6 @@
-require_relative "../element"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::ISBN < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::ISBN < Metacrunch::UBPB::Record::Element
   SUBFIELDS = {
     a: { "ISBN ohne Textzusätze" => :NW },
     b: { "Einbandart und Preis" => :NW }

@@ -55,6 +55,10 @@ class Metacrunch::UBPB::Record::Element
     end
   end
 
+  def selected?(options = {})
+    true
+  end
+
   private
 
   def default_value(options = {})

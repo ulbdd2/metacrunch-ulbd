@@ -1,6 +1,6 @@
-require "metacrunch/ubpb/record/element/bevorzugter_titel_des_werkes"
+require "metacrunch/ubpb/record/bevorzugter_titel_des_werkes"
 
-describe Metacrunch::UBPB::Record::Element::BevorzugterTitelDesWerkes do
+describe Metacrunch::UBPB::Record::BevorzugterTitelDesWerkes do
   describe "#get" do
     let(:document) do
       Metacrunch::Mab2::Document.from_aleph_mab_xml xml_factory <<-xml.strip_heredoc

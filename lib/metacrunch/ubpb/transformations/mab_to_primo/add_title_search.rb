@@ -44,11 +44,13 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddTitleSearch < Metacrunch
       search_titles << element.get("Titel")
     end
 
-    search_titles << source.get("bevorzugte Titel des Werkes", include: [
-      "in der Manifestation verkörperte Werke",
-      "in Beziehung stehende Werke",
-      "Überordnungen"
-    ]).map(&:get)
+    source.get("bevorzugte Titel des Werkes").each do |element|
+      search_titles << element.get("Titel")
+    end
+
+    source.get("in Beziehung stehende Werke").each do |element|
+      search_titles << element.get("Titel")
+    end
 
     source.get("Manifestationstitel von weiteren verkörperten Werken").each do |element|
       search_titles << element.get("Titel")

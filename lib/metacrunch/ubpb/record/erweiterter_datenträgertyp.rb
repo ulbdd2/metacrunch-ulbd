@@ -1,8 +1,8 @@
-require_relative "../element"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::ArtDesInhalts < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::ErweiterterDatenträgertyp < Metacrunch::UBPB::Record::Element
   SUBFIELDS = {
-    a: { "Art des Inhalts" => :NW },
+    a: { "Datenträgertyp" => :NW },
     x: { "allgemeine Unterteilung" => :W },
     z: { "geografische Unterteilung" => :W },
     y: { "chronologische Unterteilung" => :W },
@@ -22,6 +22,7 @@ class Metacrunch::UBPB::Record::Element::ArtDesInhalts < Metacrunch::UBPB::Recor
   end
 
   def normalized_value(options = {})
-    get("Art des Inhalts")
+    # mangels Beispielen für Datenträgertypen mit Unterteilung aktuell erstmal trivial
+    get("Datenträgertyp")
   end
 end

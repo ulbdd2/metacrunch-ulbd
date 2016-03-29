@@ -1,6 +1,6 @@
-require_relative "../element"
+require_relative "./element"
 
-class Metacrunch::UBPB::Record::Element::ManifestationstitelVonWeiterenVerkörpertenWerken < Metacrunch::UBPB::Record::Element
+class Metacrunch::UBPB::Record::ManifestationstitelVonWeiterenVerkörpertenWerken < Metacrunch::UBPB::Record::Element
   SUBFIELDS = {
     a: { "Titel" => :NW },
     v: { "Verantwortlichkeitsangabe" => :NW },
