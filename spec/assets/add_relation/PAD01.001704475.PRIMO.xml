@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001704475</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT018216704</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20140329</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20151202144015</subfield>
+          </datafield>
+          <datafield tag="020" ind1="a" ind2="1">
+            <subfield code="a">2764219-7</subfield>
+            <subfield code="b">DNB</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">1049376137</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">2764219-7</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB2764219-7</subfield>
+          </datafield>
+          <controlfield tag="030">a||d|||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="052">p||||||az||||||</controlfield>
+          <controlfield tag="058">cr||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">0109</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">0109</subfield>
+          </datafield>
+          <datafield tag="078" ind1="z" ind2="1">
+            <subfield code="a">lzZDB</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Wissenschaft</subfield>
+            <subfield code="9">(DE-588)16338065-X</subfield>
+          </datafield>
+          <datafield tag="204" ind1="b" ind2="1">
+            <subfield code="k">Landesinstitut für Schule und Medien Berlin-Brandenburg</subfield>
+            <subfield code="9">(DE-588)10167206-8</subfield>
+          </datafield>
+          <datafield tag="208" ind1="b" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Wissenschaft und Forschung</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="212" ind1="b" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Fachbrief Englisch</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Senatsverwaltung für Bildung, Jugend und Wissenschaft ; LISUM Landesinstitut für Schule und Medien Berlin-Brandenburg</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">Nr. 1. 2004 -</subfield>
+          </datafield>
+          <datafield tag="406" ind1="b" ind2="1">
+            <subfield code="d">1</subfield>
+            <subfield code="j">2004</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Berlin</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">2004</subfield>
+          </datafield>
+          <datafield tag="507" ind1="-" ind2="1">
+            <subfield code="a">Gesehen am 29.03.2014</subfield>
+          </datafield>
+          <datafield tag="509" ind1="-" ind2="1">
+            <subfield code="p">Beteil. Körp. anfangs</subfield>
+            <subfield code="a">Senatsverwaltung für Bildung, Jugend und Sport; zeitweise: Senatsverwaltung für Bildung, Wissenschaft und Forschung</subfield>
+          </datafield>
+          <datafield tag="533" ind1="z" ind2="1">
+            <subfield code="p">Daraus hervorgeg.</subfield>
+            <subfield code="a">Fachbrief Englisch Grundschule</subfield>
+            <subfield code="9">HT018216703</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">12=1; 28=2 von</subfield>
+            <subfield code="a">Fachbrief Moderne Fremdsprachen</subfield>
+            <subfield code="9">HT018216702</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">5=4; 12=7; 28=13 von</subfield>
+            <subfield code="a">Fachbrief Französisch</subfield>
+            <subfield code="9">HT018216625</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">12=5; 28=10 von</subfield>
+            <subfield code="a">Fachbrief Italienisch</subfield>
+            <subfield code="9">HT018216624</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">12=5; 28=12 von</subfield>
+            <subfield code="a">Fachbrief Russisch</subfield>
+            <subfield code="9">HT018216626</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">12=6; 28=11 von</subfield>
+            <subfield code="a">Fachbrief Spanisch</subfield>
+            <subfield code="9">HT018216627</subfield>
+          </datafield>
+          <datafield tag="534" ind1="z" ind2="1">
+            <subfield code="p">12=5; 28=6 von</subfield>
+            <subfield code="a">Fachbrief Türkisch</subfield>
+            <subfield code="9">HT018216701</subfield>
+          </datafield>
+          <datafield tag="552" ind1="b" ind2="1">
+            <subfield code="a">urn:nbn:de:kobv:109-1-7762215</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://nbn-resolving.de/urn:nbn:de:kobv:109-1-7762215</subfield>
+            <subfield code="x">Resolving-System</subfield>
+            <subfield code="A">0</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://bildungsserver.berlin-brandenburg.de/fachbriefe_englisch.html</subfield>
+            <subfield code="x">Verlag</subfield>
+            <subfield code="z">kostenfrei</subfield>
+            <subfield code="A">0</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://digital.zlb.de/viewer/metadata/15765993/1/LOG_0000/</subfield>
+            <subfield code="x">Langzeitarchivierung</subfield>
+            <subfield code="z">kostenfrei</subfield>
+            <subfield code="A">0</subfield>
+          </datafield>
+          <datafield tag="659" ind1="-" ind2="1">
+            <subfield code="a">Langzeitarchivierung : durch die Zentral- und Landesbibliothek Berlin, LZA</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">370</subfield>
+            <subfield code="2">ZDB</subfield>
+          </datafield>
+          <controlfield tag="SYS">001704475</controlfield>
+          <datafield tag="GKZ" ind1="-" ind2="1">
+            <subfield code="a">KF</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Wissenschaft</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)16338065-X</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Wissenschaft</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)16338065-X</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">LISUM</subfield>
+            <subfield code="9">(DE-588)10167206-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">LISUM</subfield>
+            <subfield code="9">(DE-588)10167206-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Wissenschaft und Forschung</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBWF</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Wissenschaft und Forschung</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBWF</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat</subfield>
+            <subfield code="h">2 A</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat Bildungsstatistik und Lehrerstellenplan</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBJS</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat</subfield>
+            <subfield code="h">2 A</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat Bildungsstatistik und Lehrerstellenplan</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBJS</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Wissenschaft</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)16338065-X</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">LISUM</subfield>
+            <subfield code="9">(DE-588)10167206-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Wissenschaft und Forschung</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBWF</subfield>
+            <subfield code="9">(DE-588)10161512-7</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat</subfield>
+            <subfield code="h">2 A</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat Bildungsstatistik und Lehrerstellenplan</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBJS</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="h">Berlin</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat</subfield>
+            <subfield code="h">2 A</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Berlin</subfield>
+            <subfield code="b">Senatsverwaltung für Bildung, Jugend und Sport</subfield>
+            <subfield code="b">Referat Bildungsstatistik und Lehrerstellenplan</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">SenBJS</subfield>
+            <subfield code="9">(DE-588)10046555-9</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704473</subfield>
+            <subfield code="m">Siehe auch:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Siehe auch:^Fachbrief Moderne Fremdsprachen.^2007</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704474</subfield>
+            <subfield code="m">Früher unter dem Titel:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Später unter dem Titel:^Fachbrief Englisch Grundschule.^2012</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704470</subfield>
+            <subfield code="m">Siehe auch:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Siehe auch:^Fachbrief Russisch.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704471</subfield>
+            <subfield code="m">Siehe auch:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Siehe auch:^Fachbrief Spanisch.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704472</subfield>
+            <subfield code="m">Siehe auch:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Siehe auch:^Fachbrief Türkisch.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704469</subfield>
+            <subfield code="m">Siehe auch:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Siehe auch:^Fachbrief Französisch.^2004</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">PAR</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">001704468</subfield>
+            <subfield code="m">Siehe auch:^Fachbrief Englisch.^2004</subfield>
+            <subfield code="n">Siehe auch:^Fachbrief Italienisch.^2004</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>
