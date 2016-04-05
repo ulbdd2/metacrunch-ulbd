@@ -42,31 +42,19 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddRelation < Metacrunch::T
       end
     end
 
-    source.get("Titel von rezensierten Werken").each do |element|
-      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
-    end
-
-    source.get("andere Ausgaben").each do |element|
-      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
-    end
-
-    source.get("Titel von Rezensionen").each do |element|
-      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
-    end
-
-    source.get("Beilagen").each do |element|
-      relations << relation_factory(element.get, element.get("Identifikationsnummer"))
-    end
-
-    (530..534).each do |mab_field_number|
-      source.datafields("#{mab_field_number}", ind2: '1').each do |datafield|
-        ht_number = datafield.subfields('9').value
-        label = [
-          datafield.subfields('p').value,
-          datafield.subfields('a').value.try(:gsub, /<<|>>/, '')
-        ].compact.join(' ')
-
-        relations << {ht_number: ht_number, label: label} if label
+    [
+      "Titel von rezensierten Werken",
+      "andere Ausgaben",
+      "Titel von Rezensionen",
+      "Beilagen",
+      "übergeordnete Einheiten der Beilage",
+      "Vorgänger",
+      "Nachfolger",
+      "sonstige Beziehungen"
+    ]
+    .each do |property|
+      source.get(property).each do |element|
+        relations << relation_factory(element.get, element.get("Identifikationsnummer"))
       end
     end
 

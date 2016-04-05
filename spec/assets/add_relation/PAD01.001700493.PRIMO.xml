@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001700493</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00000nM2.01200024------h</leader>
+          <controlfield tag="LDR">00000nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT018191772</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20140307</subfield>
+          </datafield>
+          <datafield tag="003" ind1="-" ind2="1">
+            <subfield code="a">20140307075454</subfield>
+          </datafield>
+          <datafield tag="025" ind1="a" ind2="1">
+            <subfield code="a">1048227073</subfield>
+          </datafield>
+          <datafield tag="025" ind1="z" ind2="1">
+            <subfield code="a">2760721-5</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">ZDB2760721-5</subfield>
+          </datafield>
+          <controlfield tag="030">a||da||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">XA-PL</subfield>
+          </datafield>
+          <controlfield tag="050">||||||||g|||||</controlfield>
+          <controlfield tag="052">p||||||a|||||||</controlfield>
+          <controlfield tag="058">cr||||||||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">0355</subfield>
+          </datafield>
+          <datafield tag="070" ind1="a" ind2="1">
+            <subfield code="a">DNB</subfield>
+          </datafield>
+          <datafield tag="070" ind1="b" ind2="1">
+            <subfield code="a">0355</subfield>
+          </datafield>
+          <datafield tag="078" ind1="z" ind2="1">
+            <subfield code="a">lzZDB</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Oddział w Krakowie</subfield>
+            <subfield code="b">Komisja Orientalistyczna</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Folia orientalia</subfield>
+          </datafield>
+          <datafield tag="334" ind1="-" ind2="1">
+            <subfield code="a">Elektronische Ressource</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Polska Akademia Nauk, Oddział w Krakowie, Komisja Orientalistyczna</subfield>
+          </datafield>
+          <datafield tag="405" ind1="-" ind2="1">
+            <subfield code="a">Nachgewiesen 49.2012 -</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Kraków</subfield>
+          </datafield>
+          <datafield tag="412" ind1="-" ind2="1">
+            <subfield code="a">[s.n.]</subfield>
+          </datafield>
+          <datafield tag="425" ind1="b" ind2="1">
+            <subfield code="a">2012</subfield>
+          </datafield>
+          <datafield tag="507" ind1="-" ind2="1">
+            <subfield code="a">Gesehen am 07.03.14</subfield>
+          </datafield>
+          <datafield tag="531" ind1="z" ind2="1">
+            <subfield code="p">Druckausg. u. Vorg. ---&gt;</subfield>
+            <subfield code="a">Folia orientalia</subfield>
+            <subfield code="9">HT006911370</subfield>
+          </datafield>
+          <datafield tag="545" ind1="a" ind2="1">
+            <subfield code="d">0015-5675</subfield>
+          </datafield>
+          <datafield tag="652" ind1="a" ind2="1">
+            <subfield code="a">Online-Ressource</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://fo.czasopisma.pan.pl/</subfield>
+            <subfield code="x">Verlag</subfield>
+            <subfield code="z">kostenfrei</subfield>
+            <subfield code="A">0</subfield>
+          </datafield>
+          <datafield tag="655" ind1="e" ind2="1">
+            <subfield code="u">http://www.bibliothek.uni-regensburg.de/ezeit/?2760721</subfield>
+            <subfield code="x">EZB</subfield>
+            <subfield code="A">0</subfield>
+          </datafield>
+          <datafield tag="700" ind1="-" ind2="1">
+            <subfield code="a">890</subfield>
+            <subfield code="2">ZDB</subfield>
+          </datafield>
+          <controlfield tag="SYS">001700493</controlfield>
+          <datafield tag="GKZ" ind1="-" ind2="1">
+            <subfield code="a">KF</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Komisja Orientalistyczna</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komisja Orientalistyczna</subfield>
+            <subfield code="h">Polska Akademia Nauk, Oddział w Krakowie</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Oddział w Krakowie</subfield>
+            <subfield code="b">Commission Orientaliste</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Commission Orientaliste</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Orientaliste</subfield>
+            <subfield code="h">Polska Akademia Nauk, Oddział w Krakowie</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Komisja Orientalistyczna</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komisja Orientalistyczna</subfield>
+            <subfield code="h">Polska Akademia Nauk, Oddział w Krakowie</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Oddział w Krakowie</subfield>
+            <subfield code="b">Commission Orientaliste</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Commission Orientaliste</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Orientaliste</subfield>
+            <subfield code="h">Polska Akademia Nauk, Oddział w Krakowie</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Komisja Orientalistyczna</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Komisja Orientalistyczna</subfield>
+            <subfield code="h">Polska Akademia Nauk, Oddział w Krakowie</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Oddział w Krakowie</subfield>
+            <subfield code="b">Commission Orientaliste</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Polska Akademia Nauk</subfield>
+            <subfield code="b">Commission Orientaliste</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Commission Orientaliste</subfield>
+            <subfield code="h">Polska Akademia Nauk, Oddział w Krakowie</subfield>
+            <subfield code="9">(DE-588)42558-8</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

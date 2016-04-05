@@ -17,9 +17,9 @@ class Metacrunch::UBPB::Record::Beziehung < Metacrunch::UBPB::Record::Element
 
   def get(*args)
     if (result = super).is_a?(Array)
-      result.map { |element| element.gsub("--->", "").strip }
+      result.map { |element| sanitize(element) }
     else
-      result.try(:gsub, "--->", "")
+      sanitize(result)
     end
   end
 
@@ -39,5 +39,18 @@ class Metacrunch::UBPB::Record::Beziehung < Metacrunch::UBPB::Record::Element
     .compact
     .join(": ")
     .presence
+    .try do |result|
+      sanitize(result)
+    end
+  end
+
+  def sanitize(value)
+    if value
+      value
+      .gsub("--->", ":")
+      .gsub(/\.\s*\:/, ".:")
+      .gsub(/:*\s*:/, ":")
+      .strip
+    end
   end
 end
