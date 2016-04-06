@@ -13,7 +13,12 @@ class Metacrunch::UBPB::Record
   require_relative "./record/manifestationstitel_von_weiteren_verkörperten_werken"
   require_relative "./record/ort"
   require_relative "./record/person"
+  require_relative "./record/veröffentlichungsspezifische_angaben_zu_fortlaufenden_sammelwerken"
   require_relative "./record/zählung"
+
+  CONTROLFIELDS = [
+    { tags: ["052"], accessor: "veröffentlichungsspezifische Angaben zu fortlaufenden Sammelwerken",     type: VeröffentlichungsspezifischeAngabenZuFortlaufendenSammelwerken }
+  ]
 
   DATAFIELDS = [
     { tags: ["064"], ind1: ["a"],      accessor: "Arten des Inhalts",                                    type: ArtDesInhalts },
@@ -36,6 +41,7 @@ class Metacrunch::UBPB::Record
     { tags: ["531"],                   accessor: "Vorgänger",                                            type: Beziehung },
     { tags: ["533"],                   accessor: "Nachfolger",                                           type: Beziehung },
     { tags: ["534"],                   accessor: "sonstige Beziehungen",                                 type: Beziehung },
+    { tags: ["537"],                   accessor: "redaktionelle Bemerkungen",                            type: GenerischesElement },
     { tags: ["540"],                   accessor: "ISBNs",                                                type: ISBN },
     { tags: ["590"],                   accessor: "Haupttitel der Quelle",                                type: GenerischesElement },
     { tags: ["591"],                   accessor: "Verantwortlichkeitsangabe der Quelle",                 type: GenerischesElement },
@@ -66,6 +72,19 @@ class Metacrunch::UBPB::Record
     @document = document
     @properties = {}
 
+    CONTROLFIELDS.each do |entry|
+      entry[:tags]
+      .to_a
+      .map do |tag|
+        entry[:type].new(document.controlfield(tag.to_s))
+      end
+      .each do |object|
+        if accessor = entry[:accessor]
+          @properties[accessor] = object
+        end
+      end
+    end
+
     DATAFIELDS.each do |entry|
       entry[:tags]
       .to_a
@@ -89,10 +108,12 @@ class Metacrunch::UBPB::Record
   end
 
   def get(accessor, options = {})
-    if objects = @properties[accessor]
-      objects.select do |object|
-        object.selected?(options)
+    if (collection = @properties[accessor]).is_a?(Array)
+      collection.select do |element|
+        element.selected?(options)
       end
+    else element = @properties[accessor]
+      element if element.selected?(options)
     end
   end
 end

@@ -9,19 +9,15 @@
         <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
           <datafield tag="536" ind2="1">
             <subfield code="a">BBB</subfield>
-            <subfield code="p">AAA</subfield>
           </datafield>
           <datafield tag="536" ind2="2">
             <subfield code="a">ZZZ</subfield>
-            <subfield code="p">XXX</subfield>
           </datafield>
           <datafield tag="537" ind2="1">
             <subfield code="a">YYY</subfield>
-            <subfield code="p">XXX</subfield>
           </datafield>
           <datafield tag="537" ind2="2">
             <subfield code="a">ZZZ</subfield>
-            <subfield code="p">YYY</subfield>
           </datafield>
         </record>
       </metadata>
