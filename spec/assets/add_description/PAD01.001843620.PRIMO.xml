@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001843620</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>00532nM2.01200024------h</leader>
+          <controlfield tag="LDR">00532nM2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT018884256</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20160212</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT018884256</subfield>
+          </datafield>
+          <controlfield tag="030">a|zur||||||17</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">DE</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">ger</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">mvt|||||</controlfield>
+          <datafield tag="060" ind1="-" ind2="1">
+            <subfield code="b">txt</subfield>
+            <subfield code="a">Text</subfield>
+          </datafield>
+          <datafield tag="061" ind1="-" ind2="1">
+            <subfield code="b">n</subfield>
+            <subfield code="a">ohne Hilfsmittel zu benutzen</subfield>
+          </datafield>
+          <datafield tag="062" ind1="-" ind2="1">
+            <subfield code="b">nc</subfield>
+          </datafield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">466</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Auguste Rodin</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">das heutige Bild seines Werkes und seiner Wirkung</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">Josef A. Schmoll gen. Eisenwerth</subfield>
+          </datafield>
+          <datafield tag="419" ind1="-" ind2="1">
+            <subfield code="a">Stuttgart</subfield>
+            <subfield code="c">1968</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">1968</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">Seiten 393-410</subfield>
+          </datafield>
+          <datafield tag="434" ind1="-" ind2="1">
+            <subfield code="a">Illustrationen</subfield>
+          </datafield>
+          <datafield tag="501" ind1="-" ind2="1">
+            <subfield code="a">Sonderdruck</subfield>
+          </datafield>
+          <datafield tag="527" ind1="-" ind2="1">
+            <subfield code="p">Erscheint auch als</subfield>
+            <subfield code="a">Universitas. 23. Jahrgang, Heft 4 (April 1968)</subfield>
+          </datafield>
+          <datafield tag="902" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <controlfield tag="SYS">001843620</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll von Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A. Schmoll &lt;&lt;von&gt;&gt;</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll-</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J. Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll Eisenwerth, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll genannt Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll-Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, Josef Adolf</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Eisenwerth, Josef A. Schmoll</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Schmoll gen. Eisenwerth, J.A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Shumoru-Aizen'vueruto, J. A.</subfield>
+            <subfield code="d">1915-2010</subfield>
+            <subfield code="9">(DE-588)116472596</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François-Auguste-René</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, August</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, Augusto</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rōden, Ogusṭ</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="PSW" ind1="-" ind2="1">
+            <subfield code="p">Rodin, François Auguste</subfield>
+            <subfield code="d">1840-1917</subfield>
+            <subfield code="9">(DE-588)118601717</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="f">ZZVS1009</subfield>
+            <subfield code="i">Schmoll/639</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20160212</subfield>
+            <subfield code="5">1843632-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

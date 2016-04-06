@@ -17,4 +17,8 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddDescription do
     "Bonus-Disc: Regiekommentar, Statements von Regisseur und Schauspielern",
     "Freigegeben ab 12 Jahren"
   ]
+
+  define_field_test '001841059', description: "Saarheimat. 7. Jahrgang, Heft 2, (Februar 1963), Seiten 33-46"
+  define_field_test '001842590', description: "Jahrbuch / Bayerische Akademie der Schönen Künste in München. Schaftlach. - Band 10 (1996),1, Seiten 331 - 349"
+  define_field_test '001843620', description: "Sonderdruck"
 end
