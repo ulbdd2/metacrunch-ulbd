@@ -47,8 +47,12 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddDescription < Metacrunch
       descriptions << _description.join(" ")
     end
 
-    (536..537).each do |f|
+    (536..536).each do |f|
       descriptions << source.datafields("#{f}", ind2: '1').map { |_field| _field.subfields(['p', 'a']).values.join(': ') } unless f == 537 && erscheinungsform == "journal"
+    end
+
+    unless kind_of?("Zeitschrift")
+      descriptions << source.get("redaktionelle Bemerkungen").map(&:get)
     end
 
     descriptions <<
@@ -87,6 +91,28 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddDescription < Metacrunch
   end
 
   private
+
+  def kind_of?(type)
+    if type == "Zeitschrift"
+      source
+      .get("veröffentlichungsspezifische Angaben zu fortlaufenden Sammelwerken")
+      .get("Erscheinungsform")
+      .try do |value|
+        [
+          "continuing integrating resource",
+          "zeitschriftenartige Reihe",
+          "Zeitschrift",
+          "Zeitung"
+        ]
+        .include?(value)
+      end
+      .try do |result|
+        !!result
+      end
+    else
+      false
+    end
+  end
 
   def erscheinungsform
     target.try(:[], "erscheinungsform") || self.class.parent::AddErscheinungsform.new(source: source).call

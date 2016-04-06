@@ -4,7 +4,7 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddDescription do
   define_field_test '522',     description: 'XXX: YYY'
   define_field_test '523',     description: 'XXX: YYY'
   define_field_test '501-519', description: ["AAA", "XXX: YYY"]
-  define_field_test '536-537', description: ["AAA: BBB", "XXX: YYY"]
+  define_field_test '536-537', description: ["BBB", "YYY"]
 
   # Exclude 537 for journals (ubpb/catalog#290, ubpb/catalog#405)
   define_field_test '001510737', description: "1981(1982) - 2001(2002)"
@@ -21,4 +21,10 @@ describe Metacrunch::UBPB::Transformations::MabToPrimo::AddDescription do
   define_field_test '001841059', description: "Saarheimat. 7. Jahrgang, Heft 2, (Februar 1963), Seiten 33-46"
   define_field_test '001842590', description: "Jahrbuch / Bayerische Akademie der Schönen Künste in München. Schaftlach. - Band 10 (1996),1, Seiten 331 - 349"
   define_field_test '001843620', description: "Sonderdruck"
+  define_field_test '001214891', description: [
+    "2009,Mai -",
+    "Hauptsacht. anfangs: NWB",
+    "Gesehen am 01.12.15",
+    "Die Datenbank enthält verschiedenen Module zu Steuer- und Wirtschaftsrecht"
+  ]
 end
