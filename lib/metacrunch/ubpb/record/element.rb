@@ -24,6 +24,13 @@ class Metacrunch::UBPB::Record::Element
         end
       end
     end
+
+    # this should be merged with the code above
+    self.class::SUBFIELDS.each do |_, mapping|
+      mapping.each do |property_name, cardinality|
+        @properties[property_name] ||= (cardinality.to_s.downcase == "w" ? [] : nil)
+      end
+    end
   end
 
   def get(property = nil, options = {})
