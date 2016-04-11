@@ -25,22 +25,22 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddSecondaryFormPublisher <
     # Vermerk und Link für andere Ausgaben (RDA)
     source.datafields('649').each do |_datafield|
       # Wenn es sich um einens Erscheingunsvermerk handelt müssen wir das anhegängte Datum entfernen
-      erscheinungsort_oder_erscheinungsvermerk = _datafield.subfields("d").value
+      if erscheinungsort_oder_erscheinungsvermerk = _datafield.subfields("d").value
+        if erscheinungsort_oder_erscheinungsvermerk[/,.+\Z/]
+          erscheinungsvermerk = erscheinungsort_oder_erscheinungsvermerk
+        else
+          erscheinungsort = erscheinungsort_oder_erscheinungsvermerk
+        end
 
-      if erscheinungsort_oder_erscheinungsvermerk[/,.+\Z/]
-        erscheinungsvermerk = erscheinungsort_oder_erscheinungsvermerk
-      else
-        erscheinungsort = erscheinungsort_oder_erscheinungsvermerk
-      end
+        verleger = _datafield.subfields("e").value
 
-      verleger = _datafield.subfields("e").value
-
-      secondary_form_publishers <<
-      if verleger
-        [erscheinungsort, verleger].compact.join(" : ")
-      else
-        # Wenn der Erscheinungsvermerk herangezogen wird muss das angehängte Datum entfernt werden
-        erscheinungsvermerk.try(:gsub, /,.+\Z/, "")
+        secondary_form_publishers <<
+        if verleger
+          [erscheinungsort, verleger].compact.join(" : ")
+        else
+          # Wenn der Erscheinungsvermerk herangezogen wird muss das angehängte Datum entfernt werden
+          erscheinungsvermerk.try(:gsub, /,.+\Z/, "")
+        end
       end
     end
 
