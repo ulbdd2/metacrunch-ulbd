@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <ListRecords>
+    <record>
+      <header>
+        <identifier>aleph-publish:001700003</identifier>
+      </header>
+      <metadata>
+        <record xmlns="http://www.ddb.de/professionell/mabxml/mabxml-1.xsd">
+          <leader>------M2.01200024------h</leader>
+          <controlfield tag="LDR">------M2.01200024------h</controlfield>
+          <controlfield tag="FMT">MH</controlfield>
+          <datafield tag="001" ind1="-" ind2="1">
+            <subfield code="a">HT015478444</subfield>
+          </datafield>
+          <datafield tag="002" ind1="a" ind2="1">
+            <subfield code="a">20140306</subfield>
+          </datafield>
+          <datafield tag="026" ind1="-" ind2="1">
+            <subfield code="a">HBZHT015478444</subfield>
+          </datafield>
+          <controlfield tag="030">a|1uc||||||37</controlfield>
+          <datafield tag="036" ind1="a" ind2="1">
+            <subfield code="a">US</subfield>
+          </datafield>
+          <datafield tag="037" ind1="b" ind2="1">
+            <subfield code="a">eng</subfield>
+          </datafield>
+          <controlfield tag="050">a|||||||||||||</controlfield>
+          <controlfield tag="051">sk||||||</controlfield>
+          <datafield tag="070" ind1="-" ind2="1">
+            <subfield code="a">5/14</subfield>
+          </datafield>
+          <datafield tag="080" ind1="-" ind2="1">
+            <subfield code="a">60</subfield>
+          </datafield>
+          <datafield tag="100" ind1="b" ind2="1">
+            <subfield code="p">Alama, Stanley</subfield>
+            <subfield code="d">1962-</subfield>
+            <subfield code="9">(DE-588)140086846</subfield>
+            <subfield code="b">[Hrsg.]</subfield>
+          </datafield>
+          <datafield tag="200" ind1="b" ind2="1">
+            <subfield code="e">Workshop on Singularities in PDE and the Calculus of Variations</subfield>
+            <subfield code="d">2006</subfield>
+            <subfield code="c">Montréal</subfield>
+            <subfield code="9">(DE-588)6524658-5</subfield>
+          </datafield>
+          <datafield tag="204" ind1="b" ind2="1">
+            <subfield code="k">American Mathematical Society</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="331" ind1="-" ind2="1">
+            <subfield code="a">Singularities in PDE and the calculus of variations</subfield>
+          </datafield>
+          <datafield tag="335" ind1="-" ind2="1">
+            <subfield code="a">[... papers presented at the "Workshop on Singularities in PDE and the Calculus of Variations" at the CRM in July 2006]</subfield>
+          </datafield>
+          <datafield tag="359" ind1="-" ind2="1">
+            <subfield code="a">American Mathematical Society. Stanley Alama ..., ed.</subfield>
+          </datafield>
+          <datafield tag="410" ind1="-" ind2="1">
+            <subfield code="a">Providence, RI</subfield>
+          </datafield>
+          <datafield tag="425" ind1="a" ind2="1">
+            <subfield code="a">2008</subfield>
+          </datafield>
+          <datafield tag="433" ind1="-" ind2="1">
+            <subfield code="a">VIII, 267 S. : Ill., graph. Darst.</subfield>
+          </datafield>
+          <datafield tag="451" ind1="-" ind2="1">
+            <subfield code="a">CRM proceedings &amp; lecture notes ; 44</subfield>
+          </datafield>
+          <datafield tag="453" ind1="-" ind2="1">
+            <subfield code="a">HT005054910</subfield>
+          </datafield>
+          <datafield tag="455" ind1="-" ind2="1">
+            <subfield code="a">44</subfield>
+          </datafield>
+          <datafield tag="456" ind1="-" ind2="1">
+            <subfield code="a">44</subfield>
+          </datafield>
+          <datafield tag="540" ind1="a" ind2="1">
+            <subfield code="a">978-0-8218-4350-5</subfield>
+          </datafield>
+          <datafield tag="700" ind1="m" ind2="1">
+            <subfield code="a">35J50</subfield>
+          </datafield>
+          <datafield tag="700" ind1="m" ind2="1">
+            <subfield code="a">47J30</subfield>
+          </datafield>
+          <controlfield tag="SYS">001700003</controlfield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Alama, Stan</subfield>
+            <subfield code="d">1962-</subfield>
+            <subfield code="9">(DE-588)140086846</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Alama, Stan</subfield>
+            <subfield code="d">1962-</subfield>
+            <subfield code="9">(DE-588)140086846</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">AMS</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PKO" ind1="-" ind2="1">
+            <subfield code="k">Mathematical Society</subfield>
+            <subfield code="h">USA</subfield>
+            <subfield code="9">(DE-588)6924-3</subfield>
+          </datafield>
+          <datafield tag="PPE" ind1="-" ind2="1">
+            <subfield code="p">Alama, Stan</subfield>
+            <subfield code="d">1962-</subfield>
+            <subfield code="9">(DE-588)140086846</subfield>
+          </datafield>
+          <datafield tag="700" ind1=" " ind2=" ">
+            <subfield code="a">TIK</subfield>
+          </datafield>
+          <datafield tag="OWN" ind1=" " ind2=" ">
+            <subfield code="a">P0001</subfield>
+            <subfield code="n">466 - Paderborn: UB</subfield>
+          </datafield>
+          <datafield tag="655" ind1=" " ind2=" ">
+            <subfield code="y">Singularities in PDE and the calculus of variations</subfield>
+            <subfield code="t">VIEW</subfield>
+            <subfield code="u">http://digitool.hbz-nrw.de:1801/webclient/DeliveryManager?pid=5153162&amp;custom_att_2=simple_viewer</subfield>
+          </datafield>
+          <datafield tag="TXT" ind1=" " ind2=" ">
+            <subfield code="a">TITEL: SINGULARITIES IN PDE AND THE CALCULUS OF VARIATIONS AUTOR: ALAMA, STANLEY JAHR: 2008 CONTENTS PREFACE VARIATIONAL PROBLEMS ARISING IN BIOLOGY ELENA ALVAREZ-BUYLLA, MARIANA BENITEZ, ALVARO CHAOS, YURIRIA CORTES, GERARDO ESCALERA-SANTOS, CARLOS ESPINOSA, AND PABLO PADILLA 1 ON THE CAUCHY PROBLEM FOR PHASE AND VORTICES IN THE PARABOLIC GINZBURG-LANDAU EQUATION FABRICE BETHUEL, GIANDOMENICO ORLANDI, AND DIDIER SMETS 11 NONLOCAL CAHN - HILLIARD AND ISOPERIMETRIC PROBLEMS: PERIODIC PHASE SEPARATION INDUCED BY COMPETING LONG- AND SHORT-RANGE INTERACTIONS RUSTUM CHOKSI 33 ON A GENERALIZED GINZBURG-LANDAU ENERGY FOR SUPERCONDUCTING/NORMAL COMPOSITE MATERIALS TIZIANA GIORGI AND HALA JADALLAH 47 GLOBAL QUESTIONS FOR MAP EVOLUTION EQUATIONS MEIJIAO GUAN, STEPHEN GUSTAFSON, KYUNGKEUN KANG, AND TAI-PENG TSAI 61 POHOZAEV-TYPE IDENTITIES FOR AN ELLIPTIC EQUATION RADU IGNAT 75 SOME REMARKS ON MONGE- AMPERE FUNCTIONS ROBERT L. JERRARD 89 VARIATIONAL VERSUS PDE-BASED APPROACHES IN MATHEMATICAL IMAGE PROCESSING B. KAWOHL 113 ON THE ENERGY OF A CHERN - SIMONS - HIGGS VORTEX LATTICE MATTHIAS KURZKE AND DANIEL SPIRN 127 SOME RECENT RESULTS ABOUT A CLASS OF SINGULARLY PERTURBED ELLIPTIC EQUATIONS ANDREA MALCHIODI 153 THE DIPOLE PROBLEM FOR //1/2(S2;S1)-MAPS AND APPLICATION VINCENT MILLOT 165 HODGE DECOMPOSITIONS, T-CONVERGENCE AND THE GROSS-PITAEVSKII ENERGY ALBERTO MONTERO 179 BIFURCATION OF VORTEX SOLUTIONS TO A GINZBURG-LANDAU EQUATION IN AN ANNULUS YOSHIHISA MORITA 187 VI CONTENTS AN ALLEN -CAHN TYPE PROBLEM WITH CURVATURE MODIFICATION XIAOFENG REN 201 RARE EVENTS, ACTION MINIMIZATION, AND SHARP INTERFACE LIMITS MARIA G. WESTDICKENBERG 217 THE GAUSS-GREEN THEOREM FOR WEAKLY DIFFERENTIABLE VECTOR FIELDS WILLIAM P. ZIEMER 233</subfield>
+          </datafield>
+          <datafield tag="PLK" ind1=" " ind2=" ">
+            <subfield code="a">SRU</subfield>
+            <subfield code="l">PAD01</subfield>
+            <subfield code="b">000634637</subfield>
+            <subfield code="m">44.^Singularities in PDE and the calculus of variations.^2008</subfield>
+            <subfield code="n">CRM proceedings &amp; lecture notes.^1993</subfield>
+          </datafield>
+          <datafield tag="LOC" ind1=" " ind2=" ">
+            <subfield code="m">BOOK</subfield>
+            <subfield code="a">P0001</subfield>
+            <subfield code="b">41</subfield>
+            <subfield code="d">TIK8986</subfield>
+            <subfield code="i">14/6638</subfield>
+            <subfield code="n">20</subfield>
+            <subfield code="k">20140505</subfield>
+            <subfield code="5">1700003-10</subfield>
+          </datafield>
+        </record>
+      </metadata>
+    </record>
+  </ListRecords>
+</OAI-PMH>

@@ -5,6 +5,7 @@ class Metacrunch::UBPB::Record
   require_relative "./record/art_des_inhalts"
   require_relative "./record/bevorzugter_titel_des_werkes"
   require_relative "./record/beziehung"
+  require_relative "./record/elektronische_adresse"
   require_relative "./record/erweiterter_datenträgertyp"
   require_relative "./record/generisches_element"
   require_relative "./record/isbn"
@@ -61,6 +62,7 @@ class Metacrunch::UBPB::Record
     { tags: ["599"], ind1: ["e", "f"], accessor: "ISMNs der Quelle",                                     type: GenerischesElement },
     { tags: ["599"], ind1: ["g", "h"], accessor: "ISRNs der Quelle",                                     type: GenerischesElement },
     { tags: ["599"], ind1: ["s"],      accessor: "Identifkationsnummer der ZDB",                         type: GenerischesElement },
+    { tags: ["655"], ind1: ["-", "e", " "], accessor: "elektronische Adressen",                               type: ElektronischeAdresse },
     { tags: (800..824).step(6),        accessor: "Personen der Nebeneintragungen",                       type: Person },
     { tags: ["PKO"],                   accessor: "Körperschaften (Phrasenindex)",                        type: Körperschaft },
     { tags: ["PPE"],                   accessor: "Personen (Phrasenindex)",                              type: Person },
