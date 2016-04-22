@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "metacrunch-ubpb"
   spec.version       = Metacrunch::UBPB::VERSION
   spec.authors       = ["René Sprotte", "Michael Sievers"]
+  spec.email         = "r.sprotte@ub.uni-paderborn.de"
   spec.summary       = %q{metacrunch extensions for internal use at University Library Paderborn}
   spec.homepage      = "http://github.com/ubpb/metacrunch-ubpb"
   spec.license       = "MIT"
