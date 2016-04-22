@@ -4,6 +4,8 @@ require_relative "./ubpb/version"
 
 module Metacrunch
   module UBPB
+    require_relative "./transformator"
+    require_relative "./hash"
     require_relative "./ubpb/transformations"
 
     def self.root
