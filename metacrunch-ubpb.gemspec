@@ -16,12 +16,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activesupport"
-  spec.add_dependency "isbn"
-  spec.add_dependency "metacrunch",               "~> 2.2"
-  spec.add_dependency "metacrunch-elasticsearch", "~> 2.0"
-  spec.add_dependency "metacrunch-mab2",          "~> 1.1"
-  spec.add_dependency "nokogiri",                 "~> 1.6"
-  spec.add_dependency "parallel"
-  spec.add_dependency "ruby-progressbar",         "~> 1.7"
+  spec.add_dependency "metacrunch",      "~> 3.0.0.dev"
+  spec.add_dependency "metacrunch-mab2", "~> 1.2"
+  spec.add_dependency "isbn",            "~> 2.0.11"
+  spec.add_dependency "nokogiri",        "~> 1.6"
 end
