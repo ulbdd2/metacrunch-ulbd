@@ -19,25 +19,22 @@ class Metacrunch::UBPB::Record::ElektronischeAdresse < Metacrunch::UBPB::Record:
     q: { "elektronischer Dateiformattyp" => :NW },
     r: { "Einstellungen für die Dateiübertragung" => :NW },
     s: { "Größe der Datei" => :W },
-    t: { "Unterstützte Terminal-Emulationen" => :W },
+    t: { "unterstützte Terminalemulationen" => :W },
     u: { "URLs" => :W },
     v: { "Öffnungszeiten des Hosts für die gewählte Zugangsart" => :W },
-    w: {
-      "Identifikationsnummer" => :W,
-      "Identifikationsnummer des verknüpften Datensatzes" => :W
-    },
-    x: { "Interne Bemerkungen" => :W },
-    y: { "Link-Text" => :W },
+    w: { "Identifikationsnummer des verknüpften Datensatzes" => :W },
+    x: { "interne Bemerkungen" => :W },
+    y: { "Linktext" => :W },
     z: { "allgemeine Bemerkungen" => :W },
     A: { "Beziehung" => :NW },
     "2": { "Zugriffsmethode" => :NW },
     "3": { "Bezugswerk" => :NW }
   }
 
-  def is_toc?
-    get("allgemeine Bemerkungen").any?            { |element| element == "Inhaltsverzeichnis" } || # BVB
-    get("Unterstützte Terminal-Emulationen").any? { |element| element  == "VIEW"              } || # Adam
-    get("Bezugswerk") == "Inhaltsverzeichnis"                                                      # HBZ
+  def toc?
+    get("allgemeine Bemerkungen").any?           { |element| element == "Inhaltsverzeichnis" } || # BVB
+    get("unterstützte Terminalemulationen").any? { |element| element == "VIEW"               } || # Adam
+    get("Bezugswerk") == "Inhaltsverzeichnis"                                                     # HBZ
   end
 
   private
@@ -45,10 +42,10 @@ class Metacrunch::UBPB::Record::ElektronischeAdresse < Metacrunch::UBPB::Record:
   def default_value(options = {})
     include_options = [options[:include]].flatten(1).compact
 
-    if include_options.include?("Inhaltsverzeichnisse")
+    if include_options.include?(:toc)
       get("URLs")
     else
-      get("URLs") unless is_toc?
+      get("URLs") unless toc?
     end
   end
 end
