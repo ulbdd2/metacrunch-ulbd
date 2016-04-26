@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require "bundler/setup"
-require "metacrunch"
+require "metacrunch/ubpb"
 
 begin
   require "pry"
