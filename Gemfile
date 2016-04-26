@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "metacrunch", github: "ubpb/metacrunch", branch: "v3"
 gem "metacrunch-mab2", github: "ubpb/metacrunch-mab2", branch: "master"
 
 group :development do
