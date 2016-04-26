@@ -1,4 +1,3 @@
-require "metacrunch"
 require "metacrunch/mab2"
 require_relative "./ubpb/version"
 
