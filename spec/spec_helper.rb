@@ -1,25 +1,23 @@
 if ENV["CODECLIMATE_REPO_TOKEN"]
-  # report coverage only for latest mri ruby
-  if RUBY_ENGINE == "ruby" && RUBY_VERSION >= "2.2.0"
-    require "codeclimate-test-reporter"
-    #CodeClimate::TestReporter.start
-  end
+  require "codeclimate-test-reporter"
+  CodeClimate::TestReporter.start
 else
-  #require "simplecov"
-  #SimpleCov.start
+  if RUBY_PLATFORM != "java"
+    require "simplecov"
+    SimpleCov.start
+  end
+end
+
+require "metacrunch/ubpb"
+require "metacrunch/mab2/xml_builder"
+
+begin
+  require "pry"
+rescue LoadError
 end
 
 # former spec_helper
 Dir.glob(File.join(__dir__, "helpers", "**", "*.rb"), &method(:require))
-
-require "metacrunch/mab2/xml_builder"
-require "metacrunch/ubpb"
-
-begin
-  require "hashdiff"
-  require "pry"
-rescue LoadError
-end
 
 RSpec.configure do |config|
   # begin --- rspec 3.1 generator
