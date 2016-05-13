@@ -88,7 +88,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             "ubpb_pattern_replace_ü",
             "ubpb_pattern_replace_ß",
             "asciifolding",
-            "ubpb_word_delimiter",
+            "ubpb_word_delimiter_index",
             "ubpb_stop"
           ]
         },
@@ -105,7 +105,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
             "ubpb_pattern_replace_ü",
             "ubpb_pattern_replace_ß",
             "asciifolding",
-            "ubpb_remove_dashes",
+            "ubpb_word_delimiter_search",
             "ubpb_stop"
           ]
         },
@@ -115,7 +115,7 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           "filter": [
             "standard",
             "lowercase",
-            "ubpb_word_delimiter"
+            "ubpb_word_delimiter_index"
           ]
         }
       },
@@ -150,16 +150,11 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
           "pattern": "ß",
           "replacement": "ss"
         },
-        "ubpb_remove_dashes": {
-          "type": "pattern_replace",
-          "pattern": "-",
-          "replacement": ""
-        },
         "ubpb_stop": {
           "type": "stop",
           "stopwords": ["_english_", "_german_"]
         },
-        "ubpb_word_delimiter": {
+        "ubpb_word_delimiter_index": {
           "type": "word_delimiter",
           "catenate_all": true,
           "preserve_original": true,
@@ -168,7 +163,13 @@ class Metacrunch::UBPB::Cli::LoadIndex < Metacrunch::Command
         },
         "ubpb_word_delimiter_search": {
           "type": "word_delimiter",
+          "generate_word_parts": false,
+          "generate_number_parts": false,
+          "catenate_all": true,
+          "split_on_case_change": true,
+          "preserve_original": false,
           "split_on_numerics": false,
+          "stem_english_possessive": false,
           "type_table": ["+ => ALPHA", "# => ALPHA", ". => ALPHA"]
         }
       }
