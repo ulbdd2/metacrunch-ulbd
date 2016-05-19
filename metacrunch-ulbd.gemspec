@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "metacrunch/ubpb/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "metacrunch-ubpb"
+  spec.name          = "metacrunch-ulbd"
   spec.version       = Metacrunch::UBPB::VERSION
   spec.authors       = ["René Sprotte", "Michael Sievers"]
   spec.email         = "r.sprotte@ub.uni-paderborn.de"
   spec.summary       = %q{metacrunch extensions for internal use at University Library Paderborn}
-  spec.homepage      = "http://github.com/ubpb/metacrunch-ubpb"
+  spec.homepage      = "http://github.com/ulbdd2/metacrunch-ulbd"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
