@@ -3,7 +3,7 @@ require "active_support/core_ext"
 require "metacrunch/mab2/document"
 require "metacrunch/transformator/transformation"
 require_relative "../transformations"
-require_relative "../../ubpb/record"
+require_relative "../record"
 
 class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator::Transformation
   require_directory "#{File.dirname(__FILE__)}/mab_to_vufind"
@@ -15,7 +15,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
   # @return [Hash] transformation result
   def call(source, options = {})
     document = Metacrunch::Mab2::Document.from_aleph_mab_xml(source)
-    record = Metacrunch::UBPB::Record.new(document)
+    record = Metacrunch::ULBD::Record.new(document)
     options[:target] ||= {}
 
     super(record, options)
@@ -41,12 +41,12 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     #AddShortTitleDisplay,
     #AddShortTitleSort,
     #AddTitleSearch,
-    #AddCreatorContributorDisplay,
-    #AddCreatorContributorFacet,
-    #AddCreatorContributorSearch,
+    AddCreatorContributorDisplay,
+    #AddCreatorContributorFacet,  // author_facet first used in vuFind 3.0
+    #AddCreatorContributorSearch, // => author_fuller: neccessary ?
     AddEdition,
     AddPublisher,
-    #AddCreationdate,
+    AddCreationdate,
     #AddCreationdateSearch,
     AddFormat,
     #AddIsPartOf,
@@ -70,7 +70,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     #AddVolumeCountSort2,
     AddNotation,
     AddNotationSort,
-    #AddToc,
+    AddToc,
     AddSignature,
     AddSignatureSearch,
     #AddResourceLink,
