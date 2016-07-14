@@ -1,7 +1,7 @@
 require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
-require_relative "../../../ubpb/record"
+require_relative "../../../ulbd/record"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDisplay < Metacrunch::Transformator::Transformation::Step
   def call
@@ -27,6 +27,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDispl
     end
 
     # Cleanup
-    creators.flatten.map(&:presence).compact.uniq
+    creators.flatten.map(&:presence).compact.uniq.join(', ')
+        
   end
 end
