@@ -5,7 +5,7 @@ require_relative "../../../ubpb/record"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDisplay < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "creator_contributor_display", creator_contributor_display) : creator_contributor_display
+    target ? Metacrunch::Hash.add(target, "author", creator_contributor_display) : creator_contributor_display
   end
 
   private

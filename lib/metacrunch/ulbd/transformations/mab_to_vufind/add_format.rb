@@ -7,7 +7,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddFormat < Metacrunch::Tr
   include parent::Helpers::Merge
 
   def call
-    target ? Metacrunch::Hash.add(target, "format", format) : format
+    target ? Metacrunch::Hash.add(target, "physical", format) : format
   end
 
   private

@@ -7,7 +7,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddShortTitle < Metacrunch
   include parent::Helpers::Datafield089
 
   def call
-    target ? Metacrunch::Hash.add(target, "short_title", short_title) : short_title
+    target ? Metacrunch::Hash.add(target, "title_short", short_title) : short_title
   end
 
   private

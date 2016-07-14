@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSignature < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "signature", signature) : signature
+    target ? Metacrunch::Hash.add(target, "callnumber-raw", signature) : signature
   end
 
   private

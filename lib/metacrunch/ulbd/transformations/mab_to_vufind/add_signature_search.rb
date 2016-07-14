@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSignatureSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "signature_search", signature_search) : signature_search
+    target ? Metacrunch::Hash.add(target, "callnumber-search", signature_search) : signature_search
   end
 
   private
