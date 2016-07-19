@@ -2,27 +2,28 @@ require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_primo"
 
-class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureSearch < Metacrunch::Transformator::Transformation::Step
+class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureUlb < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "signature_search", signature_search) : signature_search
+    target ? Metacrunch::Hash.add(target, "signature_ulb", signature_ulb) : signature_ulb
   end
 
   private
 
-  def signature_search
+  def signature_ulb
     signatures = []
-    signatures = signatures + source.datafields('LOC').subfields(['d', 'f']).values
+    signatures = signatures + source.datafields('LOC').subfields(['b', 'd', 'f']).values
+    #signatures = signatures.reject{|f| f.subfields.find{|sf| sf.code == "p"}.values}    
     # Stücktitel Signatur
     signatures << source.datafields('100', ind2: ' ').subfields('a').value
     # Zeitschriftensignatur
-    signatures << source.datafields('200', ind1: ' ', ind2: '9').subfields('f').values
+    #signatures << source.datafields('200', ind1: ' ', ind2: '9').subfields(['g', 'f']).values
 
     signatures = signatures.flatten.map(&:presence).compact
     .map do |signature|
       _signature = signature
         .gsub(/\A\//, '') # remove leading '/' for some journal signatures
         .gsub(/\s+/,  '') # remove spaces for some journal signatures (e.g. 'P 10/34 t 26')
-        .upcase           # upcase signatures like 'P10/34t26' to 'P10/34T26' to detect duplicates like 34t26 and 34T26 (search engine should handle downcasing, primo does)
+        #.upcase           # upcase signatures like 'P10/34t26' to 'P10/34T26' to detect duplicates like 34t26 and 34T26 (search engine should handle downcasing, primo does)
 
       # for signatures with volume count e.g. 'LKL2468-14/15', add all variants possible ['LKL2468-14/15', 'LKL2468-14', 'LKL2468']
       _signature_array = [_signature, _signature.gsub(/(\d+)\/\d+\Z/, '\1'), _signature.gsub(/\-\d+.*\Z/, '')]
@@ -59,7 +60,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo::AddSignatureSearch < Metacr
     signatures.map! do |signature|
       index          = signature.index('\\') || signature.length
       base_signature = signature[0..index-1]
-      [signature, base_signature]
+      base_signature
     end
 
     signatures.flatten.map(&:presence).compact.uniq

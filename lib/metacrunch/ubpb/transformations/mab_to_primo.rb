@@ -22,9 +22,9 @@ class Metacrunch::UBPB::Transformations::MabToPrimo < Metacrunch::Transformator:
 
   sequence [
     AddId,
-    AddStatus,
+    #AddStatus,
     AddHtNumber,
-    AddCreationDate,
+    #AddCreationDate,
     AddMaterialtyp,
     AddInhaltstyp,
     AddVolumeCount,
@@ -49,7 +49,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo < Metacrunch::Transformator:
     AddZdbId,
     AddSubject,
     AddSubjectSearch,
-    AddDDC,
+    #AddDDC,
     AddAbstract,
     AddLanguage,
     AddRelation,
@@ -63,7 +63,7 @@ class Metacrunch::UBPB::Transformations::MabToPrimo < Metacrunch::Transformator:
     AddVolumeCountSort,
     AddVolumeCountSort2,
     AddNotation,
-    AddNotationSort,
+    #AddNotationSort,
     AddToc,
     AddSignature,
     AddSignatureSearch,
@@ -78,8 +78,8 @@ class Metacrunch::UBPB::Transformations::MabToPrimo < Metacrunch::Transformator:
     AddSecondaryFormIsbn,
     AddSecondaryFormPhysicalDescription,
     AddSecondaryFormSuperorder,
-    AddLocalComment,
-    AddAdditionalData,
-    AddSuperorderDisplayForSammlungSchmoll
+    #AddLocalComment,
+    #AddAdditionalData,
+    #AddSuperorderDisplayForSammlungSchmoll
   ]
 end
