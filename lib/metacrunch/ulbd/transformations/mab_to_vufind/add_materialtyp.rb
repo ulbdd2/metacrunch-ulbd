@@ -2,7 +2,7 @@ require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 
-Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunch::Transformator::Transformation::Step
+class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunch::Transformator::Transformation::Step
   def call
     target ? Metacrunch::Hash.add(target, "materialtyp", materialtyp) : materialtyp
   end
