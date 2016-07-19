@@ -22,9 +22,13 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescription < Metacrunc
     # 523 - Erscheinungsverlauf von Monos
     descriptions << source.datafields('523', ind2: '1').map { |_field| _field.subfields(['p', 'a']).values.join(': ') }
 
+    # 064 - Art des Inhalts, Erweiterte Datenträgertypen
+    descriptions << source.datafields('064', ind2: '1').map { |_field| _field.subfields(['a', 'x', 'z', 'y']).values.join(', ') }
+        
     # 501
     descriptions.concat(source.datafields('501', ind2: '1').subfields('a').values)
-
+   
+  
     (502..519).each do |f|
       descriptions << source.datafields("#{f}", ind2: '1').map { |_field| _field.subfields(['p', 'a']).values.join(': ') }
     end
@@ -51,6 +55,24 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescription < Metacrunc
       descriptions << source.datafields("#{f}", ind2: '1').map { |_field| _field.subfields(['p', 'a']).values.join(': ') } unless f == 537 && erscheinungsform == "journal"
     end
 
+    # 655 - Zusatzinfo eletr. Ress.
+    descriptions << source.datafields('655', ind2: ['1', '9']).map { |_field| _field.subfields('z').values }
+    
+    # 125 - Bemerkungen aus Lokalsatz
+    descriptions << source.datafields('125', ind1: 'a', ind2: '9').map { |_field| _field.subfields('a').values }
+    
+    # 200 - Kommentar aus Zeitschriftensignatur
+    descriptions << source.datafields('200', ind2: '9').map { |_field| _field.subfields('e').values }
+     
+    # 132 - Provenienz
+    descriptions << source.datafields('132', ind1: 'p', ind2: '9').map { |_field| _field.subfields('a').values }
+
+    #578 - Fingerprint
+    descriptions << source.datafields('578', ind2: '1').map { |_field| _field.subfields('a').values }
+    
+    #580 - Sonstige Standardnummer
+    descriptions << source.datafields('580', ind2: '1').map { |_field| _field.subfields('a').values }
+      
     unless kind_of?("Zeitschrift")
       descriptions << source.get("redaktionelle Bemerkungen").map(&:get)
     end

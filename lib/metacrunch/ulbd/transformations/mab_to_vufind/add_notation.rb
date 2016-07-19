@@ -10,6 +10,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddNotation < Metacrunch::
   private
 
   def notation
-    source.datafields('700', ind2: ' ').subfields('a').values
+    source.datafields('700', ind1: 'h', ind2: ['1', '2']).subfields('a').values.uniq
   end
 end

@@ -17,7 +17,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSubjectSearch < Metacru
     subjects << subject
 
     # + Index Felder für weitere Schlagworte
-    subjects << source.datafields('PSW').subfields(['a','k','e','g','s','p','t','f','z']).values
+    subjects << source.datafields('PSW').subfields(['a','p','k','s','g','e','b','c','d','h','t','z','f']).values
+    subjects << source.datafields('IDX').subfields(['a','p','k','s','g','e','b','c','d','h','t','z','f']).values
 
     subjects.flatten.map(&:presence).compact.map{|f| f.delete('<').delete('>')}.uniq
   end

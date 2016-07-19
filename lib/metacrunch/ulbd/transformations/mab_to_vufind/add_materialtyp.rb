@@ -2,7 +2,7 @@ require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 
-class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunch::Transformator::Transformation::Step
+Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunch::Transformator::Transformation::Step
   def call
     target ? Metacrunch::Hash.add(target, "materialtyp", materialtyp) : materialtyp
   end
@@ -21,7 +21,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunc
     when (%w(g    ).include?(f050.at( 8)) ) then 'online_resource'
     when (%w(a    ).include?(f050.at( 9)) ) then 'game'
     when (%w(a    ).include?(f050.at(10)) ) then 'map'
-    else 'other'
+     else 'other'
     end
     type
   end

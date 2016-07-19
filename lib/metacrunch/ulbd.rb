@@ -1,5 +1,5 @@
 require "metacrunch/mab2"
-require_relative "./ubpb/version"
+require_relative "./ulbd/version"
 
 module Metacrunch
   module ULBD

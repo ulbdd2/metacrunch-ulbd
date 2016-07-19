@@ -15,7 +15,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSignatureSearch < Metac
     # Stücktitel Signatur
     signatures << source.datafields('100', ind2: ' ').subfields('a').value
     # Zeitschriftensignatur
-    signatures << source.datafields('200', ind1: ' ', ind2: ' ').subfields('f').values
+    signatures << source.datafields('200', ind1: ' ', ind2: '9').subfields('f').values
 
     signatures = signatures.flatten.map(&:presence).compact
     .map do |signature|
@@ -57,7 +57,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSignatureSearch < Metac
 
     # Erzeuge zu jeder Signatur eine Basis-Signatur
     signatures.map! do |signature|
-      index          = signature.index('+') || signature.length
+      index          = signature.index('\\') || signature.length
       base_signature = signature[0..index-1]
       [signature, base_signature]
     end

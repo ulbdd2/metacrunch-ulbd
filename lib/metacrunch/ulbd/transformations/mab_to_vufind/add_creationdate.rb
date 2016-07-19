@@ -7,12 +7,15 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreationdate < Metacrun
   include parent::Helpers::IsSuperorder
 
   def call
+    #target ? Metacrunch::Hash.add(target, "creationdate", creationdate) : creationdate
     target ? Metacrunch::Hash.add(target, "publishDate", creationdate) : creationdate
   end
 
   private
 
   def creationdate
+    erscheinungsjahr_in_vorlageform     = source.datafields('425', ind1: '-', ind2: '1').subfields('a').value
+    erscheinungsjahr_in_vorlageform_rda = source.datafields('419', ind1: '-', ind2: '1').subfields('c').value     
     erscheinungsjahr_in_ansetzungsform  = source.datafields('425', ind1: 'a', ind2: '1').subfields('a').value
     erscheinungsjahr_des_ersten_bandes  = source.datafields('425', ind1: 'b', ind2: '1').subfields('a').value
     erscheinungsjahr_des_letzten_bandes = source.datafields('425', ind1: 'c', ind2: '1').subfields('a').value
@@ -28,7 +31,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreationdate < Metacrun
       ]
       .uniq.join(" - ").strip # returns either "xxxx -", "xxxx - yyyy" or "- yyyy"
     else
-      erscheinungsjahr_in_ansetzungsform || publikationsdatum_bei_tonträgern
+      erscheinungsjahr_in_vorlageform || erscheinungsjahr_in_vorlageform_rda || erscheinungsjahr_in_ansetzungsform || publikationsdatum_bei_tonträgern
     end
   end
 end

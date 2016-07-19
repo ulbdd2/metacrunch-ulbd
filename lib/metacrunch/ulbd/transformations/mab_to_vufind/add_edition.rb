@@ -13,7 +13,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddEdition < Metacrunch::T
     f403_1 = source.datafields('403', ind2: '1').subfields('a').value
     f403_2 = source.datafields('403', ind2: '2').subfields('a').value
     f407_1 = source.datafields('407', ind2: '1').subfields('a').value
+    f407_2 = source.datafields('407', ind2: '2').subfields('a').value
 
-    f403_1.presence || f403_2.presence || f407_1.presence
+    f403_1.presence || f403_2.presence || f407_1.presence || f407_2.presence
   end
 end
