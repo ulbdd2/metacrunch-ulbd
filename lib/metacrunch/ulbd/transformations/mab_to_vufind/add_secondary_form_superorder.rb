@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSecondaryFormSuperorder < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "secondary_form_superorder", secondary_form_superorder) : secondary_form_superorder
+    target ? Metacrunch::Hash.add(target, "secondary_form_superorder_str_mv", secondary_form_superorder) : secondary_form_superorder
   end
 
   private

@@ -7,6 +7,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsSuperorder < Metacrun
   include parent::Helpers::IsSuperorder
 
   def call
-    target ? Metacrunch::Hash.add(target, "is_superorder", is_superorder?) : is_superorder?
+    target ? Metacrunch::Hash.add(target, "is_superorder_str", is_superorder?) : is_superorder?
   end
 end

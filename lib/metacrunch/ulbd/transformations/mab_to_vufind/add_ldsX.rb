@@ -2,12 +2,14 @@ require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 require_relative "./helpers/merge"
+require_relative "./helpers/locationname"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::Merge
+  include parent::Helpers::Locationname
 
   def call
-    target ? Metacrunch::Hash.add(target, "ldsX", ldsX) : ldsX
+    target ? Metacrunch::Hash.add(target, "ldsX_str_mv", ldsX) : ldsX
   end
 
   private
@@ -21,6 +23,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
     #   c - Lücke im Bestand / Verlauf
     #   e - Kommentar
     #   f - Signatur
+    #   g - lokales Sigel
     r = []
 
     source.datafields('200', ind2: '9').each do |field|
@@ -30,14 +33,14 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
       field_c = field.subfields('c')
       field_e = field.subfields('e')
       field_f = field.subfields('f')
-      field_g = field.subfields('g')
+      field_g = '<strong>' + locationname(field.subfields('g').value) + '</strong>'
 
       s = ""
       s = merge(s, field_a.value, delimiter: ' ')
       s = merge(s, field_b.value, delimiter: ': ')
       s = merge(s, field_c.value, delimiter: ' ')
       s = merge(s, field_e.value, delimiter: '. ')
-      s = merge(s, field_g.value, delimiter: ' <strong>Zeitschriftensignatur</strong>: ')
+      s = merge(s, field_g, delimiter: ': ')
       s = merge(s, field_f.value, delimiter: ': ')
 
       # Cleanup

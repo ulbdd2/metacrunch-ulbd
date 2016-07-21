@@ -6,7 +6,7 @@ require_relative "./add_materialtyp"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddDeliveryCategory < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "delivery_category", delivery_category) : delivery_category
+    target ? Metacrunch::Hash.add(target, "delivery_category_str", delivery_category) : delivery_category
   end
 
   private

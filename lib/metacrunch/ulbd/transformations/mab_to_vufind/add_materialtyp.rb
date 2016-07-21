@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "materialtyp", materialtyp) : materialtyp
+    target ? Metacrunch::Hash.add(target, "materialtyp_str", materialtyp) : materialtyp
   end
 
   private

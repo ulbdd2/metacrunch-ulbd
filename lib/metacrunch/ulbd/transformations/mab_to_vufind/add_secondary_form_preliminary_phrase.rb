@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSecondaryFormPreliminaryPhrase < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "secondary_form_preliminary_phrase", secondary_form_preliminary_phrase) : secondary_form_preliminary_phrase
+    target ? Metacrunch::Hash.add(target, "secondary_form_preliminary_phrase_str_mv", secondary_form_preliminary_phrase) : secondary_form_preliminary_phrase
   end
 
   private

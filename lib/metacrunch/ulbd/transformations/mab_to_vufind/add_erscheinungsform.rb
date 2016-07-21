@@ -18,9 +18,9 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddErscheinungsform < Meta
 
     type = case
     when (f051.at(0) == 'a') then 'Article'
-    when (f051.at(0) == 'm') then 'Monograph'
-    when (f051.at(0) == 'n') then 'Monograph'
-    when (f051.at(0) == 's') then 'Monograph'
+    when (f051.at(0) == 'm') then 'Book'
+    when (f051.at(0) == 'n') then 'Book'
+    when (f051.at(0) == 's') then 'Book'
 
     when (f052.at(0) == 'a') then 'Article'
     when (f052.at(0) == 'p') then 'Journal'
@@ -36,7 +36,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddErscheinungsform < Meta
       # Hack to make all suborders without proper 'erscheinungsform' monographs
       #
       if is_suborder.presence
-        'Monograph'
+        'Book'
       else
         'Other'
       end

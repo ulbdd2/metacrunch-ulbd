@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddNotation < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "notation", notation) : notation
+    target ? Metacrunch::Hash.add(target, "notation_str_mv", notation) : notation
   end
 
   private

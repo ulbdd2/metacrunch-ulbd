@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSecondaryFormPhysicalDescription < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "secondary_form_physical_description", secondary_form_physical_description) : secondary_form_physical_description
+    target ? Metacrunch::Hash.add(target, "secondary_form_physical_description_str_mv", secondary_form_physical_description) : secondary_form_physical_description
   end
 
   private

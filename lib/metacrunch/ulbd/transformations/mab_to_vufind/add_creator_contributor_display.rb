@@ -27,6 +27,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDispl
     end
 
     # Cleanup
-    creators.flatten.map(&:presence).compact.uniq
+    creators.flatten.map(&:presence).compact.uniq.join('; ')
   end
 end

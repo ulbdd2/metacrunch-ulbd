@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSecondaryFormCreationdate < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "secondary_form_creationdate", secondary_form_creationdate) : secondary_form_creationdate
+    target ? Metacrunch::Hash.add(target, "secondary_form_creationdate_str_mv", secondary_form_creationdate) : secondary_form_creationdate
   end
 
   private

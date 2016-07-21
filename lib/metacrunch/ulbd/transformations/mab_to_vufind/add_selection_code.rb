@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSelectionCode < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "selection_code", selection_code) : selection_code
+    target ? Metacrunch::Hash.add(target, "selection_code_str", selection_code) : selection_code
   end
 
   private

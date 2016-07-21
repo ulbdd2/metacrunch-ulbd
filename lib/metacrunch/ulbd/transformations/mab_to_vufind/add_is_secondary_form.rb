@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddIsSecondaryForm < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "is_secondary_form", is_secondary_form) : is_secondary_form
+    target ? Metacrunch::Hash.add(target, "is_secondary_form_str", is_secondary_form) : is_secondary_form
   end
 
   private

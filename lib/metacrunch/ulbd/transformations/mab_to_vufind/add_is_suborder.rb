@@ -5,7 +5,7 @@ require_relative "./add_superorder_display"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddIsSuborder < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "is_suborder", is_suborder) : is_suborder
+    target ? Metacrunch::Hash.add(target, "is_suborder_str", is_suborder) : is_suborder
   end
 
   private

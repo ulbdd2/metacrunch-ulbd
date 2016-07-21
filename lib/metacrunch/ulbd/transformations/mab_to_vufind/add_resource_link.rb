@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddResourceLink < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "resource_link", resource_link) : resource_link
+    target ? Metacrunch::Hash.add(target, "resource_link_str_mv", resource_link) : resource_link
   end
 
   private

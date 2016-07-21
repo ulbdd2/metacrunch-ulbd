@@ -7,7 +7,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsPartOf < Metacrunch::
   include parent::Helpers::Merge
 
   def call
-    target ? Metacrunch::Hash.add(target, "is_part_of", is_part_of) : is_part_of
+    target ? Metacrunch::Hash.add(target, "is_part_of_str", is_part_of) : is_part_of
   end
 
   private
