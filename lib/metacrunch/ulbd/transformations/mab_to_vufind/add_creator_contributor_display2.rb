@@ -3,9 +3,9 @@ require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 require_relative "../../../ulbd/record"
 
-class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDisplay < Metacrunch::Transformator::Transformation::Step
+class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDisplay2 < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "author", creator_contributor_display) : creator_contributor_display
+    target ? Metacrunch::Hash.add(target, "author2", creator_contributor_display) : creator_contributor_display
   end
 
   private
@@ -13,11 +13,11 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDispl
   def creator_contributor_display
     creators = []
 
-    creators << source.get("Personen", include: "Überordnungen").map do |p|
+    creators << source.get("Personen2", include: "Überordnungen").map do |p|
       p.get(include: ["Beziehungskennzeichnungen", "ausgeschriebene Funktionsbezeichnung"])
     end
 
-    creators << source.get("Körperschaften", include: "Überordnungen").map do |k|
+    creators << source.get("Körperschaften2", include: "Überordnungen").map do |k|
       k.get(include: "Beziehungskennzeichnungen")
     end
 
@@ -27,6 +27,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorDispl
     end
 
     # Cleanup
-    creators.flatten.map(&:presence).compact.uniq.join("; ")
+    creators.flatten.map(&:presence).compact.uniq
   end
 end

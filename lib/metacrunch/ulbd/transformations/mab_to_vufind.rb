@@ -34,14 +34,15 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddInhaltstyp,
     AddVolumeCount,
     AddVolumeSort,
-    AddTitle,
-    #AddTitleDisplay,
+    #AddTitle,
+    AddTitleDisplay,
     AddTitleSort,
     AddShortTitle,
     #AddShortTitleDisplay,
     #AddShortTitleSort,
     #AddTitleSearch,
     AddCreatorContributorDisplay,
+    AddCreatorContributorDisplay2,
     #AddCreatorContributorFacet,  // author_facet first used in vuFind 3.0
     #AddCreatorContributorSearch, // => author_fuller: neccessary ?
     AddEdition,
