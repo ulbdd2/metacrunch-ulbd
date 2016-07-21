@@ -14,7 +14,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddNotation < Metacrunch::
     notations = []
     
     source.datafields('700', ind1: 'h', ind2: ['1', '2']).subfields('a').values.uniq.each do |single_notation|
-      if (single_notation =~ /[a-z]{4}\d{3,5}/)
+      if (single_notation =~ /^[a-z]{4}\d{3,5}/)
         notations << single_notation
       end
     end
