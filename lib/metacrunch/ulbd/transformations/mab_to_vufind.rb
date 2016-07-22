@@ -21,7 +21,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     super(record, options)
   end
 
-  sequence [    
+  sequence [ 
+    AddBarcode,
     AddId,
     AddRecordtype,
     AddSysNo,
@@ -40,7 +41,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddShortTitleDisplay,
     #AddShortTitleSort,
     #AddTitleSearch,
-    AddCreatorContributorDisplay,
+    AddCreatorContributorDisplay2,
+    AddCreatorContributorLink2,
     #AddCreatorContributorFacet,  // author_facet first used in vuFind 3.0
     #AddCreatorContributorSearch, // => author_fuller: neccessary ?
     AddEdition,
