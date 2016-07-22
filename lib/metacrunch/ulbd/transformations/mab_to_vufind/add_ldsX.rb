@@ -27,6 +27,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
     r = []
 
     source.datafields('200', ind2: '9').each do |field|
+      
       field_0 = field.subfields('0')
       field_a = field.subfields('a')
       field_b = field.subfields('b')
@@ -49,8 +50,13 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
       # Cleanup
       s = s.gsub(/^\- /, '') # Z.b. "- Index: Foo Bar"
 
+      r << s
+      
       # Sort
-      position = nil
+      # auskommentiert, weil durch gleiche field_0-Werte Array-Elemente
+      # verloren gehen würden
+=begin
+     position = nil
       if field_0.present?
         position = ((field_0.value || "").match(/^(\d+)$/) && $1.to_i) || nil
       end
@@ -60,8 +66,11 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
       else
         r << s
       end
-    end
+=end
 
+
+    end
     r.map(&:presence).compact.uniq
+    
   end
 end
