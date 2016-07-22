@@ -24,11 +24,17 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSubject < Metacrunch::T
     subjects << source.datafields('947').subfields(['a','p','k','s','g','e','b','c','d','h','t','z','f']).values
  
     # Beispiel aus 740: New York (N.Y.)--Social life and customs--20th century--Fiction.
-    %w(DES 710 711 740).each do |f|
+    %w(DES 710 740).each do |f|
       t = source.datafields(f).subfields(['a','x','z']).values
       t = t.flatten.map(&:presence).compact
       t = t.map{|a| a.split('--')}.flatten.map{|s| s.end_with?('.') ? s[0..-2].strip : s}.map(&:presence).compact.uniq
       subjects = subjects + t
+    end
+     %w(DES 711).each do |f|
+      u = source.datafields(f).subfields('a').values
+      u = u.flatten.map(&:presence).compact
+      u = u.map{|a| a.split('--')}.flatten.map{|s| s.end_with?('.') ? s[0..-2].strip : s}.map(&:presence).compact.uniq
+      subjects = subjects + u
     end
 
     subjects.flatten.map(&:presence).compact.map{|f| f.delete('<').delete('>')}.uniq

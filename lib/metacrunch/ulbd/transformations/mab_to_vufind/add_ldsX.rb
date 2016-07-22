@@ -34,6 +34,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
       field_e = field.subfields('e')
       field_f = field.subfields('f')
       field_g = '<strong>' + locationname(field.subfields('g').value) + '</strong>'
+      field_h = field.subfields('h')
 
       s = ""
       s = merge(s, field_a.value, delimiter: ' ')
@@ -41,7 +42,9 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
       s = merge(s, field_c.value, delimiter: ' ')
       s = merge(s, field_e.value, delimiter: '. ')
       s = merge(s, field_g, delimiter: ': ')
+      s = merge(s, field_h.value, delimiter: ' ')
       s = merge(s, field_f.value, delimiter: ': ')
+      
 
       # Cleanup
       s = s.gsub(/^\- /, '') # Z.b. "- Index: Foo Bar"
