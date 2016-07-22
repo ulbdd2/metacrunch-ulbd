@@ -33,7 +33,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
       field_c = field.subfields('c')
       field_e = field.subfields('e')
       field_f = field.subfields('f')
-      field_g = '<strong>' + locationname(field.subfields('g').value) + '</strong>'
+      field_g = field.subfields('g').present? ? '<strong>' + locationname(field.subfields('g').value) + '</strong>' :''
       field_h = field.subfields('h')
 
       s = ""
