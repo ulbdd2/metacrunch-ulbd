@@ -2,48 +2,136 @@ require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 require_relative "./helpers/datafield_089"
-require_relative "./helpers/merge"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddTitle < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::Datafield089
-  include parent::Helpers::Merge
 
   def call
-    target ? Metacrunch::Hash.add(target, "title", title) : title
+    target ? Metacrunch::Hash.add(target, "title", title_display) : title_display
   end
 
   private
 
-  def title
-    f331_2 = source.datafields('331', ind2: '2').subfields('a').value
-    f333_2 = source.datafields('333', ind2: '2').subfields('a').value
-    f335_2 = source.datafields('335', ind2: '2').subfields('a').value
-    f360_2 = source.datafields('360', ind2: '2').subfields('a').value
+  def title_display
+    # Werk
+    hauptsachtitel_des_werks_in_ansetzungsform = source.datafields("310", ind2: [:blank, "1"]).value
+    hauptsachtitel_des_werks_in_vorlageform = source.datafields("331", ind2: [:blank, "1"]).value
+    hauptsachtitel_des_werks = hauptsachtitel_des_werks_in_ansetzungsform || hauptsachtitel_des_werks_in_vorlageform
+    allgemeine_matieralbenennung_des_werks = source.datafields("334", ind2: [:blank, "1"]).value
+    zusätze_zum_hauptsachtitel_des_werks = source.datafields("335", ind2: [:blank, "1"]).value
+    bandangabe_des_werks = datafield_089.value
 
-    f089_1 = datafield_089.value
-    f331_1 = source.datafields('331', ind2: '1').subfields('a').value
-    f333_1 = source.datafields('333', ind2: '1').subfields('a').value
-    f335_1 = source.datafields('335', ind2: '1').subfields('a').value
-    f360_1 = source.datafields('360', ind2: '1').subfields('a').value
-    f304_1 = source.datafields('304', ind2: '1').subfields('a').value
-    f310_1 = source.datafields('310', ind2: '1').subfields('a').value
-    f340_1 = source.datafields('340', ind2: '1').subfields('a').value
-    f341_1 = source.datafields('341', ind2: '1').subfields('a').value
+    # Überordnung
+    hauptsachtitel_der_überordnung_in_ansetzungsform = source.datafields("310", ind2: "2").value
+    hauptsachtitel_der_überordnung_in_vorlageform = source.datafields("331", ind2: "2").value
+    hauptsachtitel_der_überordnung = hauptsachtitel_der_überordnung_in_ansetzungsform || hauptsachtitel_der_überordnung_in_vorlageform
 
-    title = merge(title, f331_2, delimiter: '. ')
-    title = merge(title, f333_2, delimiter: ' / ')
-    title = merge(title, f335_2, delimiter: ' : ')
-    title = merge(title, f360_2, delimiter: '. ')
+    zusätze_zum_hauptsachtitel_der_überordnung = source.datafields("335", ind2: "2").value
+    ausgabebezeichnung_der_überordnung = source.datafields("403", ind2: "2").value
 
-    title = merge(title, f089_1, delimiter: '. ')
-    title = merge(title, f331_1, delimiter: '. ')
-    title = merge(title, f333_1, delimiter: ' / ')
-    title = merge(title, f335_1, delimiter: ' : ')
-    title = merge(title, f360_1, delimiter: '. ')
-    title = merge(title, f304_1, delimiter: '. ')
-    title = merge(title, f310_1, delimiter: ' ', wrap: '[@]')
-    title = merge(title, f340_1.presence || f341_1, delimiter: ' = ')
+    if hauptsachtitel_der_überordnung && hauptsachtitel_des_werks
+      [].tap do |_result|
+        _result << titel_factory(hauptsachtitel_der_überordnung, {
+          zusätze_zum_hauptsachtitel: zusätze_zum_hauptsachtitel_der_überordnung
+        })
 
-    title.presence || '–'
+        if bandangabe_des_werks
+          # füge den Band nicht hinzu, wenn das Werk genauso heißt, bsp. "Anleitungen eine Farbe zu lesen / <rot> : Rot"
+          if bandangabe_des_werks.gsub(/<|>/, "").downcase != hauptsachtitel_des_werks.downcase
+            _result << "/"
+            _result << bandangabe_des_werks
+          end
+        end
+
+        _result << ":"
+        _result << titel_factory(hauptsachtitel_des_werks, {
+          zusätze_zum_hauptsachtitel: zusätze_zum_hauptsachtitel_des_werks,
+          allgemeine_materialbenennung: allgemeine_matieralbenennung_des_werks
+        })
+      end
+      .compact
+      .join(" ")
+    elsif !hauptsachtitel_der_überordnung && hauptsachtitel_des_werks
+      titel_factory(hauptsachtitel_des_werks, {
+        zusätze_zum_hauptsachtitel: zusätze_zum_hauptsachtitel_des_werks,
+        bandangabe: bandangabe_des_werks,
+        allgemeine_materialbenennung: allgemeine_matieralbenennung_des_werks
+      })
+    elsif hauptsachtitel_der_überordnung && !hauptsachtitel_des_werks
+      [].tap do |_result|
+        _result << titel_factory(hauptsachtitel_der_überordnung, {
+          zusätze_zum_hauptsachtitel: zusätze_zum_hauptsachtitel_der_überordnung,
+          ausgabebezeichnung: ausgabebezeichnung_der_überordnung
+        })
+
+        _result << bandangabe_des_werks if bandangabe_des_werks
+      end
+      .compact
+      .join(" ")
+    end
+    .try(:gsub, /<<|>>/, "")
   end
+
+  private
+
+  def titel_factory(hauptsachtitel, options = {})
+    ausgabebezeichnung = options[:ausgabebezeichnung]
+    bandangabe = options[:bandangabe]
+    zusätze_zum_hauptsachtitel = options[:zusätze_zum_hauptsachtitel]
+    unterreihen = source.datafields("360", ind2: "1").subfields("a").values
+    allgemeine_materialbenennung = options[:allgemeine_materialbenennung]
+
+    arten_des_inhalts = source.get("Arten des Inhalts").map(&:get)
+    erweiterte_datenträgertypen = source.get("erweiterte Datenträgertypen").map(&:get)
+
+    if hauptsachtitel
+      result =[]
+      
+      result <<
+      [
+        hauptsachtitel,
+        unterreihen.select do |unterreihe|
+          unterreihe.split.none? do |string|
+            hauptsachtitel.include?(string)
+          end
+        end
+      ]
+      .flatten
+      .compact
+      .join(". ")
+
+      if zusätze_zum_hauptsachtitel
+        result << ": #{zusätze_zum_hauptsachtitel}"
+      end
+
+      if ausgabebezeichnung
+        result << "- #{ausgabebezeichnung}"
+      end
+
+      if bandangabe
+        result << ": #{bandangabe}"
+      end
+
+      additions =
+      [
+        allgemeine_materialbenennung,
+        arten_des_inhalts,
+        erweiterte_datenträgertypen
+      ]
+      .flatten
+      .compact
+      .uniq
+      .join(", ")
+      .presence
+
+      if additions
+        result << "[#{additions}]"
+      end
+
+      result.join(" ")
+    end
+  end
+
+  # References
+  # - http://www.payer.de/rakwb/rakwb00.htm
 end

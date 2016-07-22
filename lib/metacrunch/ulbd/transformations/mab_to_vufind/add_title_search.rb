@@ -1,7 +1,7 @@
 require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
-require_relative "./add_title_display"
+require_relative "./add_title"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunch::Transformator::Transformation::Step
   def call

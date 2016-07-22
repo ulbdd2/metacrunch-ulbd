@@ -11,12 +11,14 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSort < Metacrunch:
   private
 
   def title_sort
-    title.gsub(/<<.*>>/, '').gsub(/\s\s/, ' ').strip
+    if title.present?
+      title.gsub(/<<.*>>/, '').gsub(/\s\s/, ' ').strip
+    end
   end
 
   private
 
   def title
-    target.try(:[], "title") || self.class.parent::AddTitle.new(source: source).call
+    target.try(:[], "title_simple") || self.class.parent::AddTitleSimple.new(source: source).call
   end
 end
