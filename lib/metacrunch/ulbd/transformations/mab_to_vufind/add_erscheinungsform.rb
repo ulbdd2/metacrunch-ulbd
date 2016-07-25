@@ -19,7 +19,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddErscheinungsform < Meta
     type = case
     when (f051.at(0) == 'a') then 'Article'
     when (f051.at(0) == 'm') then 'Book'
-    when (f051.at(0) == 'n') then 'Book'
+    when (f051.at(0) == 'n') then 'Series'
     when (f051.at(0) == 's') then 'Book'
     when (f051.at(0) == 't') then 'Book'
 
