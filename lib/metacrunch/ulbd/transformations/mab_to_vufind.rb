@@ -33,7 +33,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddMaterialtyp,
     AddInhaltstyp,
     AddVolumeCount,
-    AddVolumeSort,
+    #AddVolumeSort,
     AddTitle,
     #AddTitleDisplay,
     AddTitleSort,
@@ -68,7 +68,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddErscheinungsform,
     #AddDescription, # <- Not Multivalue 
     AddDeliveryCategory,
-    #AddVolumeCountSort,
+    AddVolumeCountSort,
     #AddVolumeCountSort2,
     AddNotation,
     #AddNotationSort,
@@ -88,6 +88,5 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddSecondaryFormSuperorder,
     AddLocalComment,
     AddAdditionalData,
-    AddSuperorderDisplayForSammlungSchmoll
   ]
 end
