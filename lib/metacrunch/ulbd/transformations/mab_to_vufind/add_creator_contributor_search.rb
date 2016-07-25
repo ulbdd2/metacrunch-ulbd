@@ -4,16 +4,16 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "creator_contributor_search", creator_contributor_search) : creator_contributor_search
+    target ? Metacrunch::Hash.add(target, "creator_contributor_search_str_mv", creator_contributor_search) : creator_contributor_search
   end
 
   private
 
   def creator_contributor_search
     [
-      source.get("Körperschaften").map(&:get),
+      source.get("Körperschaften2").map(&:get),
       source.get("Körperschaften (Phrasenindex)").map(&:get),
-      source.get("Personen").map(&:get),
+      source.get("Personen2").map(&:get),
       source.get("Personen (Phrasenindex)").map(&:get),
       source.get("Personen der Nebeneintragungen").map(&:get)
     ]
