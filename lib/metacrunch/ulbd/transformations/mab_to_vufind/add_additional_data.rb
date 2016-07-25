@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddAdditionalData < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "additional_data", additional_data) : additional_data
+    target ? Metacrunch::Hash.add(target, "additional_data_str_mv", additional_data) : additional_data
   end
 
   private

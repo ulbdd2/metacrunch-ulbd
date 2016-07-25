@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddLocalComment < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "local_comment", local_comment) : local_comment
+    target ? Metacrunch::Hash.add(target, "local_comment_str", local_comment) : local_comment
   end
 
   private
