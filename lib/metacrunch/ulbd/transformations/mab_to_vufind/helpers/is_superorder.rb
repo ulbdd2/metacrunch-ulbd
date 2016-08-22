@@ -7,8 +7,8 @@ module Metacrunch::ULBD::Transformations::MabToVufind::Helpers::IsSuperorder
 
     f051.at(0) == "n" ||
     f051.at(0) == "t" ||
-    f052.at(0) == "p" ||
-    f052.at(0) == "r" ||
-    f052.at(0) == "z"
+    #f052.at(0) == "p" ||
+    f052.at(0) == "r" 
+    #f052.at(0) == "z"
   end
 end

@@ -64,11 +64,11 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescription < Metacrunc
     # 200 - Kommentar aus Zeitschriftensignatur
     descriptions << source.datafields('200', ind2: '9').map { |_field| _field.subfields('e').values }
      
-    # 132 - Provenienz
-    descriptions << source.datafields('132', ind1: 'p', ind2: '9').map { |_field| _field.subfields('a').values }
+    # 132 - Provenienz -> eigenes Feld
+    #descriptions << source.datafields('132', ind1: 'p', ind2: '9').map { |_field| _field.subfields('a').values }
 
-    #578 - Fingerprint
-    descriptions << source.datafields('578', ind2: '1').map { |_field| _field.subfields('a').values }
+    #578 - Fingerprint -> eigenes Feld
+    #descriptions << source.datafields('578', ind2: '1').map { |_field| _field.subfields('a').values }
     
     #580 - Sonstige Standardnummer
     descriptions << source.datafields('580', ind2: '1').map { |_field| _field.subfields('a').values }
@@ -109,7 +109,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescription < Metacrunc
     .compact.join(". ").presence
 
     # Finally...
-    descriptions.flatten.map(&:presence).compact.uniq
+    descriptions.flatten.map(&:presence).compact.uniq.join(". - ")
   end
 
   private

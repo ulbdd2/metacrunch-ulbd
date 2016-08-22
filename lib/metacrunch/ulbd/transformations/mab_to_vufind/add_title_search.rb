@@ -5,7 +5,7 @@ require_relative "./add_title"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "title_search", title_search) : title_search
+    target ? Metacrunch::Hash.add(target, "title_search_str_mv", title_search) : title_search
   end
 
   private
@@ -14,6 +14,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     search_titles = []
     search_titles << title_display
 
+    search_titles << source.datafields('304', ind2: '1').subfields('a').values
+    
     (342..355).each do |f|
       search_titles << source.datafields("#{f}", ind2: '1').subfields('a').values
     end
@@ -55,7 +57,15 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     source.get("Manifestationstitel von weiteren verkörperten Werken").each do |element|
       search_titles << element.get("Titel")
     end
-
+    
+    source.get("Titel der Nebeneintragungen").each do |element|
+    search_titles << element.get("Titel")
+    end
+    
+    source.get("EST der Nebeneintragungen").each do |element|
+      search_titles << element.get("Titel")
+    end
+    
     search_titles
     .flatten
     .compact
