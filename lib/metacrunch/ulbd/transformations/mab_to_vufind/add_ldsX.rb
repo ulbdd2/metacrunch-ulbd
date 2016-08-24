@@ -9,7 +9,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLdsX < Metacrunch::Tran
   include parent::Helpers::Locationname
 
   def call
-    target ? Metacrunch::Hash.add(target, "ldsX_str_mv", ldsX) : ldsX
+    target ? Metacrunch::Hash.add(target, "ldsX_txt_mv", ldsX) : ldsX
   end
 
   private

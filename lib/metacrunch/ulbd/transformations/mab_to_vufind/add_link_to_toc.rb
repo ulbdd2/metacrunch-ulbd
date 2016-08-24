@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddLinkToToc < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "link_to_toc_str_mv", link_to_toc) : link_to_toc
+    target ? Metacrunch::Hash.add(target, "link_to_toc_txt_mv", link_to_toc) : link_to_toc
   end
 
   private

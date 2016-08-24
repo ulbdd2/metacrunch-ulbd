@@ -5,7 +5,7 @@ require_relative "./add_subject"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSubjectSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "subject_search_str_mv", subject_search) : subject_search
+    target ? Metacrunch::Hash.add(target, "subject_search_txt_mv", subject_search) : subject_search
   end
 
   private

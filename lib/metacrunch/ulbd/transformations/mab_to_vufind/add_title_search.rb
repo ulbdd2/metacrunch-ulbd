@@ -5,7 +5,7 @@ require_relative "./add_title"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "title_search_str_mv", title_search) : title_search
+    target ? Metacrunch::Hash.add(target, "title_search_txt_mv", title_search) : title_search
   end
 
   private

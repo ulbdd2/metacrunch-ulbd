@@ -7,7 +7,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSuperorderDisplay < Met
   include parent::Helpers::Datafield089
 
   def call
-    target ? Metacrunch::Hash.add(target, "superorder_display_str_mv", superorder_display) : superorder_display
+    target ? Metacrunch::Hash.add(target, "superorder_display_txt_mv", superorder_display) : superorder_display
   end
 
   private

@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorSearch < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "creator_contributor_search_str_mv", creator_contributor_search) : creator_contributor_search
+    target ? Metacrunch::Hash.add(target, "creator_contributor_search_txt_mv", creator_contributor_search) : creator_contributor_search
   end
 
   private

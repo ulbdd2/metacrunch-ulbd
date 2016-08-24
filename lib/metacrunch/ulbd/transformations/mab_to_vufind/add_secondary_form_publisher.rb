@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSecondaryFormPublisher < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "secondary_form_publisher_str_mv", secondary_form_publisher) : secondary_form_publisher
+    target ? Metacrunch::Hash.add(target, "secondary_form_publisher_txt_mv", secondary_form_publisher) : secondary_form_publisher
   end
 
   private

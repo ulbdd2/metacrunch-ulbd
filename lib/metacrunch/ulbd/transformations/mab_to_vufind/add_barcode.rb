@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddBarcode < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "barcode_str_mv", barcode) : barcode
+    target ? Metacrunch::Hash.add(target, "barcode_txt_mv", barcode) : barcode
   end
 
   private

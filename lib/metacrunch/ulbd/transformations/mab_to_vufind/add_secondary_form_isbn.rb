@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSecondaryFormIsbn < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "secondary_form_isbn_str_mv", secondary_form_isbn) : secondary_form_isbn
+    target ? Metacrunch::Hash.add(target, "secondary_form_isbn_txt_mv", secondary_form_isbn) : secondary_form_isbn
   end
 
   private
