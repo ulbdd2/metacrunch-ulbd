@@ -12,7 +12,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSelectionCode < Metacru
   def selection_code
     codes = []
     codes << source.datafields('078', ind1: 'e').subfields('a').values
-
+    codes << source.datafields('078', ind1: ' ', ind2: '9').subfields('a').values
     codes.flatten.map(&:presence).compact.uniq
   end
 end
