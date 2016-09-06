@@ -12,8 +12,10 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorSearc
   def creator_contributor_search
     [
       source.get("Körperschaften2", include: "Überordnungen").map(&:get),
+      source.get("Körperschaften Os", include: "Überordnungen").map(&:get),
       source.get("Körperschaften (Phrasenindex)", include: "Überordnungen").map(&:get),
       source.get("Personen2", include: "Überordnungen").map(&:get),
+      source.get("Personen Os", include: "Überordnungen").map(&:get),
       source.get("Personen (Phrasenindex)", include: "Überordnungen").map(&:get),
       source.get("Personen der Nebeneintragungen", include: "Überordnungen").map(&:get),
       source.get("Körperschaften der Nebeneintragungen", include: "Überordnungen").map(&:get),
