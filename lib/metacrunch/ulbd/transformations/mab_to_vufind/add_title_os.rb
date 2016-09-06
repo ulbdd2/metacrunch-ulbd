@@ -3,31 +3,31 @@ require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 require_relative "./helpers/datafield_089"
 
-class Metacrunch::ULBD::Transformations::MabToVufind::AddTitle < Metacrunch::Transformator::Transformation::Step
+class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleOs < Metacrunch::Transformator::Transformation::Step
   include parent::Helpers::Datafield089
 
   def call
-    target ? Metacrunch::Hash.add(target, "title", title_display) : title_display
+    target ? Metacrunch::Hash.add(target, "title_os", title_display_os) : title_display_os
   end
 
   private
 
-  def title_display
+  def title_display_os
     # Werk
-    hauptsachtitel_des_werks_in_ansetzungsform = source.datafields("310", ind2: [:blank, "1"]).value
-    hauptsachtitel_des_werks_in_vorlageform = source.datafields("331", ind2: [:blank, "1"]).value
+    hauptsachtitel_des_werks_in_ansetzungsform = source.datafields("C10", ind2: [:blank, "1"]).value
+    hauptsachtitel_des_werks_in_vorlageform = source.datafields("C31", ind2: [:blank, "1"]).value
     hauptsachtitel_des_werks = hauptsachtitel_des_werks_in_ansetzungsform || hauptsachtitel_des_werks_in_vorlageform
-    allgemeine_matieralbenennung_des_werks = source.datafields("334", ind2: [:blank, "1"]).value
-    zusätze_zum_hauptsachtitel_des_werks = source.datafields("335", ind2: [:blank, "1"]).value
+    allgemeine_matieralbenennung_des_werks = source.datafields("C34", ind2: [:blank, "1"]).value
+    zusätze_zum_hauptsachtitel_des_werks = source.datafields("C35", ind2: [:blank, "1"]).value
     bandangabe_des_werks = datafield_089.value
 
     # Überordnung
-    hauptsachtitel_der_überordnung_in_ansetzungsform = source.datafields("310", ind2: "2").value
-    hauptsachtitel_der_überordnung_in_vorlageform = source.datafields("331", ind2: "2").value
+    hauptsachtitel_der_überordnung_in_ansetzungsform = source.datafields("C10", ind2: "2").value
+    hauptsachtitel_der_überordnung_in_vorlageform = source.datafields("C31", ind2: "2").value
     hauptsachtitel_der_überordnung = hauptsachtitel_der_überordnung_in_ansetzungsform || hauptsachtitel_der_überordnung_in_vorlageform
 
-    zusätze_zum_hauptsachtitel_der_überordnung = source.datafields("335", ind2: "2").value
-    ausgabebezeichnung_der_überordnung = source.datafields("403", ind2: "2").value
+    zusätze_zum_hauptsachtitel_der_überordnung = source.datafields("C35", ind2: "2").value
+    ausgabebezeichnung_der_überordnung = source.datafields("D03", ind2: "2").value
 
     if hauptsachtitel_der_überordnung && hauptsachtitel_des_werks
       [].tap do |_result|
@@ -78,7 +78,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitle < Metacrunch::Tra
     ausgabebezeichnung = options[:ausgabebezeichnung]
     bandangabe = options[:bandangabe]
     zusätze_zum_hauptsachtitel = options[:zusätze_zum_hauptsachtitel]
-    unterreihen = source.datafields("360", ind2: "1").subfields("a").values
+    unterreihen = source.datafields("D60", ind2: "1").subfields("a").values
     allgemeine_materialbenennung = options[:allgemeine_materialbenennung]
 
     arten_des_inhalts = source.get("Arten des Inhalts").map(&:get)
