@@ -35,6 +35,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddVolumeCount,
     #AddVolumeSort,
     AddTitle,
+    AddTitleOs,
     #AddTitleDisplay,
     #AddTitleSimple,  nur ergänzt als Test für TitleSort, Problem mit NSZ im EST
     AddTitleSort,
