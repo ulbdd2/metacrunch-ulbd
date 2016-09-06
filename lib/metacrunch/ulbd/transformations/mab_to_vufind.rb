@@ -68,11 +68,13 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddLanguage,
     AddRelation,
     AddSuperorderDisplay,
+    AddSuperorderDisplayOs,
     AddSuperorder,
     AddIsSuperorder,
     AddIsSuborder,
     AddErscheinungsform,
     AddDescription,
+    AddDescriptionOs,
     #AddDescription, # <- Not Multivalue 
     AddProvenienz,
     AddFingerprint,
