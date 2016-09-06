@@ -44,6 +44,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     #AddShortTitleSort,
     AddTitleSearch,
     AddCreatorContributorDisplay2,
+    AddCreatorContributorDisplayOs,
     AddCreatorContributorLink2,
     AddCreatorContributorFacet,
     #AddCreatorContributorFacet,  // author_facet first used in vuFind 3.0
