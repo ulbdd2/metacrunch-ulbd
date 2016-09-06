@@ -69,7 +69,14 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     source.get("EST der Nebeneintragungen").each do |element|
       search_titles << element.get("Titel")
     end
+    
+    source.get("Titel der Nebeneintragungen Os").each do |element|
+    search_titles << element.get("Titel")
+    end
   
+    source.get("EST der Nebeneintragungen Os").each do |element|
+      search_titles << element.get("Titel")
+    end
     
     search_titles << source.datafields('C04', ind2: '1').subfields('a').values
     search_titles << source.datafields('C40', ind2: '1').subfields('a').values
