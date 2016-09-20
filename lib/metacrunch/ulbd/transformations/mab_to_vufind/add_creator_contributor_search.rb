@@ -19,7 +19,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorSearc
       source.get("Personen (Phrasenindex)", include: "Überordnungen").map(&:get),
       source.get("Personen der Nebeneintragungen", include: "Überordnungen").map(&:get),
       source.get("Körperschaften der Nebeneintragungen", include: "Überordnungen").map(&:get),
-      source.get("Verantwortlichkeitsangaben", include: "Überordnungen").map(&:get)
+      source.get("Verantwortlichkeitsangaben", include: "Überordnungen").map(&:get),
+      source.get("Verantwortlichkeitsangaben2", include: "Überordnungen").map(&:get)
     ]
     .flatten
     .compact
