@@ -21,7 +21,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunc
     when (%w(g    ).include?(f050.at( 8)) ) then 'online_resource'
     when (%w(a    ).include?(f050.at( 9)) ) then 'game'
     when (%w(a    ).include?(f050.at(10)) ) then 'map'
-     else 'other'
+     else 'print'
     end
     type
   end
