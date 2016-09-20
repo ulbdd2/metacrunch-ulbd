@@ -33,7 +33,7 @@ class Metacrunch::ULBD::Record
     { tags: ["334"],                   accessor: "allgemeine Materialbenennungen",                       type: GenerischesElement },
     { tags: ["359"],                   accessor: "Verantwortlichkeitsangaben",                           type: GenerischesElement },
     { tags: ["362"],                   accessor: "Manifestationstitel von weiteren verkörperten Werken", type: ManifestationstitelVonWeiterenVerkörpertenWerken },
-    { tags: ["369"],                   accessor: "Verantwortlichkeitsangaben",                           type: GenerischesElement },
+    { tags: ["369"],                   accessor: "Verantwortlichkeitsangaben2",                          type: GenerischesElement },
     { tags: ["501"],                   accessor: "unaufgegliederte Anmerkungen",                         type: GenerischesElement },
     { tags: ["521"],                   accessor: "Angaben zum Inhalt",                                   type: AngabeZumInhalt },
     { tags: ["526"],                   accessor: "Titel von rezensierten Werken",                        type: Beziehung },
