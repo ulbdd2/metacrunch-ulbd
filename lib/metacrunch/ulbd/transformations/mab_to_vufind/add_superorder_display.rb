@@ -28,7 +28,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSuperorderDisplay < Met
         ht_number: source.datafields("#{f+2}", ind2: '1').subfields('a').value,
         label: [
           source.datafields("#{f}", ind2: '1').subfields('a').value,
-          source.datafields("#{f}", ind2: '2').subfields('a').value
+        #  source.datafields("#{f}", ind2: '2').subfields('a').value
         ]
         .compact
         .reject { |label|
