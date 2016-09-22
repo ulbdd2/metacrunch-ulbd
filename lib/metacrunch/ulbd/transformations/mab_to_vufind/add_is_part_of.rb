@@ -7,12 +7,16 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsPartOf < Metacrunch::
   include parent::Helpers::Merge
 
   def call
-    target ? Metacrunch::Hash.add(target, "is_part_of_str", is_part_of) : is_part_of
+    target ? Metacrunch::Hash.add(target, "is_part_of_txt", is_part_of) : is_part_of
   end
 
   private
 
   def is_part_of
+    ipo = []
+    id = source.datafields('599', ind2: '1').subfields('a').value
+    
+    
     f525 =
     source.datafields('525', ind2: '1').map do |_field|
       _field.subfields(['p','a']).values.presence.try(:join, ': ')
@@ -34,21 +38,26 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsPartOf < Metacrunch::
     #f599_3 = doc.datafield('599', ind1: 'e,f', ind2: '1', subfield: 'a', multiple: true).join(' ') # ISMN
     #f599_4 = doc.datafield('599', ind1: 'g,h', ind2: '1', subfield: 'a', multiple: true).join(' ') # ISRN
 
-    ipo = f525
-    ipo = merge(ipo, f590,   delimiter: '.- ', wrap: "In: @" )
-    ipo = merge(ipo, f591,   delimiter: ' / '                )
-    ipo = merge(ipo, f592,   delimiter: '. '                 )
-    ipo = merge(ipo, f593,   delimiter: '.- '                )
-    ipo = merge(ipo, f594,   delimiter: '.- '                )
-    ipo = merge(ipo, f595,   delimiter: ', '                 )
-    ipo = merge(ipo, f596,   delimiter: '.- '                )
-    ipo = merge(ipo, f597,   delimiter: '.- ', wrap: "(@)"   )
-    ipo = merge(ipo, f598,   delimiter: '.- '                )
+    ipo2 = f525
+    ipo2 = merge(ipo2, f590,   delimiter: '.- ', wrap: "In: @" )
+    ipo2 = merge(ipo2, f591,   delimiter: ' / '                )
+    ipo2 = merge(ipo2, f592,   delimiter: '. '                 )
+    ipo2 = merge(ipo2, f593,   delimiter: '.- '                )
+    ipo2 = merge(ipo2, f594,   delimiter: '.- '                )
+    ipo2 = merge(ipo2, f595,   delimiter: ', '                 )
+    ipo2 = merge(ipo2, f596,   delimiter: '.- '                )
+    ipo2 = merge(ipo2, f597,   delimiter: '.- ', wrap: "(@)"   )
+    ipo2 = merge(ipo2, f598,   delimiter: '.- '                )
 
     #ipo = merge(ipo, f599_1, delimiter: '.- ', wrap: "ISSN @")
     #ipo = merge(ipo, f599_2, delimiter: '.- ', wrap: "ISSN @")
     #ipo = merge(ipo, f599_3, delimiter: '.- ', wrap: "ISMN @")
     #ipo = merge(ipo, f599_4, delimiter: '.- ', wrap: "ISRN @")
+    
+              ipo << {
+            ht_number: id,
+            label: ipo2
+          }
 
     ipo.presence
   end
