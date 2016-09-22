@@ -91,6 +91,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddSelectionCode,
     AddLdsX,
     AddPlk,
+    AddPlkIpo,
     AddIsSecondaryForm,
     AddSecondaryFormPreliminaryPhrase,
     AddSecondaryFormPublisher,
