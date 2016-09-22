@@ -13,8 +13,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddPlk < Metacrunch::Trans
     value = 'false'
 
 
-    value = 'true' if source.datafields('PLK').subfields('a').value == 'DN'
-    value = 'true' if source.datafields('PLK').subfields('a').value == 'SRD'
+    value = 'true' if source.datafields('PLK').subfields('a').values.flatten.any? { |v| v.include? 'DN' }
+    value = 'true' if source.datafields('PLK').subfields('a').values.flatten.any? { |v| v.include? 'SRD' }
     
     value
   end
