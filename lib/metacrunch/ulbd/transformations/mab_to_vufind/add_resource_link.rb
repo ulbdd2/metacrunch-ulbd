@@ -12,7 +12,12 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddResourceLink < Metacrun
   def resource_link
     fulltext_links = []
 
-    source.datafields('655').each do |datafield|
+    source.datafields('655', ind2: "9").each do |datafield|
+           url        = datafield.subfields('u').value
+        fulltext_links << url       
+    end
+    
+    source.datafields('655', ind2: "1").each do |datafield|
       url        = datafield.subfields('u').value
       subfield_3 = datafield.subfields('3') # HBZ Inhaltsverzeichnisse
       subfield_z = datafield.subfields('z') # BVB Inhaltsverzeichnisse
