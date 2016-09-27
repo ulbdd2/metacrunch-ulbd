@@ -58,9 +58,13 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsPartOf < Metacrunch::
             ht_number: id,
             label: ipo2
           }
+    ipo.flatten.select { |ipo| ipo[:label].present? }.map(&:to_json)
+    #.delete_if {|element| element[:label].blank? }
     
-    ipo.presence
-        .delete_if { |element| element[:label].blank? }
+    #ipo.presence
+        #.delete_if { |element| element[:label].blank? }
+        
+    
 
   end
 end
