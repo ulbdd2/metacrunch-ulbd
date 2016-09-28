@@ -18,9 +18,9 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorLink2
     creators << source.get("Körperschaften2", include: "Überordnungen").map(&:get)
  
     # Sonderfall: Verfasserangaben enthält [u.a.]
-    if source.get("Verantwortlichkeitsangaben").any? { |v| v.get.try(:[], /\.\.\.|\[u\.a\.\]/i) }
-      creators << "[u.a.]"
-    end
+    #if source.get("Verantwortlichkeitsangaben").any? { |v| v.get.try(:[], /\.\.\.|\[u\.a\.\]/i) }
+    #  creators << "[u.a.]"
+    #end
 
     # Cleanup
     creators.flatten.map(&:presence).compact.uniq
