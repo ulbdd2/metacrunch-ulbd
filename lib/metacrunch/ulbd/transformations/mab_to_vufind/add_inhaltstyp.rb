@@ -87,7 +87,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddInhaltstyp < Metacrunch
     f0505 = f050.values.slice(5) || ""
     f0508 = f050.values.slice(8) || ""
     f050a = f050.values.slice(10) || ""
-    f051s = f051.values.join.slice(1..3) || ""
+    f051s = f051.values.slice(1..3) || ""
     f052s = f052.values.join.slice(1..6) || ""
     inhalt << 'handschrift' if f0501.include?('a')
     inhalt << 'video' if f0505.include?('b') || f0505.include?('c')
