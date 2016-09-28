@@ -24,6 +24,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddErscheinungsform < Meta
     when (f051.at(0) == 't') then 'Book'
 
     when (f052.at(0) == 'a') then 'Article'
+    when (f052.at(0) == 'i') then 'CIR' 
     when (f052.at(0) == 'p') then 'Journal'
     when (f052.at(0) == 'r') then 'Series'
     when (f052.at(0) == 'z') then 'Newspaper'
