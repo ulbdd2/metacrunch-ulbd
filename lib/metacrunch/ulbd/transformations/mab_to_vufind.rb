@@ -67,6 +67,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddAbstract,
     AddLanguage,
     AddRelation,
+    AddRelationLink,
     AddSuperorderDisplay,
     AddSuperorderDisplayOs,
     AddSuperorder,
@@ -101,5 +102,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddSecondaryFormSuperorder,
     AddLocalComment,
     AddAdditionalData,
+    AddInventarisierungsdatum,
   ]
 end
