@@ -23,6 +23,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorLink2
     #end
 
     # Cleanup
-    creators.flatten.map(&:presence).compact.uniq
+    creators.flatten.map(&:presence).compact
   end
 end
