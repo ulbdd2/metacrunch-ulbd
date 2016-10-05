@@ -19,8 +19,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddRelationLink < Metacrun
            label      = datafield.subfields('n').value
         #fulltext_links << url       
         #fulltext_links << label
-            
-      relationlink << {
+         
+    relationlink << {
             typ: typ,
             sys_no: url,
             label: label
@@ -31,7 +31,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddRelationLink < Metacrun
     relationlink.compact.presence.map(&:to_json)
   end
 end
-
 
 
 
