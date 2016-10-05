@@ -14,7 +14,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsPartOfNo < Metacrunch
     iponumber = []
 
     iponumber << if (json_encoded_is_part_of = is_part_of).present?
-      is_part_of = [json_encoded_is_part_of].flatten(1).compact.map { |json_encoded_superorder_display| JSON.parse(json_encoded_superorder_display) }
+      is_part_of = [json_encoded_is_part_of].flatten(1).compact.map { |json_encoded_is_part_of| JSON.parse(json_encoded_is_part_of) }
       is_part_of.map { |is_part_of| is_part_of['ht_number'] }
     end
 
