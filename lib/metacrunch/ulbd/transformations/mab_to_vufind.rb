@@ -58,6 +58,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddCreationdateSearch,
     AddFormat,
     AddIsPartOf,
+    AddIsPartOfNo,
     AddIsbn,
     AddIssn,
     AddZdbId,
