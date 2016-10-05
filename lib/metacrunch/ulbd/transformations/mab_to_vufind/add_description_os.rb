@@ -83,7 +83,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescriptionOs < Metacru
       descriptions << _description.join(" ")
     end
 
-    
+=begin    
     unless kind_of?("Zeitschrift")
       descriptions << source.get("redaktionelle Bemerkungen").map(&:get)
     end
@@ -118,11 +118,11 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescriptionOs < Metacru
       .compact.join(". - ").presence
     ]
     .compact.join(". ").presence
-
+=end
     # Finally...
     descriptions.flatten.map(&:presence).compact.uniq.join(". - ")
   end
-
+=begin
   private
 
   def kind_of?(type)
@@ -150,4 +150,5 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescriptionOs < Metacru
   def erscheinungsform
     target.try(:[], "erscheinungsform") || self.class.parent::AddErscheinungsform.new(source: source).call
   end
+=end  
 end
