@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddVolumeCountSort < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "volume_count_sort_str", volume_count_sort) : volume_count_sort
+    target ? Metacrunch::Hash.add(target, "volume_count_sort_int", volume_count_sort) : volume_count_sort
   end
 
   private
