@@ -32,8 +32,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddHtNumber,
     AddMaterialtyp,
     AddInhaltstyp,
-    AddVolumeCount,
-    #AddVolumeSort,
     AddTitle,
     AddTitleOs,
     #AddTitleDisplay,
