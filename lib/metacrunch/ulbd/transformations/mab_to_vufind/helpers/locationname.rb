@@ -7,8 +7,10 @@ module Metacrunch::ULBD::Transformations::MabToVufind::Helpers::Locationname
         
       case collection
       
+      when 'EG'
+         'Zentralbibl.: Erdgeschoss'
       when 'LS' 
-         'Zentralbibl.: Ergeschoss'
+         'Zentralbibl.: Lesesaal'
       when '00' 
          'Zentralbibl.: Magazin'
       when '01' 
