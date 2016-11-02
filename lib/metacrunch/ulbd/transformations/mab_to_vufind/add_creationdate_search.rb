@@ -8,7 +8,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreationdateSearch < Me
   include parent::Helpers::IsSuperorder
   
   def call
-    target ? Metacrunch::Hash.add(target, "creationdate_str", creationdate_search) : creationdate_search
+    target ? Metacrunch::Hash.add(target, "creationdate_txt", creationdate_search) : creationdate_search
   end
 
   private
