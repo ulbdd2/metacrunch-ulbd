@@ -17,8 +17,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddShortTitle < Metacrunch
     hauptsachtitel_in_ansetzungsform              = source.datafields('310', ind1: ['-', 'a'], ind2: '1').subfields('a').value
     hauptsachtitel_in_vorlageform                 = source.datafields('331', ind2: '1').subfields('a').value
     hauptsachtitel_der_überordnung_in_vorlageform = source.datafields('331', ind2: '2').subfields('a').value
-    allgemeine_materialbenennung                  = source.datafields('334', ind1: '-', ind2: '1').value
-    zusätze_zum_hauptsachtitel                    = source.datafields('335', ind2: '1').subfields('a').value
+    # allgemeine_materialbenennung                  = source.datafields('334', ind1: '-', ind2: '1').value
+    # zusätze_zum_hauptsachtitel                    = source.datafields('335', ind2: '1').subfields('a').value
 
     # helper
     bandangabe_may_be_used_as_title = -> (bandangabe) {
@@ -36,8 +36,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddShortTitle < Metacrunch
     elsif hauptsachtitel_in_vorlageform
       [
         "#{hauptsachtitel_in_vorlageform}",
-        if allgemeine_materialbenennung then "[#{allgemeine_materialbenennung}]" end,
-        if zusätze_zum_hauptsachtitel   then ": #{zusätze_zum_hauptsachtitel}"   end
+        # if allgemeine_materialbenennung then "[#{allgemeine_materialbenennung}]" end,
+        # if zusätze_zum_hauptsachtitel   then ": #{zusätze_zum_hauptsachtitel}"   end
       ]
       .compact.join(" ")
     elsif bandangabe_may_be_used_as_title.call(bandangabe_in_vorlageform)
