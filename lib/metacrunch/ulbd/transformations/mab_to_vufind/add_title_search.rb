@@ -17,7 +17,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     search_titles << title_display_os
 
     search_titles << source.datafields('304', ind2: '1').subfields('a').values
-        
+            
     (340..355).each do |f|
       search_titles << source.datafields("#{f}", ind2: '1').subfields('a').values
     end
@@ -68,6 +68,22 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     
     source.get("EST der Nebeneintragungen").each do |element|
       search_titles << element.get("Titel")
+    end
+    
+    source.get("Angaben zum Inhalt Os").each do |element|
+    search_titles << element.get("Titel")
+    end
+    
+    source.get("bevorzugte Titel des Werkes Os").each do |element|
+    search_titles << element.get("Titel")
+    end
+    
+    source.get("in Beziehung stehende Werke Os").each do |element|
+    search_titles << element.get("Titel")
+    end
+    
+    source.get("Manifestationstitel von weiteren verkörperten Werken Os").each do |element|
+    search_titles << element.get("Titel")
     end
     
     source.get("Titel der Nebeneintragungen Os").each do |element|
@@ -127,7 +143,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     .map(&:presence)
     .compact
     .map do |_title_search|
-      _title_search.gsub(/\[.+\]/, "").strip
+#      _title_search.gsub(/\[.+\]/, "").strip
+       _title_search.gsub(/<<|>>/, "")
     end
     .compact
     .uniq
