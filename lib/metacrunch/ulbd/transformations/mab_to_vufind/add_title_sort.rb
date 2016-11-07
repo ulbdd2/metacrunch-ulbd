@@ -12,7 +12,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSort < Metacrunch:
 
   def title_sort
     if title.present?
-       title.gsub(/<<.*>>/, '').gsub(/\s\s/, ' ').strip.upcase
+       title.gsub(/<<.*>>/, '').gsub(/\s\s/, ' ').strip.downcase
     end
   end
 
