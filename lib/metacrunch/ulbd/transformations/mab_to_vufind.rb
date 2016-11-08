@@ -47,6 +47,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddCreatorContributorFacet,
     #AddCreatorContributorFacet,  // author_facet first used in vuFind 3.0
     AddCreatorContributorSearch,
+    AddCreatorContributorSort,
     AddEdition,
     AddEditionOs,
     AddPublisher,
@@ -54,6 +55,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddCreationdate,
     AddCreationdateOs,
     AddCreationdateSearch,
+    AddCreationdateSort,
     AddFormat,
     AddIsPartOf,
     AddIsPartOfNo,
