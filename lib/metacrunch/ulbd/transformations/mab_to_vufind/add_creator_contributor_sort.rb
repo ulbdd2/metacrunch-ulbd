@@ -31,7 +31,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorSort 
     ccs = erste_koerperschaft.presence || erster_geistiger_schoepfer.presence || erste_koerperschaft_super.presence || erster_geistiger_schoepfer_super.presence ||  sonstige_koerperschaft.presence || erste_sonstige_person.presence || sonstige_koerperschaft_super.presence || erste_sonstige_person_super.presence || erste_sonstige_person_c.presence || erste_sonstige_person_e.presence || erste_sonstige_person_f.presence
     
     if ccs.present?
-    ccs.downcase  
+    ccs.gsub(/<<.*?>>/, '').gsub(/\s\s/, ' ').strip.downcase  
     else nil
     end
     
