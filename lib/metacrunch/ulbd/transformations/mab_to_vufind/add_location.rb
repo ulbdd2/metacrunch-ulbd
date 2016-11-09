@@ -17,12 +17,12 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLocation < Metacrunch::
     
       locationname = case
       
-        when (field_b == 'EG') then 'Zentralbibl. Erdgeschoss'
+        when (field_b == 'EG') then 'Zentralbibl. Lesesaal'
         when (field_b == 'LS') then 'Zentralbibl. Lesesaal'
         when (field_b == '00') then 'Zentralbibl. Magazin'
-        when (field_b == '01') then 'Zentralbibl. 1. Etage'
-        when (field_b == '02') then 'Zentralbibl. 2. Etage'
-        when (field_b == '03') then 'Zentralbibl. 3. Etage'
+        when (field_b == '01') then 'Zentralbibl. Lesesaal'
+        when (field_b == '02') then 'Zentralbibl. Lesesaal'
+        when (field_b == '03') then 'Zentralbibl. Lesesaal'
         when (field_b == '05') then 'Zentralbibl. Sonderlesesaal'
         when (field_b == '07') then 'Zentralbibl. Thomas-Mann-Sammlung'
         when (field_b == '08') then 'Zentralbibl. Lehrbuchsammlung'
