@@ -2,6 +2,7 @@ require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 require_relative "./add_subject"
+require_relative "./add_subject_extra"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSubjectSearch < Metacrunch::Transformator::Transformation::Step
   def call
@@ -27,5 +28,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddSubjectSearch < Metacru
 
   def subject
     target.try(:[], "subject") || self.class.parent::AddSubject.new(source: source).call
+    target.try(:[], "subject") || self.class.parent::AddSubjectExtra.new(source: source).call
   end
 end
