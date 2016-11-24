@@ -63,6 +63,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind < Metacrunch::Transformator
     AddIssn,
     AddZdbId,
     AddSubject,
+    AddSubjectExtra,
     AddSubjectSearch,
     #AddDDC,
     AddAbstract,
