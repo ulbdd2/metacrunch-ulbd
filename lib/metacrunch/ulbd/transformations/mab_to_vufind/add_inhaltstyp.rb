@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddInhaltstyp < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "inhaltstyp_txt_mv", inhaltstyp) : inhaltstyp
+    target ? Metacrunch::Hash.add(target, "inhaltstyp_facet", inhaltstyp) : inhaltstyp
   end
 
   private
