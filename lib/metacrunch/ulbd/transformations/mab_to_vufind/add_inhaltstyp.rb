@@ -88,7 +88,9 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddInhaltstyp < Metacrunch
     f0508 = f050.values.slice(8) || ""
     f050a = f050.values.slice(10) || ""
     f051s = f051.values.slice(1..3) || ""
-    f052s = f052.values.join.slice(1..6) || ""
+    f052s = f052.values.join.slice(1..2) || ""
+    f052t = f052.values.join.slice(3..4) || ""
+    f052u = f052.values.join.slice(5..6) || ""
     inhalt << 'handschrift' if f0501.include?('a')
     inhalt << 'video' if f0505.include?('b') || f0505.include?('c')
     inhalt << 'audio' if f0505.include?('a')
@@ -96,24 +98,24 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddInhaltstyp < Metacrunch
     inhalt << 'online_resource' if f0508.include?('g') || f0508.include?('z')
     inhalt << 'data_storage' if f0508.include?('d')
     inhalt << 'map' if f050a.include?('a')
-    inhalt << 'bibliography' if f051s.include?('b') || f052s.include?('bi')
+    inhalt << 'bibliography' if f051s.include?('b') || f052s.include?('bi') || f052t.include?('bi') || f052u.include?('bi')
     inhalt << 'catalog' if f051s.include?('c')
-    inhalt << 'dictionary' if f051s.include?('d') || f052s.include?('wb')    
-    inhalt << 'encyclopedia' if f051s.include?('e') || f052s.include?('ez')
-    inhalt << 'festschrift' if f051s.include?('f') || f052s.include?('fs')
-    inhalt << 'database' if f051s.include?('g') || f052s.include?('da')
-    inhalt << 'biography' if f051s.include?('h') || f052s.include?('bg')
-    inhalt << 'congress' if f051s.include?('k') || f052s.include?('ko')
-    inhalt << 'looseleaf' if f051s.include?('o') || f052s.include?('lo')
-    inhalt << 'statistics' if f051s.include?('s') || f052s.include?('st')
-    inhalt << 'report' if f051s.include?('r') || f052s.include?('re')
-    inhalt << 'music' if f051s.include?('m') || f052s.include?('mu')
-    inhalt << 'legaldocument' if f051s.include?('l') || f052s.include?('aa') || f052s.include?('am') || f052s.include?('pa')
+    inhalt << 'dictionary' if f051s.include?('d') || f052s.include?('wb') || f052t.include?('wb') || f052u.include?('wb')  
+    inhalt << 'encyclopedia' if f051s.include?('e') || f052s.include?('ez') || f052t.include?('ez') || f052u.include?('ez')
+    inhalt << 'festschrift' if f051s.include?('f') || f052s.include?('fs') || f052t.include?('fs') || f052u.include?('fs')
+    inhalt << 'database' if f051s.include?('g') || f052s.include?('da') || f052t.include?('da') || f052u.include?('da')
+    inhalt << 'biography' if f051s.include?('h') || f052s.include?('bg') || f052t.include?('bg') || f052u.include?('bg')
+    inhalt << 'congress' if f051s.include?('k') || f052s.include?('ko') || f052t.include?('ko') || f052u.include?('ko')
+    inhalt << 'looseleaf' if f051s.include?('o') || f052s.include?('lo') || f052t.include?('lo') || f052u.include?('lo')
+    inhalt << 'statistics' if f051s.include?('s') || f052s.include?('st') || f052t.include?('st') || f052u.include?('st')
+    inhalt << 'report' if f051s.include?('r') || f052s.include?('re') || f052t.include?('re') || f052u.include?('re')
+    inhalt << 'music' if f051s.include?('m') || f052s.include?('mu') || f052t.include?('mu') || f052u.include?('mu')
+    inhalt << 'legaldocument' if f051s.include?('l') || f052s.include?('aa') || f052t.include?('am') || f052u.include?('pa')
     inhalt << 'university_text' if f051s.include?('u')
-    inhalt << 'thesis' if f051s.include?('y') || f052s.include?('ww')
-    inhalt << 'lawreport' if f052s.include?('es')
-    inhalt << 'schulprogramm' if f052s.include?('sc')
-    inhalt << 'website' if f052s.include?('ws')
+    inhalt << 'thesis' if f051s.include?('y') || f052s.include?('ww') || f052t.include?('ww') || f052u.include?('ww')
+    inhalt << 'lawreport' if f052s.include?('es') || f052t.include?('es') || f052u.include?('es')
+    inhalt << 'schulprogramm' if f052s.include?('sc') || f052t.include?('sc') || f052u.include?('sc')
+    inhalt << 'website' if f052s.include?('ws') || f052t.include?('ws') || f052u.include?('ws')
     
     
         
