@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddPublisherPlace < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "publisher_place_txtP", publisherplace) : publisherplace
+    target ? Metacrunch::Hash.add(target, "publisher_place_txtP_mv", publisherplace) : publisherplace
   end
 
   private
