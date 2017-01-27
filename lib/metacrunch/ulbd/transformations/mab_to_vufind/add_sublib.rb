@@ -4,12 +4,20 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddSublib < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "sublib_str", sublib) : sublib
+    target ? Metacrunch::Hash.add(target, "sublib_str_mv", sublib) : sublib
   end
 
   private
 
   def sublib
-    source.datafields('LOC').subfields('a').value
+    
+  sublib = []
+
+        source.datafields('LOC').subfields('a').values.each do |single_sublib|
+        sublib << single_sublib
+    end
+    
+    sublib.compact.presence
+    
   end
 end
