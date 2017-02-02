@@ -13,9 +13,16 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddErscheinungsform < Meta
   def erscheinungsform
     f051  = source.controlfield('051')
     f052  = source.controlfield('052')
-    f051s = f051.values.join.slice(1..3) || ""
-    f052s = f052.values.join.slice(1..6) || ""
-
+    f051s = f051.values.slice(1) || ""
+    f051t = f051.values.slice(2) || ""
+    f051u = f051.values.slice(3) || ""
+    f052s = f052.values.slice(1) || ""
+    f052t = f052.values.slice(2) || ""
+    f052u = f052.values.slice(3) || ""
+    f052v = f052.values.slice(4) || ""
+    f052w = f052.values.slice(5) || ""
+    f052x = f052.values.slice(6) || ""
+    
     type = case
     when (f051.at(0) == 'a') then 'Article'
     when (f051.at(0) == 'm') then 'Book'
@@ -29,9 +36,9 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddErscheinungsform < Meta
     when (f052.at(0) == 'r') then 'Series'
     when (f052.at(0) == 'z') then 'Newspaper'
 
-    when (f051s.include?('t'))  then 'Article'
-    when (f052s.include?('au')) then 'Article'
-    when (f052s.include?('se')) then 'Series'
+    when (f051s.include?('t') || f051t.include?('t') || f051u.include?('t'))  then 'Article'
+    when (f052s.include?('a') && f052t.include?('u')) || (f052u.include?('a') && f052v.include?('u')) || (f052w.include?('a') && f052x.include?('u')) then 'Article'
+    when (f052s.include?('s') && f052t.include?('e')) || (f052u.include?('s') && f052v.include?('e')) || (f052w.include?('s') && f052x.include?('e')) then 'Series'
     # ... der Rest
     else
       #

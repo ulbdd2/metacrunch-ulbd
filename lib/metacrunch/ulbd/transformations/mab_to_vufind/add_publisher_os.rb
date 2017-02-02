@@ -55,6 +55,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddPublisherOs < Metacrunc
       publisher.concat(zweite_verleger) if zweite_verleger.present?
     end
 
-    publisher.map! { |_verleger| _verleger.gsub(/<<|>>/, '') }
+    publisher.map! { |_verleger| _verleger}#.gsub(/<<|>>/, '') }
   end
 end

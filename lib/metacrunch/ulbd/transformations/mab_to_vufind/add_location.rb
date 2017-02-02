@@ -60,6 +60,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLocation < Metacrunch::
         when (field_b == '81') then 'FB Rechtswissenschaft'
         when (field_b == '88') then 'FB Rechtswiss. LBS'
         when (field_b == '90') then 'Außenmagazin'
+        when (field_b == '92') then 'Universitätsarchiv'  
         when (field_b == '93') then 'Außenmagazin Mauerstraße'
 
         else nil
@@ -115,6 +116,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLocation < Metacrunch::
         when (field_g == '81') then 'FB Rechtswissenschaft'
         when (field_g == '88') then 'FB Rechtswiss. LBS'
         when (field_g == '90') then 'Außenmagazin'
+        when (field_g == '92') then 'Universitätsarchiv'  
         when (field_g == '93') then 'Außenmagazin Mauerstraße'
 
         else nil

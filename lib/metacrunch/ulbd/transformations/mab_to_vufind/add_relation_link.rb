@@ -16,7 +16,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddRelationLink < Metacrun
     source.datafields('PLK').each do |datafield|
            typ        = datafield.subfields('a').value
            sys        = datafield.subfields('b').value
-           label      = datafield.subfields('n').value
+           label      = datafield.subfields('n').value.presence &&datafield.subfields('n').value.gsub(/\^/, ' ')
         #fulltext_links << url       
         #fulltext_links << label
          

@@ -88,9 +88,12 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddInhaltstyp < Metacrunch
     f0508 = f050.values.slice(8) || ""
     f050a = f050.values.slice(10) || ""
     f051s = f051.values.slice(1..3) || ""
-    f052s = f052.values.join.slice(1..2) || ""
-    f052t = f052.values.join.slice(3..4) || ""
-    f052u = f052.values.join.slice(5..6) || ""
+    f052s = f052.values.slice(1) || ""
+    f052t = f052.values.slice(2) || ""
+    f052u = f052.values.slice(3) || ""
+    f052v = f052.values.slice(4) || ""
+    f052w = f052.values.slice(5) || ""
+    f052x = f052.values.slice(6) || ""
     inhalt << 'handschrift' if f0501.include?('a')
     inhalt << 'video' if f0505.include?('b') || f0505.include?('c')
     inhalt << 'audio' if f0505.include?('a')
@@ -98,24 +101,24 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddInhaltstyp < Metacrunch
     inhalt << 'online_resource' if f0508.include?('g') || f0508.include?('z')
     inhalt << 'data_storage' if f0508.include?('d')
     inhalt << 'map' if f050a.include?('a')
-    inhalt << 'bibliography' if f051s.include?('b') || f052s.include?('bi') || f052t.include?('bi') || f052u.include?('bi')
+    inhalt << 'bibliography' if f051s.include?('b') || (f052s.include?('b') && f052t.include?('i')) || (f052u.include?('b') && f052v.include?('i')) || (f052w.include?('b') && f052x.include?('i')) 
     inhalt << 'catalog' if f051s.include?('c')
-    inhalt << 'dictionary' if f051s.include?('d') || f052s.include?('wb') || f052t.include?('wb') || f052u.include?('wb')  
-    inhalt << 'encyclopedia' if f051s.include?('e') || f052s.include?('ez') || f052t.include?('ez') || f052u.include?('ez')
-    inhalt << 'festschrift' if f051s.include?('f') || f052s.include?('fs') || f052t.include?('fs') || f052u.include?('fs')
-    inhalt << 'database' if f051s.include?('g') || f052s.include?('da') || f052t.include?('da') || f052u.include?('da')
-    inhalt << 'biography' if f051s.include?('h') || f052s.include?('bg') || f052t.include?('bg') || f052u.include?('bg')
-    inhalt << 'congress' if f051s.include?('k') || f052s.include?('ko') || f052t.include?('ko') || f052u.include?('ko')
-    inhalt << 'looseleaf' if f051s.include?('o') || f052s.include?('lo') || f052t.include?('lo') || f052u.include?('lo')
-    inhalt << 'statistics' if f051s.include?('s') || f052s.include?('st') || f052t.include?('st') || f052u.include?('st')
-    inhalt << 'report' if f051s.include?('r') || f052s.include?('re') || f052t.include?('re') || f052u.include?('re')
-    inhalt << 'music' if f051s.include?('m') || f052s.include?('mu') || f052t.include?('mu') || f052u.include?('mu')
-    inhalt << 'legaldocument' if f051s.include?('l') || f052s.include?('aa') || f052t.include?('am') || f052u.include?('pa')
+    inhalt << 'dictionary' if f051s.include?('d') || (f052s.include?('w') && f052t.include?('b')) || (f052u.include?('w') && f052v.include?('b')) || (f052w.include?('w') && f052x.include?('b'))  
+    inhalt << 'encyclopedia' if f051s.include?('e') || (f052s.include?('e') && f052t.include?('z')) || (f052u.include?('e') && f052v.include?('z')) || (f052w.include?('e') && f052x.include?('z'))
+    inhalt << 'festschrift' if f051s.include?('f') || (f052s.include?('f') && f052t.include?('s')) || (f052u.include?('f') && f052v.include?('s')) || (f052w.include?('f') && f052x.include?('s'))
+    inhalt << 'database' if f051s.include?('g') || (f052s.include?('d') && f052t.include?('a')) || (f052u.include?('d') && f052v.include?('a')) || (f052w.include?('d') && f052x.include?('a'))
+    inhalt << 'biography' if f051s.include?('h') || (f052s.include?('b') && f052t.include?('g')) || (f052u.include?('b') && f052v.include?('g')) || (f052w.include?('b') && f052x.include?('g'))
+    inhalt << 'congress' if f051s.include?('k') || (f052s.include?('k') && f052t.include?('o')) || (f052u.include?('k') && f052v.include?('o')) || (f052w.include?('k') && f052x.include?('o'))
+    inhalt << 'looseleaf' if f051s.include?('o') || (f052s.include?('l') && f052t.include?('o')) || (f052u.include?('l') && f052v.include?('o')) || (f052w.include?('l') && f052x.include?('o'))
+    inhalt << 'statistics' if f051s.include?('s') || (f052s.include?('s') && f052t.include?('t')) || (f052u.include?('s') && f052v.include?('t')) || (f052w.include?('s') && f052x.include?('t'))
+    inhalt << 'report' if f051s.include?('r') || (f052s.include?('r') && f052t.include?('e')) || (f052u.include?('r') && f052v.include?('e')) || (f052w.include?('r') && f052x.include?('e'))
+    inhalt << 'music' if f051s.include?('m') || (f052s.include?('m') && f052t.include?('u')) || (f052u.include?('m') && f052v.include?('u')) || (f052w.include?('m') && f052x.include?('u'))
+    inhalt << 'legaldocument' if f051s.include?('l') || (f052s.include?('a') && f052t.include?('a')) || (f052u.include?('a') && f052v.include?('a')) || (f052w.include?('a') && f052x.include?('a'))|| (f052s.include?('a') && f052t.include?('m')) || (f052u.include?('a') && f052v.include?('m')) || (f052w.include?('a') && f052x.include?('m'))|| (f052s.include?('p') && f052t.include?('a')) || (f052u.include?('p') && f052v.include?('a')) || (f052w.include?('p') && f052x.include?('a'))
     inhalt << 'university_text' if f051s.include?('u')
-    inhalt << 'thesis' if f051s.include?('y') || f052s.include?('ww') || f052t.include?('ww') || f052u.include?('ww')
-    inhalt << 'lawreport' if f052s.include?('es') || f052t.include?('es') || f052u.include?('es')
-    inhalt << 'schulprogramm' if f052s.include?('sc') || f052t.include?('sc') || f052u.include?('sc')
-    inhalt << 'website' if f052s.include?('ws') || f052t.include?('ws') || f052u.include?('ws')
+    inhalt << 'thesis' if f051s.include?('y') || (f052s.include?('w') && f052t.include?('w')) || (f052u.include?('w') && f052v.include?('w')) || (f052w.include?('w') && f052x.include?('w'))
+    inhalt << 'lawreport' if (f052s.include?('e') && f052t.include?('s')) || (f052u.include?('e') && f052v.include?('s')) || (f052w.include?('e') && f052x.include?('s'))
+    inhalt << 'schulprogramm' if (f052s.include?('s') && f052t.include?('c')) || (f052u.include?('s') && f052v.include?('c')) || (f052w.include?('s') && f052x.include?('c'))
+    inhalt << 'website' if (f052s.include?('w') && f052t.include?('s')) || (f052u.include?('w') && f052v.include?('s')) || (f052w.include?('w') && f052x.include?('s'))
     
     
         

@@ -15,6 +15,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     search_titles = []
     search_titles << title_display
     search_titles << title_display_os
+    search_titles << title_sort
 
     search_titles << source.datafields('304', ind2: '1').subfields('a').values
             
@@ -158,5 +159,8 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
   end
   def title_display_os
     target.try(:[], "title_display_os") || self.class.parent::AddTitleOs.new(source: source).call
+  end
+    def title_sort
+    target.try(:[], "title_sort") || self.class.parent::AddTitleOs.new(source: source).call
   end
 end

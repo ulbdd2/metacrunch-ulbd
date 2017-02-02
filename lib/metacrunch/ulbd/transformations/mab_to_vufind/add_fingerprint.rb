@@ -4,7 +4,7 @@ require_relative "../mab_to_vufind"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddFingerprint < Metacrunch::Transformator::Transformation::Step
   def call
-    target ? Metacrunch::Hash.add(target, "fingerprint_str", fingerprint) : fingerprint
+    target ? Metacrunch::Hash.add(target, "fingerprint_txt", fingerprint) : fingerprint
   end
 
   private

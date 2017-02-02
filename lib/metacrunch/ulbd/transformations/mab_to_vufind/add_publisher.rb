@@ -51,10 +51,13 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddPublisher < Metacrunch:
         #[orte_der_zweiten_verleger.try(:[], _index), _name_eines_zweiten_verlegers].compact.join(" : ")
       #end
 
-      publisher.concat(erste_verleger) if erste_verleger.present?
+      publisher.concat(erste_verleger) if erste_verleger.present? 
       publisher.concat(zweite_verleger) if zweite_verleger.present?
+  
     end
-
-    publisher.map! { |_verleger| _verleger.gsub(/<<|>>/, '') }
+    #if publisher.present?
+    publisher.map! { |_verleger| _verleger} #.gsub(/<<|>>/, '') }
+    #else nil
+    #end
   end
 end
