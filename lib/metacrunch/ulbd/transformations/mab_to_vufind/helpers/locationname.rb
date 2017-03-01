@@ -35,6 +35,8 @@ module Metacrunch::ULBD::Transformations::MabToVufind::Helpers::Locationname
          'Zentralbibl.: Sonderlesesaal'
       when '21' 
          'Zentralbibl.: Sonderlesesaal'
+      when '24'
+         'Zentralbibl.: Sonderlesesaal'
       when '25' 
          'VB Geisteswissenschaften'
       when '27' 
