@@ -3,6 +3,7 @@ require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
 require_relative "./add_title"
 require_relative "./add_title_os"
+require_relative "./add_title_sort"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunch::Transformator::Transformation::Step
   def call
@@ -161,6 +162,6 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddTitleSearch < Metacrunc
     target.try(:[], "title_display_os") || self.class.parent::AddTitleOs.new(source: source).call
   end
     def title_sort
-    target.try(:[], "title_sort") || self.class.parent::AddTitleOs.new(source: source).call
+    target.try(:[], "title_sort") || self.class.parent::AddTitleSort.new(source: source).call
   end
 end

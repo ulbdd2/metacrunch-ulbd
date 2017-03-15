@@ -15,6 +15,10 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddIsbn < Metacrunch::Tran
     source.datafields('086', ind2: '1').each do |_datafield|
       isbns << _datafield.subfields(['b','c','d']).values
     end
+    
+    source.datafields('776', ind2: '1').each do |_datafield|
+      isbns << _datafield.subfields('z').values
+    end
 
     source.get("ISBNs", include: ["formal falsch", "formal ungeprüft"]).each do |isbn|
       isbns << isbn.get

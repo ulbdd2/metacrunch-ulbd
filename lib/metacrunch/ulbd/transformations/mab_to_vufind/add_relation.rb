@@ -50,7 +50,15 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddRelation < Metacrunch::
       "übergeordnete Einheiten der Beilage",
       "Vorgänger",
       "Nachfolger",
-      "sonstige Beziehungen"
+      "sonstige Beziehungen",
+      "andere Ausgaben identisch neu",
+      "andere Ausgaben unterschied neu",
+      "Beilagen neu",
+      "übergeordnete Einheiten der Beilage neu",
+      "Erschienen mit",
+      "Vorgänger neu",
+      "Nachfolger neu",
+      "sonstige Beziehungen neu"
     ]
     .each do |property|
       source.get(property).each do |element|

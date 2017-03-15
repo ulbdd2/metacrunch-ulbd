@@ -5,6 +5,7 @@ class Metacrunch::ULBD::Record
   require_relative "./record/art_des_inhalts"
   require_relative "./record/bevorzugter_titel_des_werkes"
   require_relative "./record/beziehung"
+  require_relative "./record/beziehung_neu"
   require_relative "./record/elektronische_adresse"
   require_relative "./record/erweiterter_datenträgertyp"
   require_relative "./record/generisches_element"
@@ -64,7 +65,15 @@ class Metacrunch::ULBD::Record
     { tags: ["599"], ind1: ["e", "f"], accessor: "ISMNs der Quelle",                                     type: GenerischesElement },
     { tags: ["599"], ind1: ["g", "h"], accessor: "ISRNs der Quelle",                                     type: GenerischesElement },
     { tags: ["599"], ind1: ["s"],      accessor: "Identifkationsnummer der ZDB",                         type: GenerischesElement },
-    { tags: ["655"], ind1: ["-", "e", " "], accessor: "elektronische Adressen",                               type: ElektronischeAdresse },
+    { tags: ["655"], ind1: ["-", "e", " "], accessor: "elektronische Adressen",                          type: ElektronischeAdresse },
+    { tags: ["770"],                   accessor: "Beilagen neu",                                         type: BeziehungNeu },
+    { tags: ["772"],                   accessor: "übergeordnete Einheiten der Beilage neu",              type: BeziehungNeu },
+    { tags: ["775"],                   accessor: "andere Ausgaben identisch neu",                        type: BeziehungNeu },
+    { tags: ["776"],                   accessor: "andere Ausgaben unterschied neu",                      type: BeziehungNeu },
+    { tags: ["777"],                   accessor: "Erschienen mit",                                       type: BeziehungNeu },
+    { tags: ["780"],                   accessor: "Vorgänger neu",                                        type: BeziehungNeu },
+    { tags: ["785"],                   accessor: "Nachfolger neu",                                       type: BeziehungNeu },
+    { tags: ["787"],                   accessor: "sonstige Beziehungen neu",                             type: BeziehungNeu },
     { tags: (800..824).step(6),        accessor: "Personen der Nebeneintragungen",                       type: Person },
     { tags: (802..826).step(6),        accessor: "Körperschaften der Nebeneintragungen",                 type: Körperschaft },
     { tags: (804..828).step(6),        accessor: "EST der Nebeneintragungen",                            type: ManifestationstitelVonWeiterenVerkörpertenWerken},
