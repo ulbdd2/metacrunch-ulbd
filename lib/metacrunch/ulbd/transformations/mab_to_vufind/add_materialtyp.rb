@@ -18,7 +18,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunc
     when (%w(b c z).include?(f050.at( 5)) ) then 'video'
     when (%w(d    ).include?(f050.at( 5)) ) then 'image'
     when (%w(d    ).include?(f050.at( 8)) ) then 'data_storage'
-    when (%w(g    ).include?(f050.at( 8)) ) then 'online_resource'
+    when (%w(g z  ).include?(f050.at( 8)) ) then 'online_resource'
     when (%w(a    ).include?(f050.at( 9)) ) then 'game'
     when (%w(a    ).include?(f050.at(10)) ) then 'map'
      else 'print'
