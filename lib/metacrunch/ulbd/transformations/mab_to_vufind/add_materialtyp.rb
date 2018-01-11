@@ -12,7 +12,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddMaterialtyp < Metacrunc
   def materialtyp
     f050 = source.controlfield('050')
     type = case
-    when (%w(a    ).include?(f050.at( 0)) ) then 'print'
+   # when (%w(a    ).include?(f050.at( 0)) ) then 'print'
     when (%w(a b c).include?(f050.at( 3)) ) then 'microform'
     when (%w(a    ).include?(f050.at( 5)) ) then 'audio'
     when (%w(b c z).include?(f050.at( 5)) ) then 'video'

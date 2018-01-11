@@ -85,7 +85,7 @@ class Metacrunch::ULBD::Record::BeziehungNeu < Metacrunch::ULBD::Record::Element
     #get("Beziehung in codierter Form")
     ]
     .compact
-    .join(". - ")
+    .join(": ")
     .presence
     .try do |result|
     sanitize(result)

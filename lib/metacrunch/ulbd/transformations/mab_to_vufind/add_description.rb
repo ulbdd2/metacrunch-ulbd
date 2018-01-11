@@ -59,10 +59,10 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescription < Metacrunc
     descriptions << source.datafields('655', ind2: ['1', '9']).map { |_field| _field.subfields('z').values }
     
     # 125 - Bemerkungen aus Lokalsatz
-    descriptions << source.datafields('125', ind1: 'a', ind2: '9').map { |_field| _field.subfields('a').values }
+    #descriptions << source.datafields('125', ind1: 'a', ind2: '9').map { |_field| _field.subfields('a').values }
     
     # 200 - Kommentar aus Zeitschriftensignatur
-    descriptions << source.datafields('200', ind2: '9').map { |_field| _field.subfields('e').values }
+    #descriptions << source.datafields('200', ind2: '9').map { |_field| _field.subfields('e').values }
      
     # 132 - Provenienz -> eigenes Feld
     #descriptions << source.datafields('132', ind1: 'p', ind2: '9').map { |_field| _field.subfields('a').values }
@@ -71,7 +71,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddDescription < Metacrunc
     #descriptions << source.datafields('578', ind2: '1').map { |_field| _field.subfields('a').values }
     
     #580 - Sonstige Standardnummer
-    descriptions << source.datafields('580', ind2: '1').map { |_field| _field.subfields('a').values }
+    #descriptions << source.datafields('580', ind2: '1').map { |_field| _field.subfields('a').values }
       
     unless kind_of?("Zeitschrift")
       descriptions << source.get("redaktionelle Bemerkungen").map(&:get)
