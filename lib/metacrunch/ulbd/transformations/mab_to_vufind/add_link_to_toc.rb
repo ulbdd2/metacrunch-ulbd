@@ -32,6 +32,5 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddLinkToToc < Metacrunch:
     end
 
     toc_links.compact.presence
-    print toc_links
     end
 end
