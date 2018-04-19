@@ -86,8 +86,8 @@ class Metacrunch::ULBD::Record
     { tags: ["C62"],                   accessor: "Manifestationstitel von weiteren verkörperten Werken Os", type: ManifestationstitelVonWeiterenVerkörpertenWerken },
     { tags: ["H05","H11","H17","H23","H29"],                   accessor: "Titel der Nebeneintragungen Os",                          type: ManifestationstitelVonWeiterenVerkörpertenWerken},
     { tags: ["H04","H10","H16","H22","H28"],                   accessor: "EST der Nebeneintragungen Os",                          type: ManifestationstitelVonWeiterenVerkörpertenWerken},
-    { tags: ["A00","A04","A08"], ind1: ["-", "b", "c", "e", "f"], ind2: ["1", "2"],      accessor: "Personen Os",                                             type: Person },
-    { tags: ["B00","B04","B08"], ind1: ["-", "b", "c", "e", "f"], ind2: ["1", "2"],      accessor: "Körperschaften Os",                                             type: Person },
+    { tags: ["A00","A04","A08"], ind1: ["-", "a", "b", "c", "e", "f"], ind2: ["1", "2"],      accessor: "Personen Os",                                             type: Person },
+    { tags: ["B00","B04","B08"], ind1: ["-", "a", "b", "c", "e", "f"], ind2: ["1", "2"],      accessor: "Körperschaften Os",                                             type: Person },
     
   ]
 
