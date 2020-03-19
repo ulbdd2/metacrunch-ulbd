@@ -6,7 +6,7 @@ class Metacrunch::ULBD::Transformations::MabToVufind::AddCreatorContributorSort 
  # include parent::Helpers::IsSuperorder
 
   def call
-    target ? Metacrunch::Hash.add(target, "authorSort", creatorcontributorsort) : creatorcontributorsort
+    target ? Metacrunch::Hash.add(target, "author_sort", creatorcontributorsort) : creatorcontributorsort
   end
 
   private

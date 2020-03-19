@@ -1,7 +1,7 @@
 require "metacrunch/hash"
 require "metacrunch/transformator/transformation/step"
 require_relative "../mab_to_vufind"
-#require_relative "./helpers/is_superorder"
+require_relative "./helpers/is_superorder"
 #require_relative "./add_creationdate"
 
 class Metacrunch::ULBD::Transformations::MabToVufind::AddCreationdateSearch < Metacrunch::Transformator::Transformation::Step
